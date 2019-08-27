@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f7f8f8;
+}
+
+.bg-dark {
+  background-color: #343c4b !important;
+}
+
+.page-container {
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+  label,
+  input {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    color: #787e8c;
+  }
+}
+.form-control {
+  padding: 15px;
+  border-radius: 0;
+  background-color: #f7f8f8;
+  height: auto;
+  border-color: #f5f5f5;
+}

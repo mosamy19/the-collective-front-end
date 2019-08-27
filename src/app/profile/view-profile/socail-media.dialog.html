@@ -1,0 +1,57 @@
+<div [ngSwitch]="data.index">
+  <div class="d-flex justify-content-between border-bottom mb-3 pb-3">
+    <h3 class="font-weight-light">
+      Edit
+      <span *ngSwitchCase="0">
+        Facebook
+      </span>
+      <span *ngSwitchCase="1">
+        LinkedIn
+      </span>
+      <span *ngSwitchCase="2">
+        Twitter
+      </span>
+      <span *ngSwitchCase="3">
+        Instagram
+      </span>
+    </h3>
+    <button class="side-menu-btn" (click)="onNoClick()" mat-button>
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+
+  <div class="input-group mb-3" *ngSwitchCase="0">
+    <div class="input-group-prepend">
+      <span class="input-group-text">facebook.com/</span>
+    </div>
+    <input [(ngModel)]="data.facebook" type="text" class="form-control" />
+  </div>
+  <div class="input-group mb-3" *ngSwitchCase="1">
+    <div class="input-group-prepend">
+      <span class="input-group-text">linkedin.com/</span>
+    </div>
+    <input [(ngModel)]="data.linkedIn" type="text" class="form-control" />
+  </div>
+  <div class="input-group mb-3" *ngSwitchCase="2">
+    <div class="input-group-prepend">
+      <span class="input-group-text">twitter.com/</span>
+    </div>
+    <input [(ngModel)]="data.twitter" type="text" class="form-control" />
+  </div>
+  <div class="input-group mb-3" *ngSwitchCase="3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">instagram.com/</span>
+    </div>
+    <input [(ngModel)]="data.instagram" type="text" class="form-control" />
+  </div>
+  <div>
+    <button
+      [mat-dialog-close]="data"
+      class="w-100 py-1"
+      mat-raised-button
+      color="primary"
+    >
+      Submit
+    </button>
+  </div>
+</div>

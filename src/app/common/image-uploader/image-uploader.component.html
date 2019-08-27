@@ -1,0 +1,22 @@
+<div class="circle mx-auto">
+  <img
+    class="profile-pic"
+    [src]="imgUrl ? imgUrl : 'assets/images/img-placeholder.svg'"
+    alt=""
+  />
+
+  <div class="p-image">
+    <button (click)="clickHandler()" mat-mini-fab color="primary" type="button">
+      <i class="fas fa-camera"></i>
+    </button>
+    <input
+      type="file"
+      name="photo"
+      ng2FileSelect
+      [uploader]="uploader"
+      accept="image/*"
+      (change)="uploader.uploadAll()"
+      id="file-upload"
+    />
+  </div>
+</div>

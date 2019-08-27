@@ -1,0 +1,75 @@
+<app-navbar></app-navbar>
+<div *ngIf="!isLoaded">
+  <app-spinner></app-spinner>
+</div>
+<div *ngIf="isLoaded" class="container">
+  <div class="row mb-3">
+    <div class="col-12 my-3 d-flex justify-content-between align-items-center">
+      <h2 class="font-weight-light">Profiles</h2>
+      <a
+        mat-raised-button
+        color="primary"
+        class="px-4"
+        routerLink="/profile/add"
+      >
+        <span class="d-flex align-items-center">
+          <i class="fas fa-plus mr-2"></i>
+          <span>New Profile</span>
+        </span>
+      </a>
+    </div>
+    <div class="col-4">
+      <p class="text-muted pl-2 mb-2">Name</p>
+    </div>
+    <div class="col-4">
+      <p class="text-muted pl-2 mb-2">Primary Email</p>
+    </div>
+    <div class="col-4">
+      <p class="text-muted pl-2 mb-2">Primary Phone</p>
+    </div>
+    <div class="col-12 mb-2" *ngFor="let profile of profiles">
+      <div class="profile-container p-3">
+        <div class="row">
+          <div class="col-4 d-flex align-items-center">
+            <img
+              class="profile-img mr-3"
+              [src]="
+                profile.profileImg
+                  ? imgBaseUrl + profile.profileImg
+                  : 'assets/images/img-placeholder.svg'
+              "
+              alt=""
+            />
+            <a [routerLink]="['/profile/view/', profile._id]">
+              {{ profile.firstName }} {{ profile.lastName }}
+            </a>
+          </div>
+          <div class="col-4 d-flex align-items-center">
+            {{ profile.primaryEmail }}
+          </div>
+
+          <div class="col-4 d-flex justify-content-between align-items-center">
+            <span>{{ profile.primaryPhone }}</span>
+            <div>
+              <button
+                class="side-menu-btn"
+                mat-button
+                [matMenuTriggerFor]="menu"
+              >
+                <i class="fas fa-ellipsis-h"></i>
+              </button>
+              <mat-menu #menu="matMenu">
+                <button
+                  mat-menu-item
+                  [routerLink]="['/profile/edit/', profile._id]"
+                >
+                  Edit
+                </button>
+              </mat-menu>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

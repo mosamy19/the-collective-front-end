@@ -1,0 +1,184 @@
+<app-navbar></app-navbar>
+<div *ngIf="!isLoaded">
+  <app-spinner></app-spinner>
+</div>
+<div class="container" *ngIf="isLoaded">
+  <div class="page-container p-5 mb-4">
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+      <div class="row">
+        <div class="col-12 mb-5">
+          <app-image-uploader
+            [imgUrl]="profileImgUrl"
+            (imgChange)="onProfileImgChange($event)"
+          ></app-image-uploader>
+        </div>
+        <div class="col-12">
+          <h2 class="font-weight-light my-3">
+            Personal Info.
+          </h2>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="firstName">First name</label>
+            <input
+              formControlName="firstName"
+              id="firstName"
+              type="text"
+              class="form-control"
+              placeholder="First name"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="lastName">Last name</label>
+            <input
+              formControlName="lastName"
+              id="lastName"
+              type="text"
+              class="form-control"
+              placeholder="Last name"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="location">Location</label>
+            <input
+              formControlName="location"
+              id="location"
+              type="text"
+              class="form-control"
+              placeholder="City"
+            />
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="input-group mb-3">
+            <label for="bio">Bio</label>
+            <textarea
+              formControlName="bio"
+              id="bio"
+              type="text"
+              class="form-control"
+              placeholder="Bio"
+            >
+            </textarea>
+          </div>
+        </div>
+        <div class="col-12">
+          <h2 class="font-weight-light my-3">
+            Contact Info.
+          </h2>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="primaryEmail">Primary Email</label>
+            <input
+              formControlName="primaryEmail"
+              id="primaryEmail"
+              type="text"
+              class="form-control"
+              placeholder="Primary Email"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="email">Email</label>
+            <input
+              formControlName="email"
+              id="email"
+              type="text"
+              class="form-control"
+              placeholder="Email"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="primaryPhone">Primary Phone</label>
+            <input
+              formControlName="primaryPhone"
+              id="primaryPhone"
+              type="text"
+              class="form-control"
+              placeholder="Primary Phone"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="phone">Phone</label>
+            <input
+              formControlName="phone"
+              id="phone"
+              type="text"
+              class="form-control"
+              placeholder="Phone"
+            />
+          </div>
+        </div>
+        <div class="col-12">
+          <h2 class="font-weight-light my-3">
+            Social Media
+          </h2>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="facebook">Facebook</label>
+            <input
+              formControlName="facebook"
+              id="facebook"
+              type="text"
+              class="form-control"
+              placeholder="Facebook"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="instagram">Instagram</label>
+            <input
+              formControlName="instagram"
+              id="instagram"
+              type="text"
+              class="form-control"
+              placeholder="Instagram"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="twitter">Twitter</label>
+            <input
+              formControlName="twitter"
+              id="twitter"
+              type="text"
+              class="form-control"
+              placeholder="Twitter"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="linkedIn">LinkedIn</label>
+            <input
+              formControlName="linkedIn"
+              id="linkedIn"
+              type="text"
+              class="form-control"
+              placeholder="LinkedIn"
+            />
+          </div>
+        </div>
+
+        <div class="col-12 d-flex justify-content-end">
+          <button mat-raised-button color="primary" class="px-5 py-1">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
