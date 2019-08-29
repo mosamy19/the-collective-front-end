@@ -121,7 +121,7 @@ __webpack_require__.r(__webpack_exports__);
 global["localStorage"] = localStorage;
 // Express server
 const app = express__WEBPACK_IMPORTED_MODULE_1__();
-const PORT = process.env.PORT || 80;
+const PORT = 80;
 const DIST_FOLDER = Object(path__WEBPACK_IMPORTED_MODULE_2__["join"])(process.cwd(), "dist/browser");
 // * NOTE :: leave this as require() since this file is built Dynamically from webpack
 const { AppServerModuleNgFactory, LAZY_MODULE_MAP, ngExpressEngine, provideModuleMap } = __webpack_require__(130);

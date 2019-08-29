@@ -44,7 +44,7 @@ import { NavbarComponent } from "./common/navbar/navbar.component";
     // FileSelectDirective
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: "serverApp" }),
+    BrowserModule.withServerTransition({ appId: "collective-people" }),
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
