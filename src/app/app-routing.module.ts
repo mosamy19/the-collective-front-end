@@ -5,6 +5,8 @@ import { ProfileListComponent } from "./profile/profile-list/profile-list.compon
 import { ViewProfileComponent } from "./profile/view-profile/view-profile.component";
 import { LoginComponent } from "./login/login.component";
 import { AuthGuard } from "./auth-guard.service";
+import { ResetPasswordComponent } from "./login/reset-password/reset-password.component";
+import { ForgetPasswordComponent } from "./login/forget-password/forget-password.component";
 
 const routes: Routes = [
   {
@@ -39,6 +41,8 @@ const routes: Routes = [
     ]
   },
   { path: "login", component: LoginComponent },
+  { path: "reset-password/:token", component: ResetPasswordComponent },
+  { path: "forget-password", component: ForgetPasswordComponent },
   { path: "**", redirectTo: "/profile/list" }
 ];
 

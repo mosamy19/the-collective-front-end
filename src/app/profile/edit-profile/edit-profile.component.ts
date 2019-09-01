@@ -52,7 +52,9 @@ export class EditProfileComponent implements OnInit {
     const {
       firstName,
       lastName,
-      location,
+      city,
+      state,
+      country,
       profileImg,
       primaryEmail,
       email,
@@ -67,7 +69,9 @@ export class EditProfileComponent implements OnInit {
     this.profileForm.patchValue({
       firstName,
       lastName,
-      location,
+      city,
+      state,
+      country,
       profileImg,
       primaryEmail,
       email,
@@ -88,7 +92,9 @@ export class EditProfileComponent implements OnInit {
     this.profileForm = this.fb.group({
       firstName: [""],
       lastName: [""],
-      location: [""],
+      city: [""],
+      state: [""],
+      country: [""],
       profileImg: [""],
       primaryEmail: [""],
       email: [""],
@@ -125,6 +131,25 @@ export class EditProfileComponent implements OnInit {
             }
           });
       }
+    }
+  }
+
+  replacePhoneVal(event, ctrlName) {
+    if (event.keyCode != 8) {
+      let Val = this.profileForm.controls[ctrlName].value
+        .replace(/\D/g, "")
+        .replace(/(\d{1,3})(\d{1,3})?(\d{1,10})?/g, function(txt, f, s, t) {
+          if (t) {
+            return `(${f}) ${s}-${t}`;
+          } else if (s) {
+            return `(${f}) ${s}`;
+          } else if (f) {
+            return `(${f})`;
+          }
+        });
+      this.profileForm.controls[ctrlName].setValue(Val);
+    } else {
+      return;
     }
   }
 

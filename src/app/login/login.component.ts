@@ -48,7 +48,7 @@ export class LoginComponent implements OnInit {
           this.router.navigate(["/profile/list"]);
         },
         err => {
-          if (err.status = 400) {
+          if ((err.status = 400)) {
             this.incorrectUser = true;
           }
         }

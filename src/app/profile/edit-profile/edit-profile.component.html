@@ -43,13 +43,37 @@
         </div>
         <div class="col-md-6">
           <div class="input-group mb-3">
-            <label for="location">Location</label>
+            <label for="city">City</label>
             <input
-              formControlName="location"
-              id="location"
+              formControlName="city"
+              id="city"
               type="text"
               class="form-control"
               placeholder="City"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="state">State</label>
+            <input
+              formControlName="state"
+              id="state"
+              type="text"
+              class="form-control"
+              placeholder="State"
+            />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="input-group mb-3">
+            <label for="country">Country</label>
+            <input
+              formControlName="country"
+              id="country"
+              type="text"
+              class="form-control"
+              placeholder="Country"
             />
           </div>
         </div>
@@ -99,11 +123,13 @@
           <div class="input-group mb-3">
             <label for="primaryPhone">Primary Phone</label>
             <input
+              (keyup)="replacePhoneVal($event, 'primaryPhone')"
               formControlName="primaryPhone"
               id="primaryPhone"
               type="text"
               class="form-control"
               placeholder="Primary Phone"
+              [attr.maxlength]="16"
             />
           </div>
         </div>
@@ -116,6 +142,7 @@
               type="text"
               class="form-control"
               placeholder="Phone"
+              (keyup)="replacePhoneVal($event, 'phone')"
             />
           </div>
         </div>

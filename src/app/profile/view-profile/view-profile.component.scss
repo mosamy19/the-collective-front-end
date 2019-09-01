@@ -47,9 +47,9 @@
   border: 1px solid #dee2e6;
   height: 50px;
   min-width: 50px;
+  width: 50px;
   margin: 0 auto;
   display: block;
-
   &:focus {
     outline: none;
   }
@@ -91,6 +91,12 @@
     &.active-sm {
       color: #e4405f;
     }
+  }
+}
+
+a {
+  &.socialmedia-btn {
+    line-height: 48px;
   }
 }
 

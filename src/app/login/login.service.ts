@@ -43,8 +43,23 @@ export class LoginService {
   }
 
   login(user): Observable<any> {
-    console.log(user);
     return this.http.post(URL, user, { responseType: "text" }).pipe(
+      map(data => data),
+      tap(data => data, error => error)
+    );
+  }
+
+  forgetPassword(email: string): Observable<any> {
+    const _URL = baseURL + "forget-password";
+    return this.http.post(_URL, email).pipe(
+      map(data => data),
+      tap(data => data, error => error)
+    );
+  }
+
+  resetPassword(data): Observable<any> {
+    const _URL = baseURL + "reset-password";
+    return this.http.post(_URL, data, { responseType: "text" }).pipe(
       map(data => data),
       tap(data => data, error => error)
     );

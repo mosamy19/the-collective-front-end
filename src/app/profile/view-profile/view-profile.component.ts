@@ -25,7 +25,9 @@ export class ViewProfileComponent implements OnInit {
   imgBaseUrl = baseURL + "uploads/";
   isLoaded: boolean = false;
   superpowerInput: string = "";
+  enterSuperpower: boolean = false;
   weeknessInput: string = "";
+  enterWeekness: boolean = false;
 
   filteredProfiles: ProfileModel[];
   query: string = "";
@@ -65,18 +67,18 @@ export class ViewProfileComponent implements OnInit {
   addSuperPower() {
     let data = { name: this.superpowerInput };
     this.profileService.addSuperpower(data, this.userId).subscribe(data => {
-      console.log(data);
       this.profile.superpowers.push(data as SuperpowerModel);
       this.superpowerInput = "";
+      this.toggleSuperpower();
     });
   }
 
   addWeekness() {
     let data = { name: this.weeknessInput };
     this.profileService.addWeekness(data, this.userId).subscribe(data => {
-      console.log(data);
       this.profile.weaknesses.push(data as WeaknessModel);
       this.weeknessInput = "";
+      this.toggleWeekness();
     });
   }
 
@@ -113,10 +115,18 @@ export class ViewProfileComponent implements OnInit {
     });
   }
 
+  toggleSuperpower() {
+    this.enterSuperpower = !this.enterSuperpower;
+  }
+
+  toggleWeekness() {
+    this.enterWeekness = !this.enterWeekness;
+  }
+
   addNote(data: NoteModel) {
-    this.profileService
-      .postNote(this.userId, data)
-      .subscribe(data => this.profile.notes.push(data));
+    this.profileService.postNote(this.userId, data).subscribe(data => {
+      this.profile.notes.push(data);
+    });
   }
 
   deleteNote(note) {
@@ -164,14 +174,14 @@ export class ViewProfileComponent implements OnInit {
         instagram: this.profile.instagram,
         index: _index
       },
-      width: "390px",
-      autoFocus: false
+      width: "390px"
     });
 
     dialogRef.afterClosed().subscribe(result => {
       if (result) {
         const { facebook, linkedIn, twitter, instagram } = result;
         const data = { facebook, linkedIn, twitter, instagram };
+        console.log(data);
         this.updateSocialMedia(data);
       }
     });
@@ -189,6 +199,7 @@ export class ViewProfileComponent implements OnInit {
   openAddNoteDialog(): void {
     const dialogRef = this.dialog.open(AddNotesDialog, {
       data: {
+        date: "",
         title: "",
         body: ""
       },
@@ -198,8 +209,8 @@ export class ViewProfileComponent implements OnInit {
 
     dialogRef.afterClosed().subscribe(result => {
       if (result) {
-        const { title, body } = result;
-        const data = { title, body } as NoteModel;
+        const { date, title, body } = result;
+        const data = { date, title, body } as NoteModel;
         this.addNote(data);
       }
     });
@@ -220,6 +231,12 @@ export class SocailMediaDialog {
   onNoClick(): void {
     this.dialogRef.close();
   }
+
+  keyDownFunction(e) {
+    if (e.keyCode == 13) {
+      this.dialogRef.close(this.data);
+    }
+  }
 }
 
 @Component({
@@ -233,6 +250,10 @@ export class AddNotesDialog {
     @Inject(MAT_DIALOG_DATA) public data: any
   ) {}
 
+  remaningChars() {
+    return 255 - this.data.body.length;
+  }
+  // emaining
   onNoClick(): void {
     this.dialogRef.close();
   }

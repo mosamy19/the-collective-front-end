@@ -19,30 +19,30 @@
       <i class="fas fa-times"></i>
     </button>
   </div>
-
+  <form (keyup)="keyDownFunction($event)">
   <div class="input-group mb-3" *ngSwitchCase="0">
     <div class="input-group-prepend">
       <span class="input-group-text">facebook.com/</span>
     </div>
-    <input [(ngModel)]="data.facebook" type="text" class="form-control" />
+    <input [(ngModel)]="data.facebook" [ngModelOptions]="{standalone: true}" cdkFocusInitial type="text" class="form-control" />
   </div>
   <div class="input-group mb-3" *ngSwitchCase="1">
     <div class="input-group-prepend">
       <span class="input-group-text">linkedin.com/</span>
     </div>
-    <input [(ngModel)]="data.linkedIn" type="text" class="form-control" />
+    <input [(ngModel)]="data.linkedIn" [ngModelOptions]="{standalone: true}" type="text" cdkFocusInitial class="form-control" />
   </div>
   <div class="input-group mb-3" *ngSwitchCase="2">
     <div class="input-group-prepend">
       <span class="input-group-text">twitter.com/</span>
     </div>
-    <input [(ngModel)]="data.twitter" type="text" class="form-control" />
+    <input [(ngModel)]="data.twitter" [ngModelOptions]="{standalone: true}" cdkFocusInitial type="text" class="form-control" />
   </div>
   <div class="input-group mb-3" *ngSwitchCase="3">
     <div class="input-group-prepend">
       <span class="input-group-text">instagram.com/</span>
     </div>
-    <input [(ngModel)]="data.instagram" type="text" class="form-control" />
+    <input [(ngModel)]="data.instagram" [ngModelOptions]="{standalone: true}" cdkFocusInitial type="text" class="form-control" />
   </div>
   <div>
     <button
@@ -54,4 +54,6 @@
       Submit
     </button>
   </div>
+</form>
+  <!-- / End -->
 </div>

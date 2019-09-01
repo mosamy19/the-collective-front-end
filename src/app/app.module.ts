@@ -27,7 +27,9 @@ import {
 } from "@angular/material";
 import { SpinnerComponent } from "./common/spinner/spinner.component";
 import { LoginComponent } from "./login/login.component";
+import { ResetPasswordComponent } from "./login/reset-password/reset-password.component";
 import { NavbarComponent } from "./common/navbar/navbar.component";
+import { ForgetPasswordComponent } from "./login/forget-password/forget-password.component";
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { NavbarComponent } from "./common/navbar/navbar.component";
     SocailMediaDialog,
     AddNotesDialog,
     LoginComponent,
+    ResetPasswordComponent,
+    ForgetPasswordComponent,
     NavbarComponent
     // FileSelectDirective
   ],

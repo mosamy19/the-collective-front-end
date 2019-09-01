@@ -8,6 +8,20 @@
 </div>
 
 <div class="input-group mb-3">
+  <label for="date">Date</label>
+  <div class="input-group-prepend">
+    <span class="input-group-text" style="background-color: #f7f8f8;"
+      ><i class="far fa-calendar-alt"></i
+    ></span>
+  </div>
+  <input
+    id="date"
+    type="date"
+    class="form-control pl-0"
+    [(ngModel)]="data.date"
+  />
+</div>
+<div class="input-group mb-3">
   <label for="title">Title</label>
   <input
     id="title"
@@ -17,9 +31,17 @@
     placeholder="Note Title"
   />
 </div>
-<div class="input-group mb-3">
+<div class="input-group mb-1">
   <label for="note">Note</label>
-  <textarea class="form-control" [(ngModel)]="data.body" id="note"></textarea>
+  <textarea
+    class="form-control"
+    [attr.maxlength]="255"
+    [(ngModel)]="data.body"
+    id="note"
+  ></textarea>
+</div>
+<div class="mb-3 text-right">
+  <small class="text-muted"> Remaining Characters {{ remaningChars() }} </small>
 </div>
 <div>
   <button

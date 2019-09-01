@@ -41,7 +41,11 @@
                   </div>
                   <div class="d-flex flex-column">
                     <span>{{ profile.firstName }} {{ profile.lastName }}</span>
-                    <small>{{ profile.location }}</small>
+                    <small
+                      >{{ profile.city }}, {{ profile.state
+                      }}<span *ngIf="profile.country">,</span>
+                      {{ profile.country }}</small
+                    >
                   </div>
                 </div>
               </mat-option>
@@ -97,7 +101,10 @@
               <h3 class="font-weight-light text-center">
                 {{ profile.firstName }} {{ profile.lastName }}
               </h3>
-              <p class="text-center">{{ profile.location }}</p>
+              <p class="text-center">
+                {{ profile.city }}, {{ profile.state
+                }}<span *ngIf="profile.country">,</span> {{ profile.country }}
+              </p>
             </div>
             <div class="border-bottom mb-3">
               <div class="d-flex justify-content-between mb-3">
@@ -123,33 +130,46 @@
               <div class="row">
                 <div class="col-3">
                   <button
+                    *ngIf="!profile.facebook"
                     class="socialmedia-btn"
                     (click)="openDialog(0)"
                     mat-button
                   >
-                    <i
-                      class="fab fa-lg fa-facebook-f"
-                      [ngClass]="{ 'active-sm': this.profile.facebook }"
-                    ></i>
+                    <i class="fab fa-lg fa-facebook-f"></i>
+                  </button>
+                  <a
+                    href="https://facebook.com/{{ profile.facebook }}"
+                    mat-button
+                    target="_black"
+                    class="socialmedia-btn"
+                    *ngIf="profile.facebook"
+                  >
+                    <i class="fab fa-lg fa-facebook-f active-sm"></i>
                     <span
-                      *ngIf="this.profile.facebook"
                       (click)="stopClickDefaults($event, 0)"
                       class="remove-socail-btn"
                     >
                       <i class="fas fa-times fa-sm"></i>
                     </span>
-                  </button>
+                  </a>
                 </div>
                 <div class="col-3">
                   <button
                     class="socialmedia-btn"
                     (click)="openDialog(1)"
                     mat-button
+                    *ngIf="!profile.linkedIn"
                   >
-                    <i
-                      class="fab fa-lg fa-linkedin-in"
-                      [ngClass]="{ 'active-sm': this.profile.linkedIn }"
-                    ></i>
+                    <i class="fab fa-lg fa-linkedin-in"></i>
+                  </button>
+                  <a
+                    href="https://linkedin.com/{{ profile.linkedIn }}"
+                    mat-button
+                    target="_black"
+                    class="socialmedia-btn"
+                    *ngIf="profile.linkedIn"
+                  >
+                    <i class="fab fa-lg fa-linkedin-in active-sm"></i>
                     <span
                       *ngIf="this.profile.linkedIn"
                       (click)="stopClickDefaults($event, 1)"
@@ -157,49 +177,60 @@
                     >
                       <i class="fas fa-times fa-sm"></i>
                     </span>
-                  </button>
+                  </a>
                 </div>
                 <div class="col-3">
                   <button
                     class="socialmedia-btn"
                     (click)="openDialog(2)"
                     mat-button
+                    *ngIf="!profile.twitter"
                   >
-                    <i
-                      class="fab fa-lg fa-twitter"
-                      [ngClass]="{ 'active-sm': this.profile.twitter }"
-                    ></i>
+                    <i class="fab fa-lg fa-twitter"></i>
+                  </button>
+                  <a
+                    mat-button
+                    href="https://twitter.com/{{ profile.twitter }}"
+                    target="_black"
+                    class="socialmedia-btn"
+                    *ngIf="profile.twitter"
+                  >
+                    <i class="fab fa-lg fa-twitter active-sm"></i>
                     <span
-                      *ngIf="this.profile.twitter"
                       (click)="stopClickDefaults($event, 2)"
                       class="remove-socail-btn"
                     >
                       <i class="fas fa-times fa-sm"></i>
                     </span>
-                  </button>
+                  </a>
                 </div>
                 <div class="col-3">
                   <button
                     class="socialmedia-btn"
                     (click)="openDialog(3)"
                     mat-button
+                    *ngIf="!profile.instagram"
                   >
-                    <i
-                      class="fab fa-lg fa-instagram"
-                      [ngClass]="{ 'active-sm': this.profile.instagram }"
-                    ></i>
+                    <i class="fab fa-lg fa-instagram"></i>
+                  </button>
+                  <a
+                    mat-button
+                    href="https://instagram.com/{{ profile.instagram }}"
+                    target="_black"
+                    class="socialmedia-btn"
+                    *ngIf="profile.instagram"
+                  >
+                    <i class="fab fa-lg fa-instagram active-sm"></i>
                     <span
-                      *ngIf="this.profile.instagram"
                       (click)="stopClickDefaults($event, 3)"
                       class="remove-socail-btn"
                     >
                       <i class="fas fa-times fa-sm"></i>
                     </span>
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
-            <!-- {{ profile | json }} -->
           </div>
         </div>
         <!-- / col-3 -->
@@ -220,7 +251,10 @@
                   class="fas fa-times ml-3"
                 ></i>
               </div>
-              <div class="input-group input-group-sm mb-3 char-input-container">
+              <div
+                class="input-group input-group-sm mb-3 char-input-container"
+                *ngIf="enterSuperpower"
+              >
                 <input
                   [(ngModel)]="superpowerInput"
                   type="text"
@@ -238,6 +272,11 @@
                   </button>
                 </div>
               </div>
+              <div *ngIf="!enterSuperpower" (click)="toggleSuperpower()">
+                <button style="color: #6c757d;" class="btn border btn-sm">
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
             </div>
           </div>
           <div class="middle-container p-3">
@@ -253,7 +292,10 @@
                   class="fas fa-times ml-3"
                 ></i>
               </div>
-              <div class="input-group mb-3 input-group-sm char-input-container">
+              <div
+                class="input-group mb-3 input-group-sm char-input-container"
+                *ngIf="enterWeekness"
+              >
                 <input
                   type="text"
                   class="form-control"
@@ -271,6 +313,11 @@
                   </button>
                 </div>
               </div>
+              <div *ngIf="!enterWeekness" (click)="toggleWeekness()">
+                <button style="color: #6c757d;" class="btn border btn-sm">
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -280,20 +327,6 @@
           style="padding-left: 0; min-height: calc(100vh - 56px);"
         >
           <div class="companies-notes-container p-4">
-            <!-- <div
-              class="d-flex justify-content-between align-items-center p-4 pt-0 mb-3 notes-header border-bottom"
-            >
-              <p class="m-0 font-weight-bold">
-                Notes
-              </p>
-              <button
-                (click)="openAddNoteDialog()"
-                mat-button
-                class="add-note-btn"
-              >
-                <i class="fas fa-plus"></i>
-              </button>
-            </div> -->
             <div>
               <p *ngIf="profile.notes.length < 1">
                 No Notes Avaliable for This Profile
@@ -323,7 +356,7 @@
                 </p>
                 <p class="text-right mb-0">
                   <small>
-                    {{ note.date | date }}
+                    {{ note.date | date: "MMM, dd, yyyy":"UTC" }}
                   </small>
                 </p>
               </div>
