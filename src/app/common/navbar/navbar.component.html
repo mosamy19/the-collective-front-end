@@ -1,13 +1,46 @@
-<nav class="navbar navbar-dark bg-dark mb-3">
-  <div class="container">
-    <a routerLink="/profile/list" class="navbar-brand font-weight-bold"
-      >the collective</a
+<div class="container-fluid">
+  <nav class="navbar navbar-light bg-white">
+    <!-- <div class="d-flex justify-content-between"> -->
+    <div class="d-flex align-items-center">
+      <a routerLink="/profile/list" class="navbar-brand font-weight-bold mr-5">
+        <img width="80" src="assets/images/logo.png" alt="" />
+        the collective
+      </a>
+      <div class="input-group" *ngIf="isProfileList">
+        <input
+          [(ngModel)]="searchQuery"
+          (keydown.enter)="onSeachBtnClick()"
+          id="name"
+          type="text"
+          class="form-control"
+          placeholder="Search by name or by skills"
+        />
+        <div class="input-group-append">
+          <button
+            class="btn search-btn"
+            mat-button
+            type="button"
+            (click)="onSeachBtnClick()"
+          >
+            <img src="assets/images/ic_search.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- routerLink="/profile/add" -->
+    <button
+      *ngIf="isProfileList"
+      mat-raised-button
+      color="primary"
+      class=" nav-item nav-link"
+      (click)="addExpert()"
     >
-    <a
-      mat-button
-      class="text-white nav-item nav-link"
-      routerLink="/profile/list"
-      >Profile List</a
-    >
-  </div>
-</nav>
+      <span class="d-flex align-items-center">
+        <i class="fas fa-plus mr-2"></i>
+        <span>New Expert</span>
+      </span>
+    </button>
+    <!-- </div> -->
+  </nav>
+</div>

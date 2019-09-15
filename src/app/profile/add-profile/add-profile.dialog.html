@@ -1,0 +1,178 @@
+<div
+  class="d-flex justify-content-between diolog-title align-items-center border-bottom mb-3 py-3"
+>
+  <p class="font-weight-bold mb-0">
+    Add Expert
+  </p>
+  <button class="side-menu-btn" (click)="onNoClick()" mat-button>
+    <img src="assets/images/ic_close.svg" alt="" />
+  </button>
+</div>
+<div class="input-group input-with-img mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"
+      ><img src="assets/images/ic_name.svg" alt=""
+    /></span>
+  </div>
+  <input
+    cdkFocusInitial
+    id="name"
+    type="text"
+    class="form-control"
+    [(ngModel)]="data.name"
+    placeholder="Name"
+  />
+</div>
+<div class="input-group input-with-img mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"
+      ><img src="assets/images/ic_email.svg" alt=""
+    /></span>
+  </div>
+  <input
+    id="email"
+    type="text"
+    class="form-control"
+    [(ngModel)]="data.email.value"
+    placeholder="Email"
+  />
+</div>
+<div class="input-group input-with-img mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"
+      ><img src="assets/images/ic_phone.svg" alt=""
+    /></span>
+    <!-- <span class="input-group-text p-0" style="border-left: none">
+      <input
+        style="padding: 0 0.75rem;
+        border: none;
+        height: 48px;
+        width: 60px;"
+        id="phone"
+        type="text"
+        class="form-control"
+        [(ngModel)]="data.phonePrefix.value"
+        placeholder="Phone"
+      />
+    </span> -->
+  </div>
+  <input
+    id="phone"
+    type="text"
+    class="form-control"
+    [(ngModel)]="data.phone.value"
+    placeholder="Phone"
+  />
+</div>
+
+<div
+  class="input-group"
+  [ngClass]="userSuperpowers.length > 0 ? 'mb-2' : 'mb-3'"
+>
+  <input
+    matInput
+    class="form-control"
+    placeholder="Superpowers"
+    [matAutocomplete]="auto"
+    [(ngModel)]="superpowerQuery"
+    (ngModelChange)="searchSuperpowers($event)"
+  />
+</div>
+
+<mat-autocomplete #auto="matAutocomplete">
+  <mat-option
+    *ngFor="let superpower of superpowers"
+    (onSelectionChange)="onSuperpowerEnter($event, superpower)"
+  >
+    <span>{{ superpower.name }}</span>
+  </mat-option>
+  <mat-option
+    *ngIf="superpowerQuery"
+    (onSelectionChange)="onSuperpowerEnter($event)"
+  >
+    <span class="text-muted">
+      Add
+    </span>
+    "{{ superpowerQuery }}"
+  </mat-option>
+</mat-autocomplete>
+<div class="d-flex flex-wrap">
+  <div
+    class="border mr-2 mb-2 d-flex align-items-center char-span"
+    *ngFor="let superpower of userSuperpowers"
+  >
+    {{ superpower.name }}
+    <i (click)="removeSuperpower(superpower)" class="fas fa-times ml-3"></i>
+  </div>
+</div>
+
+<div
+  class="input-group"
+  [ngClass]="userWeaknesses.length > 0 ? 'mb-2' : 'mb-3'"
+>
+  <input
+    matInput
+    class="form-control"
+    placeholder="Weaknesses"
+    [matAutocomplete]="weakness"
+    [(ngModel)]="weaknessQuery"
+    (ngModelChange)="searchWeaknesses($event)"
+  />
+</div>
+
+<mat-autocomplete #weakness="matAutocomplete">
+  <mat-option
+    *ngFor="let weakness of weaknesses"
+    (onSelectionChange)="onWeeknessEnter($event, weakness)"
+  >
+    <span>{{ weakness.name }}</span>
+  </mat-option>
+  <mat-option
+    *ngIf="weaknessQuery"
+    (onSelectionChange)="onWeeknessEnter($event)"
+  >
+    <span class="text-muted">
+      Add
+    </span>
+    "{{ weaknessQuery }}"
+  </mat-option>
+</mat-autocomplete>
+<div class="d-flex flex-wrap">
+  <div
+    class="border mr-2 mb-2 d-flex align-items-center char-span"
+    *ngFor="let weakness of userWeaknesses"
+  >
+    {{ weakness.name }}
+    <i (click)="removeSuperpower(weakness)" class="fas fa-times ml-3"></i>
+  </div>
+</div>
+<div class="input-group mb-3">
+  <!-- <label for="bio">Bio</label> -->
+  <textarea
+    rows="4"
+    [(ngModel)]="data.bio"
+    id="bio"
+    type="text"
+    class="form-control"
+    placeholder="Bio"
+  ></textarea>
+</div>
+<div class="mb-3">
+  <app-image-uploader
+    (imgChange)="data.profileImg = $event"
+  ></app-image-uploader>
+</div>
+<div class="mb-3 text-muted" *ngIf="data.profileImg">
+  <i class="far fa-image mr-1"></i>
+  {{ setProfileImageName() }}
+</div>
+<div>
+  <button
+    [mat-dialog-close]="data"
+    class="w-100 py-1"
+    mat-raised-button
+    color="primary"
+  >
+    Submit
+  </button>
+</div>

@@ -1,5 +1,11 @@
 import { Component, OnInit } from "@angular/core";
-import { FormBuilder, FormGroup, Validators } from "@angular/forms";
+import {
+  FormBuilder,
+  FormGroup,
+  Validators,
+  FormArray,
+  FormControl
+} from "@angular/forms";
 import { ActivatedRoute, Params, Router } from "@angular/router";
 
 import { ProfileService } from "../profile.service";
@@ -12,10 +18,13 @@ import { baseURL } from "./../../shared/baseurl";
   styleUrls: ["./edit-profile.component.scss"]
 })
 export class EditProfileComponent implements OnInit {
+  imgBaseUrl = baseURL + "uploads/";
   profileForm: FormGroup;
   profile: ProfileModel;
   profileImgUrl: string = "";
   userId: string = "";
+  emailModel: string = "";
+  phoneModel: string = "";
   isLoaded: boolean = false;
   constructor(
     private fb: FormBuilder,
@@ -32,12 +41,8 @@ export class EditProfileComponent implements OnInit {
 
   getRouteParams() {
     this.route.params.subscribe((params: Params) => {
-      if (this.router.url.includes("/edit")) {
-        this.userId = params["profileId"];
-        this.getProfile(this.userId);
-      } else {
-        this.isLoaded = true;
-      }
+      this.userId = params["profileId"];
+      this.getProfile(this.userId);
     });
   }
 
@@ -49,89 +54,68 @@ export class EditProfileComponent implements OnInit {
   }
 
   bindProfileData(profile: ProfileModel) {
-    const {
-      firstName,
-      lastName,
-      city,
-      state,
-      country,
-      profileImg,
-      primaryEmail,
-      email,
-      primaryPhone,
-      phone,
-      bio,
-      facebook,
-      instagram,
-      twitter,
-      linkedIn
-    } = profile;
-    this.profileForm.patchValue({
-      firstName,
-      lastName,
-      city,
-      state,
-      country,
-      profileImg,
-      primaryEmail,
-      email,
-      primaryPhone,
-      phone,
-      bio,
-      facebook,
-      instagram,
-      twitter,
-      linkedIn
+    const { name, location, profileImg, emails, phones, bio } = profile;
+
+    emails.map(em => {
+      let emailFG: FormGroup = this.fb.group({
+        isPrimary: new FormControl(em.isPrimary),
+        value: new FormControl(em.value)
+      });
+      (this.form.emails as FormArray).push(emailFG);
     });
-    if (this.profileImgUrl)
-      this.profileImgUrl = baseURL + "uploads/" + profileImg;
+
+    phones.map(pn => {
+      let phoneFG: FormGroup = this.fb.group({
+        isPrimary: new FormControl(pn.isPrimary),
+        value: new FormControl(pn.value)
+      });
+      (this.form.phones as FormArray).push(phoneFG);
+    });
+
+    this.profileForm.patchValue({
+      name,
+      location,
+      profileImg,
+      bio
+    });
+
+    this.sortPrimaryFormGroup(this.form.emails);
+    this.sortPrimaryFormGroup(this.form.phones);
+    // if (profileImg) this.profileImgUrl = baseURL + "uploads/" + profileImg;
     this.isLoaded = true;
   }
 
   createForm() {
     this.profileForm = this.fb.group({
-      firstName: [""],
-      lastName: [""],
-      city: [""],
-      state: [""],
-      country: [""],
+      name: [""],
+      location: [""],
       profileImg: [""],
-      primaryEmail: [""],
-      email: [""],
-      primaryPhone: [""],
-      phone: [""],
-      bio: [""],
-      facebook: [""],
-      instagram: [""],
-      twitter: [""],
-      linkedIn: [""]
+      emails: new FormArray([]),
+      phones: new FormArray([]),
+      bio: [""]
     });
   }
 
   onProfileImgChange(imgName) {
     this.profileForm.controls.profileImg.setValue(imgName);
+    this.profile.profileImg = imgName;
   }
 
   onSubmit() {
     if (this.profileForm.valid) {
-      if (this.userId) {
-        this.profileService
-          .EditProfile(this.profileForm.value, this.userId)
-          .subscribe(data => {
-            if (data) {
-              this.router.navigate(["/profile/view", this.userId]);
-            }
-          });
-      } else {
-        this.profileService
-          .PostProfile(this.profileForm.value)
-          .subscribe(data => {
-            if (data) {
-              this.router.navigate(["/profile/view", data]);
-            }
-          });
-      }
+      this.profileService
+        .EditProfile(this.profileForm.value, this.userId)
+        .subscribe(data => {
+          if (data) {
+            this.router.navigate(["/profile/view", this.userId]);
+          }
+        });
     }
+  }
+
+  removeProfilePic() {
+    this.profile.profileImg = "";
+    this.form.profileImg.setValue("");
   }
 
   replacePhoneVal(event, ctrlName) {
@@ -153,7 +137,75 @@ export class EditProfileComponent implements OnInit {
     }
   }
 
+  addEmail() {
+    let emailFG: FormGroup = this.fb.group({
+      isPrimary: new FormControl(false),
+      value: new FormControl(this.emailModel)
+    });
+    (this.form.emails as FormArray).push(emailFG);
+    this.emailModel = "";
+  }
+
+  addPhone() {
+    let phoneFG: FormGroup = this.fb.group({
+      isPrimary: new FormControl(false),
+      value: new FormControl(this.phoneModel)
+    });
+    (this.form.phones as FormArray).push(phoneFG);
+    this.phoneModel = "";
+  }
+
+  makeEmailPrimary(ctrlIndex) {
+    ctrlIndex;
+    for (const [index, control] of (this.form
+      .emails as FormArray).controls.entries()) {
+      console.log(index, control);
+      if (control instanceof FormGroup) {
+        if (index != ctrlIndex) {
+          control.controls.isPrimary.setValue(false);
+        } else {
+          control.controls.isPrimary.setValue(true);
+        }
+      }
+    }
+    this.sortPrimaryFormGroup(this.form.emails);
+  }
+
+  makePhonePrimary(ctrlIndex) {
+    ctrlIndex;
+    for (const [index, control] of (this.form
+      .phones as FormArray).controls.entries()) {
+      console.log(index, control);
+      if (control instanceof FormGroup) {
+        if (index != ctrlIndex) {
+          control.controls.isPrimary.setValue(false);
+        } else {
+          control.controls.isPrimary.setValue(true);
+        }
+      }
+    }
+    this.sortPrimaryFormGroup(this.form.phones);
+  }
+
+  sortPrimaryFormGroup(formArray) {
+    (formArray as FormArray).controls.sort(function(a, b) {
+      if (a instanceof FormGroup && b instanceof FormGroup) {
+        return a.controls.isPrimary.value === b.controls.isPrimary.value
+          ? 0
+          : a.controls.isPrimary.value
+          ? -1
+          : 1;
+      }
+    });
+  }
   get form() {
     return this.profileForm.controls;
+  }
+
+  get formEmails() {
+    return <FormArray>this.profileForm.get("emails");
+  }
+  get formPhones() {
+    return <FormArray>this.profileForm.get("phones");
   }
 }

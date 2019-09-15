@@ -1,75 +1,211 @@
-<app-navbar></app-navbar>
+<app-navbar
+  (addExpertEvent)="onAddExpret()"
+  (search)="onSearch($event)"
+></app-navbar>
 <div *ngIf="!isLoaded">
   <app-spinner></app-spinner>
 </div>
-<div *ngIf="isLoaded" class="container">
+<div *ngIf="isLoaded" class="container-fluid">
   <div class="row mb-3">
-    <div class="col-12 my-3 d-flex justify-content-between align-items-center">
-      <h2 class="font-weight-light">Profiles</h2>
-      <a
-        mat-raised-button
+    <div
+      class="col-12 mt-4 mb-4 d-flex justify-content-between align-items-center"
+    >
+      <h2 class="font-weight-light m-0" *ngIf="!isSearch">Profiles</h2>
+      <h2 class="font-weight-light m-0" *ngIf="isSearch">Search Result</h2>
+      <button
+        (click)="goToProfiles()"
+        mat-button
         color="primary"
-        class="px-4"
-        routerLink="/profile/add"
+        *ngIf="isSearch"
       >
-        <span class="d-flex align-items-center">
-          <i class="fas fa-plus mr-2"></i>
-          <span>New Profile</span>
-        </span>
-      </a>
+        Go Back
+      </button>
     </div>
-    <div class="col-4">
-      <p class="text-muted pl-2 mb-2">Name</p>
+    <div class="col-5 mb-2">
+      <div class="row">
+        <div class="col-5">
+          <p
+            class="text-muted pl-2 mb-2 table-header"
+            (click)="changeSorting(true)"
+          >
+            <i
+              class="fas fa-sort mr-2"
+              *ngIf="sorting == 1 || sorting == 4"
+            ></i>
+            <i class="fas fa-sort-up mr-2" *ngIf="sorting == 2"></i>
+            <i class="fas fa-sort-down mr-2" *ngIf="sorting == 3"></i>
+            Name
+          </p>
+        </div>
+        <div class="col-4">
+          <p class="text-muted pl-2 mb-2 table-header">Primary Email</p>
+        </div>
+        <div class="col-3">
+          <p class="text-muted pl-2 mb-2 table-header">Primary Phone</p>
+        </div>
+      </div>
     </div>
-    <div class="col-4">
-      <p class="text-muted pl-2 mb-2">Primary Email</p>
+
+    <div class="col-5 mb-2">
+      <p
+        class="text-muted pl-2 mb-2 table-header d-flex align-items-center"
+        (click)="changeSorting(false)"
+      >
+        <i class="material-icons md-18 mr-2" *ngIf="sorting == 4">
+          sort
+        </i>
+        <i
+          class="material-icons md-18 mr-2 pale-sort-icon"
+          *ngIf="sorting == 1 || sorting == 2 || sorting == 3"
+        >
+          sort
+        </i>
+        Superpowers
+      </p>
     </div>
-    <div class="col-4">
-      <p class="text-muted pl-2 mb-2">Primary Phone</p>
+    <div class="col-2 mb-2 pl-0">
+      <p class="text-muted mb-2 table-header">Karma</p>
     </div>
-    <div class="col-12 mb-2" *ngFor="let profile of profiles">
+
+    <div class="col-12 mb-3" *ngFor="let profile of profiles">
       <div class="profile-container p-3">
         <div class="row">
-          <div class="col-4 d-flex align-items-center">
-            <img
-              class="profile-img mr-3"
-              [src]="
-                profile.profileImg
-                  ? imgBaseUrl + profile.profileImg
-                  : 'assets/images/img-placeholder.svg'
-              "
-              alt=""
-            />
-            <a [routerLink]="['/profile/view/', profile._id]">
-              {{ profile.firstName }} {{ profile.lastName }}
-            </a>
+          <div class="col-5">
+            <div class="row">
+              <div class="col-5 d-flex align-items-center">
+                <img
+                  class="profile-img mr-2"
+                  [src]="
+                    profile.profileImg
+                      ? imgBaseUrl + profile.profileImg
+                      : 'assets/images/img-placeholder.svg'
+                  "
+                  alt=""
+                />
+                <div>
+                  <div class="d-flex align-items-center">
+                    <a
+                      class="mr-2 profile-link"
+                      [routerLink]="['/profile/view/', profile._id]"
+                    >
+                      {{ profile.name }}
+                    </a>
+                    <i
+                      *ngIf="profile.star"
+                      class="material-icons star-icon md-18"
+                    >
+                      star
+                    </i>
+                  </div>
+                  <!-- <br /> -->
+                  <span
+                    class="text-muted number-of-contacts font-weight-normal"
+                  >
+                    Number of Contacts: 0
+                  </span>
+                </div>
+              </div>
+              <div
+                class="col-4 d-flex align-items-center"
+                *ngFor="let e of profile.email"
+              >
+                <span *ngIf="e.isPrimary">
+                  {{ e.value }}
+                </span>
+              </div>
+              <div
+                class="col-3 d-flex align-items-center"
+                *ngFor="let p of profile.phone"
+              >
+                <span *ngIf="p.isPrimary">{{ p.value }}</span>
+              </div>
+            </div>
           </div>
-          <div class="col-4 d-flex align-items-center">
-            {{ profile.primaryEmail }}
+          <div class="col-5 d-flex align-items-center">
+            <!-- {{ profile.superpowers | json }} -->
+            <div class="d-flex flex-wrap align-items-center">
+              <div
+                class="border mr-2 my-1 char-span"
+                *ngFor="let superpower of profile.superpowers"
+              >
+                {{ superpower.name }}
+              </div>
+            </div>
           </div>
-
-          <div class="col-4 d-flex justify-content-between align-items-center">
-            <span>{{ profile.primaryPhone }}</span>
+          <div class="col-2 d-flex justify-content-between align-items-center">
+            <div class="karma green">
+              {{ profile.karma }}
+            </div>
             <div>
               <button
                 class="side-menu-btn"
                 mat-button
                 [matMenuTriggerFor]="menu"
               >
-                <i class="fas fa-ellipsis-h"></i>
+                <img
+                  src="assets/images/ic_control_gray.svg"
+                  width="20"
+                  alt=""
+                />
               </button>
-              <mat-menu #menu="matMenu">
+              <mat-menu class="p-0" #menu="matMenu">
                 <button
                   mat-menu-item
                   [routerLink]="['/profile/edit/', profile._id]"
                 >
-                  Edit
+                  <div class="d-flex align-items-center">
+                    <i class="material-icons md-18 mr-2">
+                      edit
+                    </i>
+                    <span>
+                      Edit
+                    </span>
+                  </div>
+                </button>
+                <button mat-menu-item (click)="deleteUser(profile._id)">
+                  <div class="d-flex align-items-center">
+                    <i class="material-icons md-18 mr-2">
+                      delete
+                    </i>
+                    <span>
+                      Delete
+                    </span>
+                  </div>
+                </button>
+                <button mat-menu-item (click)="toggleStar(profile)">
+                  <div class="d-flex align-items-center">
+                    <i class="material-icons md-18 mr-2">
+                      star
+                    </i>
+                    <span *ngIf="!profile.star">
+                      Star
+                    </span>
+                    <span *ngIf="profile.star">
+                      Unstar
+                    </span>
+                  </div>
                 </button>
               </mat-menu>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-end">
+      <nav>
+        <ul class="pagination">
+          <li
+            class="page-item"
+            *ngFor="let page of pages"
+            [ngClass]="{ active: page === currentPage }"
+            (click)="changeListPage(page)"
+          >
+            <span class="page-link">
+              {{ page }}
+            </span>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
 </div>

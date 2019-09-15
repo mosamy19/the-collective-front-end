@@ -1,0 +1,45 @@
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+}
+
+.input-group > .form-control:not(:last-child) {
+  border-right: none;
+}
+
+.add-btn {
+  border: 1px solid #ced4da;
+  border-left: none;
+  padding: 0;
+  min-width: 40px;
+  opacity: 1;
+}
+
+.add-btn:disabled img {
+  opacity: 0.6;
+}
+
+label {
+  // margin-bottom: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.make-primary {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.remove-img-btn {
+  position: absolute;
+  right: 0.25rem;
+  top: 0.25rem;
+  padding: 0;
+  background-color: transparent;
+  min-width: 36px;
+}

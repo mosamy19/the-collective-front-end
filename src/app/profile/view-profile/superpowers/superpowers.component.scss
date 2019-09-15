@@ -1,0 +1,21 @@
+.char-input-container {
+  width: 160px;
+  .input-group-append {
+    button {
+      border: transparent;
+      background-color: #f7f8f8;
+      &:hover {
+        color: #6c757d;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+      &:disabled {
+        opacity: 1;
+        i {
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}

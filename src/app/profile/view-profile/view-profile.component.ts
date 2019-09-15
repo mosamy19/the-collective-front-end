@@ -1,18 +1,12 @@
-import { Component, OnInit, Inject } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Params, Router } from "@angular/router";
 import { ProfileService } from "../profile.service";
-import {
-  ProfileModel,
-  WeaknessModel,
-  SuperpowerModel,
-  NoteModel
-} from "../profile.model";
+import { ProfileModel, NoteModel } from "../profile.model";
 import { baseURL } from "src/app/shared/baseurl";
-import {
-  MatDialog,
-  MatDialogRef,
-  MAT_DIALOG_DATA
-} from "@angular/material/dialog";
+import { MatDialog } from "@angular/material/dialog";
+import { AddNotesDialog } from "./AddNotesDialog";
+import { SocailMediaDialog } from "./SocailMediaDialog";
+import { SuperpowerWeaknessModel } from "src/app/common/superpower-weakness.module";
 
 @Component({
   selector: "app-view-profile",
@@ -28,9 +22,7 @@ export class ViewProfileComponent implements OnInit {
   enterSuperpower: boolean = false;
   weeknessInput: string = "";
   enterWeekness: boolean = false;
-
-  filteredProfiles: ProfileModel[];
-  query: string = "";
+  searchForCompany: boolean = false;
 
   constructor(
     private profileService: ProfileService,
@@ -38,7 +30,6 @@ export class ViewProfileComponent implements OnInit {
     public dialog: MatDialog
   ) {
     this.getRouteParams();
-    this.filteredProfiles = [];
   }
 
   ngOnInit() {}
@@ -52,7 +43,10 @@ export class ViewProfileComponent implements OnInit {
 
   getProfile(id: string) {
     this.profileService.getProfile(id).subscribe(data => {
+      console.log(data);
       this.profile = data;
+      this.sortPrimaryEl(this.profile.emails);
+      this.sortPrimaryEl(this.profile.phones);
       this.getNotes(this.userId);
     });
   }
@@ -64,41 +58,35 @@ export class ViewProfileComponent implements OnInit {
     });
   }
 
-  addSuperPower() {
-    let data = { name: this.superpowerInput };
-    this.profileService.addSuperpower(data, this.userId).subscribe(data => {
-      this.profile.superpowers.push(data as SuperpowerModel);
-      this.superpowerInput = "";
-      this.toggleSuperpower();
+  onCompanySearch(e) {
+    this.searchForCompany = !this.searchForCompany;
+  }
+
+  sortPrimaryEl(array) {
+    array.sort(function(a, b) {
+      return a.isPrimary.value === b.isPrimary.value
+        ? 0
+        : a.controls.isPrimary.value
+        ? -1
+        : 1;
     });
   }
 
   addWeekness() {
     let data = { name: this.weeknessInput };
     this.profileService.addWeekness(data, this.userId).subscribe(data => {
-      this.profile.weaknesses.push(data as WeaknessModel);
+      this.profile.weaknesses.push(data as SuperpowerWeaknessModel);
       this.weeknessInput = "";
       this.toggleWeekness();
     });
   }
 
-  removeWeekness(char: WeaknessModel) {
+  removeWeekness(char: SuperpowerWeaknessModel) {
     this.profileService
       .removeWeekness(this.userId, char._id)
       .subscribe(data => {
         if (data)
           this.profile.weaknesses = this.profile.weaknesses.filter(
-            wn => wn._id != char._id
-          );
-      });
-  }
-
-  removeSuperpower(char: WeaknessModel) {
-    this.profileService
-      .removeSuperpower(this.userId, char._id)
-      .subscribe(data => {
-        if (data)
-          this.profile.superpowers = this.profile.superpowers.filter(
             wn => wn._id != char._id
           );
       });
@@ -129,6 +117,10 @@ export class ViewProfileComponent implements OnInit {
     });
   }
 
+  onAddCompany(e) {
+    this.profile.companies.push(e);
+  }
+
   deleteNote(note) {
     this.profileService.deleteNote(note._id).subscribe(data => {
       if (data)
@@ -136,6 +128,16 @@ export class ViewProfileComponent implements OnInit {
           nt => nt._id != note._id
         );
     });
+  }
+
+  deleteCompany(company) {
+    this.profileService
+      .deleteCompany(this.profile._id, company._id)
+      .subscribe(data => {
+        this.profile.companies = this.profile.companies.filter(
+          cm => cm._id != company._id
+        );
+      });
   }
 
   stopClickDefaults(e, socailIndex) {
@@ -187,15 +189,6 @@ export class ViewProfileComponent implements OnInit {
     });
   }
 
-  getSearchUsers(query) {
-    if (query) {
-      this.profileService
-        .getSeachResult(query)
-        .subscribe(data => (this.filteredProfiles = data));
-    } else {
-      this.filteredProfiles = [];
-    }
-  }
   openAddNoteDialog(): void {
     const dialogRef = this.dialog.open(AddNotesDialog, {
       data: {
@@ -203,8 +196,7 @@ export class ViewProfileComponent implements OnInit {
         title: "",
         body: ""
       },
-      width: "390px",
-      autoFocus: false
+      width: "560px"
     });
 
     dialogRef.afterClosed().subscribe(result => {
@@ -214,47 +206,5 @@ export class ViewProfileComponent implements OnInit {
         this.addNote(data);
       }
     });
-  }
-}
-
-@Component({
-  selector: "socail-media-dialog",
-  templateUrl: "socail-media.dialog.html",
-  styleUrls: ["./view-profile.component.scss"]
-})
-export class SocailMediaDialog {
-  constructor(
-    public dialogRef: MatDialogRef<SocailMediaDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: any
-  ) {}
-
-  onNoClick(): void {
-    this.dialogRef.close();
-  }
-
-  keyDownFunction(e) {
-    if (e.keyCode == 13) {
-      this.dialogRef.close(this.data);
-    }
-  }
-}
-
-@Component({
-  selector: "add-note-dialog",
-  templateUrl: "add-note.dialog.html",
-  styleUrls: ["./view-profile.component.scss"]
-})
-export class AddNotesDialog {
-  constructor(
-    public dialogRef: MatDialogRef<AddNotesDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: any
-  ) {}
-
-  remaningChars() {
-    return 255 - this.data.body.length;
-  }
-  // emaining
-  onNoClick(): void {
-    this.dialogRef.close();
   }
 }

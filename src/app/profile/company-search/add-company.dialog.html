@@ -1,0 +1,84 @@
+<div
+  class="d-flex justify-content-between diolog-title align-items-center border-bottom mb-3 py-3"
+>
+  <p class="font-weight-bold mb-0">
+    Add New Organization
+  </p>
+  <button class="side-menu-btn" (click)="onNoClick()" mat-button>
+    <img src="assets/images/ic_close.svg" alt="" />
+  </button>
+</div>
+
+<div class="input-group input-with-img mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"
+      ><img src="assets/images/ic_company.svg" alt=""
+    /></span>
+  </div>
+  <input
+    cdkFocusInitial
+    type="text"
+    class="form-control"
+    [(ngModel)]="data.name"
+    placeholder="Company Name"
+  />
+</div>
+
+<div class="input-group input-with-img mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"
+      ><img src="assets/images/ic_location.svg" alt=""
+    /></span>
+  </div>
+  <input
+    type="text"
+    class="form-control"
+    [(ngModel)]="data.location"
+    placeholder="Location"
+  />
+</div>
+
+<div class="input-group mb-3">
+  <textarea
+    class="form-control w-100"
+    [attr.maxlength]="255"
+    [(ngModel)]="data.description"
+    placeholder="Description"
+    rows="5"
+  ></textarea>
+  <p class="m-0 typed-chars">
+    <small> {{ typedChars() }}/255</small>
+  </p>
+</div>
+
+<div class="input-group input-with-img mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"
+      ><img src="assets/images/ic_web.svg" alt=""
+    /></span>
+  </div>
+  <input
+    type="text"
+    class="form-control"
+    [(ngModel)]="data.website"
+    placeholder="Website"
+  />
+</div>
+
+<div class="mb-3">
+  <app-image-uploader (imgChange)="data.logoImg = $event"></app-image-uploader>
+</div>
+<div class="mb-3 text-muted" *ngIf="data.logoImg">
+  <i class="far fa-image mr-1"></i>
+  {{ setlogoImgName() }}
+</div>
+<div>
+  <button
+    [mat-dialog-close]="data"
+    class="w-100 py-1"
+    mat-raised-button
+    color="primary"
+  >
+    Add New Organization
+  </button>
+</div>

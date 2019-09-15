@@ -3,12 +3,9 @@ import { HttpClient } from "@angular/common/http";
 import { baseURL } from "src/app/shared/baseurl";
 import { Observable } from "rxjs";
 import { map, tap } from "rxjs/operators";
-import {
-  ProfileModel,
-  SuperpowerModel,
-  WeaknessModel,
-  NoteModel
-} from "./profile.model";
+import { ProfileModel, NoteModel } from "./profile.model";
+import { ProfileListModel } from "./profile-list.model";
+import { SuperpowerWeaknessModel } from "../common/superpower-weakness.module";
 const URL = baseURL + "profile/";
 
 @Injectable({
@@ -48,42 +45,55 @@ export class ProfileService {
     );
   }
 
-  getProfileList(): Observable<ProfileModel[]> {
-    let _URL = URL + "list";
+  getProfileList(pageNumber, sorting): Observable<ProfileListModel> {
+    let _URL = URL + `list/${pageNumber}/${sorting}`;
     return this.http.get(_URL).pipe(
-      map(data => data as ProfileModel[]),
+      map(data => data as ProfileListModel),
       tap(data => data, error => error)
     );
   }
 
-  addSuperpower(data, userId): Observable<SuperpowerModel> {
+  getSearchProfileList(
+    query,
+    pageNumber,
+    sorting
+  ): Observable<ProfileListModel> {
+    let _URL =
+      URL + `search-by-name-and-superpower/${query}/${pageNumber}/${sorting}`;
+    return this.http.get(_URL).pipe(
+      map(data => data as ProfileListModel),
+      tap(data => data, error => error)
+    );
+  }
+
+  addSuperpower(data, userId): Observable<SuperpowerWeaknessModel> {
     let _URL = URL + "add-superpower/" + userId;
     return this.http.put(_URL, data).pipe(
-      map(data => data as SuperpowerModel),
+      map(data => data as SuperpowerWeaknessModel),
       tap(data => data, error => error)
     );
   }
 
-  addWeekness(data, userId): Observable<WeaknessModel> {
+  addWeekness(data, userId): Observable<SuperpowerWeaknessModel> {
     let _URL = URL + "add-weakness/" + userId;
     return this.http.put(_URL, data).pipe(
-      map(data => data as WeaknessModel),
+      map(data => data as SuperpowerWeaknessModel),
       tap(data => data, error => error)
     );
   }
 
-  removeWeekness(profileId, charId): Observable<WeaknessModel> {
+  removeWeekness(profileId, charId): Observable<SuperpowerWeaknessModel> {
     let _URL = URL + "delete-weakness/" + profileId + "/" + charId;
     return this.http.delete(_URL).pipe(
-      map(data => data as WeaknessModel),
+      map(data => data as SuperpowerWeaknessModel),
       tap(data => data, error => error)
     );
   }
 
-  removeSuperpower(profileId, charId): Observable<SuperpowerModel> {
+  removeSuperpower(profileId, charId): Observable<SuperpowerWeaknessModel> {
     let _URL = URL + "delete-superpower/" + profileId + "/" + charId;
     return this.http.delete(_URL).pipe(
-      map(data => data as SuperpowerModel),
+      map(data => data as SuperpowerWeaknessModel),
       tap(data => data, error => error)
     );
   }
@@ -116,6 +126,30 @@ export class ProfileService {
     let _URL = baseURL + "notes/" + noteId;
     return this.http.delete(_URL).pipe(
       map(data => data as any),
+      tap(data => data, error => error)
+    );
+  }
+
+  deleteCompany(profileId, companyId): Observable<boolean> {
+    let _URL = `${URL}delete-company/${profileId}/${companyId}`;
+    return this.http.delete(_URL).pipe(
+      map(data => data as boolean),
+      tap(data => data, error => error)
+    );
+  }
+
+  toggleStar(profileId, star): Observable<boolean> {
+    let _URL = URL + "star-profile/" + profileId;
+    return this.http.put(_URL, star).pipe(
+      map(data => data as boolean),
+      tap(data => data, error => error)
+    );
+  }
+
+  deleteProfile(profileId): Observable<boolean> {
+    let _URL = URL + "/" + profileId;
+    return this.http.delete(_URL).pipe(
+      map(data => data as boolean),
       tap(data => data, error => error)
     );
   }

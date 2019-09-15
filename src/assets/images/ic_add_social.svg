@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic_add_social</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-493.000000, -78.000000)">
+            <g id="ic_add_social" transform="translate(500.000000, 85.000000) rotate(45.000000) translate(-500.000000, -85.000000) translate(494.000000, 79.000000)">
+                <circle id="Oval" stroke="#D8D8D8" fill="#F0F0F0" cx="6" cy="6" r="6"></circle>
+                <g id="Group-7" transform="translate(2.500000, 3.000000)" stroke="#696969" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3.5,0 L3.5,6" id="Line-4"></path>
+                    <path d="M3.5,0 L3.5,6" id="Line-4" transform="translate(3.500000, 3.000000) rotate(-90.000000) translate(-3.500000, -3.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

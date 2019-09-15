@@ -1,0 +1,45 @@
+<p class="font-weight-bold">Superpowers</p>
+<div class="d-flex flex-wrap">
+  <div
+    class="border mr-2 my-1 d-flex align-items-center char-span"
+    *ngFor="let superpower of superpowers"
+  >
+    {{ superpower.name }}
+    <i (click)="removeSuperpower(superpower)" class="fas fa-times ml-3"></i>
+  </div>
+  <div
+    class="input-group input-group-sm char-input-container"
+    *ngIf="enterSuperpower"
+  >
+    <input
+      matInput
+      class="form-control my-1"
+      placeholder="Superpowers"
+      [matAutocomplete]="auto"
+      [(ngModel)]="superpowerQuery"
+      (ngModelChange)="searchSuperpowers($event)"
+    />
+  </div>
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option
+      *ngFor="let superpower of searchResult"
+      (onSelectionChange)="onSuperpowerEnter($event, superpower)"
+    >
+      <span>{{ superpower.name }}</span>
+    </mat-option>
+    <mat-option
+      *ngIf="superpowerQuery"
+      (onSelectionChange)="onSuperpowerEnter($event)"
+    >
+      <span class="text-muted">
+        Add
+      </span>
+      "{{ superpowerQuery }}"
+    </mat-option>
+  </mat-autocomplete>
+  <div *ngIf="!enterSuperpower" (click)="toggleSuperpower()">
+    <button style="color: #6c757d;" class="btn border btn-sm my-1">
+      <i class="fas fa-plus"></i>
+    </button>
+  </div>
+</div>

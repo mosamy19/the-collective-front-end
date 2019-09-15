@@ -1,10 +1,15 @@
-export class SuperpowerModel {
+import { CompanyModel } from "./company.module";
+import { SuperpowerWeaknessModel } from "../common/superpower-weakness.module";
+
+export class EmailModel {
   _id: string;
-  name: string;
+  value: string;
+  isPrimary: boolean;
 }
-export class WeaknessModel {
+export class PhoneModel {
   _id: string;
-  name: string;
+  value: string;
+  isPrimary: boolean;
 }
 export class NoteModel {
   _id: string;
@@ -16,22 +21,19 @@ export class NoteModel {
 
 export class ProfileModel {
   _id: string;
-  firstName: string;
-  lastName: string;
-  city: string;
-  state: string;
-  country: string;
+  name: string;
+  location: string;
   profileImg: string;
-  primaryEmail: string;
-  email: string;
-  primaryPhone: string;
-  phone: string;
+  star: boolean;
+  emails: EmailModel[];
+  phones: PhoneModel[];
   bio: string;
   facebook: string;
   instagram: string;
   twitter: string;
   linkedIn: string;
-  superpowers: SuperpowerModel[];
-  weaknesses: WeaknessModel[];
+  superpowers: SuperpowerWeaknessModel[];
+  weaknesses: SuperpowerWeaknessModel[];
   notes: NoteModel[];
+  companies: CompanyModel[];
 }

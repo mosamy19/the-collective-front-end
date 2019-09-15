@@ -1,0 +1,72 @@
+<div class="input-group">
+  <input
+    matInput
+    class="form-control"
+    placeholder="Searh For Profile..."
+    [matAutocomplete]="auto"
+    [(ngModel)]="query"
+    (ngModelChange)="getSearchUsers($event)"
+  />
+  <div class="input-group-append">
+    <span class="input-group-text">
+      <img src="assets/images/ic_search.svg" alt="" />
+    </span>
+  </div>
+</div>
+
+<mat-autocomplete #auto="matAutocomplete">
+  <mat-option
+    *ngFor="let profile of filteredProfiles"
+    (onSelectionChange)="onSearchSelection($event, profile)"
+  >
+    <div class="d-flex align-items-center">
+      <div>
+        <img
+          class="search-img mr-2"
+          aria-hidden
+          [src]="
+            profile.profileImg
+              ? imgBaseUrl + profile.profileImg
+              : 'assets/images/img-placeholder.svg'
+          "
+        />
+      </div>
+      <div class="d-flex flex-column">
+        <span>{{ profile.name }}</span>
+        <small>{{ profile.location }}</small>
+      </div>
+    </div>
+  </mat-option>
+  <!--  *ngIf="!filteredProfiles" -->
+
+  <p class="px-3 my-2 text-uppercase text-muted" *ngIf="!query">
+    <small>
+      Recent Search
+    </small>
+  </p>
+  <!-- *ngIf="!filteredProfiles" -->
+  <ng-container *ngIf="!query">
+    <mat-option
+      *ngFor="let profile of recentSearch"
+      (onSelectionChange)="onSearchSelection($event, profile)"
+    >
+      <div class="d-flex align-items-center">
+        <div>
+          <img
+            class="search-img mr-2"
+            aria-hidden
+            [src]="
+              profile.profileImg
+                ? imgBaseUrl + profile.profileImg
+                : 'assets/images/img-placeholder.svg'
+            "
+          />
+        </div>
+        <div class="d-flex flex-column">
+          <span>{{ profile.name }}</span>
+          <small>{{ profile.location }}</small>
+        </div>
+      </div>
+    </mat-option>
+  </ng-container>
+</mat-autocomplete>

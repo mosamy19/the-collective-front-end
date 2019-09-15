@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic_linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-460.000000, -186.000000)">
+            <g id="normal" transform="translate(404.000000, 186.000000)">
+                <g id="ic_linkedin" transform="translate(56.000000, 0.000000)">
+                    <rect id="Rectangle-6-Copy-6" stroke-opacity="0.5" stroke="#C3C3C3" x="0.5" y="0.5" width="39" height="39" rx="19.5"></rect>
+                    <path d="M14.91,16.313 L14.91,28.571 L11.099,28.571 L11.099,16.313 L14.91,16.313 Z M24.434,16.038 C26.941,16.038 28.821,17.718 28.821,21.327 L28.821,28.571 L25.011,28.571 L25.011,21.778 C25.011,20.199 24.459,19.121 23.081,19.121 C22.028,19.121 21.402,19.848 21.126,20.551 C21.025,20.801 21.001,21.153 21.001,21.503 L21.001,28.571 L17.191,28.571 L17.191,20.224 L17.19,20.224 C17.19,18.695 17.14,17.416 17.09,16.313 L20.398,16.313 L20.574,18.018 L20.649,18.018 C21.15,17.215 22.379,16.038 24.434,16.038 Z M13.03,11 C14.258,11 15.01,11.826 15.035,12.904 C15.035,13.957 14.258,14.809 12.979,14.809 C11.776,14.809 11,13.956 11,12.904 C11,11.827 11.802,11 13.03,11 Z" id="Combined-Shape" fill="#696969"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

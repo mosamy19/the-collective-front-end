@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="23px" viewBox="0 0 18 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic_location</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Collective-People" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Collective-People-Add-New-Organization-Popup" transform="translate(-538.000000, -228.000000)" stroke="#696969">
+            <g id="Popup" transform="translate(506.000000, 75.000000)">
+                <g id="filed" transform="translate(20.000000, 140.000000)">
+                    <g id="ic_location" transform="translate(13.000000, 14.000000)">
+                        <path d="M8,22 C13.3333333,15.6121853 16,10.9455187 16,8 C16,3.581722 12.418278,0 8,0 C3.581722,0 0,3.581722 0,8 C0,10.9455187 2.66666667,15.6121853 8,22 Z" id="Oval"></path>
+                        <circle id="Oval" cx="8" cy="8" r="4"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

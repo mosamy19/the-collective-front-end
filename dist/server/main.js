@@ -643,43 +643,47 @@ const i7 = __webpack_require__(/*! ./login/login.component.ngfactory */ "./src/a
 const i8 = __webpack_require__(/*! ./login/reset-password/reset-password.component.ngfactory */ "./src/app/login/reset-password/reset-password.component.ngfactory.js");
 const i9 = __webpack_require__(/*! ./login/forget-password/forget-password.component.ngfactory */ "./src/app/login/forget-password/forget-password.component.ngfactory.js");
 const i10 = __webpack_require__(/*! ../../node_modules/@angular/material/dialog/typings/index.ngfactory */ "./node_modules/@angular/material/dialog/typings/index.ngfactory.js");
-const i11 = __webpack_require__(/*! ./app.component.ngfactory */ "./src/app/app.component.ngfactory.js");
-const i12 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i13 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
-const i14 = __webpack_require__(/*! @angular/platform-server */ "@angular/platform-server");
-const i15 = __webpack_require__(/*! @angular/animations/browser */ "@angular/animations/browser");
-const i16 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
-const i17 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
-const i18 = __webpack_require__(/*! @angular/router */ "@angular/router");
-const i19 = __webpack_require__(/*! ./auth-guard.service */ "./src/app/auth-guard.service.ts");
-const i20 = __webpack_require__(/*! ./login/login.service */ "./src/app/login/login.service.ts");
-const i21 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
-const i22 = __webpack_require__(/*! @angular/animations */ "@angular/animations");
-const i23 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
-const i24 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
-const i25 = __webpack_require__(/*! @angular/material/menu */ "@angular/material/menu");
-const i26 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
-const i27 = __webpack_require__(/*! @angular/material/autocomplete */ "@angular/material/autocomplete");
-const i28 = __webpack_require__(/*! @angular/cdk/observers */ "@angular/cdk/observers");
-const i29 = __webpack_require__(/*! @nguniversal/module-map-ngfactory-loader */ "@nguniversal/module-map-ngfactory-loader");
-const i30 = __webpack_require__(/*! ./profile/profile-list/profile-list.component */ "./src/app/profile/profile-list/profile-list.component.ts");
-const i31 = __webpack_require__(/*! ./profile/edit-profile/edit-profile.component */ "./src/app/profile/edit-profile/edit-profile.component.ts");
-const i32 = __webpack_require__(/*! ./profile/view-profile/view-profile.component */ "./src/app/profile/view-profile/view-profile.component.ts");
-const i33 = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
-const i34 = __webpack_require__(/*! ./login/reset-password/reset-password.component */ "./src/app/login/reset-password/reset-password.component.ts");
-const i35 = __webpack_require__(/*! ./login/forget-password/forget-password.component */ "./src/app/login/forget-password/forget-password.component.ts");
-const i36 = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-const i37 = __webpack_require__(/*! @angular/material/core */ "@angular/material/core");
-const i38 = __webpack_require__(/*! @angular/cdk/platform */ "@angular/cdk/platform");
-const i39 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
-const i40 = __webpack_require__(/*! @angular/cdk/portal */ "@angular/cdk/portal");
-const i41 = __webpack_require__(/*! @angular/cdk/scrolling */ "@angular/cdk/scrolling");
-const i42 = __webpack_require__(/*! @angular/material/progress-spinner */ "@angular/material/progress-spinner");
-const i43 = __webpack_require__(/*! @angular/material/toolbar */ "@angular/material/toolbar");
-const i44 = __webpack_require__(/*! @angular/material/form-field */ "@angular/material/form-field");
-const i45 = __webpack_require__(/*! ng2-file-upload/file-upload/file-upload.module */ "ng2-file-upload/file-upload/file-upload.module");
-const i46 = __webpack_require__(/*! ./app.module */ "./src/app/app.module.ts");
-var AppServerModuleNgFactory = i0.ɵcmf(i1.AppServerModule, [i2.AppComponent], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.ɵangular_packages_router_router_lNgFactory, i4.ProfileListComponentNgFactory, i5.EditProfileComponentNgFactory, i6.ViewProfileComponentNgFactory, i7.LoginComponentNgFactory, i8.ResetPasswordComponentNgFactory, i9.ForgetPasswordComponentNgFactory, i10.MatDialogContainerNgFactory, i6.SocailMediaDialogNgFactory, i6.AddNotesDialogNgFactory, i11.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵangular_packages_core_core_p, [[3, i0.LOCALE_ID]]), i0.ɵmpd(4608, i12.NgLocalization, i12.NgLocaleLocalization, [i0.LOCALE_ID, [2, i12.ɵangular_packages_common_common_a]]), i0.ɵmpd(5120, i0.ɵangular_packages_core_core_ba, i0.ɵangular_packages_core_core_r, [i0.NgZone]), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵangular_packages_core_core_n, []), i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵangular_packages_core_core_o, []), i0.ɵmpd(4608, i13.DomSanitizer, i13.ɵDomSanitizerImpl, [i12.DOCUMENT]), i0.ɵmpd(6144, i0.Sanitizer, null, [i13.DomSanitizer]), i0.ɵmpd(4608, i13.HAMMER_GESTURE_CONFIG, i13.HammerGestureConfig, []), i0.ɵmpd(5120, i13.EVENT_MANAGER_PLUGINS, function (p0_0, p0_1, p0_2, p1_0, p2_0, p2_1, p2_2, p2_3, p3_0) { return [new i13.ɵDomEventsPlugin(p0_0, p0_1, p0_2), new i13.ɵKeyEventsPlugin(p1_0), new i13.ɵHammerGesturesPlugin(p2_0, p2_1, p2_2, p2_3), new i14.ɵangular_packages_platform_server_platform_server_d(p3_0)]; }, [i12.DOCUMENT, i0.NgZone, i0.PLATFORM_ID, i12.DOCUMENT, i12.DOCUMENT, i13.HAMMER_GESTURE_CONFIG, i0.ɵConsole, [2, i13.HAMMER_LOADER], i12.DOCUMENT]), i0.ɵmpd(4608, i13.EventManager, i13.EventManager, [i13.EVENT_MANAGER_PLUGINS, i0.NgZone]), i0.ɵmpd(135680, i13.ɵDomSharedStylesHost, i13.ɵDomSharedStylesHost, [i12.DOCUMENT]), i0.ɵmpd(4608, i13.ɵDomRendererFactory2, i13.ɵDomRendererFactory2, [i13.EventManager, i13.ɵDomSharedStylesHost, i0.APP_ID]), i0.ɵmpd(4608, i14.ɵangular_packages_platform_server_platform_server_c, i14.ɵangular_packages_platform_server_platform_server_c, [i12.DOCUMENT, [2, i13.ɵTRANSITION_ID]]), i0.ɵmpd(6144, i13.ɵSharedStylesHost, null, [i14.ɵangular_packages_platform_server_platform_server_c]), i0.ɵmpd(4608, i14.ɵServerRendererFactory2, i14.ɵServerRendererFactory2, [i13.EventManager, i0.NgZone, i12.DOCUMENT, i13.ɵSharedStylesHost]), i0.ɵmpd(4608, i15.AnimationDriver, i15.ɵNoopAnimationDriver, []), i0.ɵmpd(5120, i15.ɵAnimationStyleNormalizer, i16.ɵangular_packages_platform_browser_animations_animations_b, []), i0.ɵmpd(4608, i15.ɵAnimationEngine, i16.ɵInjectableAnimationEngine, [i12.DOCUMENT, i15.AnimationDriver, i15.ɵAnimationStyleNormalizer]), i0.ɵmpd(5120, i0.RendererFactory2, i14.ɵangular_packages_platform_server_platform_server_a, [i14.ɵServerRendererFactory2, i15.ɵAnimationEngine, i0.NgZone]), i0.ɵmpd(4352, i0.Testability, null, []), i0.ɵmpd(4608, i17.ɵangular_packages_forms_forms_o, i17.ɵangular_packages_forms_forms_o, []), i0.ɵmpd(4608, i17.FormBuilder, i17.FormBuilder, []), i0.ɵmpd(5120, i18.ActivatedRoute, i18.ɵangular_packages_router_router_g, [i18.Router]), i0.ɵmpd(4608, i18.NoPreloading, i18.NoPreloading, []), i0.ɵmpd(6144, i18.PreloadingStrategy, null, [i18.NoPreloading]), i0.ɵmpd(135680, i18.RouterPreloader, i18.RouterPreloader, [i18.Router, i0.NgModuleFactoryLoader, i0.Compiler, i0.Injector, i18.PreloadingStrategy]), i0.ɵmpd(4608, i18.PreloadAllModules, i18.PreloadAllModules, []), i0.ɵmpd(4608, i12.ViewportScroller, i12.ɵNullViewportScroller, []), i0.ɵmpd(5120, i18.ɵangular_packages_router_router_o, i18.ɵangular_packages_router_router_c, [i18.Router, i12.ViewportScroller, i18.ROUTER_CONFIGURATION]), i0.ɵmpd(5120, i18.ROUTER_INITIALIZER, i18.ɵangular_packages_router_router_j, [i18.ɵangular_packages_router_router_h]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) { return [p0_0]; }, [i18.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i19.AuthGuard, i19.AuthGuard, [i18.Router, i20.LoginService]), i0.ɵmpd(4608, i21.HttpXsrfTokenExtractor, i21.ɵangular_packages_common_http_http_g, [i12.DOCUMENT, i0.PLATFORM_ID, i21.ɵangular_packages_common_http_http_e]), i0.ɵmpd(4608, i21.ɵangular_packages_common_http_http_h, i21.ɵangular_packages_common_http_http_h, [i21.HttpXsrfTokenExtractor, i21.ɵangular_packages_common_http_http_f]), i0.ɵmpd(5120, i21.HTTP_INTERCEPTORS, function (p0_0) { return [p0_0]; }, [i21.ɵangular_packages_common_http_http_h]), i0.ɵmpd(4608, i21.XhrFactory, i14.ɵangular_packages_platform_server_platform_server_e, []), i0.ɵmpd(4608, i21.HttpXhrBackend, i21.HttpXhrBackend, [i21.XhrFactory]), i0.ɵmpd(6144, i21.HttpBackend, null, [i21.HttpXhrBackend]), i0.ɵmpd(5120, i21.HttpHandler, i14.ɵangular_packages_platform_server_platform_server_f, [i21.HttpBackend, i0.Injector]), i0.ɵmpd(4608, i21.HttpClient, i21.HttpClient, [i21.HttpHandler]), i0.ɵmpd(4608, i21.ɵangular_packages_common_http_http_d, i21.ɵangular_packages_common_http_http_d, []), i0.ɵmpd(4608, i22.AnimationBuilder, i16.ɵBrowserAnimationBuilder, [i0.RendererFactory2, i12.DOCUMENT]), i0.ɵmpd(4608, i23.Overlay, i23.Overlay, [i23.ScrollStrategyOptions, i23.OverlayContainer, i0.ComponentFactoryResolver, i23.OverlayPositionBuilder, i23.OverlayKeyboardDispatcher, i0.Injector, i0.NgZone, i12.DOCUMENT, i24.Directionality, [2, i12.Location]]), i0.ɵmpd(5120, i23.ɵc, i23.ɵd, [i23.Overlay]), i0.ɵmpd(5120, i25.MAT_MENU_SCROLL_STRATEGY, i25.ɵb23, [i23.Overlay]), i0.ɵmpd(5120, i26.MAT_DIALOG_SCROLL_STRATEGY, i26.MAT_DIALOG_SCROLL_STRATEGY_PROVIDER_FACTORY, [i23.Overlay]), i0.ɵmpd(135680, i26.MatDialog, i26.MatDialog, [i23.Overlay, i0.Injector, [2, i12.Location], [2, i26.MAT_DIALOG_DEFAULT_OPTIONS], i26.MAT_DIALOG_SCROLL_STRATEGY, [3, i26.MatDialog], i23.OverlayContainer]), i0.ɵmpd(5120, i27.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, i27.MAT_AUTOCOMPLETE_SCROLL_STRATEGY_FACTORY, [i23.Overlay]), i0.ɵmpd(4608, i28.MutationObserverFactory, i28.MutationObserverFactory, []), i0.ɵmpd(1073742336, i12.CommonModule, i12.CommonModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i13.ɵangular_packages_platform_browser_platform_browser_a, []), i0.ɵmpd(1024, i0.NgProbeToken, function () { return [i18.ɵangular_packages_router_router_b()]; }, []), i0.ɵmpd(512, i18.ɵangular_packages_router_router_h, i18.ɵangular_packages_router_router_h, [i0.Injector]), i0.ɵmpd(256, i0.APP_ID, "collective-people", []), i0.ɵmpd(2048, i13.ɵTRANSITION_ID, null, [i0.APP_ID]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p1_0, p2_0, p2_1, p2_2) { return [i13.ɵangular_packages_platform_browser_platform_browser_j(p0_0), i18.ɵangular_packages_router_router_i(p1_0), i13.ɵangular_packages_platform_browser_platform_browser_h(p2_0, p2_1, p2_2)]; }, [[2, i0.NgProbeToken], i18.ɵangular_packages_router_router_h, i13.ɵTRANSITION_ID, i12.DOCUMENT, i0.Injector]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ApplicationRef, i0.ApplicationRef, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver, i0.ApplicationInitStatus]), i0.ɵmpd(1073742336, i0.ApplicationModule, i0.ApplicationModule, [i0.ApplicationRef]), i0.ɵmpd(1073742336, i13.BrowserModule, i13.BrowserModule, [[3, i13.BrowserModule]]), i0.ɵmpd(1073742336, i17.ɵangular_packages_forms_forms_d, i17.ɵangular_packages_forms_forms_d, []), i0.ɵmpd(1073742336, i17.FormsModule, i17.FormsModule, []), i0.ɵmpd(1073742336, i17.ReactiveFormsModule, i17.ReactiveFormsModule, []), i0.ɵmpd(1024, i18.ɵangular_packages_router_router_a, i18.ɵangular_packages_router_router_e, [[3, i18.Router]]), i0.ɵmpd(512, i18.UrlSerializer, i18.DefaultUrlSerializer, []), i0.ɵmpd(512, i18.ChildrenOutletContexts, i18.ChildrenOutletContexts, []), i0.ɵmpd(256, i18.ROUTER_CONFIGURATION, {}, []), i0.ɵmpd(1024, i12.LocationStrategy, i18.ɵangular_packages_router_router_d, [i12.PlatformLocation, [2, i12.APP_BASE_HREF], i18.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i12.Location, i12.Location, [i12.LocationStrategy, i12.PlatformLocation]), i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i29.ModuleMapNgFactoryLoader, [i0.Compiler, i29.MODULE_MAP]), i0.ɵmpd(1024, i18.ROUTES, function () { return [[{ path: "", redirectTo: "/profile/list", pathMatch: "full" }, { path: "profile", children: [{ path: "", redirectTo: "/profile/list", pathMatch: "full" }, { path: "list", component: i30.ProfileListComponent, canActivate: [i19.AuthGuard] }, { path: "add", component: i31.EditProfileComponent, canActivate: [i19.AuthGuard] }, { path: "view/:profileId", component: i32.ViewProfileComponent, canActivate: [i19.AuthGuard] }, { path: "edit/:profileId", component: i31.EditProfileComponent, canActivate: [i19.AuthGuard] }] }, { path: "login", component: i33.LoginComponent }, { path: "reset-password/:token", component: i34.ResetPasswordComponent }, { path: "forget-password", component: i35.ForgetPasswordComponent }, { path: "**", redirectTo: "/profile/list" }]]; }, []), i0.ɵmpd(1024, i18.Router, i18.ɵangular_packages_router_router_f, [i0.ApplicationRef, i18.UrlSerializer, i18.ChildrenOutletContexts, i12.Location, i0.Injector, i0.NgModuleFactoryLoader, i0.Compiler, i18.ROUTES, i18.ROUTER_CONFIGURATION, [2, i18.UrlHandlingStrategy], [2, i18.RouteReuseStrategy]]), i0.ɵmpd(1073742336, i18.RouterModule, i18.RouterModule, [[2, i18.ɵangular_packages_router_router_a], [2, i18.Router]]), i0.ɵmpd(1073742336, i36.AppRoutingModule, i36.AppRoutingModule, []), i0.ɵmpd(1073742336, i21.HttpClientXsrfModule, i21.HttpClientXsrfModule, []), i0.ɵmpd(1073742336, i21.HttpClientModule, i21.HttpClientModule, []), i0.ɵmpd(1073742336, i16.BrowserAnimationsModule, i16.BrowserAnimationsModule, []), i0.ɵmpd(1073742336, i24.BidiModule, i24.BidiModule, []), i0.ɵmpd(1073742336, i37.MatCommonModule, i37.MatCommonModule, [[2, i37.MATERIAL_SANITY_CHECKS], [2, i13.HAMMER_LOADER]]), i0.ɵmpd(1073742336, i38.PlatformModule, i38.PlatformModule, []), i0.ɵmpd(1073742336, i37.MatRippleModule, i37.MatRippleModule, []), i0.ɵmpd(1073742336, i39.MatButtonModule, i39.MatButtonModule, []), i0.ɵmpd(1073742336, i40.PortalModule, i40.PortalModule, []), i0.ɵmpd(1073742336, i41.ScrollingModule, i41.ScrollingModule, []), i0.ɵmpd(1073742336, i23.OverlayModule, i23.OverlayModule, []), i0.ɵmpd(1073742336, i25._MatMenuDirectivesModule, i25._MatMenuDirectivesModule, []), i0.ɵmpd(1073742336, i25.MatMenuModule, i25.MatMenuModule, []), i0.ɵmpd(1073742336, i42.MatProgressSpinnerModule, i42.MatProgressSpinnerModule, []), i0.ɵmpd(1073742336, i26.MatDialogModule, i26.MatDialogModule, []), i0.ɵmpd(1073742336, i43.MatToolbarModule, i43.MatToolbarModule, []), i0.ɵmpd(1073742336, i37.MatPseudoCheckboxModule, i37.MatPseudoCheckboxModule, []), i0.ɵmpd(1073742336, i37.MatOptionModule, i37.MatOptionModule, []), i0.ɵmpd(1073742336, i27.MatAutocompleteModule, i27.MatAutocompleteModule, []), i0.ɵmpd(1073742336, i28.ObserversModule, i28.ObserversModule, []), i0.ɵmpd(1073742336, i44.MatFormFieldModule, i44.MatFormFieldModule, []), i0.ɵmpd(1073742336, i45.FileUploadModule, i45.FileUploadModule, []), i0.ɵmpd(1073742336, i46.AppModule, i46.AppModule, []), i0.ɵmpd(1073742336, i16.NoopAnimationsModule, i16.NoopAnimationsModule, []), i0.ɵmpd(1073742336, i14.ServerModule, i14.ServerModule, []), i0.ɵmpd(1073742336, i29.ModuleMapLoaderModule, i29.ModuleMapLoaderModule, []), i0.ɵmpd(1073742336, i1.AppServerModule, i1.AppServerModule, []), i0.ɵmpd(256, i0.ɵAPP_ROOT, true, []), i0.ɵmpd(256, i21.ɵangular_packages_common_http_http_e, "XSRF-TOKEN", []), i0.ɵmpd(256, i21.ɵangular_packages_common_http_http_f, "X-XSRF-TOKEN", []), i0.ɵmpd(256, i16.ANIMATION_MODULE_TYPE, "NoopAnimations", [])]); });
+const i11 = __webpack_require__(/*! ./profile/view-profile/SocailMediaDialog.ngfactory */ "./src/app/profile/view-profile/SocailMediaDialog.ngfactory.js");
+const i12 = __webpack_require__(/*! ./profile/view-profile/AddNotesDialog.ngfactory */ "./src/app/profile/view-profile/AddNotesDialog.ngfactory.js");
+const i13 = __webpack_require__(/*! ./profile/company-search/AddCompanyDialog.ngfactory */ "./src/app/profile/company-search/AddCompanyDialog.ngfactory.js");
+const i14 = __webpack_require__(/*! ./profile/add-profile/AddProfileDialog.ngfactory */ "./src/app/profile/add-profile/AddProfileDialog.ngfactory.js");
+const i15 = __webpack_require__(/*! ./app.component.ngfactory */ "./src/app/app.component.ngfactory.js");
+const i16 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i17 = __webpack_require__(/*! @angular/platform-browser */ "@angular/platform-browser");
+const i18 = __webpack_require__(/*! @angular/platform-server */ "@angular/platform-server");
+const i19 = __webpack_require__(/*! @angular/animations/browser */ "@angular/animations/browser");
+const i20 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i21 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i22 = __webpack_require__(/*! @angular/router */ "@angular/router");
+const i23 = __webpack_require__(/*! ./auth-guard.service */ "./src/app/auth-guard.service.ts");
+const i24 = __webpack_require__(/*! ./login/login.service */ "./src/app/login/login.service.ts");
+const i25 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
+const i26 = __webpack_require__(/*! @angular/animations */ "@angular/animations");
+const i27 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
+const i28 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
+const i29 = __webpack_require__(/*! @angular/material/menu */ "@angular/material/menu");
+const i30 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+const i31 = __webpack_require__(/*! @angular/material/autocomplete */ "@angular/material/autocomplete");
+const i32 = __webpack_require__(/*! @angular/cdk/observers */ "@angular/cdk/observers");
+const i33 = __webpack_require__(/*! @nguniversal/module-map-ngfactory-loader */ "@nguniversal/module-map-ngfactory-loader");
+const i34 = __webpack_require__(/*! ./profile/profile-list/profile-list.component */ "./src/app/profile/profile-list/profile-list.component.ts");
+const i35 = __webpack_require__(/*! ./profile/edit-profile/edit-profile.component */ "./src/app/profile/edit-profile/edit-profile.component.ts");
+const i36 = __webpack_require__(/*! ./profile/view-profile/view-profile.component */ "./src/app/profile/view-profile/view-profile.component.ts");
+const i37 = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
+const i38 = __webpack_require__(/*! ./login/reset-password/reset-password.component */ "./src/app/login/reset-password/reset-password.component.ts");
+const i39 = __webpack_require__(/*! ./login/forget-password/forget-password.component */ "./src/app/login/forget-password/forget-password.component.ts");
+const i40 = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+const i41 = __webpack_require__(/*! @angular/material/core */ "@angular/material/core");
+const i42 = __webpack_require__(/*! @angular/cdk/platform */ "@angular/cdk/platform");
+const i43 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i44 = __webpack_require__(/*! @angular/cdk/portal */ "@angular/cdk/portal");
+const i45 = __webpack_require__(/*! @angular/cdk/scrolling */ "@angular/cdk/scrolling");
+const i46 = __webpack_require__(/*! @angular/material/progress-spinner */ "@angular/material/progress-spinner");
+const i47 = __webpack_require__(/*! @angular/material/toolbar */ "@angular/material/toolbar");
+const i48 = __webpack_require__(/*! @angular/material/form-field */ "@angular/material/form-field");
+const i49 = __webpack_require__(/*! ng2-file-upload/file-upload/file-upload.module */ "ng2-file-upload/file-upload/file-upload.module");
+const i50 = __webpack_require__(/*! ./app.module */ "./src/app/app.module.ts");
+var AppServerModuleNgFactory = i0.ɵcmf(i1.AppServerModule, [i2.AppComponent], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.ɵangular_packages_router_router_lNgFactory, i4.ProfileListComponentNgFactory, i5.EditProfileComponentNgFactory, i6.ViewProfileComponentNgFactory, i7.LoginComponentNgFactory, i8.ResetPasswordComponentNgFactory, i9.ForgetPasswordComponentNgFactory, i10.MatDialogContainerNgFactory, i11.SocailMediaDialogNgFactory, i12.AddNotesDialogNgFactory, i13.AddCompanyDialogNgFactory, i14.AddProfileDialogNgFactory, i15.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵangular_packages_core_core_p, [[3, i0.LOCALE_ID]]), i0.ɵmpd(4608, i16.NgLocalization, i16.NgLocaleLocalization, [i0.LOCALE_ID, [2, i16.ɵangular_packages_common_common_a]]), i0.ɵmpd(5120, i0.ɵangular_packages_core_core_ba, i0.ɵangular_packages_core_core_r, [i0.NgZone]), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵangular_packages_core_core_n, []), i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵangular_packages_core_core_o, []), i0.ɵmpd(4608, i17.DomSanitizer, i17.ɵDomSanitizerImpl, [i16.DOCUMENT]), i0.ɵmpd(6144, i0.Sanitizer, null, [i17.DomSanitizer]), i0.ɵmpd(4608, i17.HAMMER_GESTURE_CONFIG, i17.HammerGestureConfig, []), i0.ɵmpd(5120, i17.EVENT_MANAGER_PLUGINS, function (p0_0, p0_1, p0_2, p1_0, p2_0, p2_1, p2_2, p2_3, p3_0) { return [new i17.ɵDomEventsPlugin(p0_0, p0_1, p0_2), new i17.ɵKeyEventsPlugin(p1_0), new i17.ɵHammerGesturesPlugin(p2_0, p2_1, p2_2, p2_3), new i18.ɵangular_packages_platform_server_platform_server_d(p3_0)]; }, [i16.DOCUMENT, i0.NgZone, i0.PLATFORM_ID, i16.DOCUMENT, i16.DOCUMENT, i17.HAMMER_GESTURE_CONFIG, i0.ɵConsole, [2, i17.HAMMER_LOADER], i16.DOCUMENT]), i0.ɵmpd(4608, i17.EventManager, i17.EventManager, [i17.EVENT_MANAGER_PLUGINS, i0.NgZone]), i0.ɵmpd(135680, i17.ɵDomSharedStylesHost, i17.ɵDomSharedStylesHost, [i16.DOCUMENT]), i0.ɵmpd(4608, i17.ɵDomRendererFactory2, i17.ɵDomRendererFactory2, [i17.EventManager, i17.ɵDomSharedStylesHost, i0.APP_ID]), i0.ɵmpd(4608, i18.ɵangular_packages_platform_server_platform_server_c, i18.ɵangular_packages_platform_server_platform_server_c, [i16.DOCUMENT, [2, i17.ɵTRANSITION_ID]]), i0.ɵmpd(6144, i17.ɵSharedStylesHost, null, [i18.ɵangular_packages_platform_server_platform_server_c]), i0.ɵmpd(4608, i18.ɵServerRendererFactory2, i18.ɵServerRendererFactory2, [i17.EventManager, i0.NgZone, i16.DOCUMENT, i17.ɵSharedStylesHost]), i0.ɵmpd(4608, i19.AnimationDriver, i19.ɵNoopAnimationDriver, []), i0.ɵmpd(5120, i19.ɵAnimationStyleNormalizer, i20.ɵangular_packages_platform_browser_animations_animations_b, []), i0.ɵmpd(4608, i19.ɵAnimationEngine, i20.ɵInjectableAnimationEngine, [i16.DOCUMENT, i19.AnimationDriver, i19.ɵAnimationStyleNormalizer]), i0.ɵmpd(5120, i0.RendererFactory2, i18.ɵangular_packages_platform_server_platform_server_a, [i18.ɵServerRendererFactory2, i19.ɵAnimationEngine, i0.NgZone]), i0.ɵmpd(4352, i0.Testability, null, []), i0.ɵmpd(4608, i21.ɵangular_packages_forms_forms_o, i21.ɵangular_packages_forms_forms_o, []), i0.ɵmpd(4608, i21.FormBuilder, i21.FormBuilder, []), i0.ɵmpd(5120, i22.ActivatedRoute, i22.ɵangular_packages_router_router_g, [i22.Router]), i0.ɵmpd(4608, i22.NoPreloading, i22.NoPreloading, []), i0.ɵmpd(6144, i22.PreloadingStrategy, null, [i22.NoPreloading]), i0.ɵmpd(135680, i22.RouterPreloader, i22.RouterPreloader, [i22.Router, i0.NgModuleFactoryLoader, i0.Compiler, i0.Injector, i22.PreloadingStrategy]), i0.ɵmpd(4608, i22.PreloadAllModules, i22.PreloadAllModules, []), i0.ɵmpd(4608, i16.ViewportScroller, i16.ɵNullViewportScroller, []), i0.ɵmpd(5120, i22.ɵangular_packages_router_router_o, i22.ɵangular_packages_router_router_c, [i22.Router, i16.ViewportScroller, i22.ROUTER_CONFIGURATION]), i0.ɵmpd(5120, i22.ROUTER_INITIALIZER, i22.ɵangular_packages_router_router_j, [i22.ɵangular_packages_router_router_h]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) { return [p0_0]; }, [i22.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i23.AuthGuard, i23.AuthGuard, [i22.Router, i24.LoginService]), i0.ɵmpd(4608, i25.HttpXsrfTokenExtractor, i25.ɵangular_packages_common_http_http_g, [i16.DOCUMENT, i0.PLATFORM_ID, i25.ɵangular_packages_common_http_http_e]), i0.ɵmpd(4608, i25.ɵangular_packages_common_http_http_h, i25.ɵangular_packages_common_http_http_h, [i25.HttpXsrfTokenExtractor, i25.ɵangular_packages_common_http_http_f]), i0.ɵmpd(5120, i25.HTTP_INTERCEPTORS, function (p0_0) { return [p0_0]; }, [i25.ɵangular_packages_common_http_http_h]), i0.ɵmpd(4608, i25.XhrFactory, i18.ɵangular_packages_platform_server_platform_server_e, []), i0.ɵmpd(4608, i25.HttpXhrBackend, i25.HttpXhrBackend, [i25.XhrFactory]), i0.ɵmpd(6144, i25.HttpBackend, null, [i25.HttpXhrBackend]), i0.ɵmpd(5120, i25.HttpHandler, i18.ɵangular_packages_platform_server_platform_server_f, [i25.HttpBackend, i0.Injector]), i0.ɵmpd(4608, i25.HttpClient, i25.HttpClient, [i25.HttpHandler]), i0.ɵmpd(4608, i25.ɵangular_packages_common_http_http_d, i25.ɵangular_packages_common_http_http_d, []), i0.ɵmpd(4608, i26.AnimationBuilder, i20.ɵBrowserAnimationBuilder, [i0.RendererFactory2, i16.DOCUMENT]), i0.ɵmpd(4608, i27.Overlay, i27.Overlay, [i27.ScrollStrategyOptions, i27.OverlayContainer, i0.ComponentFactoryResolver, i27.OverlayPositionBuilder, i27.OverlayKeyboardDispatcher, i0.Injector, i0.NgZone, i16.DOCUMENT, i28.Directionality, [2, i16.Location]]), i0.ɵmpd(5120, i27.ɵc, i27.ɵd, [i27.Overlay]), i0.ɵmpd(5120, i29.MAT_MENU_SCROLL_STRATEGY, i29.ɵb23, [i27.Overlay]), i0.ɵmpd(5120, i30.MAT_DIALOG_SCROLL_STRATEGY, i30.MAT_DIALOG_SCROLL_STRATEGY_PROVIDER_FACTORY, [i27.Overlay]), i0.ɵmpd(135680, i30.MatDialog, i30.MatDialog, [i27.Overlay, i0.Injector, [2, i16.Location], [2, i30.MAT_DIALOG_DEFAULT_OPTIONS], i30.MAT_DIALOG_SCROLL_STRATEGY, [3, i30.MatDialog], i27.OverlayContainer]), i0.ɵmpd(5120, i31.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, i31.MAT_AUTOCOMPLETE_SCROLL_STRATEGY_FACTORY, [i27.Overlay]), i0.ɵmpd(4608, i32.MutationObserverFactory, i32.MutationObserverFactory, []), i0.ɵmpd(1073742336, i16.CommonModule, i16.CommonModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i17.ɵangular_packages_platform_browser_platform_browser_a, []), i0.ɵmpd(1024, i0.NgProbeToken, function () { return [i22.ɵangular_packages_router_router_b()]; }, []), i0.ɵmpd(512, i22.ɵangular_packages_router_router_h, i22.ɵangular_packages_router_router_h, [i0.Injector]), i0.ɵmpd(256, i0.APP_ID, "collective-people", []), i0.ɵmpd(2048, i17.ɵTRANSITION_ID, null, [i0.APP_ID]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p1_0, p2_0, p2_1, p2_2) { return [i17.ɵangular_packages_platform_browser_platform_browser_j(p0_0), i22.ɵangular_packages_router_router_i(p1_0), i17.ɵangular_packages_platform_browser_platform_browser_h(p2_0, p2_1, p2_2)]; }, [[2, i0.NgProbeToken], i22.ɵangular_packages_router_router_h, i17.ɵTRANSITION_ID, i16.DOCUMENT, i0.Injector]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ApplicationRef, i0.ApplicationRef, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver, i0.ApplicationInitStatus]), i0.ɵmpd(1073742336, i0.ApplicationModule, i0.ApplicationModule, [i0.ApplicationRef]), i0.ɵmpd(1073742336, i17.BrowserModule, i17.BrowserModule, [[3, i17.BrowserModule]]), i0.ɵmpd(1073742336, i21.ɵangular_packages_forms_forms_d, i21.ɵangular_packages_forms_forms_d, []), i0.ɵmpd(1073742336, i21.FormsModule, i21.FormsModule, []), i0.ɵmpd(1073742336, i21.ReactiveFormsModule, i21.ReactiveFormsModule, []), i0.ɵmpd(1024, i22.ɵangular_packages_router_router_a, i22.ɵangular_packages_router_router_e, [[3, i22.Router]]), i0.ɵmpd(512, i22.UrlSerializer, i22.DefaultUrlSerializer, []), i0.ɵmpd(512, i22.ChildrenOutletContexts, i22.ChildrenOutletContexts, []), i0.ɵmpd(256, i22.ROUTER_CONFIGURATION, {}, []), i0.ɵmpd(1024, i16.LocationStrategy, i22.ɵangular_packages_router_router_d, [i16.PlatformLocation, [2, i16.APP_BASE_HREF], i22.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i16.Location, i16.Location, [i16.LocationStrategy, i16.PlatformLocation]), i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i33.ModuleMapNgFactoryLoader, [i0.Compiler, i33.MODULE_MAP]), i0.ɵmpd(1024, i22.ROUTES, function () { return [[{ path: "", redirectTo: "/profile/list", pathMatch: "full" }, { path: "profile", children: [{ path: "", redirectTo: "/profile/list", pathMatch: "full" }, { path: "list", component: i34.ProfileListComponent, canActivate: [i23.AuthGuard] }, { path: "add", component: i35.EditProfileComponent, canActivate: [i23.AuthGuard] }, { path: "view/:profileId", component: i36.ViewProfileComponent, canActivate: [i23.AuthGuard] }, { path: "edit/:profileId", component: i35.EditProfileComponent, canActivate: [i23.AuthGuard] }] }, { path: "login", component: i37.LoginComponent }, { path: "reset-password/:token", component: i38.ResetPasswordComponent }, { path: "forget-password", component: i39.ForgetPasswordComponent }, { path: "**", redirectTo: "/profile/list" }]]; }, []), i0.ɵmpd(1024, i22.Router, i22.ɵangular_packages_router_router_f, [i0.ApplicationRef, i22.UrlSerializer, i22.ChildrenOutletContexts, i16.Location, i0.Injector, i0.NgModuleFactoryLoader, i0.Compiler, i22.ROUTES, i22.ROUTER_CONFIGURATION, [2, i22.UrlHandlingStrategy], [2, i22.RouteReuseStrategy]]), i0.ɵmpd(1073742336, i22.RouterModule, i22.RouterModule, [[2, i22.ɵangular_packages_router_router_a], [2, i22.Router]]), i0.ɵmpd(1073742336, i40.AppRoutingModule, i40.AppRoutingModule, []), i0.ɵmpd(1073742336, i25.HttpClientXsrfModule, i25.HttpClientXsrfModule, []), i0.ɵmpd(1073742336, i25.HttpClientModule, i25.HttpClientModule, []), i0.ɵmpd(1073742336, i20.BrowserAnimationsModule, i20.BrowserAnimationsModule, []), i0.ɵmpd(1073742336, i28.BidiModule, i28.BidiModule, []), i0.ɵmpd(1073742336, i41.MatCommonModule, i41.MatCommonModule, [[2, i41.MATERIAL_SANITY_CHECKS], [2, i17.HAMMER_LOADER]]), i0.ɵmpd(1073742336, i42.PlatformModule, i42.PlatformModule, []), i0.ɵmpd(1073742336, i41.MatRippleModule, i41.MatRippleModule, []), i0.ɵmpd(1073742336, i43.MatButtonModule, i43.MatButtonModule, []), i0.ɵmpd(1073742336, i44.PortalModule, i44.PortalModule, []), i0.ɵmpd(1073742336, i45.ScrollingModule, i45.ScrollingModule, []), i0.ɵmpd(1073742336, i27.OverlayModule, i27.OverlayModule, []), i0.ɵmpd(1073742336, i29._MatMenuDirectivesModule, i29._MatMenuDirectivesModule, []), i0.ɵmpd(1073742336, i29.MatMenuModule, i29.MatMenuModule, []), i0.ɵmpd(1073742336, i46.MatProgressSpinnerModule, i46.MatProgressSpinnerModule, []), i0.ɵmpd(1073742336, i30.MatDialogModule, i30.MatDialogModule, []), i0.ɵmpd(1073742336, i47.MatToolbarModule, i47.MatToolbarModule, []), i0.ɵmpd(1073742336, i41.MatPseudoCheckboxModule, i41.MatPseudoCheckboxModule, []), i0.ɵmpd(1073742336, i41.MatOptionModule, i41.MatOptionModule, []), i0.ɵmpd(1073742336, i31.MatAutocompleteModule, i31.MatAutocompleteModule, []), i0.ɵmpd(1073742336, i32.ObserversModule, i32.ObserversModule, []), i0.ɵmpd(1073742336, i48.MatFormFieldModule, i48.MatFormFieldModule, []), i0.ɵmpd(1073742336, i49.FileUploadModule, i49.FileUploadModule, []), i0.ɵmpd(1073742336, i50.AppModule, i50.AppModule, []), i0.ɵmpd(1073742336, i20.NoopAnimationsModule, i20.NoopAnimationsModule, []), i0.ɵmpd(1073742336, i18.ServerModule, i18.ServerModule, []), i0.ɵmpd(1073742336, i33.ModuleMapLoaderModule, i33.ModuleMapLoaderModule, []), i0.ɵmpd(1073742336, i1.AppServerModule, i1.AppServerModule, []), i0.ɵmpd(256, i0.ɵAPP_ROOT, true, []), i0.ɵmpd(256, i25.ɵangular_packages_common_http_http_e, "XSRF-TOKEN", []), i0.ɵmpd(256, i25.ɵangular_packages_common_http_http_f, "X-XSRF-TOKEN", []), i0.ɵmpd(256, i20.ANIMATION_MODULE_TYPE, "NoopAnimations", [])]); });
 exports.AppServerModuleNgFactory = AppServerModuleNgFactory;
 
 
@@ -748,30 +752,43 @@ exports.AuthGuard = AuthGuard;
 Object.defineProperty(exports, "__esModule", { value: true });
 const i0 = __webpack_require__(/*! ./image-uploader.component.scss.shim.ngstyle */ "./src/app/common/image-uploader/image-uploader.component.scss.shim.ngstyle.js");
 const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-const i2 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
-const i3 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
-const i4 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
-const i5 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
-const i6 = __webpack_require__(/*! ng2-file-upload/file-upload/file-select.directive */ "ng2-file-upload/file-upload/file-select.directive");
-const i7 = __webpack_require__(/*! ./image-uploader.component */ "./src/app/common/image-uploader/image-uploader.component.ts");
-const i8 = __webpack_require__(/*! ./image.service */ "./src/app/common/image-uploader/image.service.ts");
+const i2 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i3 = __webpack_require__(/*! ng2-file-upload/file-upload/file-drop.directive */ "ng2-file-upload/file-upload/file-drop.directive");
+const i4 = __webpack_require__(/*! ng2-file-upload/file-upload/file-select.directive */ "ng2-file-upload/file-upload/file-select.directive");
+const i5 = __webpack_require__(/*! ./image-uploader.component */ "./src/app/common/image-uploader/image-uploader.component.ts");
+const i6 = __webpack_require__(/*! ./image.service */ "./src/app/common/image-uploader/image.service.ts");
 var styles_ImageUploaderComponent = [i0.styles];
 var RenderType_ImageUploaderComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_ImageUploaderComponent, data: {} });
 exports.RenderType_ImageUploaderComponent = RenderType_ImageUploaderComponent;
-function View_ImageUploaderComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 7, "div", [["class", "circle mx-auto"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 0, "img", [["alt", ""], ["class", "profile-pic"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 5, "div", [["class", "p-image"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 2, "button", [["color", "primary"], ["mat-mini-fab", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.clickHandler() !== false);
+function View_ImageUploaderComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 16, "div", [["class", "circle"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 15, "div", [["class", "well my-drop-zone"], ["ng2FileDrop", ""]], null, [[null, "onFileDrop"], [null, "fileOver"], [null, "drop"], [null, "dragover"], [null, "dragleave"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("drop" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 5).onDrop($event) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i2.View_MatButton_0, i2.RenderType_MatButton)), i1.ɵdid(4, 180224, null, 0, i3.MatButton, [i1.ElementRef, i4.FocusMonitor, [2, i5.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵeld(5, 0, null, 0, 0, "i", [["class", "fas fa-camera"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "input", [["accept", "image/*"], ["id", "file-upload"], ["name", "photo"], ["ng2FileSelect", ""], ["type", "file"]], null, [[null, "change"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("change" === en)) {
+    } if (("dragover" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 5).onDragOver($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("dragleave" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 5).onDragLeave($event) !== false);
+        ad = (pd_2 && ad);
+    } if (("onFileDrop" === en)) {
+        var pd_3 = (_co.uploader.uploadAll() !== false);
+        ad = (pd_3 && ad);
+    } if (("fileOver" === en)) {
+        var pd_4 = (_co.fileOverBase($event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵprd(512, null, i2.ɵNgClassImpl, i2.ɵNgClassR2Impl, [i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer2]), i1.ɵdid(3, 278528, null, 0, i2.NgClass, [i2.ɵNgClassImpl], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), i1.ɵpod(4, { "nv-file-over": 0 }), i1.ɵdid(5, 16384, null, 0, i3.FileDropDirective, [i1.ElementRef], { uploader: [0, "uploader"] }, { fileOver: "fileOver", onFileDrop: "onFileDrop" }), (_l()(), i1.ɵeld(6, 0, null, null, 1, "input", [["accept", "image/*"], ["id", "file-upload"], ["name", "photo"], ["ng2FileSelect", ""], ["type", "file"]], null, [[null, "change"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("change" === en)) {
         var pd_0 = (i1.ɵnov(_v, 7).onChange() !== false);
         ad = (pd_0 && ad);
     } if (("change" === en)) {
         var pd_1 = (_co.uploader.uploadAll() !== false);
         ad = (pd_1 && ad);
-    } return ad; }, null, null)), i1.ɵdid(7, 16384, null, 0, i6.FileSelectDirective, [i1.ElementRef], { uploader: [0, "uploader"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_3 = "primary"; _ck(_v, 4, 0, currVal_3); var currVal_4 = _co.uploader; _ck(_v, 7, 0, currVal_4); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = (_co.imgUrl ? _co.imgUrl : "assets/images/img-placeholder.svg"); _ck(_v, 1, 0, currVal_0); var currVal_1 = (i1.ɵnov(_v, 4).disabled || null); var currVal_2 = (i1.ɵnov(_v, 4)._animationMode === "NoopAnimations"); _ck(_v, 3, 0, currVal_1, currVal_2); }); }
+    } return ad; }, null, null)), i1.ɵdid(7, 16384, null, 0, i4.FileSelectDirective, [i1.ElementRef], { uploader: [0, "uploader"] }, null), (_l()(), i1.ɵeld(8, 0, null, null, 8, "p", [["class", "text-center m-0 p-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 1, "span", [["class", "mb-3 d-block"]], null, null, null, null, null)), (_l()(), i1.ɵeld(10, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_image.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(11, 0, null, null, 1, "span", [["class", "mb-2 d-block"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Drag and drop photo here "])), (_l()(), i1.ɵeld(13, 0, null, null, 1, "span", [["class", "mb-2 d-block"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" or "])), (_l()(), i1.ɵeld(15, 0, null, null, 1, "span", [["class", "browse"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.clickHandler() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), (_l()(), i1.ɵted(-1, null, ["browse"]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = "well my-drop-zone"; var currVal_1 = _ck(_v, 4, 0, _co.hasBaseDropZoneOver); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = _co.uploader; _ck(_v, 5, 0, currVal_2); var currVal_3 = _co.uploader; _ck(_v, 7, 0, currVal_3); }, null); }
 exports.View_ImageUploaderComponent_0 = View_ImageUploaderComponent_0;
-function View_ImageUploaderComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-image-uploader", [], null, null, null, View_ImageUploaderComponent_0, RenderType_ImageUploaderComponent)), i1.ɵdid(1, 114688, null, 0, i7.ImageUploaderComponent, [i8.ImageService, i1.ElementRef], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_ImageUploaderComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-image-uploader", [], null, null, null, View_ImageUploaderComponent_0, RenderType_ImageUploaderComponent)), i1.ɵdid(1, 114688, null, 0, i5.ImageUploaderComponent, [i6.ImageService, i1.ElementRef], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_ImageUploaderComponent_Host_0 = View_ImageUploaderComponent_Host_0;
-var ImageUploaderComponentNgFactory = i1.ɵccf("app-image-uploader", i7.ImageUploaderComponent, View_ImageUploaderComponent_Host_0, { imgUrl: "imgUrl" }, { imgChange: "imgChange" }, []);
+var ImageUploaderComponentNgFactory = i1.ɵccf("app-image-uploader", i5.ImageUploaderComponent, View_ImageUploaderComponent_Host_0, { imgUrl: "imgUrl" }, { imgChange: "imgChange" }, []);
 exports.ImageUploaderComponentNgFactory = ImageUploaderComponentNgFactory;
 
 
@@ -793,7 +810,7 @@ exports.ImageUploaderComponentNgFactory = ImageUploaderComponentNgFactory;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [".mat-mini-fab.mat-primary[_ngcontent-%COMP%] {\n  color: #fff;\n  box-shadow: 0px 3px 5px -1px rgba(0, 147, 154, 0.2), 0px 6px 10px 0px rgba(0, 147, 154, 0.14), 0px 1px 18px 0px rgba(0, 147, 154, 0.12);\n}\n\n#file-upload[_ngcontent-%COMP%] {\n  display: none;\n}\n\n.circle[_ngcontent-%COMP%] {\n  width: 180px;\n  position: relative;\n}\n\nimg[_ngcontent-%COMP%] {\n  width: 180px;\n  height: 180px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 10px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  background-color: #eee;\n}\n\n.p-image[_ngcontent-%COMP%] {\n  position: absolute;\n  right: -10px;\n  bottom: -10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tbW9uL2ltYWdlLXVwbG9hZGVyL0U6XFxVcHdvcmtcXENvbGxlY3RpdmUgUGVvcGxlXFxmcm9udC1lbmQvc3JjXFxhcHBcXGNvbW1vblxcaW1hZ2UtdXBsb2FkZXJcXGltYWdlLXVwbG9hZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21tb24vaW1hZ2UtdXBsb2FkZXIvaW1hZ2UtdXBsb2FkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFBO0VBQ0EsdUlBQUE7QUNDRjs7QURJQTtFQUNFLGFBQUE7QUNERjs7QURHQTtFQUNFLFlBQUE7RUFDQSxrQkFBQTtBQ0FGOztBREVBO0VBQ0UsWUFBQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtLQUFBLG1CQUFBO0VBQ0EsbUJBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0VBQ0Esc0JBQUE7QUNDRjs7QURDQTtFQUNFLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7QUNFRiIsImZpbGUiOiJzcmMvYXBwL2NvbW1vbi9pbWFnZS11cGxvYWRlci9pbWFnZS11cGxvYWRlci5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5tYXQtbWluaS1mYWIubWF0LXByaW1hcnkge1xyXG4gIGNvbG9yOiAjZmZmO1xyXG4gIGJveC1zaGFkb3c6IDBweCAzcHggNXB4IC0xcHggcmdiYSgwLCAxNDcsIDE1NCwgMC4yKSxcclxuICAgIDBweCA2cHggMTBweCAwcHggcmdiYSgwLCAxNDcsIDE1NCwgMC4xNCksXHJcbiAgICAwcHggMXB4IDE4cHggMHB4IHJnYmEoMCwgMTQ3LCAxNTQsIDAuMTIpO1xyXG59XHJcblxyXG4jZmlsZS11cGxvYWQge1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuLmNpcmNsZSB7XHJcbiAgd2lkdGg6IDE4MHB4O1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5pbWcge1xyXG4gIHdpZHRoOiAxODBweDtcclxuICBoZWlnaHQ6IDE4MHB4O1xyXG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XHJcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuICBvYmplY3QtZml0OiBjb3ZlcjtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZWVlO1xyXG59XHJcbi5wLWltYWdlIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgcmlnaHQ6IC0xMHB4O1xyXG4gIGJvdHRvbTogLTEwcHg7XHJcbn1cclxuIiwiLm1hdC1taW5pLWZhYi5tYXQtcHJpbWFyeSB7XG4gIGNvbG9yOiAjZmZmO1xuICBib3gtc2hhZG93OiAwcHggM3B4IDVweCAtMXB4IHJnYmEoMCwgMTQ3LCAxNTQsIDAuMiksIDBweCA2cHggMTBweCAwcHggcmdiYSgwLCAxNDcsIDE1NCwgMC4xNCksIDBweCAxcHggMThweCAwcHggcmdiYSgwLCAxNDcsIDE1NCwgMC4xMik7XG59XG5cbiNmaWxlLXVwbG9hZCB7XG4gIGRpc3BsYXk6IG5vbmU7XG59XG5cbi5jaXJjbGUge1xuICB3aWR0aDogMTgwcHg7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuaW1nIHtcbiAgd2lkdGg6IDE4MHB4O1xuICBoZWlnaHQ6IDE4MHB4O1xuICBvYmplY3QtZml0OiBjb250YWluO1xuICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICBvYmplY3QtZml0OiBjb3ZlcjtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcbn1cblxuLnAtaW1hZ2Uge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIHJpZ2h0OiAtMTBweDtcbiAgYm90dG9tOiAtMTBweDtcbn0iXX0= */"];
+var styles = ["#file-upload[_ngcontent-%COMP%] {\n  display: none;\n}\n\n.circle[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n.my-drop-zone[_ngcontent-%COMP%] {\n  border: 1px dashed #ced4da;\n}\n\n.nv-file-over[_ngcontent-%COMP%] {\n  border: 1px dashed #4a90e2;\n}\n\n.browse[_ngcontent-%COMP%] {\n  color: #4a90e2;\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tbW9uL2ltYWdlLXVwbG9hZGVyL0U6XFxVcHdvcmtcXENvbGxlY3RpdmUgUGVvcGxlXFxmcm9udC1lbmQvc3JjXFxhcHBcXGNvbW1vblxcaW1hZ2UtdXBsb2FkZXJcXGltYWdlLXVwbG9hZGVyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21tb24vaW1hZ2UtdXBsb2FkZXIvaW1hZ2UtdXBsb2FkZXIuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFBO0FDQ0Y7O0FEQ0E7RUFDRSxXQUFBO0FDRUY7O0FEQ0E7RUFDRSwwQkFBQTtBQ0VGOztBREFBO0VBQ0UsMEJBQUE7QUNHRjs7QURBQTtFQUNFLGNBQUE7RUFDQSxlQUFBO0FDR0YiLCJmaWxlIjoic3JjL2FwcC9jb21tb24vaW1hZ2UtdXBsb2FkZXIvaW1hZ2UtdXBsb2FkZXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjZmlsZS11cGxvYWQge1xyXG4gIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuLmNpcmNsZSB7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbn1cclxuXHJcbi5teS1kcm9wLXpvbmUge1xyXG4gIGJvcmRlcjogMXB4IGRhc2hlZCAjY2VkNGRhO1xyXG59XHJcbi5udi1maWxlLW92ZXIge1xyXG4gIGJvcmRlcjogMXB4IGRhc2hlZCAjNGE5MGUyO1xyXG59XHJcblxyXG4uYnJvd3NlIHtcclxuICBjb2xvcjogIzRhOTBlMjtcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuIiwiI2ZpbGUtdXBsb2FkIHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuLmNpcmNsZSB7XG4gIHdpZHRoOiAxMDAlO1xufVxuXG4ubXktZHJvcC16b25lIHtcbiAgYm9yZGVyOiAxcHggZGFzaGVkICNjZWQ0ZGE7XG59XG5cbi5udi1maWxlLW92ZXIge1xuICBib3JkZXI6IDFweCBkYXNoZWQgIzRhOTBlMjtcbn1cblxuLmJyb3dzZSB7XG4gIGNvbG9yOiAjNGE5MGUyO1xuICBjdXJzb3I6IHBvaW50ZXI7XG59Il19 */"];
 exports.styles = styles;
 
 
@@ -812,12 +829,30 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 const ng2_file_upload_1 = __webpack_require__(/*! ng2-file-upload/ng2-file-upload */ "ng2-file-upload/ng2-file-upload");
 const baseurl_1 = __webpack_require__(/*! src/app/shared/baseurl */ "./src/app/shared/baseurl.ts");
+function readBase64(file) {
+    var reader = new FileReader();
+    var future = new Promise((resolve, reject) => {
+        reader.addEventListener("load", function () {
+            resolve(reader.result);
+        }, false);
+        reader.addEventListener("error", function (event) {
+            reject(event);
+        }, false);
+        reader.readAsDataURL(file);
+    });
+    return future;
+}
 const URL = baseurl_1.baseURL + "upload";
 class ImageUploaderComponent {
+    // public uploader:FileUploader = new FileUploader({
+    //   url: URL,
+    //   disableMultipart:true
+    //   });
     constructor(imageService, el) {
         this.imageService = imageService;
         this.el = el;
         this.imgChange = new core_1.EventEmitter();
+        this.hasBaseDropZoneOver = false;
         this.uploader = new ng2_file_upload_1.FileUploader({
             url: URL,
             itemAlias: "photo"
@@ -849,6 +884,9 @@ class ImageUploaderComponent {
     }
     clickHandler() {
         document.getElementById("file-upload").click();
+    }
+    fileOverBase(e) {
+        this.hasBaseDropZoneOver = e;
     }
 }
 exports.ImageUploaderComponent = ImageUploaderComponent;
@@ -903,30 +941,51 @@ exports.ImageService = ImageService;
 Object.defineProperty(exports, "__esModule", { value: true });
 const i0 = __webpack_require__(/*! ./navbar.component.scss.shim.ngstyle */ "./src/app/common/navbar/navbar.component.scss.shim.ngstyle.js");
 const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
-const i2 = __webpack_require__(/*! @angular/router */ "@angular/router");
-const i3 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i4 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
-const i5 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
-const i6 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
-const i7 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
-const i8 = __webpack_require__(/*! ./navbar.component */ "./src/app/common/navbar/navbar.component.ts");
+const i2 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i3 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i4 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i5 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i6 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i7 = __webpack_require__(/*! @angular/router */ "@angular/router");
+const i8 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i9 = __webpack_require__(/*! ./navbar.component */ "./src/app/common/navbar/navbar.component.ts");
 var styles_NavbarComponent = [i0.styles];
 var RenderType_NavbarComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_NavbarComponent, data: {} });
 exports.RenderType_NavbarComponent = RenderType_NavbarComponent;
-function View_NavbarComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 8, "nav", [["class", "navbar navbar-dark bg-dark mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 7, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 2, "a", [["class", "navbar-brand font-weight-bold"], ["routerLink", "/profile/list"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 3).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+function View_NavbarComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 5, "input", [["class", "form-control"], ["id", "name"], ["placeholder", "Search by name or by skills"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "keydown.enter"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 2)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), i1.ɵdid(3, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵted(-1, null, ["the collective"])), (_l()(), i1.ɵeld(5, 0, null, null, 3, "a", [["class", "text-white nav-item nav-link"], ["mat-button", ""], ["routerLink", "/profile/list"]], [[1, "target", 0], [8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 6).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
-        ad = (pd_0 && ad);
-    } if (("click" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 7)._haltDisabledEvents($event) !== false);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 2).onTouched() !== false);
         ad = (pd_1 && ad);
-    } return ad; }, i4.View_MatAnchor_0, i4.RenderType_MatAnchor)), i1.ɵdid(6, 671744, null, 0, i2.RouterLinkWithHref, [i2.Router, i2.ActivatedRoute, i3.LocationStrategy], { routerLink: [0, "routerLink"] }, null), i1.ɵdid(7, 180224, null, 0, i5.MatAnchor, [i6.FocusMonitor, i1.ElementRef, [2, i7.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵted(-1, 0, ["Profile List"]))], function (_ck, _v) { var currVal_2 = "/profile/list"; _ck(_v, 3, 0, currVal_2); var currVal_9 = "/profile/list"; _ck(_v, 6, 0, currVal_9); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 3).target; var currVal_1 = i1.ɵnov(_v, 3).href; _ck(_v, 2, 0, currVal_0, currVal_1); var currVal_3 = i1.ɵnov(_v, 6).target; var currVal_4 = i1.ɵnov(_v, 6).href; var currVal_5 = (i1.ɵnov(_v, 7).disabled ? (0 - 1) : (i1.ɵnov(_v, 7).tabIndex || 0)); var currVal_6 = (i1.ɵnov(_v, 7).disabled || null); var currVal_7 = i1.ɵnov(_v, 7).disabled.toString(); var currVal_8 = (i1.ɵnov(_v, 7)._animationMode === "NoopAnimations"); _ck(_v, 5, 0, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); }); }
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 2)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 2)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.searchQuery = $event) !== false);
+        ad = (pd_4 && ad);
+    } if (("keydown.enter" === en)) {
+        var pd_5 = (_co.onSeachBtnClick() !== false);
+        ad = (pd_5 && ad);
+    } return ad; }, null, null)), i1.ɵdid(2, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i2.DefaultValueAccessor]), i1.ɵdid(4, 671744, null, 0, i2.NgModel, [[8, null], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(6, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null), (_l()(), i1.ɵeld(7, 0, null, null, 3, "div", [["class", "input-group-append"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 2, "button", [["class", "btn search-btn"], ["mat-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.onSeachBtnClick() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i3.View_MatButton_0, i3.RenderType_MatButton)), i1.ɵdid(9, 180224, null, 0, i4.MatButton, [i1.ElementRef, i5.FocusMonitor, [2, i6.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(10, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_search.svg"]], null, null, null, null, null))], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.searchQuery; _ck(_v, 4, 0, currVal_7); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 6).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 6).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 6).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 6).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 6).ngClassValid; var currVal_5 = i1.ɵnov(_v, 6).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 6).ngClassPending; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_8 = (i1.ɵnov(_v, 9).disabled || null); var currVal_9 = (i1.ɵnov(_v, 9)._animationMode === "NoopAnimations"); _ck(_v, 8, 0, currVal_8, currVal_9); }); }
+function View_NavbarComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 5, "button", [["class", " nav-item nav-link"], ["color", "primary"], ["mat-raised-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.addExpert() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i3.View_MatButton_0, i3.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i4.MatButton, [i1.ElementRef, i5.FocusMonitor, [2, i6.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵeld(2, 0, null, 0, 3, "span", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 0, "i", [["class", "fas fa-plus mr-2"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["New Expert"]))], function (_ck, _v) { var currVal_2 = "primary"; _ck(_v, 1, 0, currVal_2); }, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_NavbarComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "container-fluid"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 9, "nav", [["class", "navbar navbar-light bg-white"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 6, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 3, "a", [["class", "navbar-brand font-weight-bold mr-5"], ["routerLink", "/profile/list"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 4).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), i1.ɵdid(4, 671744, null, 0, i7.RouterLinkWithHref, [i7.Router, i7.ActivatedRoute, i8.LocationStrategy], { routerLink: [0, "routerLink"] }, null), (_l()(), i1.ɵeld(5, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/logo.png"], ["width", "80"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" the collective "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NavbarComponent_1)), i1.ɵdid(8, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NavbarComponent_2)), i1.ɵdid(10, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_2 = "/profile/list"; _ck(_v, 4, 0, currVal_2); var currVal_3 = _co.isProfileList; _ck(_v, 8, 0, currVal_3); var currVal_4 = _co.isProfileList; _ck(_v, 10, 0, currVal_4); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 4).target; var currVal_1 = i1.ɵnov(_v, 4).href; _ck(_v, 3, 0, currVal_0, currVal_1); }); }
 exports.View_NavbarComponent_0 = View_NavbarComponent_0;
-function View_NavbarComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-navbar", [], null, null, null, View_NavbarComponent_0, RenderType_NavbarComponent)), i1.ɵdid(1, 114688, null, 0, i8.NavbarComponent, [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_NavbarComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-navbar", [], null, null, null, View_NavbarComponent_0, RenderType_NavbarComponent)), i1.ɵdid(1, 114688, null, 0, i9.NavbarComponent, [i7.Router], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_NavbarComponent_Host_0 = View_NavbarComponent_Host_0;
-var NavbarComponentNgFactory = i1.ɵccf("app-navbar", i8.NavbarComponent, View_NavbarComponent_Host_0, {}, {}, []);
+var NavbarComponentNgFactory = i1.ɵccf("app-navbar", i9.NavbarComponent, View_NavbarComponent_Host_0, {}, { addExpertEvent: "addExpertEvent", search: "search" }, []);
 exports.NavbarComponentNgFactory = NavbarComponentNgFactory;
 
 
@@ -948,7 +1007,7 @@ exports.NavbarComponentNgFactory = NavbarComponentNgFactory;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbW1vbi9uYXZiYXIvbmF2YmFyLmNvbXBvbmVudC5zY3NzIn0= */"];
+var styles = [".btn.search-btn[_ngcontent-%COMP%] {\n  border: 1px solid #ced4da;\n  border-left: none;\n  min-width: 40px;\n  padding-left: 0;\n  padding-right: 0;\n}\n.btn.search-btn[_ngcontent-%COMP%]:focus {\n  outline: none;\n  box-shadow: none;\n}\n.btn.search-btn[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 18px;\n}\n.form-control[_ngcontent-%COMP%] {\n  border-right: none;\n  width: 330px;\n}\n.navbar.navbar-light.bg-white[_ngcontent-%COMP%] {\n  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1);\n  z-index: 1;\n}\n.navbar-brand[_ngcontent-%COMP%] {\n  width: 280px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tbW9uL25hdmJhci9FOlxcVXB3b3JrXFxDb2xsZWN0aXZlIFBlb3BsZVxcZnJvbnQtZW5kL3NyY1xcYXBwXFxjb21tb25cXG5hdmJhclxcbmF2YmFyLmNvbXBvbmVudC5zY3NzIiwic3JjL2FwcC9jb21tb24vbmF2YmFyL25hdmJhci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxlQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0FDQ0Y7QURBRTtFQUNFLGFBQUE7RUFDQSxnQkFBQTtBQ0VKO0FEQUU7RUFDRSxXQUFBO0FDRUo7QURFQTtFQUNFLGtCQUFBO0VBQ0EsWUFBQTtBQ0NGO0FEQ0E7RUFHRSw4Q0FBQTtFQUNBLFVBQUE7QUNFRjtBRENBO0VBQ0UsWUFBQTtBQ0VGIiwiZmlsZSI6InNyYy9hcHAvY29tbW9uL25hdmJhci9uYXZiYXIuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYnRuLnNlYXJjaC1idG4ge1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICNjZWQ0ZGE7XHJcbiAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgbWluLXdpZHRoOiA0MHB4O1xyXG4gIHBhZGRpbmctbGVmdDogMDtcclxuICBwYWRkaW5nLXJpZ2h0OiAwO1xyXG4gICY6Zm9jdXMge1xyXG4gICAgb3V0bGluZTogbm9uZTtcclxuICAgIGJveC1zaGFkb3c6IG5vbmU7XHJcbiAgfVxyXG4gIGltZyB7XHJcbiAgICB3aWR0aDogMThweDtcclxuICB9XHJcbn1cclxuXHJcbi5mb3JtLWNvbnRyb2wge1xyXG4gIGJvcmRlci1yaWdodDogbm9uZTtcclxuICB3aWR0aDogMzMwcHg7XHJcbn1cclxuLm5hdmJhci5uYXZiYXItbGlnaHQuYmctd2hpdGUge1xyXG4gIC13ZWJraXQtYm94LXNoYWRvdzogMHB4IDFweCAzcHggMHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcclxuICAtbW96LWJveC1zaGFkb3c6IDBweCAxcHggM3B4IDBweCByZ2JhKDAsIDAsIDAsIDAuMSk7XHJcbiAgYm94LXNoYWRvdzogMHB4IDFweCAzcHggMHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcclxuICB6LWluZGV4OiAxO1xyXG59XHJcblxyXG4ubmF2YmFyLWJyYW5kIHtcclxuICB3aWR0aDogMjgwcHg7XHJcbn1cclxuIiwiLmJ0bi5zZWFyY2gtYnRuIHtcbiAgYm9yZGVyOiAxcHggc29saWQgI2NlZDRkYTtcbiAgYm9yZGVyLWxlZnQ6IG5vbmU7XG4gIG1pbi13aWR0aDogNDBweDtcbiAgcGFkZGluZy1sZWZ0OiAwO1xuICBwYWRkaW5nLXJpZ2h0OiAwO1xufVxuLmJ0bi5zZWFyY2gtYnRuOmZvY3VzIHtcbiAgb3V0bGluZTogbm9uZTtcbiAgYm94LXNoYWRvdzogbm9uZTtcbn1cbi5idG4uc2VhcmNoLWJ0biBpbWcge1xuICB3aWR0aDogMThweDtcbn1cblxuLmZvcm0tY29udHJvbCB7XG4gIGJvcmRlci1yaWdodDogbm9uZTtcbiAgd2lkdGg6IDMzMHB4O1xufVxuXG4ubmF2YmFyLm5hdmJhci1saWdodC5iZy13aGl0ZSB7XG4gIC13ZWJraXQtYm94LXNoYWRvdzogMHB4IDFweCAzcHggMHB4IHJnYmEoMCwgMCwgMCwgMC4xKTtcbiAgLW1vei1ib3gtc2hhZG93OiAwcHggMXB4IDNweCAwcHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICBib3gtc2hhZG93OiAwcHggMXB4IDNweCAwcHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICB6LWluZGV4OiAxO1xufVxuXG4ubmF2YmFyLWJyYW5kIHtcbiAgd2lkdGg6IDI4MHB4O1xufSJdfQ== */"];
 exports.styles = styles;
 
 
@@ -965,9 +1024,27 @@ exports.styles = styles;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const router_1 = __webpack_require__(/*! @angular/router */ "@angular/router");
 class NavbarComponent {
-    constructor() { }
+    constructor(router) {
+        this.router = router;
+        this.addExpertEvent = new core_1.EventEmitter();
+        this.search = new core_1.EventEmitter();
+        this.isProfileList = false;
+    }
     ngOnInit() {
+        this.getRouteParams();
+    }
+    addExpert() {
+        this.addExpertEvent.emit();
+    }
+    getRouteParams() {
+        if (this.router.url == "/profile/list") {
+            this.isProfileList = true;
+        }
+    }
+    onSeachBtnClick() {
+        this.search.emit(this.searchQuery);
     }
 }
 exports.NavbarComponent = NavbarComponent;
@@ -1089,7 +1166,7 @@ function View_ForgetPasswordComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵ
 function View_ForgetPasswordComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "div", [["class", "invalid-feedback d-block"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Please Enter a Valid Email. "]))], null, null); }
 function View_ForgetPasswordComponent_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "div", [["class", "invalid-feedback d-block"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Email Is Required "]))], null, null); }
 function View_ForgetPasswordComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "div", [["class", "w-100"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ForgetPasswordComponent_4)), i1.ɵdid(2, 16384, null, 0, i2.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ForgetPasswordComponent_5)), i1.ɵdid(4, 16384, null, 0, i2.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = (_co.email.errors.email && _co.email.touched); _ck(_v, 2, 0, currVal_0); var currVal_1 = (_co.email.errors.required && _co.email.touched); _ck(_v, 4, 0, currVal_1); }, null); }
-function View_ForgetPasswordComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 35, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 34, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 33, "div", [["class", "col-6 offset-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 32, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 31, "div", [["class", "col-10 offset-1 d-flex align-items-center reset-password-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 30, "div", [["class", "page-container w-100 p-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "div", [["class", "logo-img mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/logo.png"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "h3", [["class", "text-center border-bottom pb-4 mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" the collective "])), (_l()(), i1.ɵeld(10, 0, null, null, 4, "p", [["class", "text-center mb-4 password-reset-letters"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Password Reset "])), (_l()(), i1.ɵeld(12, 0, null, null, 0, "br", [], null, null, null, null, null)), (_l()(), i1.ɵeld(13, 0, null, null, 1, "small", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Enter your email below "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ForgetPasswordComponent_1)), i1.ɵdid(16, 16384, null, 0, i2.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ForgetPasswordComponent_2)), i1.ɵdid(18, 16384, null, 0, i2.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(19, 0, null, null, 16, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngSubmit"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
+function View_ForgetPasswordComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 35, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 34, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 33, "div", [["class", "col-6 offset-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 32, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 31, "div", [["class", "col-10 offset-1 d-flex align-items-center reset-password-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 30, "div", [["class", "page-container login w-100 p-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "div", [["class", "logo-img mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/logo.png"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "h3", [["class", "text-center border-bottom pb-4 mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" the collective "])), (_l()(), i1.ɵeld(10, 0, null, null, 4, "p", [["class", "text-center mb-4 password-reset-letters"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Password Reset "])), (_l()(), i1.ɵeld(12, 0, null, null, 0, "br", [], null, null, null, null, null)), (_l()(), i1.ɵeld(13, 0, null, null, 1, "small", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Enter your email below "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ForgetPasswordComponent_1)), i1.ɵdid(16, 16384, null, 0, i2.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ForgetPasswordComponent_2)), i1.ɵdid(18, 16384, null, 0, i2.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(19, 0, null, null, 16, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngSubmit"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
         var pd_0 = (i1.ɵnov(_v, 21).onSubmit($event) !== false);
         ad = (pd_0 && ad);
     } if (("reset" === en)) {
@@ -1224,7 +1301,7 @@ var styles_LoginComponent = [i0.styles];
 var RenderType_LoginComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_LoginComponent, data: {} });
 exports.RenderType_LoginComponent = RenderType_LoginComponent;
 function View_LoginComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "div", [["class", "alert alert-danger"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Email or Password is incorrect "]))], null, null); }
-function View_LoginComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 38, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 37, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 36, "div", [["class", "col-6 offset-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 35, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 34, "div", [["class", "col-10 offset-1 d-flex align-items-center login-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 33, "div", [["class", "page-container w-100 p-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "div", [["class", "logo-img mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/logo.png"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "h3", [["class", "text-center border-bottom pb-4 mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" the collective "])), (_l()(), i1.ɵeld(10, 0, null, null, 1, "p", [["class", "text-center mb-4 login-letters"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Login "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_LoginComponent_1)), i1.ɵdid(13, 16384, null, 0, i2.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(14, 0, null, null, 24, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngSubmit"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
+function View_LoginComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 38, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 37, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 36, "div", [["class", "col-6 offset-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 35, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 34, "div", [["class", "col-10 offset-1 d-flex align-items-center login-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 33, "div", [["class", "page-container w-100 p-5 login"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "div", [["class", "logo-img mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/logo.png"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "h3", [["class", "text-center border-bottom pb-4 mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" the collective "])), (_l()(), i1.ɵeld(10, 0, null, null, 1, "p", [["class", "text-center mb-4 login-letters"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Login "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_LoginComponent_1)), i1.ɵdid(13, 16384, null, 0, i2.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(14, 0, null, null, 24, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngSubmit"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
         var pd_0 = (i1.ɵnov(_v, 16).onSubmit($event) !== false);
         ad = (pd_0 && ad);
     } if (("reset" === en)) {
@@ -1437,7 +1514,7 @@ const i9 = __webpack_require__(/*! ../login.service */ "./src/app/login/login.se
 var styles_ResetPasswordComponent = [i0.styles];
 var RenderType_ResetPasswordComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_ResetPasswordComponent, data: {} });
 exports.RenderType_ResetPasswordComponent = RenderType_ResetPasswordComponent;
-function View_ResetPasswordComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 29, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 28, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 27, "div", [["class", "col-6 offset-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 26, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 25, "div", [["class", "col-10 offset-1 d-flex align-items-center reset-password-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 24, "div", [["class", "page-container w-100 p-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "div", [["class", "logo-img mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/logo.png"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "h3", [["class", "text-center border-bottom pb-4 mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" the collective "])), (_l()(), i1.ɵeld(10, 0, null, null, 4, "p", [["class", "text-center mb-4 password-reset-letters"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Password Reset "])), (_l()(), i1.ɵeld(12, 0, null, null, 0, "br", [], null, null, null, null, null)), (_l()(), i1.ɵeld(13, 0, null, null, 1, "small", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Enter your new password "])), (_l()(), i1.ɵeld(15, 0, null, null, 14, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngSubmit"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
+function View_ResetPasswordComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 29, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 28, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 27, "div", [["class", "col-6 offset-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 26, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 25, "div", [["class", "col-10 offset-1 d-flex align-items-center reset-password-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 24, "div", [["class", "page-container login w-100 p-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "div", [["class", "logo-img mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/logo.png"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "h3", [["class", "text-center border-bottom pb-4 mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" the collective "])), (_l()(), i1.ɵeld(10, 0, null, null, 4, "p", [["class", "text-center mb-4 password-reset-letters"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Password Reset "])), (_l()(), i1.ɵeld(12, 0, null, null, 0, "br", [], null, null, null, null, null)), (_l()(), i1.ɵeld(13, 0, null, null, 1, "small", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Enter your new password "])), (_l()(), i1.ɵeld(15, 0, null, null, 14, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngSubmit"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
         var pd_0 = (i1.ɵnov(_v, 17).onSubmit($event) !== false);
         ad = (pd_0 && ad);
     } if (("reset" === en)) {
@@ -1539,6 +1616,818 @@ exports.ResetPasswordComponent = ResetPasswordComponent;
 
 /***/ }),
 
+/***/ "./src/app/phone/phone.service.ts":
+/*!****************************************!*\
+  !*** ./src/app/phone/phone.service.ts ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const operators_1 = __webpack_require__(/*! rxjs/operators */ "rxjs/operators");
+const i0 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i1 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
+class PhoneService {
+    constructor(http) {
+        this.http = http;
+    }
+    getPhoneCodes() {
+        let URL = "./codes.json";
+        return this.http.get(URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
+}
+PhoneService.ngInjectableDef = i0.ɵɵdefineInjectable({ factory: function PhoneService_Factory() { return new PhoneService(i0.ɵɵinject(i1.HttpClient)); }, token: PhoneService, providedIn: "root" });
+exports.PhoneService = PhoneService;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/add-profile/AddProfileDialog.ngfactory.js":
+/*!*******************************************************************!*\
+  !*** ./src/app/profile/add-profile/AddProfileDialog.ngfactory.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./add-profile.dialog.scss.shim.ngstyle */ "./src/app/profile/add-profile/add-profile.dialog.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! ../../../../node_modules/@angular/material/core/typings/index.ngfactory */ "./node_modules/@angular/material/core/typings/index.ngfactory.js");
+const i3 = __webpack_require__(/*! @angular/material/core */ "@angular/material/core");
+const i4 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i5 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i6 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i7 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i8 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i9 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i10 = __webpack_require__(/*! @angular/material/autocomplete */ "@angular/material/autocomplete");
+const i11 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
+const i12 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
+const i13 = __webpack_require__(/*! @angular/cdk/scrolling */ "@angular/cdk/scrolling");
+const i14 = __webpack_require__(/*! ../../../../node_modules/@angular/material/autocomplete/typings/index.ngfactory */ "./node_modules/@angular/material/autocomplete/typings/index.ngfactory.js");
+const i15 = __webpack_require__(/*! ../../common/image-uploader/image-uploader.component.ngfactory */ "./src/app/common/image-uploader/image-uploader.component.ngfactory.js");
+const i16 = __webpack_require__(/*! ../../common/image-uploader/image-uploader.component */ "./src/app/common/image-uploader/image-uploader.component.ts");
+const i17 = __webpack_require__(/*! ../../common/image-uploader/image.service */ "./src/app/common/image-uploader/image.service.ts");
+const i18 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+const i19 = __webpack_require__(/*! ./AddProfileDialog */ "./src/app/profile/add-profile/AddProfileDialog.ts");
+const i20 = __webpack_require__(/*! ../../services/superpower.service */ "./src/app/services/superpower.service.ts");
+const i21 = __webpack_require__(/*! ../../services/weakness.service */ "./src/app/services/weakness.service.ts");
+const i22 = __webpack_require__(/*! ../../phone/phone.service */ "./src/app/phone/phone.service.ts");
+var styles_AddProfileDialog = [i0.styles];
+var RenderType_AddProfileDialog = i1.ɵcrt({ encapsulation: 0, styles: styles_AddProfileDialog, data: {} });
+exports.RenderType_AddProfileDialog = RenderType_AddProfileDialog;
+function View_AddProfileDialog_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 3, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onSuperpowerEnter($event, _v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i2.View_MatOption_0, i2.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[1, 4]], 0, i3.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i3.MAT_OPTION_PARENT_COMPONENT], [2, i3.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(3, null, ["", ""]))], null, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _v.context.$implicit.name; _ck(_v, 3, 0, currVal_8); }); }
+function View_AddProfileDialog_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onSuperpowerEnter($event) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i2.View_MatOption_0, i2.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[1, 4]], 0, i3.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i3.MAT_OPTION_PARENT_COMPONENT], [2, i3.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 1, "span", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Add "])), (_l()(), i1.ɵted(4, 0, [" \"", "\" "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _co.superpowerQuery; _ck(_v, 4, 0, currVal_8); }); }
+function View_AddProfileDialog_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "border mr-2 mb-2 d-flex align-items-center char-span"]], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "])), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-times ml-3"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.removeSuperpower(_v.context.$implicit) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
+function View_AddProfileDialog_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 3, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onWeeknessEnter($event, _v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i2.View_MatOption_0, i2.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[3, 4]], 0, i3.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i3.MAT_OPTION_PARENT_COMPONENT], [2, i3.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(3, null, ["", ""]))], null, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _v.context.$implicit.name; _ck(_v, 3, 0, currVal_8); }); }
+function View_AddProfileDialog_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onWeeknessEnter($event) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i2.View_MatOption_0, i2.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[3, 4]], 0, i3.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i3.MAT_OPTION_PARENT_COMPONENT], [2, i3.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 1, "span", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Add "])), (_l()(), i1.ɵted(4, 0, [" \"", "\" "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _co.weaknessQuery; _ck(_v, 4, 0, currVal_8); }); }
+function View_AddProfileDialog_6(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "border mr-2 mb-2 d-flex align-items-center char-span"]], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "])), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-times ml-3"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.removeSuperpower(_v.context.$implicit) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
+function View_AddProfileDialog_7(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "mb-3 text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 0, "i", [["class", "far fa-image mr-1"]], null, null, null, null, null)), (_l()(), i1.ɵted(2, null, [" ", "\n"]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.setProfileImageName(); _ck(_v, 2, 0, currVal_0); }); }
+function View_AddProfileDialog_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 5, "div", [["class", "d-flex justify-content-between diolog-title align-items-center border-bottom mb-3 py-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "p", [["class", "font-weight-bold mb-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Add Expert "])), (_l()(), i1.ɵeld(3, 0, null, null, 2, "button", [["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.onNoClick() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(4, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(5, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_close.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 9, "div", [["class", "input-group input-with-img mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_name.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(10, 0, null, null, 5, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["id", "name"], ["placeholder", "Name"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 11)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 11).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 11)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 11)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.name = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(11, 16384, null, 0, i8.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i8.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i8.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i8.DefaultValueAccessor]), i1.ɵdid(13, 671744, null, 0, i8.NgModel, [[8, null], [8, null], [8, null], [6, i8.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i8.NgControl, null, [i8.NgModel]), i1.ɵdid(15, 16384, null, 0, i8.NgControlStatus, [[4, i8.NgControl]], null, null), (_l()(), i1.ɵeld(16, 0, null, null, 9, "div", [["class", "input-group input-with-img mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(17, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(18, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵeld(19, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_email.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(20, 0, null, null, 5, "input", [["class", "form-control"], ["id", "email"], ["placeholder", "Email"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 21)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 21).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 21)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 21)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.email.value = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(21, 16384, null, 0, i8.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i8.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i8.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i8.DefaultValueAccessor]), i1.ɵdid(23, 671744, null, 0, i8.NgModel, [[8, null], [8, null], [8, null], [6, i8.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i8.NgControl, null, [i8.NgModel]), i1.ɵdid(25, 16384, null, 0, i8.NgControlStatus, [[4, i8.NgControl]], null, null), (_l()(), i1.ɵeld(26, 0, null, null, 9, "div", [["class", "input-group input-with-img mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(27, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(28, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵeld(29, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_phone.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(30, 0, null, null, 5, "input", [["class", "form-control"], ["id", "phone"], ["placeholder", "Phone"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 31)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 31).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 31)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 31)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.phone.value = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(31, 16384, null, 0, i8.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i8.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i8.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i8.DefaultValueAccessor]), i1.ɵdid(33, 671744, null, 0, i8.NgModel, [[8, null], [8, null], [8, null], [6, i8.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i8.NgControl, null, [i8.NgModel]), i1.ɵdid(35, 16384, null, 0, i8.NgControlStatus, [[4, i8.NgControl]], null, null), (_l()(), i1.ɵeld(36, 0, null, null, 9, "div", [["class", "input-group"]], null, null, null, null, null)), i1.ɵprd(512, null, i9.ɵNgClassImpl, i9.ɵNgClassR2Impl, [i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer2]), i1.ɵdid(38, 278528, null, 0, i9.NgClass, [i9.ɵNgClassImpl], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), (_l()(), i1.ɵeld(39, 16777216, null, null, 6, "input", [["class", "form-control"], ["matInput", ""], ["placeholder", "Superpowers"]], [[1, "autocomplete", 0], [1, "role", 0], [1, "aria-autocomplete", 0], [1, "aria-activedescendant", 0], [1, "aria-expanded", 0], [1, "aria-owns", 0], [1, "aria-haspopup", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "focusin"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 40)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 40).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 40)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 40)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("focusin" === en)) {
+        var pd_4 = (i1.ɵnov(_v, 41)._handleFocus() !== false);
+        ad = (pd_4 && ad);
+    } if (("blur" === en)) {
+        var pd_5 = (i1.ɵnov(_v, 41)._onTouched() !== false);
+        ad = (pd_5 && ad);
+    } if (("input" === en)) {
+        var pd_6 = (i1.ɵnov(_v, 41)._handleInput($event) !== false);
+        ad = (pd_6 && ad);
+    } if (("keydown" === en)) {
+        var pd_7 = (i1.ɵnov(_v, 41)._handleKeydown($event) !== false);
+        ad = (pd_7 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_8 = ((_co.superpowerQuery = $event) !== false);
+        ad = (pd_8 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_9 = (_co.searchSuperpowers($event) !== false);
+        ad = (pd_9 && ad);
+    } return ad; }, null, null)), i1.ɵdid(40, 16384, null, 0, i8.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i8.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵdid(41, 671744, null, 0, i10.MatAutocompleteTrigger, [i1.ElementRef, i11.Overlay, i1.ViewContainerRef, i1.NgZone, i1.ChangeDetectorRef, i10.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, [2, i12.Directionality], [8, null], [2, i9.DOCUMENT], i13.ViewportRuler], { autocomplete: [0, "autocomplete"] }, null), i1.ɵprd(1024, null, i8.NG_VALUE_ACCESSOR, function (p0_0, p1_0) { return [p0_0, p1_0]; }, [i8.DefaultValueAccessor, i10.MatAutocompleteTrigger]), i1.ɵdid(43, 671744, null, 0, i8.NgModel, [[8, null], [8, null], [8, null], [6, i8.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i8.NgControl, null, [i8.NgModel]), i1.ɵdid(45, 16384, null, 0, i8.NgControlStatus, [[4, i8.NgControl]], null, null), (_l()(), i1.ɵeld(46, 0, null, null, 8, "mat-autocomplete", [["class", "mat-autocomplete"]], null, null, null, i14.View_MatAutocomplete_0, i14.RenderType_MatAutocomplete)), i1.ɵprd(6144, null, i3.MAT_OPTION_PARENT_COMPONENT, null, [i10.MatAutocomplete]), i1.ɵdid(48, 1097728, [["auto", 4]], 2, i10.MatAutocomplete, [i1.ChangeDetectorRef, i1.ElementRef, i10.MAT_AUTOCOMPLETE_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 1, { options: 1 }), i1.ɵqud(603979776, 2, { optionGroups: 1 }), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AddProfileDialog_1)), i1.ɵdid(52, 278528, null, 0, i9.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AddProfileDialog_2)), i1.ɵdid(54, 16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(55, 0, null, null, 2, "div", [["class", "d-flex flex-wrap"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_AddProfileDialog_3)), i1.ɵdid(57, 278528, null, 0, i9.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(58, 0, null, null, 9, "div", [["class", "input-group"]], null, null, null, null, null)), i1.ɵprd(512, null, i9.ɵNgClassImpl, i9.ɵNgClassR2Impl, [i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer2]), i1.ɵdid(60, 278528, null, 0, i9.NgClass, [i9.ɵNgClassImpl], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), (_l()(), i1.ɵeld(61, 16777216, null, null, 6, "input", [["class", "form-control"], ["matInput", ""], ["placeholder", "Weaknesses"]], [[1, "autocomplete", 0], [1, "role", 0], [1, "aria-autocomplete", 0], [1, "aria-activedescendant", 0], [1, "aria-expanded", 0], [1, "aria-owns", 0], [1, "aria-haspopup", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "focusin"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 62)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 62).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 62)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 62)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("focusin" === en)) {
+        var pd_4 = (i1.ɵnov(_v, 63)._handleFocus() !== false);
+        ad = (pd_4 && ad);
+    } if (("blur" === en)) {
+        var pd_5 = (i1.ɵnov(_v, 63)._onTouched() !== false);
+        ad = (pd_5 && ad);
+    } if (("input" === en)) {
+        var pd_6 = (i1.ɵnov(_v, 63)._handleInput($event) !== false);
+        ad = (pd_6 && ad);
+    } if (("keydown" === en)) {
+        var pd_7 = (i1.ɵnov(_v, 63)._handleKeydown($event) !== false);
+        ad = (pd_7 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_8 = ((_co.weaknessQuery = $event) !== false);
+        ad = (pd_8 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_9 = (_co.searchWeaknesses($event) !== false);
+        ad = (pd_9 && ad);
+    } return ad; }, null, null)), i1.ɵdid(62, 16384, null, 0, i8.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i8.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵdid(63, 671744, null, 0, i10.MatAutocompleteTrigger, [i1.ElementRef, i11.Overlay, i1.ViewContainerRef, i1.NgZone, i1.ChangeDetectorRef, i10.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, [2, i12.Directionality], [8, null], [2, i9.DOCUMENT], i13.ViewportRuler], { autocomplete: [0, "autocomplete"] }, null), i1.ɵprd(1024, null, i8.NG_VALUE_ACCESSOR, function (p0_0, p1_0) { return [p0_0, p1_0]; }, [i8.DefaultValueAccessor, i10.MatAutocompleteTrigger]), i1.ɵdid(65, 671744, null, 0, i8.NgModel, [[8, null], [8, null], [8, null], [6, i8.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i8.NgControl, null, [i8.NgModel]), i1.ɵdid(67, 16384, null, 0, i8.NgControlStatus, [[4, i8.NgControl]], null, null), (_l()(), i1.ɵeld(68, 0, null, null, 8, "mat-autocomplete", [["class", "mat-autocomplete"]], null, null, null, i14.View_MatAutocomplete_0, i14.RenderType_MatAutocomplete)), i1.ɵprd(6144, null, i3.MAT_OPTION_PARENT_COMPONENT, null, [i10.MatAutocomplete]), i1.ɵdid(70, 1097728, [["weakness", 4]], 2, i10.MatAutocomplete, [i1.ChangeDetectorRef, i1.ElementRef, i10.MAT_AUTOCOMPLETE_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 3, { options: 1 }), i1.ɵqud(603979776, 4, { optionGroups: 1 }), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AddProfileDialog_4)), i1.ɵdid(74, 278528, null, 0, i9.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_AddProfileDialog_5)), i1.ɵdid(76, 16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(77, 0, null, null, 2, "div", [["class", "d-flex flex-wrap"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_AddProfileDialog_6)), i1.ɵdid(79, 278528, null, 0, i9.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(80, 0, null, null, 6, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(81, 0, null, null, 5, "textarea", [["class", "form-control"], ["id", "bio"], ["placeholder", "Bio"], ["rows", "4"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 82)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 82).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 82)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 82)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.bio = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(82, 16384, null, 0, i8.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i8.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i8.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i8.DefaultValueAccessor]), i1.ɵdid(84, 671744, null, 0, i8.NgModel, [[8, null], [8, null], [8, null], [6, i8.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i8.NgControl, null, [i8.NgModel]), i1.ɵdid(86, 16384, null, 0, i8.NgControlStatus, [[4, i8.NgControl]], null, null), (_l()(), i1.ɵeld(87, 0, null, null, 2, "div", [["class", "mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(88, 0, null, null, 1, "app-image-uploader", [], null, [[null, "imgChange"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("imgChange" === en)) {
+        var pd_0 = ((_co.data.profileImg = $event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i15.View_ImageUploaderComponent_0, i15.RenderType_ImageUploaderComponent)), i1.ɵdid(89, 114688, null, 0, i16.ImageUploaderComponent, [i17.ImageService, i1.ElementRef], null, { imgChange: "imgChange" }), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_AddProfileDialog_7)), i1.ɵdid(91, 16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(92, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(93, 0, null, null, 3, "button", [["class", "w-100 py-1"], ["color", "primary"], ["mat-raised-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 95).dialogRef.close(i1.ɵnov(_v, 95).dialogResult) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(94, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), i1.ɵdid(95, 606208, null, 0, i18.MatDialogClose, [[2, i18.MatDialogRef], i1.ElementRef, i18.MatDialog], { dialogResult: [0, "dialogResult"] }, null), (_l()(), i1.ɵted(-1, 0, [" Submit "]))], function (_ck, _v) { var _co = _v.component; var currVal_9 = _co.data.name; _ck(_v, 13, 0, currVal_9); var currVal_17 = _co.data.email.value; _ck(_v, 23, 0, currVal_17); var currVal_25 = _co.data.phone.value; _ck(_v, 33, 0, currVal_25); var currVal_26 = "input-group"; var currVal_27 = ((_co.userSuperpowers.length > 0) ? "mb-2" : "mb-3"); _ck(_v, 38, 0, currVal_26, currVal_27); var currVal_42 = i1.ɵnov(_v, 48); _ck(_v, 41, 0, currVal_42); var currVal_43 = _co.superpowerQuery; _ck(_v, 43, 0, currVal_43); var currVal_44 = _co.superpowers; _ck(_v, 52, 0, currVal_44); var currVal_45 = _co.superpowerQuery; _ck(_v, 54, 0, currVal_45); var currVal_46 = _co.userSuperpowers; _ck(_v, 57, 0, currVal_46); var currVal_47 = "input-group"; var currVal_48 = ((_co.userWeaknesses.length > 0) ? "mb-2" : "mb-3"); _ck(_v, 60, 0, currVal_47, currVal_48); var currVal_63 = i1.ɵnov(_v, 70); _ck(_v, 63, 0, currVal_63); var currVal_64 = _co.weaknessQuery; _ck(_v, 65, 0, currVal_64); var currVal_65 = _co.weaknesses; _ck(_v, 74, 0, currVal_65); var currVal_66 = _co.weaknessQuery; _ck(_v, 76, 0, currVal_66); var currVal_67 = _co.userWeaknesses; _ck(_v, 79, 0, currVal_67); var currVal_75 = _co.data.bio; _ck(_v, 84, 0, currVal_75); _ck(_v, 89, 0); var currVal_76 = _co.data.profileImg; _ck(_v, 91, 0, currVal_76); var currVal_80 = "primary"; _ck(_v, 94, 0, currVal_80); var currVal_81 = _co.data; _ck(_v, 95, 0, currVal_81); }, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 4).disabled || null); var currVal_1 = (i1.ɵnov(_v, 4)._animationMode === "NoopAnimations"); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = i1.ɵnov(_v, 15).ngClassUntouched; var currVal_3 = i1.ɵnov(_v, 15).ngClassTouched; var currVal_4 = i1.ɵnov(_v, 15).ngClassPristine; var currVal_5 = i1.ɵnov(_v, 15).ngClassDirty; var currVal_6 = i1.ɵnov(_v, 15).ngClassValid; var currVal_7 = i1.ɵnov(_v, 15).ngClassInvalid; var currVal_8 = i1.ɵnov(_v, 15).ngClassPending; _ck(_v, 10, 0, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); var currVal_10 = i1.ɵnov(_v, 25).ngClassUntouched; var currVal_11 = i1.ɵnov(_v, 25).ngClassTouched; var currVal_12 = i1.ɵnov(_v, 25).ngClassPristine; var currVal_13 = i1.ɵnov(_v, 25).ngClassDirty; var currVal_14 = i1.ɵnov(_v, 25).ngClassValid; var currVal_15 = i1.ɵnov(_v, 25).ngClassInvalid; var currVal_16 = i1.ɵnov(_v, 25).ngClassPending; _ck(_v, 20, 0, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16); var currVal_18 = i1.ɵnov(_v, 35).ngClassUntouched; var currVal_19 = i1.ɵnov(_v, 35).ngClassTouched; var currVal_20 = i1.ɵnov(_v, 35).ngClassPristine; var currVal_21 = i1.ɵnov(_v, 35).ngClassDirty; var currVal_22 = i1.ɵnov(_v, 35).ngClassValid; var currVal_23 = i1.ɵnov(_v, 35).ngClassInvalid; var currVal_24 = i1.ɵnov(_v, 35).ngClassPending; _ck(_v, 30, 0, currVal_18, currVal_19, currVal_20, currVal_21, currVal_22, currVal_23, currVal_24); var currVal_28 = i1.ɵnov(_v, 41).autocompleteAttribute; var currVal_29 = (i1.ɵnov(_v, 41).autocompleteDisabled ? null : "combobox"); var currVal_30 = (i1.ɵnov(_v, 41).autocompleteDisabled ? null : "list"); var currVal_31 = ((i1.ɵnov(_v, 41).panelOpen && i1.ɵnov(_v, 41).activeOption) ? i1.ɵnov(_v, 41).activeOption.id : null); var currVal_32 = (i1.ɵnov(_v, 41).autocompleteDisabled ? null : i1.ɵnov(_v, 41).panelOpen.toString()); var currVal_33 = ((i1.ɵnov(_v, 41).autocompleteDisabled || !i1.ɵnov(_v, 41).panelOpen) ? null : ((i1.ɵnov(_v, 41).autocomplete == null) ? null : i1.ɵnov(_v, 41).autocomplete.id)); var currVal_34 = !i1.ɵnov(_v, 41).autocompleteDisabled; var currVal_35 = i1.ɵnov(_v, 45).ngClassUntouched; var currVal_36 = i1.ɵnov(_v, 45).ngClassTouched; var currVal_37 = i1.ɵnov(_v, 45).ngClassPristine; var currVal_38 = i1.ɵnov(_v, 45).ngClassDirty; var currVal_39 = i1.ɵnov(_v, 45).ngClassValid; var currVal_40 = i1.ɵnov(_v, 45).ngClassInvalid; var currVal_41 = i1.ɵnov(_v, 45).ngClassPending; _ck(_v, 39, 1, [currVal_28, currVal_29, currVal_30, currVal_31, currVal_32, currVal_33, currVal_34, currVal_35, currVal_36, currVal_37, currVal_38, currVal_39, currVal_40, currVal_41]); var currVal_49 = i1.ɵnov(_v, 63).autocompleteAttribute; var currVal_50 = (i1.ɵnov(_v, 63).autocompleteDisabled ? null : "combobox"); var currVal_51 = (i1.ɵnov(_v, 63).autocompleteDisabled ? null : "list"); var currVal_52 = ((i1.ɵnov(_v, 63).panelOpen && i1.ɵnov(_v, 63).activeOption) ? i1.ɵnov(_v, 63).activeOption.id : null); var currVal_53 = (i1.ɵnov(_v, 63).autocompleteDisabled ? null : i1.ɵnov(_v, 63).panelOpen.toString()); var currVal_54 = ((i1.ɵnov(_v, 63).autocompleteDisabled || !i1.ɵnov(_v, 63).panelOpen) ? null : ((i1.ɵnov(_v, 63).autocomplete == null) ? null : i1.ɵnov(_v, 63).autocomplete.id)); var currVal_55 = !i1.ɵnov(_v, 63).autocompleteDisabled; var currVal_56 = i1.ɵnov(_v, 67).ngClassUntouched; var currVal_57 = i1.ɵnov(_v, 67).ngClassTouched; var currVal_58 = i1.ɵnov(_v, 67).ngClassPristine; var currVal_59 = i1.ɵnov(_v, 67).ngClassDirty; var currVal_60 = i1.ɵnov(_v, 67).ngClassValid; var currVal_61 = i1.ɵnov(_v, 67).ngClassInvalid; var currVal_62 = i1.ɵnov(_v, 67).ngClassPending; _ck(_v, 61, 1, [currVal_49, currVal_50, currVal_51, currVal_52, currVal_53, currVal_54, currVal_55, currVal_56, currVal_57, currVal_58, currVal_59, currVal_60, currVal_61, currVal_62]); var currVal_68 = i1.ɵnov(_v, 86).ngClassUntouched; var currVal_69 = i1.ɵnov(_v, 86).ngClassTouched; var currVal_70 = i1.ɵnov(_v, 86).ngClassPristine; var currVal_71 = i1.ɵnov(_v, 86).ngClassDirty; var currVal_72 = i1.ɵnov(_v, 86).ngClassValid; var currVal_73 = i1.ɵnov(_v, 86).ngClassInvalid; var currVal_74 = i1.ɵnov(_v, 86).ngClassPending; _ck(_v, 81, 0, currVal_68, currVal_69, currVal_70, currVal_71, currVal_72, currVal_73, currVal_74); var currVal_77 = (i1.ɵnov(_v, 94).disabled || null); var currVal_78 = (i1.ɵnov(_v, 94)._animationMode === "NoopAnimations"); var currVal_79 = (i1.ɵnov(_v, 95).ariaLabel || null); _ck(_v, 93, 0, currVal_77, currVal_78, currVal_79); }); }
+exports.View_AddProfileDialog_0 = View_AddProfileDialog_0;
+function View_AddProfileDialog_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "add-profile-dialog", [], null, null, null, View_AddProfileDialog_0, RenderType_AddProfileDialog)), i1.ɵdid(1, 49152, null, 0, i19.AddProfileDialog, [i18.MatDialogRef, i18.MAT_DIALOG_DATA, i20.SuperpowerService, i21.WeaknessService, i22.PhoneService], null, null)], null, null); }
+exports.View_AddProfileDialog_Host_0 = View_AddProfileDialog_Host_0;
+var AddProfileDialogNgFactory = i1.ɵccf("add-profile-dialog", i19.AddProfileDialog, View_AddProfileDialog_Host_0, {}, {}, []);
+exports.AddProfileDialogNgFactory = AddProfileDialogNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/add-profile/AddProfileDialog.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/profile/add-profile/AddProfileDialog.ts ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const dialog_1 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+class AddProfileDialog {
+    constructor(dialogRef, data, superpowerService, weaknessService, phoneService) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+        this.superpowerService = superpowerService;
+        this.weaknessService = weaknessService;
+        this.phoneService = phoneService;
+        this.superpowers = [];
+        this.userSuperpowers = [];
+        this.newSuperpower = "";
+        this.weaknesses = [];
+        this.userWeaknesses = [];
+        this.newWeakness = "";
+        this.superpowerQuery = "";
+        this.weaknessQuery = "";
+        this.phoneCodes = [];
+        // this.getPhoneCodes();
+    }
+    // private fb: FormBuilder
+    getPhoneCodes() {
+        this.phoneService
+            .getPhoneCodes()
+            .subscribe(data => (this.phoneCodes = data));
+    }
+    // remaningChars() {
+    //   return 255 - this.data.body.length;
+    // }
+    searchSuperpowers(superpowerQuery) {
+        if (superpowerQuery) {
+            this.newSuperpower = superpowerQuery;
+            this.superpowerService
+                .getSeachResult(superpowerQuery)
+                .subscribe(data => (this.superpowers = data));
+        }
+    }
+    searchWeaknesses(weaknessQuery) {
+        if (weaknessQuery) {
+            this.newWeakness = weaknessQuery;
+            this.weaknessService
+                .getSeachResult(weaknessQuery)
+                .subscribe(data => (this.weaknesses = data));
+        }
+    }
+    addSuperpower(superpower) {
+        this.userSuperpowers.push(superpower);
+        this.data.superpowers.push(superpower);
+    }
+    addWeakness(weakness) {
+        this.userWeaknesses.push(weakness);
+        this.data.weaknesses.push(weakness);
+    }
+    saveSuperpower() {
+        let _newSuperpower = { name: this.newSuperpower };
+        this.superpowerService
+            .addNewSuperpower(_newSuperpower)
+            .subscribe(data => {
+            this.userSuperpowers.push(data);
+            this.data.superpowers.push(data);
+        });
+    }
+    saveWeakness() {
+        let _newWeakness = { name: this.newWeakness };
+        this.weaknessService
+            .addNewWeakness(_newWeakness)
+            .subscribe(data => {
+            this.userWeaknesses.push(data);
+            this.data.weaknesses.push(data);
+        });
+    }
+    removeSuperpower(superpower) {
+        this.userSuperpowers = this.userSuperpowers.filter(sp => sp._id != superpower._id);
+    }
+    removeWeakness(weakness) {
+        this.userWeaknesses = this.userWeaknesses.filter(sp => sp._id != weakness._id);
+    }
+    setProfileImageName() {
+        let imageName = this.data.profileImg;
+        imageName = imageName.substring(imageName.indexOf("-") + 1);
+        return imageName;
+    }
+    onSuperpowerEnter(e, superpower = undefined) {
+        if (e.source.selected) {
+            if (superpower) {
+                this.addSuperpower(superpower);
+            }
+            else {
+                this.saveSuperpower();
+            }
+        }
+    }
+    onWeeknessEnter(e, weakness = undefined) {
+        if (e.source.selected) {
+            if (weakness) {
+                this.addWeakness(weakness);
+            }
+            else {
+                this.saveWeakness();
+            }
+        }
+    }
+    onNoClick() {
+        this.dialogRef.close();
+    }
+}
+exports.AddProfileDialog = AddProfileDialog;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/add-profile/add-profile.dialog.scss.shim.ngstyle.js":
+/*!*****************************************************************************!*\
+  !*** ./src/app/profile/add-profile/add-profile.dialog.scss.shim.ngstyle.js ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [".input-with-img[_ngcontent-%COMP%]   .form-control[_ngcontent-%COMP%] {\n  padding-left: 0;\n  border-left: transparent;\n}\n.input-with-img[_ngcontent-%COMP%]   .input-group-text[_ngcontent-%COMP%] {\n  background-color: #fff;\n}\ninput.form-control[_ngcontent-%COMP%] {\n  height: 50px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9hZGQtcHJvZmlsZS9FOlxcVXB3b3JrXFxDb2xsZWN0aXZlIFBlb3BsZVxcZnJvbnQtZW5kL3NyY1xcYXBwXFxwcm9maWxlXFxhZGQtcHJvZmlsZVxcYWRkLXByb2ZpbGUuZGlhbG9nLnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvYWRkLXByb2ZpbGUvYWRkLXByb2ZpbGUuZGlhbG9nLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0U7RUFDRSxlQUFBO0VBQ0Esd0JBQUE7QUNBSjtBREVFO0VBQ0Usc0JBQUE7QUNBSjtBRElBO0VBQ0UsWUFBQTtBQ0RGIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS9hZGQtcHJvZmlsZS9hZGQtcHJvZmlsZS5kaWFsb2cuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbnB1dC13aXRoLWltZyB7XHJcbiAgLmZvcm0tY29udHJvbCB7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDA7XHJcbiAgICBib3JkZXItbGVmdDogdHJhbnNwYXJlbnQ7XHJcbiAgfVxyXG4gIC5pbnB1dC1ncm91cC10ZXh0IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgfVxyXG59XHJcblxyXG5pbnB1dC5mb3JtLWNvbnRyb2wge1xyXG4gIGhlaWdodDogNTBweDtcclxufVxyXG4iLCIuaW5wdXQtd2l0aC1pbWcgLmZvcm0tY29udHJvbCB7XG4gIHBhZGRpbmctbGVmdDogMDtcbiAgYm9yZGVyLWxlZnQ6IHRyYW5zcGFyZW50O1xufVxuLmlucHV0LXdpdGgtaW1nIC5pbnB1dC1ncm91cC10ZXh0IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbn1cblxuaW5wdXQuZm9ybS1jb250cm9sIHtcbiAgaGVpZ2h0OiA1MHB4O1xufSJdfQ== */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/company-search/AddCompanyDialog.ngfactory.js":
+/*!**********************************************************************!*\
+  !*** ./src/app/profile/company-search/AddCompanyDialog.ngfactory.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./add-company.dialog.scss.shim.ngstyle */ "./src/app/profile/company-search/add-company.dialog.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i3 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i4 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i5 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i6 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i7 = __webpack_require__(/*! ../../common/image-uploader/image-uploader.component.ngfactory */ "./src/app/common/image-uploader/image-uploader.component.ngfactory.js");
+const i8 = __webpack_require__(/*! ../../common/image-uploader/image-uploader.component */ "./src/app/common/image-uploader/image-uploader.component.ts");
+const i9 = __webpack_require__(/*! ../../common/image-uploader/image.service */ "./src/app/common/image-uploader/image.service.ts");
+const i10 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i11 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+const i12 = __webpack_require__(/*! ./AddCompanyDialog */ "./src/app/profile/company-search/AddCompanyDialog.ts");
+var styles_AddCompanyDialog = [i0.styles];
+var RenderType_AddCompanyDialog = i1.ɵcrt({ encapsulation: 0, styles: styles_AddCompanyDialog, data: {} });
+exports.RenderType_AddCompanyDialog = RenderType_AddCompanyDialog;
+function View_AddCompanyDialog_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "mb-3 text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 0, "i", [["class", "far fa-image mr-1"]], null, null, null, null, null)), (_l()(), i1.ɵted(2, null, [" ", "\n"]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.setlogoImgName(); _ck(_v, 2, 0, currVal_0); }); }
+function View_AddCompanyDialog_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 5, "div", [["class", "d-flex justify-content-between diolog-title align-items-center border-bottom mb-3 py-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "p", [["class", "font-weight-bold mb-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Add New Organization "])), (_l()(), i1.ɵeld(3, 0, null, null, 2, "button", [["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.onNoClick() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i2.View_MatButton_0, i2.RenderType_MatButton)), i1.ɵdid(4, 180224, null, 0, i3.MatButton, [i1.ElementRef, i4.FocusMonitor, [2, i5.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(5, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_close.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 9, "div", [["class", "input-group input-with-img mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_company.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(10, 0, null, null, 5, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["placeholder", "Company Name"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 11)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 11).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 11)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 11)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.name = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(11, 16384, null, 0, i6.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i6.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i6.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i6.DefaultValueAccessor]), i1.ɵdid(13, 671744, null, 0, i6.NgModel, [[8, null], [8, null], [8, null], [6, i6.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i6.NgControl, null, [i6.NgModel]), i1.ɵdid(15, 16384, null, 0, i6.NgControlStatus, [[4, i6.NgControl]], null, null), (_l()(), i1.ɵeld(16, 0, null, null, 9, "div", [["class", "input-group input-with-img mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(17, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(18, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵeld(19, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_location.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(20, 0, null, null, 5, "input", [["class", "form-control"], ["placeholder", "Location"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 21)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 21).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 21)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 21)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.location = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(21, 16384, null, 0, i6.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i6.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i6.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i6.DefaultValueAccessor]), i1.ɵdid(23, 671744, null, 0, i6.NgModel, [[8, null], [8, null], [8, null], [6, i6.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i6.NgControl, null, [i6.NgModel]), i1.ɵdid(25, 16384, null, 0, i6.NgControlStatus, [[4, i6.NgControl]], null, null), (_l()(), i1.ɵeld(26, 0, null, null, 9, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(27, 0, null, null, 5, "textarea", [["class", "form-control w-100"], ["placeholder", "Description"], ["rows", "5"]], [[1, "maxlength", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 28)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 28).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 28)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 28)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.description = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(28, 16384, null, 0, i6.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i6.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i6.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i6.DefaultValueAccessor]), i1.ɵdid(30, 671744, null, 0, i6.NgModel, [[8, null], [8, null], [8, null], [6, i6.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i6.NgControl, null, [i6.NgModel]), i1.ɵdid(32, 16384, null, 0, i6.NgControlStatus, [[4, i6.NgControl]], null, null), (_l()(), i1.ɵeld(33, 0, null, null, 2, "p", [["class", "m-0 typed-chars"]], null, null, null, null, null)), (_l()(), i1.ɵeld(34, 0, null, null, 1, "small", [], null, null, null, null, null)), (_l()(), i1.ɵted(35, null, [" ", "/255"])), (_l()(), i1.ɵeld(36, 0, null, null, 9, "div", [["class", "input-group input-with-img mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(37, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(38, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵeld(39, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_web.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(40, 0, null, null, 5, "input", [["class", "form-control"], ["placeholder", "Website"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 41)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 41).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 41)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 41)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.website = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(41, 16384, null, 0, i6.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i6.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i6.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i6.DefaultValueAccessor]), i1.ɵdid(43, 671744, null, 0, i6.NgModel, [[8, null], [8, null], [8, null], [6, i6.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i6.NgControl, null, [i6.NgModel]), i1.ɵdid(45, 16384, null, 0, i6.NgControlStatus, [[4, i6.NgControl]], null, null), (_l()(), i1.ɵeld(46, 0, null, null, 2, "div", [["class", "mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(47, 0, null, null, 1, "app-image-uploader", [], null, [[null, "imgChange"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("imgChange" === en)) {
+        var pd_0 = ((_co.data.logoImg = $event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i7.View_ImageUploaderComponent_0, i7.RenderType_ImageUploaderComponent)), i1.ɵdid(48, 114688, null, 0, i8.ImageUploaderComponent, [i9.ImageService, i1.ElementRef], null, { imgChange: "imgChange" }), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_AddCompanyDialog_1)), i1.ɵdid(50, 16384, null, 0, i10.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(51, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(52, 0, null, null, 3, "button", [["class", "w-100 py-1"], ["color", "primary"], ["mat-raised-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 54).dialogRef.close(i1.ɵnov(_v, 54).dialogResult) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i2.View_MatButton_0, i2.RenderType_MatButton)), i1.ɵdid(53, 180224, null, 0, i3.MatButton, [i1.ElementRef, i4.FocusMonitor, [2, i5.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), i1.ɵdid(54, 606208, null, 0, i11.MatDialogClose, [[2, i11.MatDialogRef], i1.ElementRef, i11.MatDialog], { dialogResult: [0, "dialogResult"] }, null), (_l()(), i1.ɵted(-1, 0, [" Add New Organization "]))], function (_ck, _v) { var _co = _v.component; var currVal_9 = _co.data.name; _ck(_v, 13, 0, currVal_9); var currVal_17 = _co.data.location; _ck(_v, 23, 0, currVal_17); var currVal_26 = _co.data.description; _ck(_v, 30, 0, currVal_26); var currVal_35 = _co.data.website; _ck(_v, 43, 0, currVal_35); _ck(_v, 48, 0); var currVal_36 = _co.data.logoImg; _ck(_v, 50, 0, currVal_36); var currVal_40 = "primary"; _ck(_v, 53, 0, currVal_40); var currVal_41 = _co.data; _ck(_v, 54, 0, currVal_41); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = (i1.ɵnov(_v, 4).disabled || null); var currVal_1 = (i1.ɵnov(_v, 4)._animationMode === "NoopAnimations"); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = i1.ɵnov(_v, 15).ngClassUntouched; var currVal_3 = i1.ɵnov(_v, 15).ngClassTouched; var currVal_4 = i1.ɵnov(_v, 15).ngClassPristine; var currVal_5 = i1.ɵnov(_v, 15).ngClassDirty; var currVal_6 = i1.ɵnov(_v, 15).ngClassValid; var currVal_7 = i1.ɵnov(_v, 15).ngClassInvalid; var currVal_8 = i1.ɵnov(_v, 15).ngClassPending; _ck(_v, 10, 0, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); var currVal_10 = i1.ɵnov(_v, 25).ngClassUntouched; var currVal_11 = i1.ɵnov(_v, 25).ngClassTouched; var currVal_12 = i1.ɵnov(_v, 25).ngClassPristine; var currVal_13 = i1.ɵnov(_v, 25).ngClassDirty; var currVal_14 = i1.ɵnov(_v, 25).ngClassValid; var currVal_15 = i1.ɵnov(_v, 25).ngClassInvalid; var currVal_16 = i1.ɵnov(_v, 25).ngClassPending; _ck(_v, 20, 0, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16); var currVal_18 = 255; var currVal_19 = i1.ɵnov(_v, 32).ngClassUntouched; var currVal_20 = i1.ɵnov(_v, 32).ngClassTouched; var currVal_21 = i1.ɵnov(_v, 32).ngClassPristine; var currVal_22 = i1.ɵnov(_v, 32).ngClassDirty; var currVal_23 = i1.ɵnov(_v, 32).ngClassValid; var currVal_24 = i1.ɵnov(_v, 32).ngClassInvalid; var currVal_25 = i1.ɵnov(_v, 32).ngClassPending; _ck(_v, 27, 0, currVal_18, currVal_19, currVal_20, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25); var currVal_27 = _co.typedChars(); _ck(_v, 35, 0, currVal_27); var currVal_28 = i1.ɵnov(_v, 45).ngClassUntouched; var currVal_29 = i1.ɵnov(_v, 45).ngClassTouched; var currVal_30 = i1.ɵnov(_v, 45).ngClassPristine; var currVal_31 = i1.ɵnov(_v, 45).ngClassDirty; var currVal_32 = i1.ɵnov(_v, 45).ngClassValid; var currVal_33 = i1.ɵnov(_v, 45).ngClassInvalid; var currVal_34 = i1.ɵnov(_v, 45).ngClassPending; _ck(_v, 40, 0, currVal_28, currVal_29, currVal_30, currVal_31, currVal_32, currVal_33, currVal_34); var currVal_37 = (i1.ɵnov(_v, 53).disabled || null); var currVal_38 = (i1.ɵnov(_v, 53)._animationMode === "NoopAnimations"); var currVal_39 = (i1.ɵnov(_v, 54).ariaLabel || null); _ck(_v, 52, 0, currVal_37, currVal_38, currVal_39); }); }
+exports.View_AddCompanyDialog_0 = View_AddCompanyDialog_0;
+function View_AddCompanyDialog_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "add-company-dialog", [], null, null, null, View_AddCompanyDialog_0, RenderType_AddCompanyDialog)), i1.ɵdid(1, 49152, null, 0, i12.AddCompanyDialog, [i11.MatDialogRef, i11.MAT_DIALOG_DATA], null, null)], null, null); }
+exports.View_AddCompanyDialog_Host_0 = View_AddCompanyDialog_Host_0;
+var AddCompanyDialogNgFactory = i1.ɵccf("add-company-dialog", i12.AddCompanyDialog, View_AddCompanyDialog_Host_0, {}, {}, []);
+exports.AddCompanyDialogNgFactory = AddCompanyDialogNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/company-search/AddCompanyDialog.ts":
+/*!************************************************************!*\
+  !*** ./src/app/profile/company-search/AddCompanyDialog.ts ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const dialog_1 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+class AddCompanyDialog {
+    constructor(dialogRef, data) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    typedChars() {
+        return this.data.description.length;
+    }
+    // emaining
+    onNoClick() {
+        this.dialogRef.close();
+    }
+    setlogoImgName() {
+        let imageName = this.data.logoImg;
+        imageName = imageName.substring(imageName.indexOf("-") + 1);
+        return imageName;
+    }
+}
+exports.AddCompanyDialog = AddCompanyDialog;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/company-search/add-company.dialog.scss.shim.ngstyle.js":
+/*!********************************************************************************!*\
+  !*** ./src/app/profile/company-search/add-company.dialog.scss.shim.ngstyle.js ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [".input-with-img[_ngcontent-%COMP%]   .form-control[_ngcontent-%COMP%] {\n  padding-left: 0;\n  border-left: transparent;\n}\n.input-with-img[_ngcontent-%COMP%]   .input-group-text[_ngcontent-%COMP%] {\n  background-color: #fff;\n}\ninput.form-control[_ngcontent-%COMP%] {\n  height: 50px;\n}\n.typed-chars[_ngcontent-%COMP%] {\n  position: absolute;\n  bottom: 5px;\n  left: 15px;\n  z-index: 10;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9jb21wYW55LXNlYXJjaC9FOlxcVXB3b3JrXFxDb2xsZWN0aXZlIFBlb3BsZVxcZnJvbnQtZW5kL3NyY1xcYXBwXFxwcm9maWxlXFxjb21wYW55LXNlYXJjaFxcYWRkLWNvbXBhbnkuZGlhbG9nLnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvY29tcGFueS1zZWFyY2gvYWRkLWNvbXBhbnkuZGlhbG9nLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0U7RUFDRSxlQUFBO0VBQ0Esd0JBQUE7QUNBSjtBREVFO0VBQ0Usc0JBQUE7QUNBSjtBRElBO0VBQ0UsWUFBQTtBQ0RGO0FESUE7RUFDRSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxVQUFBO0VBQ0EsV0FBQTtBQ0RGIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS9jb21wYW55LXNlYXJjaC9hZGQtY29tcGFueS5kaWFsb2cuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5pbnB1dC13aXRoLWltZyB7XHJcbiAgLmZvcm0tY29udHJvbCB7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDA7XHJcbiAgICBib3JkZXItbGVmdDogdHJhbnNwYXJlbnQ7XHJcbiAgfVxyXG4gIC5pbnB1dC1ncm91cC10ZXh0IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgfVxyXG59XHJcblxyXG5pbnB1dC5mb3JtLWNvbnRyb2wge1xyXG4gIGhlaWdodDogNTBweDtcclxufVxyXG5cclxuLnR5cGVkLWNoYXJzIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgYm90dG9tOiA1cHg7XHJcbiAgbGVmdDogMTVweDtcclxuICB6LWluZGV4OiAxMDtcclxufVxyXG4iLCIuaW5wdXQtd2l0aC1pbWcgLmZvcm0tY29udHJvbCB7XG4gIHBhZGRpbmctbGVmdDogMDtcbiAgYm9yZGVyLWxlZnQ6IHRyYW5zcGFyZW50O1xufVxuLmlucHV0LXdpdGgtaW1nIC5pbnB1dC1ncm91cC10ZXh0IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbn1cblxuaW5wdXQuZm9ybS1jb250cm9sIHtcbiAgaGVpZ2h0OiA1MHB4O1xufVxuXG4udHlwZWQtY2hhcnMge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGJvdHRvbTogNXB4O1xuICBsZWZ0OiAxNXB4O1xuICB6LWluZGV4OiAxMDtcbn0iXX0= */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/company-search/company-search.component.ngfactory.js":
+/*!******************************************************************************!*\
+  !*** ./src/app/profile/company-search/company-search.component.ngfactory.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./company-search.component.scss.shim.ngstyle */ "./src/app/profile/company-search/company-search.component.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! ../../../../node_modules/@angular/material/core/typings/index.ngfactory */ "./node_modules/@angular/material/core/typings/index.ngfactory.js");
+const i3 = __webpack_require__(/*! @angular/material/core */ "@angular/material/core");
+const i4 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i5 = __webpack_require__(/*! @angular/material/autocomplete */ "@angular/material/autocomplete");
+const i6 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
+const i7 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
+const i8 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i9 = __webpack_require__(/*! @angular/cdk/scrolling */ "@angular/cdk/scrolling");
+const i10 = __webpack_require__(/*! ../../../../node_modules/@angular/material/autocomplete/typings/index.ngfactory */ "./node_modules/@angular/material/autocomplete/typings/index.ngfactory.js");
+const i11 = __webpack_require__(/*! ./company-search.component */ "./src/app/profile/company-search/company-search.component.ts");
+const i12 = __webpack_require__(/*! ../company.service */ "./src/app/profile/company.service.ts");
+const i13 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+var styles_CompanySearchComponent = [i0.styles];
+var RenderType_CompanySearchComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_CompanySearchComponent, data: {} });
+exports.RenderType_CompanySearchComponent = RenderType_CompanySearchComponent;
+function View_CompanySearchComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["No"]))], null, null); }
+function View_CompanySearchComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 9, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.addNewCompany(_v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i2.View_MatOption_0, i2.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[2, 4]], 0, i3.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i3.MAT_OPTION_PARENT_COMPONENT], [2, i3.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 7, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 1, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "img", [["aria-hidden", ""], ["class", "search-img mr-2"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 4, "div", [["class", "d-flex flex-column"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(7, null, ["", ""])), (_l()(), i1.ɵeld(8, 0, null, null, 1, "small", [], null, null, null, null, null)), (_l()(), i1.ɵted(9, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = (_v.context.$implicit.logoImg ? (_co.imgBaseUrl + _v.context.$implicit.logoImg) : "assets/images/img-placeholder.svg"); _ck(_v, 4, 0, currVal_8); var currVal_9 = _v.context.$implicit.name; _ck(_v, 7, 0, currVal_9); var currVal_10 = _v.context.$implicit.location; _ck(_v, 9, 0, currVal_10); }); }
+function View_CompanySearchComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 6, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.openAddCompanyDialog() !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i2.View_MatOption_0, i2.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[2, 4]], 0, i3.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i3.MAT_OPTION_PARENT_COMPONENT], [2, i3.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 4, "div", [["class", "d-flex justify-content-between align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(4, null, [" ", " "])), (_l()(), i1.ɵeld(5, 0, null, null, 1, "small", [["class", "text-uppercase text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Add New Organization "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _co.query; _ck(_v, 4, 0, currVal_8); }); }
+function View_CompanySearchComponent_0(_l) { return i1.ɵvid(0, [i1.ɵqud(671088640, 1, { trigger: 0 }), (_l()(), i1.ɵeld(1, 0, null, null, 25, "div", [["class", "w-100"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 10, "div", [["class", "input-group"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 16777216, null, null, 6, "input", [["class", "form-control"], ["matInput", ""], ["placeholder", "Searh For Company..."]], [[1, "autocomplete", 0], [1, "role", 0], [1, "aria-autocomplete", 0], [1, "aria-activedescendant", 0], [1, "aria-expanded", 0], [1, "aria-owns", 0], [1, "aria-haspopup", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "focusin"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 4)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 4).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 4)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 4)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("focusin" === en)) {
+        var pd_4 = (i1.ɵnov(_v, 5)._handleFocus() !== false);
+        ad = (pd_4 && ad);
+    } if (("blur" === en)) {
+        var pd_5 = (i1.ɵnov(_v, 5)._onTouched() !== false);
+        ad = (pd_5 && ad);
+    } if (("input" === en)) {
+        var pd_6 = (i1.ɵnov(_v, 5)._handleInput($event) !== false);
+        ad = (pd_6 && ad);
+    } if (("keydown" === en)) {
+        var pd_7 = (i1.ɵnov(_v, 5)._handleKeydown($event) !== false);
+        ad = (pd_7 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_8 = ((_co.query = $event) !== false);
+        ad = (pd_8 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_9 = (_co.getSearchCompany($event) !== false);
+        ad = (pd_9 && ad);
+    } return ad; }, null, null)), i1.ɵdid(4, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵdid(5, 671744, [[1, 4]], 0, i5.MatAutocompleteTrigger, [i1.ElementRef, i6.Overlay, i1.ViewContainerRef, i1.NgZone, i1.ChangeDetectorRef, i5.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, [2, i7.Directionality], [8, null], [2, i8.DOCUMENT], i9.ViewportRuler], { autocomplete: [0, "autocomplete"] }, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0, p1_0) { return [p0_0, p1_0]; }, [i4.DefaultValueAccessor, i5.MatAutocompleteTrigger]), i1.ɵdid(7, 671744, null, 0, i4.NgModel, [[8, null], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i4.NgControl, null, [i4.NgModel]), i1.ɵdid(9, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(10, 0, null, null, 2, "div", [["class", "input-group-append"]], null, null, null, null, null)), (_l()(), i1.ɵeld(11, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵeld(12, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_search.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(13, 0, null, null, 13, "mat-autocomplete", [["class", "mat-autocomplete"]], null, null, null, i10.View_MatAutocomplete_0, i10.RenderType_MatAutocomplete)), i1.ɵprd(6144, null, i3.MAT_OPTION_PARENT_COMPONENT, null, [i5.MatAutocomplete]), i1.ɵdid(15, 1097728, [["auto", 4]], 2, i5.MatAutocomplete, [i1.ChangeDetectorRef, i1.ElementRef, i5.MAT_AUTOCOMPLETE_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 2, { options: 1 }), i1.ɵqud(603979776, 3, { optionGroups: 1 }), (_l()(), i1.ɵeld(18, 0, null, 0, 4, "p", [["class", "px-3 my-2 text-uppercase text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵeld(19, 0, null, null, 3, "small", [], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_CompanySearchComponent_1)), i1.ɵdid(21, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(-1, null, [" search Matches "])), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_CompanySearchComponent_2)), i1.ɵdid(24, 278528, null, 0, i8.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_CompanySearchComponent_3)), i1.ɵdid(26, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_14 = i1.ɵnov(_v, 15); _ck(_v, 5, 0, currVal_14); var currVal_15 = _co.query; _ck(_v, 7, 0, currVal_15); var currVal_16 = (_co.companies.length < 1); _ck(_v, 21, 0, currVal_16); var currVal_17 = _co.companies; _ck(_v, 24, 0, currVal_17); var currVal_18 = (_co.query && (_co.companies.length < 1)); _ck(_v, 26, 0, currVal_18); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 5).autocompleteAttribute; var currVal_1 = (i1.ɵnov(_v, 5).autocompleteDisabled ? null : "combobox"); var currVal_2 = (i1.ɵnov(_v, 5).autocompleteDisabled ? null : "list"); var currVal_3 = ((i1.ɵnov(_v, 5).panelOpen && i1.ɵnov(_v, 5).activeOption) ? i1.ɵnov(_v, 5).activeOption.id : null); var currVal_4 = (i1.ɵnov(_v, 5).autocompleteDisabled ? null : i1.ɵnov(_v, 5).panelOpen.toString()); var currVal_5 = ((i1.ɵnov(_v, 5).autocompleteDisabled || !i1.ɵnov(_v, 5).panelOpen) ? null : ((i1.ɵnov(_v, 5).autocomplete == null) ? null : i1.ɵnov(_v, 5).autocomplete.id)); var currVal_6 = !i1.ɵnov(_v, 5).autocompleteDisabled; var currVal_7 = i1.ɵnov(_v, 9).ngClassUntouched; var currVal_8 = i1.ɵnov(_v, 9).ngClassTouched; var currVal_9 = i1.ɵnov(_v, 9).ngClassPristine; var currVal_10 = i1.ɵnov(_v, 9).ngClassDirty; var currVal_11 = i1.ɵnov(_v, 9).ngClassValid; var currVal_12 = i1.ɵnov(_v, 9).ngClassInvalid; var currVal_13 = i1.ɵnov(_v, 9).ngClassPending; _ck(_v, 3, 1, [currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13]); }); }
+exports.View_CompanySearchComponent_0 = View_CompanySearchComponent_0;
+function View_CompanySearchComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-company-search", [], null, [["document", "click"]], function (_v, en, $event) { var ad = true; if (("document:click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1).clickout($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, View_CompanySearchComponent_0, RenderType_CompanySearchComponent)), i1.ɵdid(1, 114688, null, 0, i11.CompanySearchComponent, [i12.CompanyService, i13.MatDialog, i1.ElementRef], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+exports.View_CompanySearchComponent_Host_0 = View_CompanySearchComponent_Host_0;
+var CompanySearchComponentNgFactory = i1.ɵccf("app-company-search", i11.CompanySearchComponent, View_CompanySearchComponent_Host_0, { userId: "userId", searchForCompany: "searchForCompany" }, { addedCompany: "addedCompany", closeCompanyInput: "closeCompanyInput" }, []);
+exports.CompanySearchComponentNgFactory = CompanySearchComponentNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/company-search/company-search.component.scss.shim.ngstyle.js":
+/*!**************************************************************************************!*\
+  !*** ./src/app/profile/company-search/company-search.component.scss.shim.ngstyle.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [".search-img[_ngcontent-%COMP%] {\n  width: 30px;\n  height: 30px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 4px;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.mat-option[_ngcontent-%COMP%] {\n  height: 60px;\n  line-height: 1.3;\n}\n\n.input-group-append[_ngcontent-%COMP%] {\n  margin-left: 0;\n}\n\n.input-group-text[_ngcontent-%COMP%] {\n  margin-left: -40px;\n  z-index: 10000;\n  border-left: none;\n  background-color: #fff;\n  min-width: 40px;\n  padding-left: 0;\n  padding-right: 0;\n}\n\n.input-group-text[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-left: auto;\n  margin-right: auto;\n  display: block;\n  width: 18px;\n}\n\n.form-control[_ngcontent-%COMP%] {\n  border-right: none;\n}\n\n.input-group[_ngcontent-%COMP%]    > .form-control[_ngcontent-%COMP%]:not(:last-child) {\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9jb21wYW55LXNlYXJjaC9FOlxcVXB3b3JrXFxDb2xsZWN0aXZlIFBlb3BsZVxcZnJvbnQtZW5kL3NyY1xcYXBwXFxwcm9maWxlXFxjb21wYW55LXNlYXJjaFxcY29tcGFueS1zZWFyY2guY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvY29tcGFueS1zZWFyY2gvY29tcGFueS1zZWFyY2guY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHNCQUFBO0tBQUEsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7QUNDRjs7QURFQTtFQUNFLFlBQUE7RUFDQSxnQkFBQTtBQ0NGOztBREVBO0VBQ0UsY0FBQTtBQ0NGOztBRENBO0VBQ0Usa0JBQUE7RUFDQSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxzQkFBQTtFQUNBLGVBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7QUNFRjs7QURERTtFQUNFLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0EsV0FBQTtBQ0dKOztBRENBO0VBQ0Usa0JBQUE7QUNFRjs7QURDQTtFQUNFLDRCQUFBO0VBQ0EsK0JBQUE7QUNFRiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUvY29tcGFueS1zZWFyY2gvY29tcGFueS1zZWFyY2guY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2VhcmNoLWltZyB7XHJcbiAgd2lkdGg6IDMwcHg7XHJcbiAgaGVpZ2h0OiAzMHB4O1xyXG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gIG9iamVjdC1maXQ6IGNvdmVyO1xyXG59XHJcblxyXG4ubWF0LW9wdGlvbiB7XHJcbiAgaGVpZ2h0OiA2MHB4O1xyXG4gIGxpbmUtaGVpZ2h0OiAxLjM7XHJcbn1cclxuXHJcbi5pbnB1dC1ncm91cC1hcHBlbmQge1xyXG4gIG1hcmdpbi1sZWZ0OiAwO1xyXG59XHJcbi5pbnB1dC1ncm91cC10ZXh0IHtcclxuICBtYXJnaW4tbGVmdDogLTQwcHg7XHJcbiAgei1pbmRleDogMTAwMDA7XHJcbiAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICBtaW4td2lkdGg6IDQwcHg7XHJcbiAgcGFkZGluZy1sZWZ0OiAwO1xyXG4gIHBhZGRpbmctcmlnaHQ6IDA7XHJcbiAgaW1nIHtcclxuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xyXG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICB3aWR0aDogMThweDtcclxuICB9XHJcbn1cclxuXHJcbi5mb3JtLWNvbnRyb2wge1xyXG4gIGJvcmRlci1yaWdodDogbm9uZTtcclxufVxyXG5cclxuLmlucHV0LWdyb3VwID4gLmZvcm0tY29udHJvbDpub3QoOmxhc3QtY2hpbGQpIHtcclxuICBib3JkZXItdG9wLXJpZ2h0LXJhZGl1czogNXB4O1xyXG4gIGJvcmRlci1ib3R0b20tcmlnaHQtcmFkaXVzOiA1cHg7XHJcbn1cclxuIiwiLnNlYXJjaC1pbWcge1xuICB3aWR0aDogMzBweDtcbiAgaGVpZ2h0OiAzMHB4O1xuICBvYmplY3QtZml0OiBjb250YWluO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIG9iamVjdC1maXQ6IGNvdmVyO1xufVxuXG4ubWF0LW9wdGlvbiB7XG4gIGhlaWdodDogNjBweDtcbiAgbGluZS1oZWlnaHQ6IDEuMztcbn1cblxuLmlucHV0LWdyb3VwLWFwcGVuZCB7XG4gIG1hcmdpbi1sZWZ0OiAwO1xufVxuXG4uaW5wdXQtZ3JvdXAtdGV4dCB7XG4gIG1hcmdpbi1sZWZ0OiAtNDBweDtcbiAgei1pbmRleDogMTAwMDA7XG4gIGJvcmRlci1sZWZ0OiBub25lO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBtaW4td2lkdGg6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogMDtcbiAgcGFkZGluZy1yaWdodDogMDtcbn1cbi5pbnB1dC1ncm91cC10ZXh0IGltZyB7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB3aWR0aDogMThweDtcbn1cblxuLmZvcm0tY29udHJvbCB7XG4gIGJvcmRlci1yaWdodDogbm9uZTtcbn1cblxuLmlucHV0LWdyb3VwID4gLmZvcm0tY29udHJvbDpub3QoOmxhc3QtY2hpbGQpIHtcbiAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDVweDtcbiAgYm9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IDVweDtcbn0iXX0= */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/company-search/company-search.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/profile/company-search/company-search.component.ts ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const baseurl_1 = __webpack_require__(/*! ./../../shared/baseurl */ "./src/app/shared/baseurl.ts");
+const AddCompanyDialog_1 = __webpack_require__(/*! ./AddCompanyDialog */ "./src/app/profile/company-search/AddCompanyDialog.ts");
+const material_1 = __webpack_require__(/*! @angular/material */ "@angular/material");
+class CompanySearchComponent {
+    constructor(companyService, dialog, elRef) {
+        this.companyService = companyService;
+        this.dialog = dialog;
+        this.elRef = elRef;
+        this.addedCompany = new core_1.EventEmitter();
+        this.closeCompanyInput = new core_1.EventEmitter();
+        this.imgBaseUrl = baseurl_1.baseURL + "uploads/";
+        this.query = "";
+        this.companies = [];
+    }
+    ngOnInit() { }
+    // ngAfterViewInit() {
+    //   this.trigger.autocomplete.closed.subscribe(e => {
+    //     console.log("emitted");
+    //   });
+    // }
+    getSearchCompany(query) {
+        if (query) {
+            this.companyService
+                .getSeachResult(query)
+                .subscribe(data => (this.companies = data));
+        }
+        else {
+            this.companies = [];
+        }
+    }
+    openAddCompanyDialog() {
+        const dialogRef = this.dialog.open(AddCompanyDialog_1.AddCompanyDialog, {
+            data: {
+                name: this.query,
+                location: "",
+                website: "",
+                description: "",
+                logoImg: ""
+            },
+            width: "560px"
+        });
+        dialogRef.afterClosed().subscribe(result => {
+            if (result) {
+                const { name, location, website, description, logoImg } = result;
+                const data = {
+                    name,
+                    location,
+                    website,
+                    description,
+                    logoImg
+                };
+                this.addNewCompany(data);
+            }
+        });
+    }
+    addNewCompany(data) {
+        this.companyService.addNewCompany(data, this.userId).subscribe(data => {
+            this.addedCompany.emit(data);
+            this.query = "";
+        });
+    }
+    clickout(event) {
+        if (this.elRef.nativeElement.contains(event.target)) {
+            console.log("clicked inside");
+        }
+        else {
+            if (event.target != document.querySelector("#add-company") &&
+                event.target != document.querySelector("#add-company img")) {
+                if (this.searchForCompany) {
+                    this.closeCompanyInput.emit();
+                }
+            }
+        }
+    }
+}
+exports.CompanySearchComponent = CompanySearchComponent;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/company.service.ts":
+/*!********************************************!*\
+  !*** ./src/app/profile/company.service.ts ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const baseurl_1 = __webpack_require__(/*! ./../shared/baseurl */ "./src/app/shared/baseurl.ts");
+const operators_1 = __webpack_require__(/*! rxjs/operators */ "rxjs/operators");
+const i0 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i1 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
+const URL = baseurl_1.baseURL + "company/";
+class CompanyService {
+    constructor(http) {
+        this.http = http;
+    }
+    getSeachResult(query) {
+        let _URL = URL + "search/" + query;
+        return this.http.get(_URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
+    addNewCompany(company, userId) {
+        let _URL = URL + userId;
+        return this.http.post(_URL, company).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
+}
+CompanyService.ngInjectableDef = i0.ɵɵdefineInjectable({ factory: function CompanyService_Factory() { return new CompanyService(i0.ɵɵinject(i1.HttpClient)); }, token: CompanyService, providedIn: "root" });
+exports.CompanyService = CompanyService;
+
+
+/***/ }),
+
 /***/ "./src/app/profile/edit-profile/edit-profile.component.ngfactory.js":
 /*!**************************************************************************!*\
   !*** ./src/app/profile/edit-profile/edit-profile.component.ngfactory.js ***!
@@ -1559,216 +2448,155 @@ const i0 = __webpack_require__(/*! ./edit-profile.component.scss.shim.ngstyle */
 const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 const i2 = __webpack_require__(/*! ../../common/spinner/spinner.component.ngfactory */ "./src/app/common/spinner/spinner.component.ngfactory.js");
 const i3 = __webpack_require__(/*! ../../common/spinner/spinner.component */ "./src/app/common/spinner/spinner.component.ts");
-const i4 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
-const i5 = __webpack_require__(/*! ../../common/image-uploader/image-uploader.component.ngfactory */ "./src/app/common/image-uploader/image-uploader.component.ngfactory.js");
-const i6 = __webpack_require__(/*! ../../common/image-uploader/image-uploader.component */ "./src/app/common/image-uploader/image-uploader.component.ts");
-const i7 = __webpack_require__(/*! ../../common/image-uploader/image.service */ "./src/app/common/image-uploader/image.service.ts");
-const i8 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
-const i9 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
-const i10 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
-const i11 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
-const i12 = __webpack_require__(/*! ../../common/navbar/navbar.component.ngfactory */ "./src/app/common/navbar/navbar.component.ngfactory.js");
-const i13 = __webpack_require__(/*! ../../common/navbar/navbar.component */ "./src/app/common/navbar/navbar.component.ts");
-const i14 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i15 = __webpack_require__(/*! ./edit-profile.component */ "./src/app/profile/edit-profile/edit-profile.component.ts");
-const i16 = __webpack_require__(/*! ../profile.service */ "./src/app/profile/profile.service.ts");
-const i17 = __webpack_require__(/*! @angular/router */ "@angular/router");
+const i4 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i5 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i6 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i7 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i8 = __webpack_require__(/*! ./profile-uploader/profile-uploader.component.ngfactory */ "./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.ngfactory.js");
+const i9 = __webpack_require__(/*! ./profile-uploader/profile-uploader.component */ "./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.ts");
+const i10 = __webpack_require__(/*! ../../common/image-uploader/image.service */ "./src/app/common/image-uploader/image.service.ts");
+const i11 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i12 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i13 = __webpack_require__(/*! ../../common/navbar/navbar.component.ngfactory */ "./src/app/common/navbar/navbar.component.ngfactory.js");
+const i14 = __webpack_require__(/*! ../../common/navbar/navbar.component */ "./src/app/common/navbar/navbar.component.ts");
+const i15 = __webpack_require__(/*! @angular/router */ "@angular/router");
+const i16 = __webpack_require__(/*! ./edit-profile.component */ "./src/app/profile/edit-profile/edit-profile.component.ts");
+const i17 = __webpack_require__(/*! ../profile.service */ "./src/app/profile/profile.service.ts");
 var styles_EditProfileComponent = [i0.styles];
 var RenderType_EditProfileComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_EditProfileComponent, data: {} });
 exports.RenderType_EditProfileComponent = RenderType_EditProfileComponent;
 function View_EditProfileComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "app-spinner", [], null, null, null, i2.View_SpinnerComponent_0, i2.RenderType_SpinnerComponent)), i1.ɵdid(2, 114688, null, 0, i3.SpinnerComponent, [], null, null)], function (_ck, _v) { _ck(_v, 2, 0); }, null); }
-function View_EditProfileComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 164, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 163, "div", [["class", "page-container p-5 mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 162, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngSubmit"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 4).onSubmit($event) !== false);
+function View_EditProfileComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "div", [["class", "mb-4"], ["style", "position: relative; width: 180px;\n          margin-right: auto;\n          margin-left: auto;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 0, "img", [["class", "profile-img"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 2, "button", [["class", "remove-img-btn"], ["mat-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.removeProfilePic() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(3, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(4, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_close_white.svg"], ["width", "18"]], null, null, null, null, null))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = (_co.imgBaseUrl + _co.profile.profileImg); _ck(_v, 1, 0, currVal_0); var currVal_1 = (i1.ɵnov(_v, 3).disabled || null); var currVal_2 = (i1.ɵnov(_v, 3)._animationMode === "NoopAnimations"); _ck(_v, 2, 0, currVal_1, currVal_2); }); }
+function View_EditProfileComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "app-profile-uploader", [], null, [[null, "imgChange"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("imgChange" === en)) {
+        var pd_0 = (_co.onProfileImgChange($event) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i8.View_ProfileUploaderComponent_0, i8.RenderType_ProfileUploaderComponent)), i1.ɵdid(2, 114688, null, 0, i9.ProfileUploaderComponent, [i10.ImageService, i1.ElementRef], null, { imgChange: "imgChange" })], function (_ck, _v) { _ck(_v, 2, 0); }, null); }
+function View_EditProfileComponent_6(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary"]))], null, null); }
+function View_EditProfileComponent_7(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "text-uppercase make-primary"], ["color", "primary"], ["mat-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.makeEmailPrimary(_v.parent.context.index) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵted(-1, 0, [" Make Primary "]))], function (_ck, _v) { var currVal_2 = "primary"; _ck(_v, 1, 0, currVal_2); }, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_EditProfileComponent_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 17, "div", [], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], null, null, null, null)), i1.ɵdid(1, 212992, null, 0, i11.FormGroupName, [[3, i11.ControlContainer], [8, null], [8, null]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.ControlContainer, null, [i11.FormGroupName]), i1.ɵdid(3, 16384, null, 0, i11.NgControlStatusGroup, [[4, i11.ControlContainer]], null, null), (_l()(), i1.ɵeld(4, 0, null, null, 6, "div", [["class", "d-flex justify-content-between align-items-end"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 3, "label", [], [[8, "htmlFor", 0]], null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_6)), i1.ɵdid(7, 16384, null, 0, i12.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(-1, null, [" Email "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_7)), i1.ɵdid(10, 16384, null, 0, i12.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(11, 0, null, null, 6, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(12, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "value"], ["placeholder", "Email"], ["type", "text"]], [[8, "id", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 13)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 13).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 13)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 13)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } return ad; }, null, null)), i1.ɵdid(13, 16384, null, 0, i11.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i11.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i11.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i11.DefaultValueAccessor]), i1.ɵdid(15, 671744, null, 0, i11.FormControlName, [[3, i11.ControlContainer], [8, null], [8, null], [6, i11.NG_VALUE_ACCESSOR], [2, i11.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.NgControl, null, [i11.FormControlName]), i1.ɵdid(17, 16384, null, 0, i11.NgControlStatus, [[4, i11.NgControl]], null, null)], function (_ck, _v) { var currVal_7 = _v.context.index; _ck(_v, 1, 0, currVal_7); var currVal_9 = ((_v.context.$implicit.value == null) ? null : _v.context.$implicit.value.isPrimary); _ck(_v, 7, 0, currVal_9); var currVal_10 = !((_v.context.$implicit.value == null) ? null : _v.context.$implicit.value.isPrimary); _ck(_v, 10, 0, currVal_10); var currVal_19 = "value"; _ck(_v, 15, 0, currVal_19); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 3).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 3).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 3).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 3).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 3).ngClassValid; var currVal_5 = i1.ɵnov(_v, 3).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 3).ngClassPending; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_8 = i1.ɵinlineInterpolate(1, "email-", _v.context.index, ""); _ck(_v, 5, 0, currVal_8); var currVal_11 = i1.ɵinlineInterpolate(1, "email-", _v.context.index, ""); var currVal_12 = i1.ɵnov(_v, 17).ngClassUntouched; var currVal_13 = i1.ɵnov(_v, 17).ngClassTouched; var currVal_14 = i1.ɵnov(_v, 17).ngClassPristine; var currVal_15 = i1.ɵnov(_v, 17).ngClassDirty; var currVal_16 = i1.ɵnov(_v, 17).ngClassValid; var currVal_17 = i1.ɵnov(_v, 17).ngClassInvalid; var currVal_18 = i1.ɵnov(_v, 17).ngClassPending; _ck(_v, 12, 0, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16, currVal_17, currVal_18); }); }
+function View_EditProfileComponent_9(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary"]))], null, null); }
+function View_EditProfileComponent_10(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "text-uppercase make-primary"], ["color", "primary"], ["mat-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.makePhonePrimary(_v.parent.context.index) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵted(-1, 0, [" Make Primary "]))], function (_ck, _v) { var currVal_2 = "primary"; _ck(_v, 1, 0, currVal_2); }, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_EditProfileComponent_8(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 17, "div", [], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], null, null, null, null)), i1.ɵdid(1, 212992, null, 0, i11.FormGroupName, [[3, i11.ControlContainer], [8, null], [8, null]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.ControlContainer, null, [i11.FormGroupName]), i1.ɵdid(3, 16384, null, 0, i11.NgControlStatusGroup, [[4, i11.ControlContainer]], null, null), (_l()(), i1.ɵeld(4, 0, null, null, 6, "div", [["class", "d-flex justify-content-between align-items-end"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 3, "label", [], [[8, "htmlFor", 0]], null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_9)), i1.ɵdid(7, 16384, null, 0, i12.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(-1, null, [" Phone "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_10)), i1.ɵdid(10, 16384, null, 0, i12.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(11, 0, null, null, 6, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(12, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "value"], ["placeholder", "Phone"], ["type", "text"]], [[8, "id", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 13)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 13).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 13)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 13)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } return ad; }, null, null)), i1.ɵdid(13, 16384, null, 0, i11.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i11.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i11.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i11.DefaultValueAccessor]), i1.ɵdid(15, 671744, null, 0, i11.FormControlName, [[3, i11.ControlContainer], [8, null], [8, null], [6, i11.NG_VALUE_ACCESSOR], [2, i11.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.NgControl, null, [i11.FormControlName]), i1.ɵdid(17, 16384, null, 0, i11.NgControlStatus, [[4, i11.NgControl]], null, null)], function (_ck, _v) { var currVal_7 = _v.context.index; _ck(_v, 1, 0, currVal_7); var currVal_9 = ((_v.context.$implicit.value == null) ? null : _v.context.$implicit.value.isPrimary); _ck(_v, 7, 0, currVal_9); var currVal_10 = !((_v.context.$implicit.value == null) ? null : _v.context.$implicit.value.isPrimary); _ck(_v, 10, 0, currVal_10); var currVal_19 = "value"; _ck(_v, 15, 0, currVal_19); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 3).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 3).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 3).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 3).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 3).ngClassValid; var currVal_5 = i1.ɵnov(_v, 3).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 3).ngClassPending; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_8 = i1.ɵinlineInterpolate(1, "phone-", _v.context.index, ""); _ck(_v, 5, 0, currVal_8); var currVal_11 = i1.ɵinlineInterpolate(1, "phone-", _v.context.index, ""); var currVal_12 = i1.ɵnov(_v, 17).ngClassUntouched; var currVal_13 = i1.ɵnov(_v, 17).ngClassTouched; var currVal_14 = i1.ɵnov(_v, 17).ngClassPristine; var currVal_15 = i1.ɵnov(_v, 17).ngClassDirty; var currVal_16 = i1.ɵnov(_v, 17).ngClassValid; var currVal_17 = i1.ɵnov(_v, 17).ngClassInvalid; var currVal_18 = i1.ɵnov(_v, 17).ngClassPending; _ck(_v, 12, 0, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16, currVal_17, currVal_18); }); }
+function View_EditProfileComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 92, "div", [["class", "container-fluid"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 91, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngSubmit"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 3).onSubmit($event) !== false);
         ad = (pd_0 && ad);
     } if (("reset" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 4).onReset() !== false);
+        var pd_1 = (i1.ɵnov(_v, 3).onReset() !== false);
         ad = (pd_1 && ad);
     } if (("ngSubmit" === en)) {
         var pd_2 = (_co.onSubmit() !== false);
         ad = (pd_2 && ad);
-    } return ad; }, null, null)), i1.ɵdid(3, 16384, null, 0, i4.ɵangular_packages_forms_forms_z, [], null, null), i1.ɵdid(4, 540672, null, 0, i4.FormGroupDirective, [[8, null], [8, null]], { form: [0, "form"] }, { ngSubmit: "ngSubmit" }), i1.ɵprd(2048, null, i4.ControlContainer, null, [i4.FormGroupDirective]), i1.ɵdid(6, 16384, null, 0, i4.NgControlStatusGroup, [[4, i4.ControlContainer]], null, null), (_l()(), i1.ɵeld(7, 0, null, null, 157, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 2, "div", [["class", "col-12 mb-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 1, "app-image-uploader", [], null, [[null, "imgChange"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("imgChange" === en)) {
-        var pd_0 = (_co.onProfileImgChange($event) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, i5.View_ImageUploaderComponent_0, i5.RenderType_ImageUploaderComponent)), i1.ɵdid(10, 114688, null, 0, i6.ImageUploaderComponent, [i7.ImageService, i1.ElementRef], { imgUrl: [0, "imgUrl"] }, { imgChange: "imgChange" }), (_l()(), i1.ɵeld(11, 0, null, null, 2, "div", [["class", "col-12"]], null, null, null, null, null)), (_l()(), i1.ɵeld(12, 0, null, null, 1, "h2", [["class", "font-weight-light my-3"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Personal Info. "])), (_l()(), i1.ɵeld(14, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(15, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(16, 0, null, null, 1, "label", [["for", "firstName"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["First name"])), (_l()(), i1.ɵeld(18, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "firstName"], ["id", "firstName"], ["placeholder", "First name"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 19)._handleInput($event.target.value) !== false);
+    } return ad; }, null, null)), i1.ɵdid(2, 16384, null, 0, i11.ɵangular_packages_forms_forms_z, [], null, null), i1.ɵdid(3, 540672, null, 0, i11.FormGroupDirective, [[8, null], [8, null]], { form: [0, "form"] }, { ngSubmit: "ngSubmit" }), i1.ɵprd(2048, null, i11.ControlContainer, null, [i11.FormGroupDirective]), i1.ɵdid(5, 16384, null, 0, i11.NgControlStatusGroup, [[4, i11.ControlContainer]], null, null), (_l()(), i1.ɵeld(6, 0, null, null, 86, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 3, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 2, "div", [["class", "py-5 px-4"], ["style", "background-color: #fff"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 1, "h5", [["class", "font-weight-bold m-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Edit Profile "])), (_l()(), i1.ɵeld(11, 0, null, null, 3, "div", [["class", "col-9"]], null, null, null, null, null)), (_l()(), i1.ɵeld(12, 0, null, null, 2, "div", [["class", "py-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(13, 0, null, null, 1, "h5", [["class", "font-weight-bold m-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Bio "])), (_l()(), i1.ɵeld(15, 0, null, null, 1, "div", [["class", "col-12"]], null, null, null, null, null)), (_l()(), i1.ɵeld(16, 0, null, null, 0, "div", [["class", "border-bottom"]], null, null, null, null, null)), (_l()(), i1.ɵeld(17, 0, null, null, 66, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(18, 0, null, null, 65, "div", [["class", "py-5 px-4"], ["style", "background-color: #fff"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_3)), i1.ɵdid(20, 16384, null, 0, i12.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_4)), i1.ɵdid(22, 16384, null, 0, i12.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(23, 0, null, null, 1, "label", [["for", "name"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Name"])), (_l()(), i1.ɵeld(25, 0, null, null, 6, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(26, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "name"], ["id", "name"], ["name", "name"], ["placeholder", "Name"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 27)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
     } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 19).onTouched() !== false);
+        var pd_1 = (i1.ɵnov(_v, 27).onTouched() !== false);
         ad = (pd_1 && ad);
     } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 19)._compositionStart() !== false);
+        var pd_2 = (i1.ɵnov(_v, 27)._compositionStart() !== false);
         ad = (pd_2 && ad);
     } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 19)._compositionEnd($event.target.value) !== false);
+        var pd_3 = (i1.ɵnov(_v, 27)._compositionEnd($event.target.value) !== false);
         ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(19, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(21, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(23, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(24, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(25, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(26, 0, null, null, 1, "label", [["for", "lastName"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Last name"])), (_l()(), i1.ɵeld(28, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "lastName"], ["id", "lastName"], ["placeholder", "Last name"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 29)._handleInput($event.target.value) !== false);
+    } return ad; }, null, null)), i1.ɵdid(27, 16384, null, 0, i11.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i11.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i11.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i11.DefaultValueAccessor]), i1.ɵdid(29, 671744, null, 0, i11.FormControlName, [[3, i11.ControlContainer], [8, null], [8, null], [6, i11.NG_VALUE_ACCESSOR], [2, i11.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.NgControl, null, [i11.FormControlName]), i1.ɵdid(31, 16384, null, 0, i11.NgControlStatus, [[4, i11.NgControl]], null, null), (_l()(), i1.ɵeld(32, 0, null, null, 1, "label", [["for", "location"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Location"])), (_l()(), i1.ɵeld(34, 0, null, null, 6, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(35, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "location"], ["id", "location"], ["name", "location"], ["placeholder", "Location"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 36)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
     } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 29).onTouched() !== false);
+        var pd_1 = (i1.ɵnov(_v, 36).onTouched() !== false);
         ad = (pd_1 && ad);
     } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 29)._compositionStart() !== false);
+        var pd_2 = (i1.ɵnov(_v, 36)._compositionStart() !== false);
         ad = (pd_2 && ad);
     } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 29)._compositionEnd($event.target.value) !== false);
+        var pd_3 = (i1.ɵnov(_v, 36)._compositionEnd($event.target.value) !== false);
         ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(29, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(31, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(33, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(34, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(35, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(36, 0, null, null, 1, "label", [["for", "city"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["City"])), (_l()(), i1.ɵeld(38, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "city"], ["id", "city"], ["placeholder", "City"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 39)._handleInput($event.target.value) !== false);
+    } return ad; }, null, null)), i1.ɵdid(36, 16384, null, 0, i11.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i11.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i11.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i11.DefaultValueAccessor]), i1.ɵdid(38, 671744, null, 0, i11.FormControlName, [[3, i11.ControlContainer], [8, null], [8, null], [6, i11.NG_VALUE_ACCESSOR], [2, i11.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.NgControl, null, [i11.FormControlName]), i1.ɵdid(40, 16384, null, 0, i11.NgControlStatus, [[4, i11.NgControl]], null, null), (_l()(), i1.ɵeld(41, 0, null, null, 5, "div", [["formArrayName", "emails"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], null, null, null, null)), i1.ɵdid(42, 212992, null, 0, i11.FormArrayName, [[3, i11.ControlContainer], [8, null], [8, null]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.ControlContainer, null, [i11.FormArrayName]), i1.ɵdid(44, 16384, null, 0, i11.NgControlStatusGroup, [[4, i11.ControlContainer]], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_5)), i1.ɵdid(46, 278528, null, 0, i12.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(47, 0, null, null, 1, "label", [["for", "email-model"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Email"])), (_l()(), i1.ɵeld(49, 0, null, null, 11, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(50, 0, null, null, 6, "input", [["class", "form-control"], ["id", "email-model"], ["placeholder", "One more email"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 51)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
     } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 39).onTouched() !== false);
+        var pd_1 = (i1.ɵnov(_v, 51).onTouched() !== false);
         ad = (pd_1 && ad);
     } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 39)._compositionStart() !== false);
+        var pd_2 = (i1.ɵnov(_v, 51)._compositionStart() !== false);
         ad = (pd_2 && ad);
     } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 39)._compositionEnd($event.target.value) !== false);
+        var pd_3 = (i1.ɵnov(_v, 51)._compositionEnd($event.target.value) !== false);
         ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(39, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(41, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(43, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(44, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(45, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(46, 0, null, null, 1, "label", [["for", "state"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["State"])), (_l()(), i1.ɵeld(48, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "state"], ["id", "state"], ["placeholder", "State"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 49)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 49).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 49)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 49)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(49, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(51, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(53, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(54, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(55, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(56, 0, null, null, 1, "label", [["for", "country"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Country"])), (_l()(), i1.ɵeld(58, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "country"], ["id", "country"], ["placeholder", "Country"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 59)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 59).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 59)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 59)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(59, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(61, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(63, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(64, 0, null, null, 10, "div", [["class", "col-md-12"]], null, null, null, null, null)), (_l()(), i1.ɵeld(65, 0, null, null, 9, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(66, 0, null, null, 1, "label", [["for", "bio"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Bio"])), (_l()(), i1.ɵeld(68, 0, null, null, 6, "textarea", [["class", "form-control"], ["formControlName", "bio"], ["id", "bio"], ["placeholder", "Bio"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 69)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 69).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 69)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 69)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(69, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(71, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(73, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵted(-1, null, ["            "])), (_l()(), i1.ɵeld(75, 0, null, null, 2, "div", [["class", "col-12"]], null, null, null, null, null)), (_l()(), i1.ɵeld(76, 0, null, null, 1, "h2", [["class", "font-weight-light my-3"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Contact Info. "])), (_l()(), i1.ɵeld(78, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(79, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(80, 0, null, null, 1, "label", [["for", "primaryEmail"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary Email"])), (_l()(), i1.ɵeld(82, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "primaryEmail"], ["id", "primaryEmail"], ["placeholder", "Primary Email"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 83)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 83).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 83)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 83)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(83, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(85, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(87, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(88, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(89, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(90, 0, null, null, 1, "label", [["for", "email"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Email"])), (_l()(), i1.ɵeld(92, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "email"], ["id", "email"], ["placeholder", "Email"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 93)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 93).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 93)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 93)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(93, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(95, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(97, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(98, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(99, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(100, 0, null, null, 1, "label", [["for", "primaryPhone"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary Phone"])), (_l()(), i1.ɵeld(102, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "primaryPhone"], ["id", "primaryPhone"], ["placeholder", "Primary Phone"], ["type", "text"]], [[1, "maxlength", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "keyup"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 103)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 103).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 103)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 103)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("keyup" === en)) {
-        var pd_4 = (_co.replacePhoneVal($event, "primaryPhone") !== false);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.emailModel = $event) !== false);
         ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(103, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(105, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(107, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(108, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(109, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(110, 0, null, null, 1, "label", [["for", "phone"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Phone"])), (_l()(), i1.ɵeld(112, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "phone"], ["id", "phone"], ["placeholder", "Phone"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "keyup"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 113)._handleInput($event.target.value) !== false);
+    } return ad; }, null, null)), i1.ɵdid(51, 16384, null, 0, i11.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i11.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i11.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i11.DefaultValueAccessor]), i1.ɵdid(53, 671744, null, 0, i11.NgModel, [[2, i11.ControlContainer], [8, null], [8, null], [6, i11.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(54, { standalone: 0 }), i1.ɵprd(2048, null, i11.NgControl, null, [i11.NgModel]), i1.ɵdid(56, 16384, null, 0, i11.NgControlStatus, [[4, i11.NgControl]], null, null), (_l()(), i1.ɵeld(57, 0, null, null, 3, "div", [["class", "input-group-append"]], null, null, null, null, null)), (_l()(), i1.ɵeld(58, 0, null, null, 2, "button", [["class", "btn add-btn"], ["mat-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.addEmail() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(59, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], { disabled: [0, "disabled"] }, null), (_l()(), i1.ɵeld(60, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_add_from_rearch.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(61, 0, null, null, 5, "div", [["formArrayName", "phones"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], null, null, null, null)), i1.ɵdid(62, 212992, null, 0, i11.FormArrayName, [[3, i11.ControlContainer], [8, null], [8, null]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.ControlContainer, null, [i11.FormArrayName]), i1.ɵdid(64, 16384, null, 0, i11.NgControlStatusGroup, [[4, i11.ControlContainer]], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_8)), i1.ɵdid(66, 278528, null, 0, i12.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(67, 0, null, null, 1, "label", [["for", "phone-model"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Phone"])), (_l()(), i1.ɵeld(69, 0, null, null, 11, "div", [["class", "input-group mb-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(70, 0, null, null, 6, "input", [["class", "form-control"], ["id", "phone-model"], ["placeholder", "One more phone"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 71)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
     } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 113).onTouched() !== false);
+        var pd_1 = (i1.ɵnov(_v, 71).onTouched() !== false);
         ad = (pd_1 && ad);
     } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 113)._compositionStart() !== false);
+        var pd_2 = (i1.ɵnov(_v, 71)._compositionStart() !== false);
         ad = (pd_2 && ad);
     } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 113)._compositionEnd($event.target.value) !== false);
+        var pd_3 = (i1.ɵnov(_v, 71)._compositionEnd($event.target.value) !== false);
         ad = (pd_3 && ad);
-    } if (("keyup" === en)) {
-        var pd_4 = (_co.replacePhoneVal($event, "phone") !== false);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.phoneModel = $event) !== false);
         ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(113, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(115, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(117, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(118, 0, null, null, 2, "div", [["class", "col-12"]], null, null, null, null, null)), (_l()(), i1.ɵeld(119, 0, null, null, 1, "h2", [["class", "font-weight-light my-3"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Social Media "])), (_l()(), i1.ɵeld(121, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(122, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(123, 0, null, null, 1, "label", [["for", "facebook"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Facebook"])), (_l()(), i1.ɵeld(125, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "facebook"], ["id", "facebook"], ["placeholder", "Facebook"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 126)._handleInput($event.target.value) !== false);
+    } return ad; }, null, null)), i1.ɵdid(71, 16384, null, 0, i11.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i11.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i11.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i11.DefaultValueAccessor]), i1.ɵdid(73, 671744, null, 0, i11.NgModel, [[2, i11.ControlContainer], [8, null], [8, null], [6, i11.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(74, { standalone: 0 }), i1.ɵprd(2048, null, i11.NgControl, null, [i11.NgModel]), i1.ɵdid(76, 16384, null, 0, i11.NgControlStatus, [[4, i11.NgControl]], null, null), (_l()(), i1.ɵeld(77, 0, null, null, 3, "div", [["class", "input-group-append"]], null, null, null, null, null)), (_l()(), i1.ɵeld(78, 0, null, null, 2, "button", [["class", "btn add-btn"], ["mat-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.addPhone() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(79, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], { disabled: [0, "disabled"] }, null), (_l()(), i1.ɵeld(80, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_add_from_rearch.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(81, 0, null, null, 2, "button", [["class", "py-1 w-100 "], ["color", "primary"], ["mat-raised-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], null, null, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(82, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵted(-1, 0, [" Save "])), (_l()(), i1.ɵeld(84, 0, null, null, 8, "div", [["class", "col-9"]], null, null, null, null, null)), (_l()(), i1.ɵeld(85, 0, null, null, 7, "div", [["class", "pt-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(86, 0, null, null, 6, "div", [["class", "input-group"]], null, null, null, null, null)), (_l()(), i1.ɵeld(87, 0, null, null, 5, "textarea", [["class", "form-control"], ["formControlName", "bio"], ["id", "bio"], ["placeholder", "Bio"], ["rows", "6"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 88)._handleInput($event.target.value) !== false);
         ad = (pd_0 && ad);
     } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 126).onTouched() !== false);
+        var pd_1 = (i1.ɵnov(_v, 88).onTouched() !== false);
         ad = (pd_1 && ad);
     } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 126)._compositionStart() !== false);
+        var pd_2 = (i1.ɵnov(_v, 88)._compositionStart() !== false);
         ad = (pd_2 && ad);
     } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 126)._compositionEnd($event.target.value) !== false);
+        var pd_3 = (i1.ɵnov(_v, 88)._compositionEnd($event.target.value) !== false);
         ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(126, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(128, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(130, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(131, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(132, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(133, 0, null, null, 1, "label", [["for", "instagram"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Instagram"])), (_l()(), i1.ɵeld(135, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "instagram"], ["id", "instagram"], ["placeholder", "Instagram"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 136)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 136).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 136)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 136)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(136, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(138, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(140, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(141, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(142, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(143, 0, null, null, 1, "label", [["for", "twitter"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Twitter"])), (_l()(), i1.ɵeld(145, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "twitter"], ["id", "twitter"], ["placeholder", "Twitter"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 146)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 146).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 146)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 146)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(146, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(148, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(150, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(151, 0, null, null, 9, "div", [["class", "col-md-6"]], null, null, null, null, null)), (_l()(), i1.ɵeld(152, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(153, 0, null, null, 1, "label", [["for", "linkedIn"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["LinkedIn"])), (_l()(), i1.ɵeld(155, 0, null, null, 5, "input", [["class", "form-control"], ["formControlName", "linkedIn"], ["id", "linkedIn"], ["placeholder", "LinkedIn"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 156)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 156).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 156)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 156)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } return ad; }, null, null)), i1.ɵdid(156, 16384, null, 0, i4.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i4.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i4.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i4.DefaultValueAccessor]), i1.ɵdid(158, 671744, null, 0, i4.FormControlName, [[3, i4.ControlContainer], [8, null], [8, null], [6, i4.NG_VALUE_ACCESSOR], [2, i4.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i4.NgControl, null, [i4.FormControlName]), i1.ɵdid(160, 16384, null, 0, i4.NgControlStatus, [[4, i4.NgControl]], null, null), (_l()(), i1.ɵeld(161, 0, null, null, 3, "div", [["class", "col-12 d-flex justify-content-end"]], null, null, null, null, null)), (_l()(), i1.ɵeld(162, 0, null, null, 2, "button", [["class", "px-5 py-1"], ["color", "primary"], ["mat-raised-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], null, null, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(163, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵted(-1, 0, [" Submit "]))], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.profileForm; _ck(_v, 4, 0, currVal_7); var currVal_8 = _co.profileImgUrl; _ck(_v, 10, 0, currVal_8); var currVal_16 = "firstName"; _ck(_v, 21, 0, currVal_16); var currVal_24 = "lastName"; _ck(_v, 31, 0, currVal_24); var currVal_32 = "city"; _ck(_v, 41, 0, currVal_32); var currVal_40 = "state"; _ck(_v, 51, 0, currVal_40); var currVal_48 = "country"; _ck(_v, 61, 0, currVal_48); var currVal_56 = "bio"; _ck(_v, 71, 0, currVal_56); var currVal_64 = "primaryEmail"; _ck(_v, 85, 0, currVal_64); var currVal_72 = "email"; _ck(_v, 95, 0, currVal_72); var currVal_81 = "primaryPhone"; _ck(_v, 105, 0, currVal_81); var currVal_89 = "phone"; _ck(_v, 115, 0, currVal_89); var currVal_97 = "facebook"; _ck(_v, 128, 0, currVal_97); var currVal_105 = "instagram"; _ck(_v, 138, 0, currVal_105); var currVal_113 = "twitter"; _ck(_v, 148, 0, currVal_113); var currVal_121 = "linkedIn"; _ck(_v, 158, 0, currVal_121); var currVal_124 = "primary"; _ck(_v, 163, 0, currVal_124); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 6).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 6).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 6).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 6).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 6).ngClassValid; var currVal_5 = i1.ɵnov(_v, 6).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 6).ngClassPending; _ck(_v, 2, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_9 = i1.ɵnov(_v, 23).ngClassUntouched; var currVal_10 = i1.ɵnov(_v, 23).ngClassTouched; var currVal_11 = i1.ɵnov(_v, 23).ngClassPristine; var currVal_12 = i1.ɵnov(_v, 23).ngClassDirty; var currVal_13 = i1.ɵnov(_v, 23).ngClassValid; var currVal_14 = i1.ɵnov(_v, 23).ngClassInvalid; var currVal_15 = i1.ɵnov(_v, 23).ngClassPending; _ck(_v, 18, 0, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15); var currVal_17 = i1.ɵnov(_v, 33).ngClassUntouched; var currVal_18 = i1.ɵnov(_v, 33).ngClassTouched; var currVal_19 = i1.ɵnov(_v, 33).ngClassPristine; var currVal_20 = i1.ɵnov(_v, 33).ngClassDirty; var currVal_21 = i1.ɵnov(_v, 33).ngClassValid; var currVal_22 = i1.ɵnov(_v, 33).ngClassInvalid; var currVal_23 = i1.ɵnov(_v, 33).ngClassPending; _ck(_v, 28, 0, currVal_17, currVal_18, currVal_19, currVal_20, currVal_21, currVal_22, currVal_23); var currVal_25 = i1.ɵnov(_v, 43).ngClassUntouched; var currVal_26 = i1.ɵnov(_v, 43).ngClassTouched; var currVal_27 = i1.ɵnov(_v, 43).ngClassPristine; var currVal_28 = i1.ɵnov(_v, 43).ngClassDirty; var currVal_29 = i1.ɵnov(_v, 43).ngClassValid; var currVal_30 = i1.ɵnov(_v, 43).ngClassInvalid; var currVal_31 = i1.ɵnov(_v, 43).ngClassPending; _ck(_v, 38, 0, currVal_25, currVal_26, currVal_27, currVal_28, currVal_29, currVal_30, currVal_31); var currVal_33 = i1.ɵnov(_v, 53).ngClassUntouched; var currVal_34 = i1.ɵnov(_v, 53).ngClassTouched; var currVal_35 = i1.ɵnov(_v, 53).ngClassPristine; var currVal_36 = i1.ɵnov(_v, 53).ngClassDirty; var currVal_37 = i1.ɵnov(_v, 53).ngClassValid; var currVal_38 = i1.ɵnov(_v, 53).ngClassInvalid; var currVal_39 = i1.ɵnov(_v, 53).ngClassPending; _ck(_v, 48, 0, currVal_33, currVal_34, currVal_35, currVal_36, currVal_37, currVal_38, currVal_39); var currVal_41 = i1.ɵnov(_v, 63).ngClassUntouched; var currVal_42 = i1.ɵnov(_v, 63).ngClassTouched; var currVal_43 = i1.ɵnov(_v, 63).ngClassPristine; var currVal_44 = i1.ɵnov(_v, 63).ngClassDirty; var currVal_45 = i1.ɵnov(_v, 63).ngClassValid; var currVal_46 = i1.ɵnov(_v, 63).ngClassInvalid; var currVal_47 = i1.ɵnov(_v, 63).ngClassPending; _ck(_v, 58, 0, currVal_41, currVal_42, currVal_43, currVal_44, currVal_45, currVal_46, currVal_47); var currVal_49 = i1.ɵnov(_v, 73).ngClassUntouched; var currVal_50 = i1.ɵnov(_v, 73).ngClassTouched; var currVal_51 = i1.ɵnov(_v, 73).ngClassPristine; var currVal_52 = i1.ɵnov(_v, 73).ngClassDirty; var currVal_53 = i1.ɵnov(_v, 73).ngClassValid; var currVal_54 = i1.ɵnov(_v, 73).ngClassInvalid; var currVal_55 = i1.ɵnov(_v, 73).ngClassPending; _ck(_v, 68, 0, currVal_49, currVal_50, currVal_51, currVal_52, currVal_53, currVal_54, currVal_55); var currVal_57 = i1.ɵnov(_v, 87).ngClassUntouched; var currVal_58 = i1.ɵnov(_v, 87).ngClassTouched; var currVal_59 = i1.ɵnov(_v, 87).ngClassPristine; var currVal_60 = i1.ɵnov(_v, 87).ngClassDirty; var currVal_61 = i1.ɵnov(_v, 87).ngClassValid; var currVal_62 = i1.ɵnov(_v, 87).ngClassInvalid; var currVal_63 = i1.ɵnov(_v, 87).ngClassPending; _ck(_v, 82, 0, currVal_57, currVal_58, currVal_59, currVal_60, currVal_61, currVal_62, currVal_63); var currVal_65 = i1.ɵnov(_v, 97).ngClassUntouched; var currVal_66 = i1.ɵnov(_v, 97).ngClassTouched; var currVal_67 = i1.ɵnov(_v, 97).ngClassPristine; var currVal_68 = i1.ɵnov(_v, 97).ngClassDirty; var currVal_69 = i1.ɵnov(_v, 97).ngClassValid; var currVal_70 = i1.ɵnov(_v, 97).ngClassInvalid; var currVal_71 = i1.ɵnov(_v, 97).ngClassPending; _ck(_v, 92, 0, currVal_65, currVal_66, currVal_67, currVal_68, currVal_69, currVal_70, currVal_71); var currVal_73 = 16; var currVal_74 = i1.ɵnov(_v, 107).ngClassUntouched; var currVal_75 = i1.ɵnov(_v, 107).ngClassTouched; var currVal_76 = i1.ɵnov(_v, 107).ngClassPristine; var currVal_77 = i1.ɵnov(_v, 107).ngClassDirty; var currVal_78 = i1.ɵnov(_v, 107).ngClassValid; var currVal_79 = i1.ɵnov(_v, 107).ngClassInvalid; var currVal_80 = i1.ɵnov(_v, 107).ngClassPending; _ck(_v, 102, 0, currVal_73, currVal_74, currVal_75, currVal_76, currVal_77, currVal_78, currVal_79, currVal_80); var currVal_82 = i1.ɵnov(_v, 117).ngClassUntouched; var currVal_83 = i1.ɵnov(_v, 117).ngClassTouched; var currVal_84 = i1.ɵnov(_v, 117).ngClassPristine; var currVal_85 = i1.ɵnov(_v, 117).ngClassDirty; var currVal_86 = i1.ɵnov(_v, 117).ngClassValid; var currVal_87 = i1.ɵnov(_v, 117).ngClassInvalid; var currVal_88 = i1.ɵnov(_v, 117).ngClassPending; _ck(_v, 112, 0, currVal_82, currVal_83, currVal_84, currVal_85, currVal_86, currVal_87, currVal_88); var currVal_90 = i1.ɵnov(_v, 130).ngClassUntouched; var currVal_91 = i1.ɵnov(_v, 130).ngClassTouched; var currVal_92 = i1.ɵnov(_v, 130).ngClassPristine; var currVal_93 = i1.ɵnov(_v, 130).ngClassDirty; var currVal_94 = i1.ɵnov(_v, 130).ngClassValid; var currVal_95 = i1.ɵnov(_v, 130).ngClassInvalid; var currVal_96 = i1.ɵnov(_v, 130).ngClassPending; _ck(_v, 125, 0, currVal_90, currVal_91, currVal_92, currVal_93, currVal_94, currVal_95, currVal_96); var currVal_98 = i1.ɵnov(_v, 140).ngClassUntouched; var currVal_99 = i1.ɵnov(_v, 140).ngClassTouched; var currVal_100 = i1.ɵnov(_v, 140).ngClassPristine; var currVal_101 = i1.ɵnov(_v, 140).ngClassDirty; var currVal_102 = i1.ɵnov(_v, 140).ngClassValid; var currVal_103 = i1.ɵnov(_v, 140).ngClassInvalid; var currVal_104 = i1.ɵnov(_v, 140).ngClassPending; _ck(_v, 135, 0, currVal_98, currVal_99, currVal_100, currVal_101, currVal_102, currVal_103, currVal_104); var currVal_106 = i1.ɵnov(_v, 150).ngClassUntouched; var currVal_107 = i1.ɵnov(_v, 150).ngClassTouched; var currVal_108 = i1.ɵnov(_v, 150).ngClassPristine; var currVal_109 = i1.ɵnov(_v, 150).ngClassDirty; var currVal_110 = i1.ɵnov(_v, 150).ngClassValid; var currVal_111 = i1.ɵnov(_v, 150).ngClassInvalid; var currVal_112 = i1.ɵnov(_v, 150).ngClassPending; _ck(_v, 145, 0, currVal_106, currVal_107, currVal_108, currVal_109, currVal_110, currVal_111, currVal_112); var currVal_114 = i1.ɵnov(_v, 160).ngClassUntouched; var currVal_115 = i1.ɵnov(_v, 160).ngClassTouched; var currVal_116 = i1.ɵnov(_v, 160).ngClassPristine; var currVal_117 = i1.ɵnov(_v, 160).ngClassDirty; var currVal_118 = i1.ɵnov(_v, 160).ngClassValid; var currVal_119 = i1.ɵnov(_v, 160).ngClassInvalid; var currVal_120 = i1.ɵnov(_v, 160).ngClassPending; _ck(_v, 155, 0, currVal_114, currVal_115, currVal_116, currVal_117, currVal_118, currVal_119, currVal_120); var currVal_122 = (i1.ɵnov(_v, 163).disabled || null); var currVal_123 = (i1.ɵnov(_v, 163)._animationMode === "NoopAnimations"); _ck(_v, 162, 0, currVal_122, currVal_123); }); }
-function View_EditProfileComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-navbar", [], null, null, null, i12.View_NavbarComponent_0, i12.RenderType_NavbarComponent)), i1.ɵdid(1, 114688, null, 0, i13.NavbarComponent, [], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_1)), i1.ɵdid(3, 16384, null, 0, i14.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_2)), i1.ɵdid(5, 16384, null, 0, i14.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 1, 0); var currVal_0 = !_co.isLoaded; _ck(_v, 3, 0, currVal_0); var currVal_1 = _co.isLoaded; _ck(_v, 5, 0, currVal_1); }, null); }
+    } return ad; }, null, null)), i1.ɵdid(88, 16384, null, 0, i11.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i11.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i11.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i11.DefaultValueAccessor]), i1.ɵdid(90, 671744, null, 0, i11.FormControlName, [[3, i11.ControlContainer], [8, null], [8, null], [6, i11.NG_VALUE_ACCESSOR], [2, i11.ɵangular_packages_forms_forms_q]], { name: [0, "name"] }, null), i1.ɵprd(2048, null, i11.NgControl, null, [i11.FormControlName]), i1.ɵdid(92, 16384, null, 0, i11.NgControlStatus, [[4, i11.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.profileForm; _ck(_v, 3, 0, currVal_7); var currVal_8 = _co.profile.profileImg; _ck(_v, 20, 0, currVal_8); var currVal_9 = !_co.profile.profileImg; _ck(_v, 22, 0, currVal_9); var currVal_17 = "name"; _ck(_v, 29, 0, currVal_17); var currVal_25 = "location"; _ck(_v, 38, 0, currVal_25); var currVal_33 = "emails"; _ck(_v, 42, 0, currVal_33); var currVal_34 = _co.formEmails.controls; _ck(_v, 46, 0, currVal_34); var currVal_42 = _co.emailModel; var currVal_43 = _ck(_v, 54, 0, true); _ck(_v, 53, 0, currVal_42, currVal_43); var currVal_46 = !_co.emailModel; _ck(_v, 59, 0, currVal_46); var currVal_54 = "phones"; _ck(_v, 62, 0, currVal_54); var currVal_55 = _co.formPhones.controls; _ck(_v, 66, 0, currVal_55); var currVal_63 = _co.phoneModel; var currVal_64 = _ck(_v, 74, 0, true); _ck(_v, 73, 0, currVal_63, currVal_64); var currVal_67 = !_co.phoneModel; _ck(_v, 79, 0, currVal_67); var currVal_70 = "primary"; _ck(_v, 82, 0, currVal_70); var currVal_78 = "bio"; _ck(_v, 90, 0, currVal_78); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 5).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 5).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 5).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 5).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 5).ngClassValid; var currVal_5 = i1.ɵnov(_v, 5).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 5).ngClassPending; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_10 = i1.ɵnov(_v, 31).ngClassUntouched; var currVal_11 = i1.ɵnov(_v, 31).ngClassTouched; var currVal_12 = i1.ɵnov(_v, 31).ngClassPristine; var currVal_13 = i1.ɵnov(_v, 31).ngClassDirty; var currVal_14 = i1.ɵnov(_v, 31).ngClassValid; var currVal_15 = i1.ɵnov(_v, 31).ngClassInvalid; var currVal_16 = i1.ɵnov(_v, 31).ngClassPending; _ck(_v, 26, 0, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16); var currVal_18 = i1.ɵnov(_v, 40).ngClassUntouched; var currVal_19 = i1.ɵnov(_v, 40).ngClassTouched; var currVal_20 = i1.ɵnov(_v, 40).ngClassPristine; var currVal_21 = i1.ɵnov(_v, 40).ngClassDirty; var currVal_22 = i1.ɵnov(_v, 40).ngClassValid; var currVal_23 = i1.ɵnov(_v, 40).ngClassInvalid; var currVal_24 = i1.ɵnov(_v, 40).ngClassPending; _ck(_v, 35, 0, currVal_18, currVal_19, currVal_20, currVal_21, currVal_22, currVal_23, currVal_24); var currVal_26 = i1.ɵnov(_v, 44).ngClassUntouched; var currVal_27 = i1.ɵnov(_v, 44).ngClassTouched; var currVal_28 = i1.ɵnov(_v, 44).ngClassPristine; var currVal_29 = i1.ɵnov(_v, 44).ngClassDirty; var currVal_30 = i1.ɵnov(_v, 44).ngClassValid; var currVal_31 = i1.ɵnov(_v, 44).ngClassInvalid; var currVal_32 = i1.ɵnov(_v, 44).ngClassPending; _ck(_v, 41, 0, currVal_26, currVal_27, currVal_28, currVal_29, currVal_30, currVal_31, currVal_32); var currVal_35 = i1.ɵnov(_v, 56).ngClassUntouched; var currVal_36 = i1.ɵnov(_v, 56).ngClassTouched; var currVal_37 = i1.ɵnov(_v, 56).ngClassPristine; var currVal_38 = i1.ɵnov(_v, 56).ngClassDirty; var currVal_39 = i1.ɵnov(_v, 56).ngClassValid; var currVal_40 = i1.ɵnov(_v, 56).ngClassInvalid; var currVal_41 = i1.ɵnov(_v, 56).ngClassPending; _ck(_v, 50, 0, currVal_35, currVal_36, currVal_37, currVal_38, currVal_39, currVal_40, currVal_41); var currVal_44 = (i1.ɵnov(_v, 59).disabled || null); var currVal_45 = (i1.ɵnov(_v, 59)._animationMode === "NoopAnimations"); _ck(_v, 58, 0, currVal_44, currVal_45); var currVal_47 = i1.ɵnov(_v, 64).ngClassUntouched; var currVal_48 = i1.ɵnov(_v, 64).ngClassTouched; var currVal_49 = i1.ɵnov(_v, 64).ngClassPristine; var currVal_50 = i1.ɵnov(_v, 64).ngClassDirty; var currVal_51 = i1.ɵnov(_v, 64).ngClassValid; var currVal_52 = i1.ɵnov(_v, 64).ngClassInvalid; var currVal_53 = i1.ɵnov(_v, 64).ngClassPending; _ck(_v, 61, 0, currVal_47, currVal_48, currVal_49, currVal_50, currVal_51, currVal_52, currVal_53); var currVal_56 = i1.ɵnov(_v, 76).ngClassUntouched; var currVal_57 = i1.ɵnov(_v, 76).ngClassTouched; var currVal_58 = i1.ɵnov(_v, 76).ngClassPristine; var currVal_59 = i1.ɵnov(_v, 76).ngClassDirty; var currVal_60 = i1.ɵnov(_v, 76).ngClassValid; var currVal_61 = i1.ɵnov(_v, 76).ngClassInvalid; var currVal_62 = i1.ɵnov(_v, 76).ngClassPending; _ck(_v, 70, 0, currVal_56, currVal_57, currVal_58, currVal_59, currVal_60, currVal_61, currVal_62); var currVal_65 = (i1.ɵnov(_v, 79).disabled || null); var currVal_66 = (i1.ɵnov(_v, 79)._animationMode === "NoopAnimations"); _ck(_v, 78, 0, currVal_65, currVal_66); var currVal_68 = (i1.ɵnov(_v, 82).disabled || null); var currVal_69 = (i1.ɵnov(_v, 82)._animationMode === "NoopAnimations"); _ck(_v, 81, 0, currVal_68, currVal_69); var currVal_71 = i1.ɵnov(_v, 92).ngClassUntouched; var currVal_72 = i1.ɵnov(_v, 92).ngClassTouched; var currVal_73 = i1.ɵnov(_v, 92).ngClassPristine; var currVal_74 = i1.ɵnov(_v, 92).ngClassDirty; var currVal_75 = i1.ɵnov(_v, 92).ngClassValid; var currVal_76 = i1.ɵnov(_v, 92).ngClassInvalid; var currVal_77 = i1.ɵnov(_v, 92).ngClassPending; _ck(_v, 87, 0, currVal_71, currVal_72, currVal_73, currVal_74, currVal_75, currVal_76, currVal_77); }); }
+function View_EditProfileComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-navbar", [], null, null, null, i13.View_NavbarComponent_0, i13.RenderType_NavbarComponent)), i1.ɵdid(1, 114688, null, 0, i14.NavbarComponent, [i15.Router], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_1)), i1.ɵdid(3, 16384, null, 0, i12.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_EditProfileComponent_2)), i1.ɵdid(5, 16384, null, 0, i12.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 1, 0); var currVal_0 = !_co.isLoaded; _ck(_v, 3, 0, currVal_0); var currVal_1 = _co.isLoaded; _ck(_v, 5, 0, currVal_1); }, null); }
 exports.View_EditProfileComponent_0 = View_EditProfileComponent_0;
-function View_EditProfileComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-edit-profile", [], null, null, null, View_EditProfileComponent_0, RenderType_EditProfileComponent)), i1.ɵdid(1, 114688, null, 0, i15.EditProfileComponent, [i4.FormBuilder, i16.ProfileService, i17.ActivatedRoute, i17.Router], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_EditProfileComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-edit-profile", [], null, null, null, View_EditProfileComponent_0, RenderType_EditProfileComponent)), i1.ɵdid(1, 114688, null, 0, i16.EditProfileComponent, [i11.FormBuilder, i17.ProfileService, i15.ActivatedRoute, i15.Router], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_EditProfileComponent_Host_0 = View_EditProfileComponent_Host_0;
-var EditProfileComponentNgFactory = i1.ɵccf("app-edit-profile", i15.EditProfileComponent, View_EditProfileComponent_Host_0, {}, {}, []);
+var EditProfileComponentNgFactory = i1.ɵccf("app-edit-profile", i16.EditProfileComponent, View_EditProfileComponent_Host_0, {}, {}, []);
 exports.EditProfileComponentNgFactory = EditProfileComponentNgFactory;
 
 
@@ -1790,7 +2618,7 @@ exports.EditProfileComponentNgFactory = EditProfileComponentNgFactory;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUvZWRpdC1wcm9maWxlL2VkaXQtcHJvZmlsZS5jb21wb25lbnQuc2NzcyJ9 */"];
+var styles = [".profile-img[_ngcontent-%COMP%] {\n  width: 180px;\n  height: 180px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 8px;\n  margin: 0 auto;\n  display: block;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.input-group[_ngcontent-%COMP%]    > .form-control[_ngcontent-%COMP%]:not(:last-child) {\n  border-right: none;\n}\n\n.add-btn[_ngcontent-%COMP%] {\n  border: 1px solid #ced4da;\n  border-left: none;\n  padding: 0;\n  min-width: 40px;\n  opacity: 1;\n}\n\n.add-btn[_ngcontent-%COMP%]:disabled   img[_ngcontent-%COMP%] {\n  opacity: 0.6;\n}\n\nlabel[_ngcontent-%COMP%] {\n  font-size: 12px;\n  font-weight: bold;\n}\n\n.make-primary[_ngcontent-%COMP%] {\n  font-weight: bold;\n  font-size: 12px;\n}\n\n.remove-img-btn[_ngcontent-%COMP%] {\n  position: absolute;\n  right: 0.25rem;\n  top: 0.25rem;\n  padding: 0;\n  background-color: transparent;\n  min-width: 36px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9lZGl0LXByb2ZpbGUvRTpcXFVwd29ya1xcQ29sbGVjdGl2ZSBQZW9wbGVcXGZyb250LWVuZC9zcmNcXGFwcFxccHJvZmlsZVxcZWRpdC1wcm9maWxlXFxlZGl0LXByb2ZpbGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvZWRpdC1wcm9maWxlL2VkaXQtcHJvZmlsZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFlBQUE7RUFDQSxhQUFBO0VBQ0Esc0JBQUE7S0FBQSxtQkFBQTtFQUNBLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0FDQ0Y7O0FERUE7RUFDRSxrQkFBQTtBQ0NGOztBREVBO0VBQ0UseUJBQUE7RUFDQSxpQkFBQTtFQUNBLFVBQUE7RUFDQSxlQUFBO0VBQ0EsVUFBQTtBQ0NGOztBREVBO0VBQ0UsWUFBQTtBQ0NGOztBREVBO0VBRUUsZUFBQTtFQUNBLGlCQUFBO0FDQUY7O0FER0E7RUFDRSxpQkFBQTtFQUNBLGVBQUE7QUNBRjs7QURHQTtFQUNFLGtCQUFBO0VBQ0EsY0FBQTtFQUNBLFlBQUE7RUFDQSxVQUFBO0VBQ0EsNkJBQUE7RUFDQSxlQUFBO0FDQUYiLCJmaWxlIjoic3JjL2FwcC9wcm9maWxlL2VkaXQtcHJvZmlsZS9lZGl0LXByb2ZpbGUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucHJvZmlsZS1pbWcge1xyXG4gIHdpZHRoOiAxODBweDtcclxuICBoZWlnaHQ6IDE4MHB4O1xyXG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XHJcbiAgYm9yZGVyLXJhZGl1czogOHB4O1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG4gIGRpc3BsYXk6IGJsb2NrO1xyXG4gIG9iamVjdC1maXQ6IGNvdmVyO1xyXG59XHJcblxyXG4uaW5wdXQtZ3JvdXAgPiAuZm9ybS1jb250cm9sOm5vdCg6bGFzdC1jaGlsZCkge1xyXG4gIGJvcmRlci1yaWdodDogbm9uZTtcclxufVxyXG5cclxuLmFkZC1idG4ge1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICNjZWQ0ZGE7XHJcbiAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgcGFkZGluZzogMDtcclxuICBtaW4td2lkdGg6IDQwcHg7XHJcbiAgb3BhY2l0eTogMTtcclxufVxyXG5cclxuLmFkZC1idG46ZGlzYWJsZWQgaW1nIHtcclxuICBvcGFjaXR5OiAwLjY7XHJcbn1cclxuXHJcbmxhYmVsIHtcclxuICAvLyBtYXJnaW4tYm90dG9tOiAwO1xyXG4gIGZvbnQtc2l6ZTogMTJweDtcclxuICBmb250LXdlaWdodDogYm9sZDtcclxufVxyXG5cclxuLm1ha2UtcHJpbWFyeSB7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgZm9udC1zaXplOiAxMnB4O1xyXG59XHJcblxyXG4ucmVtb3ZlLWltZy1idG4ge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICByaWdodDogMC4yNXJlbTtcclxuICB0b3A6IDAuMjVyZW07XHJcbiAgcGFkZGluZzogMDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcclxuICBtaW4td2lkdGg6IDM2cHg7XHJcbn1cclxuIiwiLnByb2ZpbGUtaW1nIHtcbiAgd2lkdGg6IDE4MHB4O1xuICBoZWlnaHQ6IDE4MHB4O1xuICBvYmplY3QtZml0OiBjb250YWluO1xuICBib3JkZXItcmFkaXVzOiA4cHg7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBkaXNwbGF5OiBibG9jaztcbiAgb2JqZWN0LWZpdDogY292ZXI7XG59XG5cbi5pbnB1dC1ncm91cCA+IC5mb3JtLWNvbnRyb2w6bm90KDpsYXN0LWNoaWxkKSB7XG4gIGJvcmRlci1yaWdodDogbm9uZTtcbn1cblxuLmFkZC1idG4ge1xuICBib3JkZXI6IDFweCBzb2xpZCAjY2VkNGRhO1xuICBib3JkZXItbGVmdDogbm9uZTtcbiAgcGFkZGluZzogMDtcbiAgbWluLXdpZHRoOiA0MHB4O1xuICBvcGFjaXR5OiAxO1xufVxuXG4uYWRkLWJ0bjpkaXNhYmxlZCBpbWcge1xuICBvcGFjaXR5OiAwLjY7XG59XG5cbmxhYmVsIHtcbiAgZm9udC1zaXplOiAxMnB4O1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLm1ha2UtcHJpbWFyeSB7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBmb250LXNpemU6IDEycHg7XG59XG5cbi5yZW1vdmUtaW1nLWJ0biB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IDAuMjVyZW07XG4gIHRvcDogMC4yNXJlbTtcbiAgcGFkZGluZzogMDtcbiAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gIG1pbi13aWR0aDogMzZweDtcbn0iXX0= */"];
 exports.styles = styles;
 
 
@@ -1815,8 +2643,11 @@ class EditProfileComponent {
         this.profileService = profileService;
         this.route = route;
         this.router = router;
+        this.imgBaseUrl = baseurl_1.baseURL + "uploads/";
         this.profileImgUrl = "";
         this.userId = "";
+        this.emailModel = "";
+        this.phoneModel = "";
         this.isLoaded = false;
         this.createForm();
     }
@@ -1825,13 +2656,8 @@ class EditProfileComponent {
     }
     getRouteParams() {
         this.route.params.subscribe((params) => {
-            if (this.router.url.includes("/edit")) {
-                this.userId = params["profileId"];
-                this.getProfile(this.userId);
-            }
-            else {
-                this.isLoaded = true;
-            }
+            this.userId = params["profileId"];
+            this.getProfile(this.userId);
         });
     }
     getProfile(id) {
@@ -1841,71 +2667,60 @@ class EditProfileComponent {
         });
     }
     bindProfileData(profile) {
-        const { firstName, lastName, city, state, country, profileImg, primaryEmail, email, primaryPhone, phone, bio, facebook, instagram, twitter, linkedIn } = profile;
-        this.profileForm.patchValue({
-            firstName,
-            lastName,
-            city,
-            state,
-            country,
-            profileImg,
-            primaryEmail,
-            email,
-            primaryPhone,
-            phone,
-            bio,
-            facebook,
-            instagram,
-            twitter,
-            linkedIn
+        const { name, location, profileImg, emails, phones, bio } = profile;
+        emails.map(em => {
+            let emailFG = this.fb.group({
+                isPrimary: new forms_1.FormControl(em.isPrimary),
+                value: new forms_1.FormControl(em.value)
+            });
+            this.form.emails.push(emailFG);
         });
-        if (this.profileImgUrl)
-            this.profileImgUrl = baseurl_1.baseURL + "uploads/" + profileImg;
+        phones.map(pn => {
+            let phoneFG = this.fb.group({
+                isPrimary: new forms_1.FormControl(pn.isPrimary),
+                value: new forms_1.FormControl(pn.value)
+            });
+            this.form.phones.push(phoneFG);
+        });
+        this.profileForm.patchValue({
+            name,
+            location,
+            profileImg,
+            bio
+        });
+        this.sortPrimaryFormGroup(this.form.emails);
+        this.sortPrimaryFormGroup(this.form.phones);
+        // if (profileImg) this.profileImgUrl = baseURL + "uploads/" + profileImg;
         this.isLoaded = true;
     }
     createForm() {
         this.profileForm = this.fb.group({
-            firstName: [""],
-            lastName: [""],
-            city: [""],
-            state: [""],
-            country: [""],
+            name: [""],
+            location: [""],
             profileImg: [""],
-            primaryEmail: [""],
-            email: [""],
-            primaryPhone: [""],
-            phone: [""],
-            bio: [""],
-            facebook: [""],
-            instagram: [""],
-            twitter: [""],
-            linkedIn: [""]
+            emails: new forms_1.FormArray([]),
+            phones: new forms_1.FormArray([]),
+            bio: [""]
         });
     }
     onProfileImgChange(imgName) {
         this.profileForm.controls.profileImg.setValue(imgName);
+        this.profile.profileImg = imgName;
     }
     onSubmit() {
         if (this.profileForm.valid) {
-            if (this.userId) {
-                this.profileService
-                    .EditProfile(this.profileForm.value, this.userId)
-                    .subscribe(data => {
-                    if (data) {
-                        this.router.navigate(["/profile/view", this.userId]);
-                    }
-                });
-            }
-            else {
-                this.profileService
-                    .PostProfile(this.profileForm.value)
-                    .subscribe(data => {
-                    if (data) {
-                        this.router.navigate(["/profile/view", data]);
-                    }
-                });
-            }
+            this.profileService
+                .EditProfile(this.profileForm.value, this.userId)
+                .subscribe(data => {
+                if (data) {
+                    this.router.navigate(["/profile/view", this.userId]);
+                }
+            });
         }
+    }
+    removeProfilePic() {
+        this.profile.profileImg = "";
+        this.form.profileImg.setValue("");
     }
     replacePhoneVal(event, ctrlName) {
         if (event.keyCode != 8) {
@@ -1928,11 +2743,202 @@ class EditProfileComponent {
             return;
         }
     }
+    addEmail() {
+        let emailFG = this.fb.group({
+            isPrimary: new forms_1.FormControl(false),
+            value: new forms_1.FormControl(this.emailModel)
+        });
+        this.form.emails.push(emailFG);
+        this.emailModel = "";
+    }
+    addPhone() {
+        let phoneFG = this.fb.group({
+            isPrimary: new forms_1.FormControl(false),
+            value: new forms_1.FormControl(this.phoneModel)
+        });
+        this.form.phones.push(phoneFG);
+        this.phoneModel = "";
+    }
+    makeEmailPrimary(ctrlIndex) {
+        ctrlIndex;
+        for (const [index, control] of this.form
+            .emails.controls.entries()) {
+            console.log(index, control);
+            if (control instanceof forms_1.FormGroup) {
+                if (index != ctrlIndex) {
+                    control.controls.isPrimary.setValue(false);
+                }
+                else {
+                    control.controls.isPrimary.setValue(true);
+                }
+            }
+        }
+        this.sortPrimaryFormGroup(this.form.emails);
+    }
+    makePhonePrimary(ctrlIndex) {
+        ctrlIndex;
+        for (const [index, control] of this.form
+            .phones.controls.entries()) {
+            console.log(index, control);
+            if (control instanceof forms_1.FormGroup) {
+                if (index != ctrlIndex) {
+                    control.controls.isPrimary.setValue(false);
+                }
+                else {
+                    control.controls.isPrimary.setValue(true);
+                }
+            }
+        }
+        this.sortPrimaryFormGroup(this.form.phones);
+    }
+    sortPrimaryFormGroup(formArray) {
+        formArray.controls.sort(function (a, b) {
+            if (a instanceof forms_1.FormGroup && b instanceof forms_1.FormGroup) {
+                return a.controls.isPrimary.value === b.controls.isPrimary.value
+                    ? 0
+                    : a.controls.isPrimary.value
+                        ? -1
+                        : 1;
+            }
+        });
+    }
     get form() {
         return this.profileForm.controls;
     }
+    get formEmails() {
+        return this.profileForm.get("emails");
+    }
+    get formPhones() {
+        return this.profileForm.get("phones");
+    }
 }
 exports.EditProfileComponent = EditProfileComponent;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.ngfactory.js":
+/*!***********************************************************************************************!*\
+  !*** ./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.ngfactory.js ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./profile-uploader.component.scss.shim.ngstyle */ "./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! ../../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i3 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i4 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i5 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i6 = __webpack_require__(/*! ng2-file-upload/file-upload/file-select.directive */ "ng2-file-upload/file-upload/file-select.directive");
+const i7 = __webpack_require__(/*! ./profile-uploader.component */ "./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.ts");
+const i8 = __webpack_require__(/*! ../../../common/image-uploader/image.service */ "./src/app/common/image-uploader/image.service.ts");
+var styles_ProfileUploaderComponent = [i0.styles];
+var RenderType_ProfileUploaderComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_ProfileUploaderComponent, data: {} });
+exports.RenderType_ProfileUploaderComponent = RenderType_ProfileUploaderComponent;
+function View_ProfileUploaderComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 7, "div", [["class", "circle mx-auto"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 0, "img", [["alt", ""], ["class", "profile-pic"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 5, "div", [["class", "p-image"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 2, "button", [["color", "primary"], ["mat-mini-fab", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.clickHandler() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i2.View_MatButton_0, i2.RenderType_MatButton)), i1.ɵdid(4, 180224, null, 0, i3.MatButton, [i1.ElementRef, i4.FocusMonitor, [2, i5.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵeld(5, 0, null, 0, 0, "i", [["class", "fas fa-camera"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "input", [["accept", "image/*"], ["id", "file-upload"], ["name", "photo"], ["ng2FileSelect", ""], ["type", "file"]], null, [[null, "change"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("change" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 7).onChange() !== false);
+        ad = (pd_0 && ad);
+    } if (("change" === en)) {
+        var pd_1 = (_co.uploader.uploadAll() !== false);
+        ad = (pd_1 && ad);
+    } return ad; }, null, null)), i1.ɵdid(7, 16384, null, 0, i6.FileSelectDirective, [i1.ElementRef], { uploader: [0, "uploader"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_3 = "primary"; _ck(_v, 4, 0, currVal_3); var currVal_4 = _co.uploader; _ck(_v, 7, 0, currVal_4); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = (_co.imgUrl ? _co.imgUrl : "assets/images/img-placeholder.svg"); _ck(_v, 1, 0, currVal_0); var currVal_1 = (i1.ɵnov(_v, 4).disabled || null); var currVal_2 = (i1.ɵnov(_v, 4)._animationMode === "NoopAnimations"); _ck(_v, 3, 0, currVal_1, currVal_2); }); }
+exports.View_ProfileUploaderComponent_0 = View_ProfileUploaderComponent_0;
+function View_ProfileUploaderComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-profile-uploader", [], null, null, null, View_ProfileUploaderComponent_0, RenderType_ProfileUploaderComponent)), i1.ɵdid(1, 114688, null, 0, i7.ProfileUploaderComponent, [i8.ImageService, i1.ElementRef], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+exports.View_ProfileUploaderComponent_Host_0 = View_ProfileUploaderComponent_Host_0;
+var ProfileUploaderComponentNgFactory = i1.ɵccf("app-profile-uploader", i7.ProfileUploaderComponent, View_ProfileUploaderComponent_Host_0, { imgUrl: "imgUrl" }, { imgChange: "imgChange" }, []);
+exports.ProfileUploaderComponentNgFactory = ProfileUploaderComponentNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.scss.shim.ngstyle.js":
+/*!*******************************************************************************************************!*\
+  !*** ./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.scss.shim.ngstyle.js ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [".mat-mini-fab.mat-primary[_ngcontent-%COMP%] {\n  color: #fff;\n  box-shadow: 0px 3px 5px -1px rgba(0, 147, 154, 0.2), 0px 6px 10px 0px rgba(0, 147, 154, 0.14), 0px 1px 18px 0px rgba(0, 147, 154, 0.12);\n}\n\n#file-upload[_ngcontent-%COMP%] {\n  display: none;\n}\n\n.circle[_ngcontent-%COMP%] {\n  width: 180px;\n  position: relative;\n}\n\nimg[_ngcontent-%COMP%] {\n  width: 180px;\n  height: 180px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 10px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  background-color: #eee;\n}\n\n.p-image[_ngcontent-%COMP%] {\n  position: absolute;\n  right: -10px;\n  bottom: -10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9lZGl0LXByb2ZpbGUvcHJvZmlsZS11cGxvYWRlci9FOlxcVXB3b3JrXFxDb2xsZWN0aXZlIFBlb3BsZVxcZnJvbnQtZW5kL3NyY1xcYXBwXFxwcm9maWxlXFxlZGl0LXByb2ZpbGVcXHByb2ZpbGUtdXBsb2FkZXJcXHByb2ZpbGUtdXBsb2FkZXIuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvZWRpdC1wcm9maWxlL3Byb2ZpbGUtdXBsb2FkZXIvcHJvZmlsZS11cGxvYWRlci5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQUE7RUFDQSx1SUFBQTtBQ0NGOztBRElBO0VBQ0UsYUFBQTtBQ0RGOztBREdBO0VBQ0UsWUFBQTtFQUNBLGtCQUFBO0FDQUY7O0FERUE7RUFDRSxZQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0tBQUEsbUJBQUE7RUFDQSxtQkFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7RUFDQSxzQkFBQTtBQ0NGOztBRENBO0VBQ0Usa0JBQUE7RUFDQSxZQUFBO0VBQ0EsYUFBQTtBQ0VGIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS9lZGl0LXByb2ZpbGUvcHJvZmlsZS11cGxvYWRlci9wcm9maWxlLXVwbG9hZGVyLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1hdC1taW5pLWZhYi5tYXQtcHJpbWFyeSB7XHJcbiAgY29sb3I6ICNmZmY7XHJcbiAgYm94LXNoYWRvdzogMHB4IDNweCA1cHggLTFweCByZ2JhKDAsIDE0NywgMTU0LCAwLjIpLFxyXG4gICAgMHB4IDZweCAxMHB4IDBweCByZ2JhKDAsIDE0NywgMTU0LCAwLjE0KSxcclxuICAgIDBweCAxcHggMThweCAwcHggcmdiYSgwLCAxNDcsIDE1NCwgMC4xMik7XHJcbn1cclxuXHJcbiNmaWxlLXVwbG9hZCB7XHJcbiAgZGlzcGxheTogbm9uZTtcclxufVxyXG4uY2lyY2xlIHtcclxuICB3aWR0aDogMTgwcHg7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG59XHJcbmltZyB7XHJcbiAgd2lkdGg6IDE4MHB4O1xyXG4gIGhlaWdodDogMTgwcHg7XHJcbiAgb2JqZWN0LWZpdDogY29udGFpbjtcclxuICBib3JkZXItcmFkaXVzOiAxMHB4O1xyXG4gIG9iamVjdC1maXQ6IGNvdmVyO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNlZWU7XHJcbn1cclxuLnAtaW1hZ2Uge1xyXG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICByaWdodDogLTEwcHg7XHJcbiAgYm90dG9tOiAtMTBweDtcclxufVxyXG4iLCIubWF0LW1pbmktZmFiLm1hdC1wcmltYXJ5IHtcbiAgY29sb3I6ICNmZmY7XG4gIGJveC1zaGFkb3c6IDBweCAzcHggNXB4IC0xcHggcmdiYSgwLCAxNDcsIDE1NCwgMC4yKSwgMHB4IDZweCAxMHB4IDBweCByZ2JhKDAsIDE0NywgMTU0LCAwLjE0KSwgMHB4IDFweCAxOHB4IDBweCByZ2JhKDAsIDE0NywgMTU0LCAwLjEyKTtcbn1cblxuI2ZpbGUtdXBsb2FkIHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuLmNpcmNsZSB7XG4gIHdpZHRoOiAxODBweDtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xufVxuXG5pbWcge1xuICB3aWR0aDogMTgwcHg7XG4gIGhlaWdodDogMTgwcHg7XG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gIG9iamVjdC1maXQ6IGNvdmVyO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZWVlO1xufVxuXG4ucC1pbWFnZSB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgcmlnaHQ6IC0xMHB4O1xuICBib3R0b206IC0xMHB4O1xufSJdfQ== */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.ts":
+/*!*************************************************************************************!*\
+  !*** ./src/app/profile/edit-profile/profile-uploader/profile-uploader.component.ts ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const ng2_file_upload_1 = __webpack_require__(/*! ng2-file-upload/ng2-file-upload */ "ng2-file-upload/ng2-file-upload");
+const baseurl_1 = __webpack_require__(/*! src/app/shared/baseurl */ "./src/app/shared/baseurl.ts");
+const URL = baseurl_1.baseURL + "upload";
+class ProfileUploaderComponent {
+    constructor(imageService, el) {
+        this.imageService = imageService;
+        this.el = el;
+        this.imgChange = new core_1.EventEmitter();
+        this.uploader = new ng2_file_upload_1.FileUploader({
+            url: URL,
+            itemAlias: "photo"
+        });
+    }
+    ngOnInit() {
+        this.fileUploadInit();
+    }
+    upload() {
+        let inputEl = this.el.nativeElement.querySelector("#photo");
+        let fileCount = inputEl.files.length;
+        let formData = new FormData();
+        if (fileCount > 0) {
+            formData.append("photo", inputEl.files.item(0));
+            this.imageService.uploadImg(formData);
+        }
+    }
+    fileUploadInit() {
+        this.uploader.onAfterAddingFile = file => {
+            file.withCredentials = false;
+        };
+        this.uploader.onCompleteItem = (item, response, status, headers) => {
+            this.imgUrl = `${baseurl_1.baseURL}uploads/${response}`;
+            this.onvalueChange(response);
+        };
+    }
+    onvalueChange(imgName) {
+        this.imgChange.emit(imgName);
+    }
+    clickHandler() {
+        document.getElementById("file-upload").click();
+    }
+}
+exports.ProfileUploaderComponent = ProfileUploaderComponent;
 
 
 /***/ }),
@@ -1957,12 +2963,12 @@ const i0 = __webpack_require__(/*! ./profile-list.component.scss.shim.ngstyle */
 const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 const i2 = __webpack_require__(/*! ../../common/spinner/spinner.component.ngfactory */ "./src/app/common/spinner/spinner.component.ngfactory.js");
 const i3 = __webpack_require__(/*! ../../common/spinner/spinner.component */ "./src/app/common/spinner/spinner.component.ts");
-const i4 = __webpack_require__(/*! @angular/router */ "@angular/router");
-const i5 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i6 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
-const i7 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
-const i8 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
-const i9 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i4 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i5 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i6 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i7 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i8 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i9 = __webpack_require__(/*! @angular/router */ "@angular/router");
 const i10 = __webpack_require__(/*! @angular/material/menu */ "@angular/material/menu");
 const i11 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
 const i12 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
@@ -1971,42 +2977,90 @@ const i14 = __webpack_require__(/*! ../../common/navbar/navbar.component.ngfacto
 const i15 = __webpack_require__(/*! ../../common/navbar/navbar.component */ "./src/app/common/navbar/navbar.component.ts");
 const i16 = __webpack_require__(/*! ./profile-list.component */ "./src/app/profile/profile-list/profile-list.component.ts");
 const i17 = __webpack_require__(/*! ../profile.service */ "./src/app/profile/profile.service.ts");
+const i18 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
 var styles_ProfileListComponent = [i0.styles];
 var RenderType_ProfileListComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_ProfileListComponent, data: {} });
 exports.RenderType_ProfileListComponent = RenderType_ProfileListComponent;
 function View_ProfileListComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "app-spinner", [], null, null, null, i2.View_SpinnerComponent_0, i2.RenderType_SpinnerComponent)), i1.ɵdid(2, 114688, null, 0, i3.SpinnerComponent, [], null, null)], function (_ck, _v) { _ck(_v, 2, 0); }, null); }
-function View_ProfileListComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 30, "div", [["class", "col-12 mb-2"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 29, "div", [["class", "profile-container p-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 28, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 5, "div", [["class", "col-4 d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "img", [["alt", ""], ["class", "profile-img mr-3"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 3, "a", [], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 6).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+function View_ProfileListComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "h2", [["class", "font-weight-light m-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Profiles"]))], null, null); }
+function View_ProfileListComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "h2", [["class", "font-weight-light m-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Search Result"]))], null, null); }
+function View_ProfileListComponent_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["color", "primary"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.goToProfiles() !== false);
         ad = (pd_0 && ad);
-    } return ad; }, null, null)), i1.ɵdid(6, 671744, null, 0, i4.RouterLinkWithHref, [i4.Router, i4.ActivatedRoute, i5.LocationStrategy], { routerLink: [0, "routerLink"] }, null), i1.ɵpad(7, 2), (_l()(), i1.ɵted(8, null, [" ", " ", " "])), (_l()(), i1.ɵeld(9, 0, null, null, 1, "div", [["class", "col-4 d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵted(10, null, [" ", " "])), (_l()(), i1.ɵeld(11, 0, null, null, 19, "div", [["class", "col-4 d-flex justify-content-between align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(12, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(13, null, ["", ""])), (_l()(), i1.ɵeld(14, 0, null, null, 16, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(15, 16777216, null, null, 3, "button", [["aria-haspopup", "true"], ["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-expanded", 0]], [[null, "mousedown"], [null, "keydown"], [null, "click"]], function (_v, en, $event) { var ad = true; if (("mousedown" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 17)._handleMousedown($event) !== false);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵted(-1, 0, [" Go Back "]))], function (_ck, _v) { var currVal_2 = "primary"; _ck(_v, 1, 0, currVal_2); }, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_ProfileListComponent_6(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 0, "i", [["class", "fas fa-sort mr-2"]], null, null, null, null, null))], null, null); }
+function View_ProfileListComponent_7(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 0, "i", [["class", "fas fa-sort-up mr-2"]], null, null, null, null, null))], null, null); }
+function View_ProfileListComponent_8(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 0, "i", [["class", "fas fa-sort-down mr-2"]], null, null, null, null, null))], null, null); }
+function View_ProfileListComponent_9(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "i", [["class", "material-icons md-18 mr-2"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" sort "]))], null, null); }
+function View_ProfileListComponent_10(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "i", [["class", "material-icons md-18 mr-2 pale-sort-icon"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" sort "]))], null, null); }
+function View_ProfileListComponent_12(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "i", [["class", "material-icons star-icon md-18"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" star "]))], null, null); }
+function View_ProfileListComponent_14(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "]))], null, function (_ck, _v) { var currVal_0 = _v.parent.context.$implicit.value; _ck(_v, 1, 0, currVal_0); }); }
+function View_ProfileListComponent_13(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "col-4 d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_14)), i1.ɵdid(2, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var currVal_0 = _v.context.$implicit.isPrimary; _ck(_v, 2, 0, currVal_0); }, null); }
+function View_ProfileListComponent_16(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, ["", ""]))], null, function (_ck, _v) { var currVal_0 = _v.parent.context.$implicit.value; _ck(_v, 1, 0, currVal_0); }); }
+function View_ProfileListComponent_15(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "col-3 d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_16)), i1.ɵdid(2, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var currVal_0 = _v.context.$implicit.isPrimary; _ck(_v, 2, 0, currVal_0); }, null); }
+function View_ProfileListComponent_17(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "div", [["class", "border mr-2 my-1 char-span"]], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "]))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
+function View_ProfileListComponent_18(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Star "]))], null, null); }
+function View_ProfileListComponent_19(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Unstar "]))], null, null); }
+function View_ProfileListComponent_11(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 64, "div", [["class", "col-12 mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 63, "div", [["class", "profile-container p-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 62, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 17, "div", [["class", "col-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 16, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 11, "div", [["class", "col-5 d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 0, "img", [["alt", ""], ["class", "profile-img mr-2"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 9, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 6, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 3, "a", [["class", "mr-2 profile-link"]], [[1, "target", 0], [8, "href", 4]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 10).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), i1.ɵdid(10, 671744, null, 0, i9.RouterLinkWithHref, [i9.Router, i9.ActivatedRoute, i8.LocationStrategy], { routerLink: [0, "routerLink"] }, null), i1.ɵpad(11, 2), (_l()(), i1.ɵted(12, null, [" ", " "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_12)), i1.ɵdid(14, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(15, 0, null, null, 1, "span", [["class", "text-muted number-of-contacts font-weight-normal"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Number of Contacts: 0 "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_13)), i1.ɵdid(18, 278528, null, 0, i8.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_15)), i1.ɵdid(20, 278528, null, 0, i8.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(21, 0, null, null, 3, "div", [["class", "col-5 d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(22, 0, null, null, 2, "div", [["class", "d-flex flex-wrap align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_17)), i1.ɵdid(24, 278528, null, 0, i8.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(25, 0, null, null, 39, "div", [["class", "col-2 d-flex justify-content-between align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(26, 0, null, null, 1, "div", [["class", "karma green"]], null, null, null, null, null)), (_l()(), i1.ɵted(27, null, [" ", " "])), (_l()(), i1.ɵeld(28, 0, null, null, 36, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(29, 16777216, null, null, 3, "button", [["aria-haspopup", "true"], ["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-expanded", 0]], [[null, "mousedown"], [null, "keydown"], [null, "click"]], function (_v, en, $event) { var ad = true; if (("mousedown" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 31)._handleMousedown($event) !== false);
         ad = (pd_0 && ad);
     } if (("keydown" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 17)._handleKeydown($event) !== false);
+        var pd_1 = (i1.ɵnov(_v, 31)._handleKeydown($event) !== false);
         ad = (pd_1 && ad);
     } if (("click" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 17)._handleClick($event) !== false);
+        var pd_2 = (i1.ɵnov(_v, 31)._handleClick($event) !== false);
         ad = (pd_2 && ad);
-    } return ad; }, i6.View_MatButton_0, i6.RenderType_MatButton)), i1.ɵdid(16, 180224, null, 0, i7.MatButton, [i1.ElementRef, i8.FocusMonitor, [2, i9.ANIMATION_MODULE_TYPE]], null, null), i1.ɵdid(17, 1196032, null, 0, i10.MatMenuTrigger, [i11.Overlay, i1.ElementRef, i1.ViewContainerRef, i10.MAT_MENU_SCROLL_STRATEGY, [2, i10.MatMenu], [8, null], [2, i12.Directionality], i8.FocusMonitor], { menu: [0, "menu"] }, null), (_l()(), i1.ɵeld(18, 0, null, 0, 0, "i", [["class", "fas fa-ellipsis-h"]], null, null, null, null, null)), (_l()(), i1.ɵeld(19, 0, null, null, 11, "mat-menu", [], null, null, null, i13.View__MatMenu_0, i13.RenderType__MatMenu)), i1.ɵdid(20, 1294336, [["menu", 4]], 3, i10._MatMenu, [i1.ElementRef, i1.NgZone, i10.MAT_MENU_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 1, { _allItems: 1 }), i1.ɵqud(603979776, 2, { items: 1 }), i1.ɵqud(603979776, 3, { lazyContent: 0 }), i1.ɵprd(2048, null, i10.MatMenu, null, [i10._MatMenu]), i1.ɵprd(2048, null, i10.MAT_MENU_PANEL, null, [i10.MatMenu]), (_l()(), i1.ɵeld(26, 0, null, 0, 4, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 27).onClick() !== false);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(30, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], null, null), i1.ɵdid(31, 1196032, null, 0, i10.MatMenuTrigger, [i11.Overlay, i1.ElementRef, i1.ViewContainerRef, i10.MAT_MENU_SCROLL_STRATEGY, [2, i10.MatMenu], [8, null], [2, i12.Directionality], i6.FocusMonitor], { menu: [0, "menu"] }, null), (_l()(), i1.ɵeld(32, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_control_gray.svg"], ["width", "20"]], null, null, null, null, null)), (_l()(), i1.ɵeld(33, 0, null, null, 31, "mat-menu", [["class", "p-0"]], null, null, null, i13.View__MatMenu_0, i13.RenderType__MatMenu)), i1.ɵdid(34, 1294336, [["menu", 4]], 3, i10._MatMenu, [i1.ElementRef, i1.NgZone, i10.MAT_MENU_DEFAULT_OPTIONS], { panelClass: [0, "panelClass"] }, null), i1.ɵqud(603979776, 1, { _allItems: 1 }), i1.ɵqud(603979776, 2, { items: 1 }), i1.ɵqud(603979776, 3, { lazyContent: 0 }), i1.ɵprd(2048, null, i10.MatMenu, null, [i10._MatMenu]), i1.ɵprd(2048, null, i10.MAT_MENU_PANEL, null, [i10.MatMenu]), (_l()(), i1.ɵeld(40, 0, null, 0, 8, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 41).onClick() !== false);
         ad = (pd_0 && ad);
     } if (("click" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 29)._checkDisabled($event) !== false);
+        var pd_1 = (i1.ɵnov(_v, 43)._checkDisabled($event) !== false);
         ad = (pd_1 && ad);
     } if (("mouseenter" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 29)._handleMouseEnter() !== false);
+        var pd_2 = (i1.ɵnov(_v, 43)._handleMouseEnter() !== false);
         ad = (pd_2 && ad);
-    } return ad; }, i13.View_MatMenuItem_0, i13.RenderType_MatMenuItem)), i1.ɵdid(27, 16384, null, 0, i4.RouterLink, [i4.Router, i4.ActivatedRoute, [8, null], i1.Renderer2, i1.ElementRef], { routerLink: [0, "routerLink"] }, null), i1.ɵpad(28, 2), i1.ɵdid(29, 180224, [[1, 4], [2, 4]], 0, i10.MatMenuItem, [i1.ElementRef, i5.DOCUMENT, i8.FocusMonitor, [2, i10.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵted(-1, 0, [" Edit "]))], function (_ck, _v) { var currVal_3 = _ck(_v, 7, 0, "/profile/view/", _v.context.$implicit._id); _ck(_v, 6, 0, currVal_3); var currVal_11 = i1.ɵnov(_v, 20); _ck(_v, 17, 0, currVal_11); _ck(_v, 20, 0); var currVal_18 = _ck(_v, 28, 0, "/profile/edit/", _v.context.$implicit._id); _ck(_v, 27, 0, currVal_18); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = (_v.context.$implicit.profileImg ? (_co.imgBaseUrl + _v.context.$implicit.profileImg) : "assets/images/img-placeholder.svg"); _ck(_v, 4, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 6).target; var currVal_2 = i1.ɵnov(_v, 6).href; _ck(_v, 5, 0, currVal_1, currVal_2); var currVal_4 = _v.context.$implicit.firstName; var currVal_5 = _v.context.$implicit.lastName; _ck(_v, 8, 0, currVal_4, currVal_5); var currVal_6 = _v.context.$implicit.primaryEmail; _ck(_v, 10, 0, currVal_6); var currVal_7 = _v.context.$implicit.primaryPhone; _ck(_v, 13, 0, currVal_7); var currVal_8 = (i1.ɵnov(_v, 16).disabled || null); var currVal_9 = (i1.ɵnov(_v, 16)._animationMode === "NoopAnimations"); var currVal_10 = (i1.ɵnov(_v, 17).menuOpen || null); _ck(_v, 15, 0, currVal_8, currVal_9, currVal_10); var currVal_12 = i1.ɵnov(_v, 29).role; var currVal_13 = i1.ɵnov(_v, 29)._highlighted; var currVal_14 = i1.ɵnov(_v, 29)._triggersSubmenu; var currVal_15 = i1.ɵnov(_v, 29)._getTabIndex(); var currVal_16 = i1.ɵnov(_v, 29).disabled.toString(); var currVal_17 = (i1.ɵnov(_v, 29).disabled || null); _ck(_v, 26, 0, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16, currVal_17); }); }
-function View_ProfileListComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 22, "div", [["class", "container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 21, "div", [["class", "row mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 9, "div", [["class", "col-12 my-3 d-flex justify-content-between align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 1, "h2", [["class", "font-weight-light"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Profiles"])), (_l()(), i1.ɵeld(5, 0, null, null, 6, "a", [["class", "px-4"], ["color", "primary"], ["mat-raised-button", ""], ["routerLink", "/profile/add"]], [[1, "target", 0], [8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 6).onClick($event.button, $event.ctrlKey, $event.metaKey, $event.shiftKey) !== false);
+    } return ad; }, i13.View_MatMenuItem_0, i13.RenderType_MatMenuItem)), i1.ɵdid(41, 16384, null, 0, i9.RouterLink, [i9.Router, i9.ActivatedRoute, [8, null], i1.Renderer2, i1.ElementRef], { routerLink: [0, "routerLink"] }, null), i1.ɵpad(42, 2), i1.ɵdid(43, 180224, [[1, 4], [2, 4]], 0, i10.MatMenuItem, [i1.ElementRef, i8.DOCUMENT, i6.FocusMonitor, [2, i10.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵeld(44, 0, null, 0, 4, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(45, 0, null, null, 1, "i", [["class", "material-icons md-18 mr-2"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" edit "])), (_l()(), i1.ɵeld(47, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Edit "])), (_l()(), i1.ɵeld(49, 0, null, 0, 6, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 50)._checkDisabled($event) !== false);
         ad = (pd_0 && ad);
-    } if (("click" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 7)._haltDisabledEvents($event) !== false);
+    } if (("mouseenter" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 50)._handleMouseEnter() !== false);
         ad = (pd_1 && ad);
-    } return ad; }, i6.View_MatAnchor_0, i6.RenderType_MatAnchor)), i1.ɵdid(6, 671744, null, 0, i4.RouterLinkWithHref, [i4.Router, i4.ActivatedRoute, i5.LocationStrategy], { routerLink: [0, "routerLink"] }, null), i1.ɵdid(7, 180224, null, 0, i7.MatAnchor, [i8.FocusMonitor, i1.ElementRef, [2, i9.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), (_l()(), i1.ɵeld(8, 0, null, 0, 3, "span", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 0, "i", [["class", "fas fa-plus mr-2"]], null, null, null, null, null)), (_l()(), i1.ɵeld(10, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["New Profile"])), (_l()(), i1.ɵeld(12, 0, null, null, 2, "div", [["class", "col-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(13, 0, null, null, 1, "p", [["class", "text-muted pl-2 mb-2"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Name"])), (_l()(), i1.ɵeld(15, 0, null, null, 2, "div", [["class", "col-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(16, 0, null, null, 1, "p", [["class", "text-muted pl-2 mb-2"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary Email"])), (_l()(), i1.ɵeld(18, 0, null, null, 2, "div", [["class", "col-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(19, 0, null, null, 1, "p", [["class", "text-muted pl-2 mb-2"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary Phone"])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_3)), i1.ɵdid(22, 278528, null, 0, i5.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_6 = "/profile/add"; _ck(_v, 6, 0, currVal_6); var currVal_7 = "primary"; _ck(_v, 7, 0, currVal_7); var currVal_8 = _co.profiles; _ck(_v, 22, 0, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 6).target; var currVal_1 = i1.ɵnov(_v, 6).href; var currVal_2 = (i1.ɵnov(_v, 7).disabled ? (0 - 1) : (i1.ɵnov(_v, 7).tabIndex || 0)); var currVal_3 = (i1.ɵnov(_v, 7).disabled || null); var currVal_4 = i1.ɵnov(_v, 7).disabled.toString(); var currVal_5 = (i1.ɵnov(_v, 7)._animationMode === "NoopAnimations"); _ck(_v, 5, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5); }); }
-function View_ProfileListComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-navbar", [], null, null, null, i14.View_NavbarComponent_0, i14.RenderType_NavbarComponent)), i1.ɵdid(1, 114688, null, 0, i15.NavbarComponent, [], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_1)), i1.ɵdid(3, 16384, null, 0, i5.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_2)), i1.ɵdid(5, 16384, null, 0, i5.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 1, 0); var currVal_0 = !_co.isLoaded; _ck(_v, 3, 0, currVal_0); var currVal_1 = _co.isLoaded; _ck(_v, 5, 0, currVal_1); }, null); }
+    } if (("click" === en)) {
+        var pd_2 = (_co.deleteUser(_v.context.$implicit._id) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i13.View_MatMenuItem_0, i13.RenderType_MatMenuItem)), i1.ɵdid(50, 180224, [[1, 4], [2, 4]], 0, i10.MatMenuItem, [i1.ElementRef, i8.DOCUMENT, i6.FocusMonitor, [2, i10.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵeld(51, 0, null, 0, 4, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(52, 0, null, null, 1, "i", [["class", "material-icons md-18 mr-2"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" delete "])), (_l()(), i1.ɵeld(54, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Delete "])), (_l()(), i1.ɵeld(56, 0, null, 0, 8, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 57)._checkDisabled($event) !== false);
+        ad = (pd_0 && ad);
+    } if (("mouseenter" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 57)._handleMouseEnter() !== false);
+        ad = (pd_1 && ad);
+    } if (("click" === en)) {
+        var pd_2 = (_co.toggleStar(_v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i13.View_MatMenuItem_0, i13.RenderType_MatMenuItem)), i1.ɵdid(57, 180224, [[1, 4], [2, 4]], 0, i10.MatMenuItem, [i1.ElementRef, i8.DOCUMENT, i6.FocusMonitor, [2, i10.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵeld(58, 0, null, 0, 6, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(59, 0, null, null, 1, "i", [["class", "material-icons md-18 mr-2"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" star "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_18)), i1.ɵdid(62, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_19)), i1.ɵdid(64, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var currVal_3 = _ck(_v, 11, 0, "/profile/view/", _v.context.$implicit._id); _ck(_v, 10, 0, currVal_3); var currVal_5 = _v.context.$implicit.star; _ck(_v, 14, 0, currVal_5); var currVal_6 = _v.context.$implicit.email; _ck(_v, 18, 0, currVal_6); var currVal_7 = _v.context.$implicit.phone; _ck(_v, 20, 0, currVal_7); var currVal_8 = _v.context.$implicit.superpowers; _ck(_v, 24, 0, currVal_8); var currVal_13 = i1.ɵnov(_v, 34); _ck(_v, 31, 0, currVal_13); var currVal_14 = "p-0"; _ck(_v, 34, 0, currVal_14); var currVal_21 = _ck(_v, 42, 0, "/profile/edit/", _v.context.$implicit._id); _ck(_v, 41, 0, currVal_21); var currVal_34 = !_v.context.$implicit.star; _ck(_v, 62, 0, currVal_34); var currVal_35 = _v.context.$implicit.star; _ck(_v, 64, 0, currVal_35); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = (_v.context.$implicit.profileImg ? (_co.imgBaseUrl + _v.context.$implicit.profileImg) : "assets/images/img-placeholder.svg"); _ck(_v, 6, 0, currVal_0); var currVal_1 = i1.ɵnov(_v, 10).target; var currVal_2 = i1.ɵnov(_v, 10).href; _ck(_v, 9, 0, currVal_1, currVal_2); var currVal_4 = _v.context.$implicit.name; _ck(_v, 12, 0, currVal_4); var currVal_9 = _v.context.$implicit.karma; _ck(_v, 27, 0, currVal_9); var currVal_10 = (i1.ɵnov(_v, 30).disabled || null); var currVal_11 = (i1.ɵnov(_v, 30)._animationMode === "NoopAnimations"); var currVal_12 = (i1.ɵnov(_v, 31).menuOpen || null); _ck(_v, 29, 0, currVal_10, currVal_11, currVal_12); var currVal_15 = i1.ɵnov(_v, 43).role; var currVal_16 = i1.ɵnov(_v, 43)._highlighted; var currVal_17 = i1.ɵnov(_v, 43)._triggersSubmenu; var currVal_18 = i1.ɵnov(_v, 43)._getTabIndex(); var currVal_19 = i1.ɵnov(_v, 43).disabled.toString(); var currVal_20 = (i1.ɵnov(_v, 43).disabled || null); _ck(_v, 40, 0, currVal_15, currVal_16, currVal_17, currVal_18, currVal_19, currVal_20); var currVal_22 = i1.ɵnov(_v, 50).role; var currVal_23 = i1.ɵnov(_v, 50)._highlighted; var currVal_24 = i1.ɵnov(_v, 50)._triggersSubmenu; var currVal_25 = i1.ɵnov(_v, 50)._getTabIndex(); var currVal_26 = i1.ɵnov(_v, 50).disabled.toString(); var currVal_27 = (i1.ɵnov(_v, 50).disabled || null); _ck(_v, 49, 0, currVal_22, currVal_23, currVal_24, currVal_25, currVal_26, currVal_27); var currVal_28 = i1.ɵnov(_v, 57).role; var currVal_29 = i1.ɵnov(_v, 57)._highlighted; var currVal_30 = i1.ɵnov(_v, 57)._triggersSubmenu; var currVal_31 = i1.ɵnov(_v, 57)._getTabIndex(); var currVal_32 = i1.ɵnov(_v, 57).disabled.toString(); var currVal_33 = (i1.ɵnov(_v, 57).disabled || null); _ck(_v, 56, 0, currVal_28, currVal_29, currVal_30, currVal_31, currVal_32, currVal_33); }); }
+function View_ProfileListComponent_20(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 5, "li", [["class", "page-item"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.changeListPage(_v.context.$implicit) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), i1.ɵprd(512, null, i8.ɵNgClassImpl, i8.ɵNgClassR2Impl, [i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer2]), i1.ɵdid(2, 278528, null, 0, i8.NgClass, [i8.ɵNgClassImpl], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), i1.ɵpod(3, { active: 0 }), (_l()(), i1.ɵeld(4, 0, null, null, 1, "span", [["class", "page-link"]], null, null, null, null, null)), (_l()(), i1.ɵted(5, null, [" ", " "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = "page-item"; var currVal_1 = _ck(_v, 3, 0, (_v.context.$implicit === _co.currentPage)); _ck(_v, 2, 0, currVal_0, currVal_1); }, function (_ck, _v) { var currVal_2 = _v.context.$implicit; _ck(_v, 5, 0, currVal_2); }); }
+function View_ProfileListComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 42, "div", [["class", "container-fluid"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 41, "div", [["class", "row mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 6, "div", [["class", "col-12 mt-4 mb-4 d-flex justify-content-between align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_3)), i1.ɵdid(4, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_4)), i1.ɵdid(6, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_5)), i1.ɵdid(8, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(9, 0, null, null, 16, "div", [["class", "col-5 mb-2"]], null, null, null, null, null)), (_l()(), i1.ɵeld(10, 0, null, null, 15, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(11, 0, null, null, 8, "div", [["class", "col-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(12, 0, null, null, 7, "p", [["class", "text-muted pl-2 mb-2 table-header"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.changeSorting(true) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_6)), i1.ɵdid(14, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_7)), i1.ɵdid(16, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_8)), i1.ɵdid(18, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(-1, null, [" Name "])), (_l()(), i1.ɵeld(20, 0, null, null, 2, "div", [["class", "col-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(21, 0, null, null, 1, "p", [["class", "text-muted pl-2 mb-2 table-header"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary Email"])), (_l()(), i1.ɵeld(23, 0, null, null, 2, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(24, 0, null, null, 1, "p", [["class", "text-muted pl-2 mb-2 table-header"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary Phone"])), (_l()(), i1.ɵeld(26, 0, null, null, 6, "div", [["class", "col-5 mb-2"]], null, null, null, null, null)), (_l()(), i1.ɵeld(27, 0, null, null, 5, "p", [["class", "text-muted pl-2 mb-2 table-header d-flex align-items-center"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.changeSorting(false) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_9)), i1.ɵdid(29, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_10)), i1.ɵdid(31, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(-1, null, [" Superpowers "])), (_l()(), i1.ɵeld(33, 0, null, null, 2, "div", [["class", "col-2 mb-2 pl-0"]], null, null, null, null, null)), (_l()(), i1.ɵeld(34, 0, null, null, 1, "p", [["class", "text-muted mb-2 table-header"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Karma"])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_11)), i1.ɵdid(37, 278528, null, 0, i8.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(38, 0, null, null, 4, "div", [["class", "container-fluid d-flex justify-content-end"]], null, null, null, null, null)), (_l()(), i1.ɵeld(39, 0, null, null, 3, "nav", [], null, null, null, null, null)), (_l()(), i1.ɵeld(40, 0, null, null, 2, "ul", [["class", "pagination"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_20)), i1.ɵdid(42, 278528, null, 0, i8.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = !_co.isSearch; _ck(_v, 4, 0, currVal_0); var currVal_1 = _co.isSearch; _ck(_v, 6, 0, currVal_1); var currVal_2 = _co.isSearch; _ck(_v, 8, 0, currVal_2); var currVal_3 = ((_co.sorting == 1) || (_co.sorting == 4)); _ck(_v, 14, 0, currVal_3); var currVal_4 = (_co.sorting == 2); _ck(_v, 16, 0, currVal_4); var currVal_5 = (_co.sorting == 3); _ck(_v, 18, 0, currVal_5); var currVal_6 = (_co.sorting == 4); _ck(_v, 29, 0, currVal_6); var currVal_7 = (((_co.sorting == 1) || (_co.sorting == 2)) || (_co.sorting == 3)); _ck(_v, 31, 0, currVal_7); var currVal_8 = _co.profiles; _ck(_v, 37, 0, currVal_8); var currVal_9 = _co.pages; _ck(_v, 42, 0, currVal_9); }, null); }
+function View_ProfileListComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-navbar", [], null, [[null, "addExpertEvent"], [null, "search"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("addExpertEvent" === en)) {
+        var pd_0 = (_co.onAddExpret() !== false);
+        ad = (pd_0 && ad);
+    } if (("search" === en)) {
+        var pd_1 = (_co.onSearch($event) !== false);
+        ad = (pd_1 && ad);
+    } return ad; }, i14.View_NavbarComponent_0, i14.RenderType_NavbarComponent)), i1.ɵdid(1, 114688, null, 0, i15.NavbarComponent, [i9.Router], null, { addExpertEvent: "addExpertEvent", search: "search" }), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_1)), i1.ɵdid(3, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileListComponent_2)), i1.ɵdid(5, 16384, null, 0, i8.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 1, 0); var currVal_0 = !_co.isLoaded; _ck(_v, 3, 0, currVal_0); var currVal_1 = _co.isLoaded; _ck(_v, 5, 0, currVal_1); }, null); }
 exports.View_ProfileListComponent_0 = View_ProfileListComponent_0;
-function View_ProfileListComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-profile-list", [], null, null, null, View_ProfileListComponent_0, RenderType_ProfileListComponent)), i1.ɵdid(1, 114688, null, 0, i16.ProfileListComponent, [i17.ProfileService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_ProfileListComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-profile-list", [], null, null, null, View_ProfileListComponent_0, RenderType_ProfileListComponent)), i1.ɵdid(1, 114688, null, 0, i16.ProfileListComponent, [i17.ProfileService, i18.MatDialog, i9.Router], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_ProfileListComponent_Host_0 = View_ProfileListComponent_Host_0;
 var ProfileListComponentNgFactory = i1.ɵccf("app-profile-list", i16.ProfileListComponent, View_ProfileListComponent_Host_0, {}, {}, []);
 exports.ProfileListComponentNgFactory = ProfileListComponentNgFactory;
@@ -2030,7 +3084,7 @@ exports.ProfileListComponentNgFactory = ProfileListComponentNgFactory;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [".profile-container[_ngcontent-%COMP%] {\n  background-color: #ffffff;\n  border-radius: 4px;\n}\n.profile-container[_ngcontent-%COMP%]   .profile-img[_ngcontent-%COMP%] {\n  width: 40px;\n  height: 40px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 4px;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.side-menu-btn[_ngcontent-%COMP%] {\n  min-width: 40px;\n  width: 40px;\n  color: #787e8c;\n  padding: 0;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLWxpc3QvRTpcXFVwd29ya1xcQ29sbGVjdGl2ZSBQZW9wbGVcXGZyb250LWVuZC9zcmNcXGFwcFxccHJvZmlsZVxccHJvZmlsZS1saXN0XFxwcm9maWxlLWxpc3QuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvcHJvZmlsZS1saXN0L3Byb2ZpbGUtbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHlCQUFBO0VBQ0Esa0JBQUE7QUNDRjtBREFFO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxzQkFBQTtLQUFBLG1CQUFBO0VBQ0Esa0JBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0FDRUo7QURFQTtFQUNFLGVBQUE7RUFDQSxXQUFBO0VBQ0EsY0FBQTtFQUNBLFVBQUE7QUNDRiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUvcHJvZmlsZS1saXN0L3Byb2ZpbGUtbGlzdC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9maWxlLWNvbnRhaW5lciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgLnByb2ZpbGUtaW1nIHtcclxuICAgIHdpZHRoOiA0MHB4O1xyXG4gICAgaGVpZ2h0OiA0MHB4O1xyXG4gICAgb2JqZWN0LWZpdDogY29udGFpbjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICAgIG9iamVjdC1maXQ6IGNvdmVyO1xyXG4gIH1cclxufVxyXG5cclxuLnNpZGUtbWVudS1idG4ge1xyXG4gIG1pbi13aWR0aDogNDBweDtcclxuICB3aWR0aDogNDBweDtcclxuICBjb2xvcjogIzc4N2U4YztcclxuICBwYWRkaW5nOiAwO1xyXG59XHJcbiIsIi5wcm9maWxlLWNvbnRhaW5lciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbn1cbi5wcm9maWxlLWNvbnRhaW5lciAucHJvZmlsZS1pbWcge1xuICB3aWR0aDogNDBweDtcbiAgaGVpZ2h0OiA0MHB4O1xuICBvYmplY3QtZml0OiBjb250YWluO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIG9iamVjdC1maXQ6IGNvdmVyO1xufVxuXG4uc2lkZS1tZW51LWJ0biB7XG4gIG1pbi13aWR0aDogNDBweDtcbiAgd2lkdGg6IDQwcHg7XG4gIGNvbG9yOiAjNzg3ZThjO1xuICBwYWRkaW5nOiAwO1xufSJdfQ== */"];
+var styles = [".profile-container[_ngcontent-%COMP%] {\n  background-color: #ffffff;\n  border-radius: 4px;\n  font-size: 14px;\n  font-weight: bold;\n}\n.profile-container[_ngcontent-%COMP%]   .profile-img[_ngcontent-%COMP%] {\n  width: 46px;\n  height: 46px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 4px;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.number-of-contacts[_ngcontent-%COMP%] {\n  font-size: 13px;\n}\n.char-span[_ngcontent-%COMP%] {\n  font-size: 13px;\n}\n.table-header[_ngcontent-%COMP%] {\n  font-size: 13px;\n}\n.karma[_ngcontent-%COMP%] {\n  padding: 8px 15px;\n  line-height: 1;\n  border-radius: 5px;\n}\n.karma.green[_ngcontent-%COMP%] {\n  background-color: #b8e986;\n  border: 1px solid #6dc247;\n}\n.profile-link[_ngcontent-%COMP%] {\n  color: #000000;\n  text-decoration: none;\n}\n.star-icon[_ngcontent-%COMP%] {\n  color: #f8c51c;\n}\n.pale-sort-icon[_ngcontent-%COMP%] {\n  opacity: 0.6;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLWxpc3QvRTpcXFVwd29ya1xcQ29sbGVjdGl2ZSBQZW9wbGVcXGZyb250LWVuZC9zcmNcXGFwcFxccHJvZmlsZVxccHJvZmlsZS1saXN0XFxwcm9maWxlLWxpc3QuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvcHJvZmlsZS1saXN0L3Byb2ZpbGUtbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsaUJBQUE7QUNDRjtBREFFO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxzQkFBQTtLQUFBLG1CQUFBO0VBQ0Esa0JBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0FDRUo7QURFQTtFQUNFLGVBQUE7QUNDRjtBREVBO0VBQ0UsZUFBQTtBQ0NGO0FERUE7RUFDRSxlQUFBO0FDQ0Y7QURDQTtFQUNFLGlCQUFBO0VBQ0EsY0FBQTtFQUNBLGtCQUFBO0FDRUY7QURERTtFQUNFLHlCQUFBO0VBQ0EseUJBQUE7QUNHSjtBRENBO0VBQ0UsY0FBQTtFQUNBLHFCQUFBO0FDRUY7QURDQTtFQUNFLGNBQUE7QUNFRjtBRENBO0VBQ0UsWUFBQTtBQ0VGIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLWxpc3QvcHJvZmlsZS1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2ZpbGUtY29udGFpbmVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmZmZmO1xyXG4gIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICBmb250LXNpemU6IDE0cHg7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgLnByb2ZpbGUtaW1nIHtcclxuICAgIHdpZHRoOiA0NnB4O1xyXG4gICAgaGVpZ2h0OiA0NnB4O1xyXG4gICAgb2JqZWN0LWZpdDogY29udGFpbjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDRweDtcclxuICAgIG9iamVjdC1maXQ6IGNvdmVyO1xyXG4gIH1cclxufVxyXG5cclxuLm51bWJlci1vZi1jb250YWN0cyB7XHJcbiAgZm9udC1zaXplOiAxM3B4O1xyXG59XHJcblxyXG4uY2hhci1zcGFuIHtcclxuICBmb250LXNpemU6IDEzcHg7XHJcbn1cclxuXHJcbi50YWJsZS1oZWFkZXIge1xyXG4gIGZvbnQtc2l6ZTogMTNweDtcclxufVxyXG4ua2FybWEge1xyXG4gIHBhZGRpbmc6IDhweCAxNXB4O1xyXG4gIGxpbmUtaGVpZ2h0OiAxO1xyXG4gIGJvcmRlci1yYWRpdXM6IDVweDtcclxuICAmLmdyZWVuIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNiOGU5ODY7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjNmRjMjQ3O1xyXG4gIH1cclxufVxyXG5cclxuLnByb2ZpbGUtbGluayB7XHJcbiAgY29sb3I6ICMwMDAwMDA7XHJcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG59XHJcblxyXG4uc3Rhci1pY29uIHtcclxuICBjb2xvcjogI2Y4YzUxYztcclxufVxyXG5cclxuLnBhbGUtc29ydC1pY29uIHtcclxuICBvcGFjaXR5OiAwLjY7XHJcbn1cclxuIiwiLnByb2ZpbGUtY29udGFpbmVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xuICBmb250LXNpemU6IDE0cHg7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuLnByb2ZpbGUtY29udGFpbmVyIC5wcm9maWxlLWltZyB7XG4gIHdpZHRoOiA0NnB4O1xuICBoZWlnaHQ6IDQ2cHg7XG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgb2JqZWN0LWZpdDogY292ZXI7XG59XG5cbi5udW1iZXItb2YtY29udGFjdHMge1xuICBmb250LXNpemU6IDEzcHg7XG59XG5cbi5jaGFyLXNwYW4ge1xuICBmb250LXNpemU6IDEzcHg7XG59XG5cbi50YWJsZS1oZWFkZXIge1xuICBmb250LXNpemU6IDEzcHg7XG59XG5cbi5rYXJtYSB7XG4gIHBhZGRpbmc6IDhweCAxNXB4O1xuICBsaW5lLWhlaWdodDogMTtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xufVxuLmthcm1hLmdyZWVuIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2I4ZTk4NjtcbiAgYm9yZGVyOiAxcHggc29saWQgIzZkYzI0Nztcbn1cblxuLnByb2ZpbGUtbGluayB7XG4gIGNvbG9yOiAjMDAwMDAwO1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG59XG5cbi5zdGFyLWljb24ge1xuICBjb2xvcjogI2Y4YzUxYztcbn1cblxuLnBhbGUtc29ydC1pY29uIHtcbiAgb3BhY2l0eTogMC42O1xufSJdfQ== */"];
 exports.styles = styles;
 
 
@@ -2048,25 +3102,328 @@ exports.styles = styles;
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 const baseurl_1 = __webpack_require__(/*! src/app/shared/baseurl */ "./src/app/shared/baseurl.ts");
+const _ = __webpack_require__(/*! lodash */ "lodash");
+const AddProfileDialog_1 = __webpack_require__(/*! ../add-profile/AddProfileDialog */ "./src/app/profile/add-profile/AddProfileDialog.ts");
 class ProfileListComponent {
-    constructor(profileService) {
+    constructor(profileService, dialog, router) {
         this.profileService = profileService;
+        this.dialog = dialog;
+        this.router = router;
         this.profiles = [];
+        this.pages = [];
         this.imgBaseUrl = baseurl_1.baseURL + "uploads/";
         this.isLoaded = false;
+        this.currentPage = 1;
+        this.sorting = 1;
+        this.isSearch = false;
     }
     ngOnInit() {
-        this.getProfiles();
+        this.getProfiles(this.currentPage, this.sorting);
     }
-    getProfiles() {
-        console.log("Init getProfiles");
-        this.profileService.getProfileList().subscribe(data => {
-            this.profiles = data;
+    getProfiles(pageNumber, sorting) {
+        this.profileService.getProfileList(pageNumber, sorting).subscribe(data => {
+            this.isSearch = false;
+            let _data = data;
+            this.pages = _.range(1, _data.pages + 1);
+            this.profiles = _data.profiles;
             this.isLoaded = true;
+        });
+    }
+    getSearchList(query, pageNumber, sorting) {
+        this.profileService
+            .getSearchProfileList(query, pageNumber, sorting)
+            .subscribe(data => {
+            this.isSearch = true;
+            let _data = data;
+            this.pages = _.range(1, _data.pages + 1);
+            this.profiles = _data.profiles;
+            this.isLoaded = true;
+        });
+    }
+    changeListPage(pageNum) {
+        this.isLoaded = false;
+        this.currentPage = pageNum;
+        this.getProfiles(this.currentPage, this.sorting);
+    }
+    changeSorting(isName) {
+        if (isName) {
+            if (this.sorting == 1) {
+                this.sorting = 2;
+            }
+            else if (this.sorting == 2) {
+                this.sorting = 3;
+            }
+            else if (this.sorting == 3) {
+                this.sorting = 1;
+            }
+            else {
+                this.sorting = 1;
+            }
+        }
+        else {
+            this.sorting = 4;
+        }
+        this.currentPage = 1;
+        this.getProfiles(this.currentPage, this.sorting);
+    }
+    onSearch(e) {
+        this.isLoaded = false;
+        let query = e;
+        this.currentPage = 1;
+        this.sorting = 1;
+        if (query) {
+            this.getSearchList(query, this.currentPage, this.sorting);
+        }
+        else {
+            this.getProfiles(this.currentPage, this.sorting);
+        }
+    }
+    goToProfiles() {
+        this.currentPage = 1;
+        this.sorting = 1;
+        this.getProfiles(this.currentPage, this.sorting);
+    }
+    toggleStar(profile) {
+        let _star = !profile.star;
+        this.profileService.toggleStar(profile._id, _star).subscribe(data => {
+            if (data)
+                profile.star = _star;
+        });
+    }
+    deleteUser(id) {
+        this.profileService.deleteProfile(id).subscribe(data => {
+            if (data) {
+                this.profiles = this.profiles.filter(profile => profile._id != id);
+            }
+        });
+    }
+    onAddExpret() {
+        const dialogRef = this.dialog.open(AddProfileDialog_1.AddProfileDialog, {
+            data: {
+                name: "",
+                phone: { value: "", isPrimary: true },
+                email: { value: "", isPrimary: true },
+                superpowers: [],
+                weaknesses: [],
+                profileImg: ""
+            },
+            width: "560px",
+            maxHeight: "98vh"
+        });
+        dialogRef.afterClosed().subscribe(result => {
+            if (result) {
+                const { name, phone, email, superpowers, weaknesses, profileImg } = result;
+                let _data = {
+                    name,
+                    phones: [phone],
+                    emails: [email],
+                    superpowers,
+                    weaknesses,
+                    profileImg
+                };
+                this.profileService.PostProfile(_data).subscribe(data => {
+                    if (data) {
+                        this.router.navigate(["/profile/view", data]);
+                    }
+                });
+            }
         });
     }
 }
 exports.ProfileListComponent = ProfileListComponent;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/profile-search/profile-search.component.ngfactory.js":
+/*!******************************************************************************!*\
+  !*** ./src/app/profile/profile-search/profile-search.component.ngfactory.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./profile-search.component.scss.shim.ngstyle */ "./src/app/profile/profile-search/profile-search.component.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! ../../../../node_modules/@angular/material/core/typings/index.ngfactory */ "./node_modules/@angular/material/core/typings/index.ngfactory.js");
+const i3 = __webpack_require__(/*! @angular/material/core */ "@angular/material/core");
+const i4 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i5 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i6 = __webpack_require__(/*! @angular/material/autocomplete */ "@angular/material/autocomplete");
+const i7 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
+const i8 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
+const i9 = __webpack_require__(/*! @angular/cdk/scrolling */ "@angular/cdk/scrolling");
+const i10 = __webpack_require__(/*! ../../../../node_modules/@angular/material/autocomplete/typings/index.ngfactory */ "./node_modules/@angular/material/autocomplete/typings/index.ngfactory.js");
+const i11 = __webpack_require__(/*! ./profile-search.component */ "./src/app/profile/profile-search/profile-search.component.ts");
+const i12 = __webpack_require__(/*! ../profile.service */ "./src/app/profile/profile.service.ts");
+const i13 = __webpack_require__(/*! @angular/router */ "@angular/router");
+var styles_ProfileSearchComponent = [i0.styles];
+var RenderType_ProfileSearchComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_ProfileSearchComponent, data: {} });
+exports.RenderType_ProfileSearchComponent = RenderType_ProfileSearchComponent;
+function View_ProfileSearchComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 9, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onSearchSelection($event, _v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i2.View_MatOption_0, i2.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[1, 4]], 0, i3.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i3.MAT_OPTION_PARENT_COMPONENT], [2, i3.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 7, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 1, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "img", [["aria-hidden", ""], ["class", "search-img mr-2"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 4, "div", [["class", "d-flex flex-column"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(7, null, ["", ""])), (_l()(), i1.ɵeld(8, 0, null, null, 1, "small", [], null, null, null, null, null)), (_l()(), i1.ɵted(9, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = (_v.context.$implicit.profileImg ? (_co.imgBaseUrl + _v.context.$implicit.profileImg) : "assets/images/img-placeholder.svg"); _ck(_v, 4, 0, currVal_8); var currVal_9 = _v.context.$implicit.name; _ck(_v, 7, 0, currVal_9); var currVal_10 = _v.context.$implicit.location; _ck(_v, 9, 0, currVal_10); }); }
+function View_ProfileSearchComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "p", [["class", "px-3 my-2 text-uppercase text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "small", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Recent Search "]))], null, null); }
+function View_ProfileSearchComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 9, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onSearchSelection($event, _v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i2.View_MatOption_0, i2.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[1, 4]], 0, i3.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i3.MAT_OPTION_PARENT_COMPONENT], [2, i3.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 7, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 1, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "img", [["aria-hidden", ""], ["class", "search-img mr-2"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 4, "div", [["class", "d-flex flex-column"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(7, null, ["", ""])), (_l()(), i1.ɵeld(8, 0, null, null, 1, "small", [], null, null, null, null, null)), (_l()(), i1.ɵted(9, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = (_v.context.$implicit.profileImg ? (_co.imgBaseUrl + _v.context.$implicit.profileImg) : "assets/images/img-placeholder.svg"); _ck(_v, 4, 0, currVal_8); var currVal_9 = _v.context.$implicit.name; _ck(_v, 7, 0, currVal_9); var currVal_10 = _v.context.$implicit.location; _ck(_v, 9, 0, currVal_10); }); }
+function View_ProfileSearchComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, null, null, null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ProfileSearchComponent_4)), i1.ɵdid(2, 278528, null, 0, i4.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(0, null, null, 0))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.recentSearch; _ck(_v, 2, 0, currVal_0); }, null); }
+function View_ProfileSearchComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 16777216, null, null, 6, "input", [["class", "form-control"], ["matInput", ""], ["placeholder", "Searh For Profile..."]], [[1, "autocomplete", 0], [1, "role", 0], [1, "aria-autocomplete", 0], [1, "aria-activedescendant", 0], [1, "aria-expanded", 0], [1, "aria-owns", 0], [1, "aria-haspopup", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "focusin"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 2)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 2).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 2)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 2)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("focusin" === en)) {
+        var pd_4 = (i1.ɵnov(_v, 3)._handleFocus() !== false);
+        ad = (pd_4 && ad);
+    } if (("blur" === en)) {
+        var pd_5 = (i1.ɵnov(_v, 3)._onTouched() !== false);
+        ad = (pd_5 && ad);
+    } if (("input" === en)) {
+        var pd_6 = (i1.ɵnov(_v, 3)._handleInput($event) !== false);
+        ad = (pd_6 && ad);
+    } if (("keydown" === en)) {
+        var pd_7 = (i1.ɵnov(_v, 3)._handleKeydown($event) !== false);
+        ad = (pd_7 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_8 = ((_co.query = $event) !== false);
+        ad = (pd_8 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_9 = (_co.getSearchUsers($event) !== false);
+        ad = (pd_9 && ad);
+    } return ad; }, null, null)), i1.ɵdid(2, 16384, null, 0, i5.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i5.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵdid(3, 671744, null, 0, i6.MatAutocompleteTrigger, [i1.ElementRef, i7.Overlay, i1.ViewContainerRef, i1.NgZone, i1.ChangeDetectorRef, i6.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, [2, i8.Directionality], [8, null], [2, i4.DOCUMENT], i9.ViewportRuler], { autocomplete: [0, "autocomplete"] }, null), i1.ɵprd(1024, null, i5.NG_VALUE_ACCESSOR, function (p0_0, p1_0) { return [p0_0, p1_0]; }, [i5.DefaultValueAccessor, i6.MatAutocompleteTrigger]), i1.ɵdid(5, 671744, null, 0, i5.NgModel, [[8, null], [8, null], [8, null], [6, i5.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i5.NgControl, null, [i5.NgModel]), i1.ɵdid(7, 16384, null, 0, i5.NgControlStatus, [[4, i5.NgControl]], null, null), (_l()(), i1.ɵeld(8, 0, null, null, 2, "div", [["class", "input-group-append"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵeld(10, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_search.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(11, 0, null, null, 10, "mat-autocomplete", [["class", "mat-autocomplete"]], null, null, null, i10.View_MatAutocomplete_0, i10.RenderType_MatAutocomplete)), i1.ɵprd(6144, null, i3.MAT_OPTION_PARENT_COMPONENT, null, [i6.MatAutocomplete]), i1.ɵdid(13, 1097728, [["auto", 4]], 2, i6.MatAutocomplete, [i1.ChangeDetectorRef, i1.ElementRef, i6.MAT_AUTOCOMPLETE_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 1, { options: 1 }), i1.ɵqud(603979776, 2, { optionGroups: 1 }), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_ProfileSearchComponent_1)), i1.ɵdid(17, 278528, null, 0, i4.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_ProfileSearchComponent_2)), i1.ɵdid(19, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_ProfileSearchComponent_3)), i1.ɵdid(21, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_14 = i1.ɵnov(_v, 13); _ck(_v, 3, 0, currVal_14); var currVal_15 = _co.query; _ck(_v, 5, 0, currVal_15); var currVal_16 = _co.filteredProfiles; _ck(_v, 17, 0, currVal_16); var currVal_17 = !_co.query; _ck(_v, 19, 0, currVal_17); var currVal_18 = !_co.query; _ck(_v, 21, 0, currVal_18); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 3).autocompleteAttribute; var currVal_1 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : "combobox"); var currVal_2 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : "list"); var currVal_3 = ((i1.ɵnov(_v, 3).panelOpen && i1.ɵnov(_v, 3).activeOption) ? i1.ɵnov(_v, 3).activeOption.id : null); var currVal_4 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : i1.ɵnov(_v, 3).panelOpen.toString()); var currVal_5 = ((i1.ɵnov(_v, 3).autocompleteDisabled || !i1.ɵnov(_v, 3).panelOpen) ? null : ((i1.ɵnov(_v, 3).autocomplete == null) ? null : i1.ɵnov(_v, 3).autocomplete.id)); var currVal_6 = !i1.ɵnov(_v, 3).autocompleteDisabled; var currVal_7 = i1.ɵnov(_v, 7).ngClassUntouched; var currVal_8 = i1.ɵnov(_v, 7).ngClassTouched; var currVal_9 = i1.ɵnov(_v, 7).ngClassPristine; var currVal_10 = i1.ɵnov(_v, 7).ngClassDirty; var currVal_11 = i1.ɵnov(_v, 7).ngClassValid; var currVal_12 = i1.ɵnov(_v, 7).ngClassInvalid; var currVal_13 = i1.ɵnov(_v, 7).ngClassPending; _ck(_v, 1, 1, [currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13]); }); }
+exports.View_ProfileSearchComponent_0 = View_ProfileSearchComponent_0;
+function View_ProfileSearchComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-profile-search", [], null, null, null, View_ProfileSearchComponent_0, RenderType_ProfileSearchComponent)), i1.ɵdid(1, 114688, null, 0, i11.ProfileSearchComponent, [i12.ProfileService, i13.Router], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+exports.View_ProfileSearchComponent_Host_0 = View_ProfileSearchComponent_Host_0;
+var ProfileSearchComponentNgFactory = i1.ɵccf("app-profile-search", i11.ProfileSearchComponent, View_ProfileSearchComponent_Host_0, {}, {}, []);
+exports.ProfileSearchComponentNgFactory = ProfileSearchComponentNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/profile-search/profile-search.component.scss.shim.ngstyle.js":
+/*!**************************************************************************************!*\
+  !*** ./src/app/profile/profile-search/profile-search.component.scss.shim.ngstyle.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [".search-img[_ngcontent-%COMP%] {\n  width: 30px;\n  height: 30px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 4px;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.mat-option[_ngcontent-%COMP%] {\n  height: 60px;\n  line-height: 1.3;\n}\n\n.input-group-append[_ngcontent-%COMP%] {\n  margin-left: 0;\n}\n\n.input-group-text[_ngcontent-%COMP%] {\n  margin-left: -40px;\n  z-index: 10000;\n  border-left: none;\n  background-color: #fff;\n  min-width: 40px;\n  padding-left: 0;\n  padding-right: 0;\n}\n\n.input-group-text[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  margin-left: auto;\n  margin-right: auto;\n  display: block;\n  width: 18px;\n}\n\n.form-control[_ngcontent-%COMP%] {\n  border-right: none;\n}\n\n.input-group[_ngcontent-%COMP%]    > .form-control[_ngcontent-%COMP%]:not(:last-child) {\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS9wcm9maWxlLXNlYXJjaC9FOlxcVXB3b3JrXFxDb2xsZWN0aXZlIFBlb3BsZVxcZnJvbnQtZW5kL3NyY1xcYXBwXFxwcm9maWxlXFxwcm9maWxlLXNlYXJjaFxccHJvZmlsZS1zZWFyY2guY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvcHJvZmlsZS1zZWFyY2gvcHJvZmlsZS1zZWFyY2guY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHNCQUFBO0tBQUEsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7QUNDRjs7QURFQTtFQUNFLFlBQUE7RUFDQSxnQkFBQTtBQ0NGOztBREVBO0VBQ0UsY0FBQTtBQ0NGOztBRENBO0VBQ0Usa0JBQUE7RUFDQSxjQUFBO0VBQ0EsaUJBQUE7RUFDQSxzQkFBQTtFQUNBLGVBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7QUNFRjs7QURERTtFQUNFLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0EsV0FBQTtBQ0dKOztBRENBO0VBQ0Usa0JBQUE7QUNFRjs7QURDQTtFQUNFLDRCQUFBO0VBQ0EsK0JBQUE7QUNFRiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUvcHJvZmlsZS1zZWFyY2gvcHJvZmlsZS1zZWFyY2guY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2VhcmNoLWltZyB7XHJcbiAgd2lkdGg6IDMwcHg7XHJcbiAgaGVpZ2h0OiAzMHB4O1xyXG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XHJcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xyXG4gIG9iamVjdC1maXQ6IGNvdmVyO1xyXG59XHJcblxyXG4ubWF0LW9wdGlvbiB7XHJcbiAgaGVpZ2h0OiA2MHB4O1xyXG4gIGxpbmUtaGVpZ2h0OiAxLjM7XHJcbn1cclxuXHJcbi5pbnB1dC1ncm91cC1hcHBlbmQge1xyXG4gIG1hcmdpbi1sZWZ0OiAwO1xyXG59XHJcbi5pbnB1dC1ncm91cC10ZXh0IHtcclxuICBtYXJnaW4tbGVmdDogLTQwcHg7XHJcbiAgei1pbmRleDogMTAwMDA7XHJcbiAgYm9yZGVyLWxlZnQ6IG5vbmU7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICBtaW4td2lkdGg6IDQwcHg7XHJcbiAgcGFkZGluZy1sZWZ0OiAwO1xyXG4gIHBhZGRpbmctcmlnaHQ6IDA7XHJcbiAgaW1nIHtcclxuICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xyXG4gICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICB3aWR0aDogMThweDtcclxuICB9XHJcbn1cclxuXHJcbi5mb3JtLWNvbnRyb2wge1xyXG4gIGJvcmRlci1yaWdodDogbm9uZTtcclxufVxyXG5cclxuLmlucHV0LWdyb3VwID4gLmZvcm0tY29udHJvbDpub3QoOmxhc3QtY2hpbGQpIHtcclxuICBib3JkZXItdG9wLXJpZ2h0LXJhZGl1czogNXB4O1xyXG4gIGJvcmRlci1ib3R0b20tcmlnaHQtcmFkaXVzOiA1cHg7XHJcbn1cclxuIiwiLnNlYXJjaC1pbWcge1xuICB3aWR0aDogMzBweDtcbiAgaGVpZ2h0OiAzMHB4O1xuICBvYmplY3QtZml0OiBjb250YWluO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIG9iamVjdC1maXQ6IGNvdmVyO1xufVxuXG4ubWF0LW9wdGlvbiB7XG4gIGhlaWdodDogNjBweDtcbiAgbGluZS1oZWlnaHQ6IDEuMztcbn1cblxuLmlucHV0LWdyb3VwLWFwcGVuZCB7XG4gIG1hcmdpbi1sZWZ0OiAwO1xufVxuXG4uaW5wdXQtZ3JvdXAtdGV4dCB7XG4gIG1hcmdpbi1sZWZ0OiAtNDBweDtcbiAgei1pbmRleDogMTAwMDA7XG4gIGJvcmRlci1sZWZ0OiBub25lO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBtaW4td2lkdGg6IDQwcHg7XG4gIHBhZGRpbmctbGVmdDogMDtcbiAgcGFkZGluZy1yaWdodDogMDtcbn1cbi5pbnB1dC1ncm91cC10ZXh0IGltZyB7XG4gIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICBtYXJnaW4tcmlnaHQ6IGF1dG87XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB3aWR0aDogMThweDtcbn1cblxuLmZvcm0tY29udHJvbCB7XG4gIGJvcmRlci1yaWdodDogbm9uZTtcbn1cblxuLmlucHV0LWdyb3VwID4gLmZvcm0tY29udHJvbDpub3QoOmxhc3QtY2hpbGQpIHtcbiAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDVweDtcbiAgYm9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IDVweDtcbn0iXX0= */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/profile-search/profile-search.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/profile/profile-search/profile-search.component.ts ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const baseurl_1 = __webpack_require__(/*! src/app/shared/baseurl */ "./src/app/shared/baseurl.ts");
+class ProfileSearchComponent {
+    // @ViewChild("searchInputEl", { static: false })
+    // public searchInputEl: ElementRef<HTMLElement>;
+    constructor(profileService, router) {
+        this.profileService = profileService;
+        this.router = router;
+        this.imgBaseUrl = baseurl_1.baseURL + "uploads/";
+        this.query = "";
+        this.filteredProfiles = [];
+        this.recentSearch = [];
+    }
+    ngOnInit() {
+        this.getRecentSearches();
+    }
+    getSearchUsers(query) {
+        if (query) {
+            this.profileService
+                .getSeachResult(query)
+                .subscribe(data => (this.filteredProfiles = data));
+        }
+        else {
+            this.filteredProfiles = [];
+        }
+    }
+    onSearchSelection(e, profile) {
+        const { _id, name, location, profileImg } = profile;
+        if (e.source.selected) {
+            let _profile = { _id, name, location, profileImg };
+            this.AddLocalStorageItem(_profile);
+            // this.searchInputEl.nativeElement.blur();
+            this.router.navigate(["/profile/view", _id]);
+        }
+    }
+    AddLocalStorageItem(profile) {
+        let profileSearches;
+        if (localStorage) {
+            localStorage["profileSearches"]
+                ? (profileSearches = JSON.parse(localStorage["profileSearches"]))
+                : (profileSearches = []);
+            if (profileSearches.findIndex(i => i._id === profile._id) == -1) {
+                profileSearches.unshift(profile);
+                if (profileSearches.length > 5) {
+                    profileSearches.pop();
+                }
+                localStorage["profileSearches"] = JSON.stringify(profileSearches);
+            }
+            this.getRecentSearches();
+        }
+    }
+    getRecentSearches() {
+        let recentSearches;
+        if (localStorage) {
+            localStorage["profileSearches"]
+                ? (recentSearches = JSON.parse(localStorage["profileSearches"]))
+                : (recentSearches = []);
+            this.recentSearch = recentSearches;
+        }
+    }
+}
+exports.ProfileSearchComponent = ProfileSearchComponent;
 
 
 /***/ }),
@@ -2105,8 +3462,12 @@ class ProfileService {
         let userIdURL = URL + userId;
         return this.http.get(userIdURL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
     }
-    getProfileList() {
-        let _URL = URL + "list";
+    getProfileList(pageNumber, sorting) {
+        let _URL = URL + `list/${pageNumber}/${sorting}`;
+        return this.http.get(_URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
+    getSearchProfileList(query, pageNumber, sorting) {
+        let _URL = URL + `search-by-name-and-superpower/${query}/${pageNumber}/${sorting}`;
         return this.http.get(_URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
     }
     addSuperpower(data, userId) {
@@ -2141,9 +3502,514 @@ class ProfileService {
         let _URL = baseurl_1.baseURL + "notes/" + noteId;
         return this.http.delete(_URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
     }
+    deleteCompany(profileId, companyId) {
+        let _URL = `${URL}delete-company/${profileId}/${companyId}`;
+        return this.http.delete(_URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
+    toggleStar(profileId, star) {
+        let _URL = URL + "star-profile/" + profileId;
+        return this.http.put(_URL, star).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
+    deleteProfile(profileId) {
+        let _URL = URL + "/" + profileId;
+        return this.http.delete(_URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
 }
 ProfileService.ngInjectableDef = i0.ɵɵdefineInjectable({ factory: function ProfileService_Factory() { return new ProfileService(i0.ɵɵinject(i1.HttpClient)); }, token: ProfileService, providedIn: "root" });
 exports.ProfileService = ProfileService;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/AddNotesDialog.ngfactory.js":
+/*!******************************************************************!*\
+  !*** ./src/app/profile/view-profile/AddNotesDialog.ngfactory.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./view-profile.component.scss.shim.ngstyle */ "./src/app/profile/view-profile/view-profile.component.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! ./add-note.dialog.scss.shim.ngstyle */ "./src/app/profile/view-profile/add-note.dialog.scss.shim.ngstyle.js");
+const i2 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i3 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i4 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i5 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i6 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i7 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i8 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+const i9 = __webpack_require__(/*! ./AddNotesDialog */ "./src/app/profile/view-profile/AddNotesDialog.ts");
+var styles_AddNotesDialog = [i0.styles, i1.styles];
+var RenderType_AddNotesDialog = i2.ɵcrt({ encapsulation: 0, styles: styles_AddNotesDialog, data: {} });
+exports.RenderType_AddNotesDialog = RenderType_AddNotesDialog;
+function View_AddNotesDialog_0(_l) { return i2.ɵvid(0, [(_l()(), i2.ɵeld(0, 0, null, null, 5, "div", [["class", "d-flex justify-content-between diolog-title align-items-center border-bottom mb-3 py-3"]], null, null, null, null, null)), (_l()(), i2.ɵeld(1, 0, null, null, 1, "p", [["class", "font-weight-bold mb-0"]], null, null, null, null, null)), (_l()(), i2.ɵted(-1, null, [" Add Note "])), (_l()(), i2.ɵeld(3, 0, null, null, 2, "button", [["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.onNoClick() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i3.View_MatButton_0, i3.RenderType_MatButton)), i2.ɵdid(4, 180224, null, 0, i4.MatButton, [i2.ElementRef, i5.FocusMonitor, [2, i6.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i2.ɵeld(5, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_close.svg"]], null, null, null, null, null)), (_l()(), i2.ɵeld(6, 0, null, null, 6, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i2.ɵeld(7, 0, null, null, 5, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["id", "title"], ["placeholder", "Note Title"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i2.ɵnov(_v, 8)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i2.ɵnov(_v, 8).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i2.ɵnov(_v, 8)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i2.ɵnov(_v, 8)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.title = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i2.ɵdid(8, 16384, null, 0, i7.DefaultValueAccessor, [i2.Renderer2, i2.ElementRef, [2, i7.COMPOSITION_BUFFER_MODE]], null, null), i2.ɵprd(1024, null, i7.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i7.DefaultValueAccessor]), i2.ɵdid(10, 671744, null, 0, i7.NgModel, [[8, null], [8, null], [8, null], [6, i7.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i2.ɵprd(2048, null, i7.NgControl, null, [i7.NgModel]), i2.ɵdid(12, 16384, null, 0, i7.NgControlStatus, [[4, i7.NgControl]], null, null), (_l()(), i2.ɵeld(13, 0, null, null, 9, "div", [["class", "input-group input-with-img mb-3"]], null, null, null, null, null)), (_l()(), i2.ɵeld(14, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i2.ɵeld(15, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i2.ɵeld(16, 0, null, null, 0, "img", [["alt", ""], ["src", "assets/images/ic_calendar.svg"]], null, null, null, null, null)), (_l()(), i2.ɵeld(17, 0, null, null, 5, "input", [["class", "form-control pl-0"], ["id", "date"], ["type", "date"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i2.ɵnov(_v, 18)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i2.ɵnov(_v, 18).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i2.ɵnov(_v, 18)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i2.ɵnov(_v, 18)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.date = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i2.ɵdid(18, 16384, null, 0, i7.DefaultValueAccessor, [i2.Renderer2, i2.ElementRef, [2, i7.COMPOSITION_BUFFER_MODE]], null, null), i2.ɵprd(1024, null, i7.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i7.DefaultValueAccessor]), i2.ɵdid(20, 671744, null, 0, i7.NgModel, [[8, null], [8, null], [8, null], [6, i7.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i2.ɵprd(2048, null, i7.NgControl, null, [i7.NgModel]), i2.ɵdid(22, 16384, null, 0, i7.NgControlStatus, [[4, i7.NgControl]], null, null), (_l()(), i2.ɵeld(23, 0, null, null, 6, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i2.ɵeld(24, 0, null, null, 5, "textarea", [["class", "form-control"], ["id", "note"], ["placeholder", "Note"]], [[1, "maxlength", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i2.ɵnov(_v, 25)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i2.ɵnov(_v, 25).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i2.ɵnov(_v, 25)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i2.ɵnov(_v, 25)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.body = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i2.ɵdid(25, 16384, null, 0, i7.DefaultValueAccessor, [i2.Renderer2, i2.ElementRef, [2, i7.COMPOSITION_BUFFER_MODE]], null, null), i2.ɵprd(1024, null, i7.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i7.DefaultValueAccessor]), i2.ɵdid(27, 671744, null, 0, i7.NgModel, [[8, null], [8, null], [8, null], [6, i7.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i2.ɵprd(2048, null, i7.NgControl, null, [i7.NgModel]), i2.ɵdid(29, 16384, null, 0, i7.NgControlStatus, [[4, i7.NgControl]], null, null), (_l()(), i2.ɵeld(30, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i2.ɵeld(31, 0, null, null, 3, "button", [["class", "w-100 py-1"], ["color", "primary"], ["mat-raised-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (i2.ɵnov(_v, 33).dialogRef.close(i2.ɵnov(_v, 33).dialogResult) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i3.View_MatButton_0, i3.RenderType_MatButton)), i2.ɵdid(32, 180224, null, 0, i4.MatButton, [i2.ElementRef, i5.FocusMonitor, [2, i6.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), i2.ɵdid(33, 606208, null, 0, i8.MatDialogClose, [[2, i8.MatDialogRef], i2.ElementRef, i8.MatDialog], { dialogResult: [0, "dialogResult"] }, null), (_l()(), i2.ɵted(-1, 0, [" Add "]))], function (_ck, _v) { var _co = _v.component; var currVal_9 = _co.data.title; _ck(_v, 10, 0, currVal_9); var currVal_17 = _co.data.date; _ck(_v, 20, 0, currVal_17); var currVal_26 = _co.data.body; _ck(_v, 27, 0, currVal_26); var currVal_30 = "primary"; _ck(_v, 32, 0, currVal_30); var currVal_31 = _co.data; _ck(_v, 33, 0, currVal_31); }, function (_ck, _v) { var currVal_0 = (i2.ɵnov(_v, 4).disabled || null); var currVal_1 = (i2.ɵnov(_v, 4)._animationMode === "NoopAnimations"); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = i2.ɵnov(_v, 12).ngClassUntouched; var currVal_3 = i2.ɵnov(_v, 12).ngClassTouched; var currVal_4 = i2.ɵnov(_v, 12).ngClassPristine; var currVal_5 = i2.ɵnov(_v, 12).ngClassDirty; var currVal_6 = i2.ɵnov(_v, 12).ngClassValid; var currVal_7 = i2.ɵnov(_v, 12).ngClassInvalid; var currVal_8 = i2.ɵnov(_v, 12).ngClassPending; _ck(_v, 7, 0, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); var currVal_10 = i2.ɵnov(_v, 22).ngClassUntouched; var currVal_11 = i2.ɵnov(_v, 22).ngClassTouched; var currVal_12 = i2.ɵnov(_v, 22).ngClassPristine; var currVal_13 = i2.ɵnov(_v, 22).ngClassDirty; var currVal_14 = i2.ɵnov(_v, 22).ngClassValid; var currVal_15 = i2.ɵnov(_v, 22).ngClassInvalid; var currVal_16 = i2.ɵnov(_v, 22).ngClassPending; _ck(_v, 17, 0, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16); var currVal_18 = 255; var currVal_19 = i2.ɵnov(_v, 29).ngClassUntouched; var currVal_20 = i2.ɵnov(_v, 29).ngClassTouched; var currVal_21 = i2.ɵnov(_v, 29).ngClassPristine; var currVal_22 = i2.ɵnov(_v, 29).ngClassDirty; var currVal_23 = i2.ɵnov(_v, 29).ngClassValid; var currVal_24 = i2.ɵnov(_v, 29).ngClassInvalid; var currVal_25 = i2.ɵnov(_v, 29).ngClassPending; _ck(_v, 24, 0, currVal_18, currVal_19, currVal_20, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25); var currVal_27 = (i2.ɵnov(_v, 32).disabled || null); var currVal_28 = (i2.ɵnov(_v, 32)._animationMode === "NoopAnimations"); var currVal_29 = (i2.ɵnov(_v, 33).ariaLabel || null); _ck(_v, 31, 0, currVal_27, currVal_28, currVal_29); }); }
+exports.View_AddNotesDialog_0 = View_AddNotesDialog_0;
+function View_AddNotesDialog_Host_0(_l) { return i2.ɵvid(0, [(_l()(), i2.ɵeld(0, 0, null, null, 1, "add-note-dialog", [], null, null, null, View_AddNotesDialog_0, RenderType_AddNotesDialog)), i2.ɵdid(1, 49152, null, 0, i9.AddNotesDialog, [i8.MatDialogRef, i8.MAT_DIALOG_DATA], null, null)], null, null); }
+exports.View_AddNotesDialog_Host_0 = View_AddNotesDialog_Host_0;
+var AddNotesDialogNgFactory = i2.ɵccf("add-note-dialog", i9.AddNotesDialog, View_AddNotesDialog_Host_0, {}, {}, []);
+exports.AddNotesDialogNgFactory = AddNotesDialogNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/AddNotesDialog.ts":
+/*!********************************************************!*\
+  !*** ./src/app/profile/view-profile/AddNotesDialog.ts ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const dialog_1 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+class AddNotesDialog {
+    constructor(dialogRef, data) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    remaningChars() {
+        return 255 - this.data.body.length;
+    }
+    // emaining
+    onNoClick() {
+        this.dialogRef.close();
+    }
+}
+exports.AddNotesDialog = AddNotesDialog;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/SocailMediaDialog.ngfactory.js":
+/*!*********************************************************************!*\
+  !*** ./src/app/profile/view-profile/SocailMediaDialog.ngfactory.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./view-profile.component.scss.shim.ngstyle */ "./src/app/profile/view-profile/view-profile.component.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i3 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i4 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i5 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i6 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i7 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i8 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+const i9 = __webpack_require__(/*! ./SocailMediaDialog */ "./src/app/profile/view-profile/SocailMediaDialog.ts");
+var styles_SocailMediaDialog = [i0.styles];
+var RenderType_SocailMediaDialog = i1.ɵcrt({ encapsulation: 0, styles: styles_SocailMediaDialog, data: {} });
+exports.RenderType_SocailMediaDialog = RenderType_SocailMediaDialog;
+function View_SocailMediaDialog_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Facebook "]))], null, null); }
+function View_SocailMediaDialog_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" LinkedIn "]))], null, null); }
+function View_SocailMediaDialog_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Twitter "]))], null, null); }
+function View_SocailMediaDialog_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Instagram "]))], null, null); }
+function View_SocailMediaDialog_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["facebook.com/"])), (_l()(), i1.ɵeld(4, 0, null, null, 6, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 5)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 5).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 5)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 5)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.facebook = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(5, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i2.DefaultValueAccessor]), i1.ɵdid(7, 671744, null, 0, i2.NgModel, [[2, i2.ControlContainer], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(8, { standalone: 0 }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(10, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.data.facebook; var currVal_8 = _ck(_v, 8, 0, true); _ck(_v, 7, 0, currVal_7, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 10).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 10).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 10).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 10).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 10).ngClassValid; var currVal_5 = i1.ɵnov(_v, 10).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 10).ngClassPending; _ck(_v, 4, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
+function View_SocailMediaDialog_6(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["linkedin.com/"])), (_l()(), i1.ɵeld(4, 0, null, null, 6, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 5)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 5).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 5)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 5)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.linkedIn = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(5, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i2.DefaultValueAccessor]), i1.ɵdid(7, 671744, null, 0, i2.NgModel, [[2, i2.ControlContainer], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(8, { standalone: 0 }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(10, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.data.linkedIn; var currVal_8 = _ck(_v, 8, 0, true); _ck(_v, 7, 0, currVal_7, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 10).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 10).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 10).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 10).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 10).ngClassValid; var currVal_5 = i1.ɵnov(_v, 10).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 10).ngClassPending; _ck(_v, 4, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
+function View_SocailMediaDialog_7(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["twitter.com/"])), (_l()(), i1.ɵeld(4, 0, null, null, 6, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 5)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 5).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 5)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 5)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.twitter = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(5, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i2.DefaultValueAccessor]), i1.ɵdid(7, 671744, null, 0, i2.NgModel, [[2, i2.ControlContainer], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(8, { standalone: 0 }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(10, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.data.twitter; var currVal_8 = _ck(_v, 8, 0, true); _ck(_v, 7, 0, currVal_7, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 10).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 10).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 10).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 10).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 10).ngClassValid; var currVal_5 = i1.ɵnov(_v, 10).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 10).ngClassPending; _ck(_v, 4, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
+function View_SocailMediaDialog_8(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["instagram.com/"])), (_l()(), i1.ɵeld(4, 0, null, null, 6, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 5)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 5).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 5)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 5)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_4 = ((_co.data.instagram = $event) !== false);
+        ad = (pd_4 && ad);
+    } return ad; }, null, null)), i1.ɵdid(5, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i2.DefaultValueAccessor]), i1.ɵdid(7, 671744, null, 0, i2.NgModel, [[2, i2.ControlContainer], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(8, { standalone: 0 }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(10, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.data.instagram; var currVal_8 = _ck(_v, 8, 0, true); _ck(_v, 7, 0, currVal_7, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 10).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 10).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 10).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 10).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 10).ngClassValid; var currVal_5 = i1.ɵnov(_v, 10).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 10).ngClassPending; _ck(_v, 4, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
+function View_SocailMediaDialog_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 33, "div", [], null, null, null, null, null)), i1.ɵdid(1, 16384, null, 0, i3.NgSwitch, [], { ngSwitch: [0, "ngSwitch"] }, null), (_l()(), i1.ɵeld(2, 0, null, null, 13, "div", [["class", "d-flex justify-content-between diolog-title align-items-center border-bottom mb-3 py-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 9, "p", [["class", "font-weight-bold mb-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Edit "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_1)), i1.ɵdid(6, 278528, null, 0, i3.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i3.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_2)), i1.ɵdid(8, 278528, null, 0, i3.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i3.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_3)), i1.ɵdid(10, 278528, null, 0, i3.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i3.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_4)), i1.ɵdid(12, 278528, null, 0, i3.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i3.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵeld(13, 0, null, null, 2, "button", [["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.onNoClick() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(14, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(15, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_close.svg"]], null, null, null, null, null)), (_l()(), i1.ɵeld(16, 0, null, null, 17, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "keyup"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 18).onSubmit($event) !== false);
+        ad = (pd_0 && ad);
+    } if (("reset" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 18).onReset() !== false);
+        ad = (pd_1 && ad);
+    } if (("keyup" === en)) {
+        var pd_2 = (_co.keyDownFunction($event) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, null, null)), i1.ɵdid(17, 16384, null, 0, i2.ɵangular_packages_forms_forms_z, [], null, null), i1.ɵdid(18, 4210688, null, 0, i2.NgForm, [[8, null], [8, null]], null, null), i1.ɵprd(2048, null, i2.ControlContainer, null, [i2.NgForm]), i1.ɵdid(20, 16384, null, 0, i2.NgControlStatusGroup, [[4, i2.ControlContainer]], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_5)), i1.ɵdid(22, 278528, null, 0, i3.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i3.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_6)), i1.ɵdid(24, 278528, null, 0, i3.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i3.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_7)), i1.ɵdid(26, 278528, null, 0, i3.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i3.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_8)), i1.ɵdid(28, 278528, null, 0, i3.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i3.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵeld(29, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(30, 0, null, null, 3, "button", [["class", "w-100 py-1"], ["color", "primary"], ["mat-raised-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 32).dialogRef.close(i1.ɵnov(_v, 32).dialogResult) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i4.View_MatButton_0, i4.RenderType_MatButton)), i1.ɵdid(31, 180224, null, 0, i5.MatButton, [i1.ElementRef, i6.FocusMonitor, [2, i7.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), i1.ɵdid(32, 606208, null, 0, i8.MatDialogClose, [[2, i8.MatDialogRef], i1.ElementRef, i8.MatDialog], { dialogResult: [0, "dialogResult"] }, null), (_l()(), i1.ɵted(-1, 0, [" Submit "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.data.index; _ck(_v, 1, 0, currVal_0); var currVal_1 = 0; _ck(_v, 6, 0, currVal_1); var currVal_2 = 1; _ck(_v, 8, 0, currVal_2); var currVal_3 = 2; _ck(_v, 10, 0, currVal_3); var currVal_4 = 3; _ck(_v, 12, 0, currVal_4); var currVal_14 = 0; _ck(_v, 22, 0, currVal_14); var currVal_15 = 1; _ck(_v, 24, 0, currVal_15); var currVal_16 = 2; _ck(_v, 26, 0, currVal_16); var currVal_17 = 3; _ck(_v, 28, 0, currVal_17); var currVal_21 = "primary"; _ck(_v, 31, 0, currVal_21); var currVal_22 = _co.data; _ck(_v, 32, 0, currVal_22); }, function (_ck, _v) { var currVal_5 = (i1.ɵnov(_v, 14).disabled || null); var currVal_6 = (i1.ɵnov(_v, 14)._animationMode === "NoopAnimations"); _ck(_v, 13, 0, currVal_5, currVal_6); var currVal_7 = i1.ɵnov(_v, 20).ngClassUntouched; var currVal_8 = i1.ɵnov(_v, 20).ngClassTouched; var currVal_9 = i1.ɵnov(_v, 20).ngClassPristine; var currVal_10 = i1.ɵnov(_v, 20).ngClassDirty; var currVal_11 = i1.ɵnov(_v, 20).ngClassValid; var currVal_12 = i1.ɵnov(_v, 20).ngClassInvalid; var currVal_13 = i1.ɵnov(_v, 20).ngClassPending; _ck(_v, 16, 0, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13); var currVal_18 = (i1.ɵnov(_v, 31).disabled || null); var currVal_19 = (i1.ɵnov(_v, 31)._animationMode === "NoopAnimations"); var currVal_20 = (i1.ɵnov(_v, 32).ariaLabel || null); _ck(_v, 30, 0, currVal_18, currVal_19, currVal_20); }); }
+exports.View_SocailMediaDialog_0 = View_SocailMediaDialog_0;
+function View_SocailMediaDialog_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "socail-media-dialog", [], null, null, null, View_SocailMediaDialog_0, RenderType_SocailMediaDialog)), i1.ɵdid(1, 49152, null, 0, i9.SocailMediaDialog, [i8.MatDialogRef, i8.MAT_DIALOG_DATA], null, null)], null, null); }
+exports.View_SocailMediaDialog_Host_0 = View_SocailMediaDialog_Host_0;
+var SocailMediaDialogNgFactory = i1.ɵccf("socail-media-dialog", i9.SocailMediaDialog, View_SocailMediaDialog_Host_0, {}, {}, []);
+exports.SocailMediaDialogNgFactory = SocailMediaDialogNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/SocailMediaDialog.ts":
+/*!***********************************************************!*\
+  !*** ./src/app/profile/view-profile/SocailMediaDialog.ts ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const dialog_1 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+class SocailMediaDialog {
+    constructor(dialogRef, data) {
+        this.dialogRef = dialogRef;
+        this.data = data;
+    }
+    onNoClick() {
+        this.dialogRef.close();
+    }
+    keyDownFunction(e) {
+        if (e.keyCode == 13) {
+            this.dialogRef.close(this.data);
+        }
+    }
+}
+exports.SocailMediaDialog = SocailMediaDialog;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/add-note.dialog.scss.shim.ngstyle.js":
+/*!***************************************************************************!*\
+  !*** ./src/app/profile/view-profile/add-note.dialog.scss.shim.ngstyle.js ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [".input-with-img[_ngcontent-%COMP%]   .form-control[_ngcontent-%COMP%] {\n  padding-left: 0;\n  border-left: transparent;\n}\n.input-with-img[_ngcontent-%COMP%]   .input-group-text[_ngcontent-%COMP%] {\n  background-color: #fff;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n}\ninput.form-control[_ngcontent-%COMP%] {\n  height: 50px;\n}\n.typed-chars[_ngcontent-%COMP%] {\n  position: absolute;\n  bottom: 5px;\n  left: 15px;\n  z-index: 10;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS92aWV3LXByb2ZpbGUvRTpcXFVwd29ya1xcQ29sbGVjdGl2ZSBQZW9wbGVcXGZyb250LWVuZC9zcmNcXGFwcFxccHJvZmlsZVxcdmlldy1wcm9maWxlXFxhZGQtbm90ZS5kaWFsb2cuc2NzcyIsInNyYy9hcHAvcHJvZmlsZS92aWV3LXByb2ZpbGUvYWRkLW5vdGUuZGlhbG9nLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0U7RUFDRSxlQUFBO0VBQ0Esd0JBQUE7QUNBSjtBREVFO0VBQ0Usc0JBQUE7RUFDQSx5QkFBQTtFQUNBLHNCQUFBO0FDQUo7QURJQTtFQUNFLFlBQUE7QUNERjtBRElBO0VBQ0Usa0JBQUE7RUFDQSxXQUFBO0VBQ0EsVUFBQTtFQUNBLFdBQUE7QUNERiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUvdmlldy1wcm9maWxlL2FkZC1ub3RlLmRpYWxvZy5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmlucHV0LXdpdGgtaW1nIHtcclxuICAuZm9ybS1jb250cm9sIHtcclxuICAgIHBhZGRpbmctbGVmdDogMDtcclxuICAgIGJvcmRlci1sZWZ0OiB0cmFuc3BhcmVudDtcclxuICB9XHJcbiAgLmlucHV0LWdyb3VwLXRleHQge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICNjZWQ0ZGE7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwLjI1cmVtO1xyXG4gIH1cclxufVxyXG5cclxuaW5wdXQuZm9ybS1jb250cm9sIHtcclxuICBoZWlnaHQ6IDUwcHg7XHJcbn1cclxuXHJcbi50eXBlZC1jaGFycyB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIGJvdHRvbTogNXB4O1xyXG4gIGxlZnQ6IDE1cHg7XHJcbiAgei1pbmRleDogMTA7XHJcbn1cclxuIiwiLmlucHV0LXdpdGgtaW1nIC5mb3JtLWNvbnRyb2wge1xuICBwYWRkaW5nLWxlZnQ6IDA7XG4gIGJvcmRlci1sZWZ0OiB0cmFuc3BhcmVudDtcbn1cbi5pbnB1dC13aXRoLWltZyAuaW5wdXQtZ3JvdXAtdGV4dCB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG4gIGJvcmRlcjogMXB4IHNvbGlkICNjZWQ0ZGE7XG4gIGJvcmRlci1yYWRpdXM6IDAuMjVyZW07XG59XG5cbmlucHV0LmZvcm0tY29udHJvbCB7XG4gIGhlaWdodDogNTBweDtcbn1cblxuLnR5cGVkLWNoYXJzIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBib3R0b206IDVweDtcbiAgbGVmdDogMTVweDtcbiAgei1pbmRleDogMTA7XG59Il19 */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/superpowers/superpowers.component.ngfactory.js":
+/*!*************************************************************************************!*\
+  !*** ./src/app/profile/view-profile/superpowers/superpowers.component.ngfactory.js ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./superpowers.component.scss.shim.ngstyle */ "./src/app/profile/view-profile/superpowers/superpowers.component.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i3 = __webpack_require__(/*! @angular/material/autocomplete */ "@angular/material/autocomplete");
+const i4 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
+const i5 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
+const i6 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i7 = __webpack_require__(/*! @angular/cdk/scrolling */ "@angular/cdk/scrolling");
+const i8 = __webpack_require__(/*! ../../../../../node_modules/@angular/material/core/typings/index.ngfactory */ "./node_modules/@angular/material/core/typings/index.ngfactory.js");
+const i9 = __webpack_require__(/*! @angular/material/core */ "@angular/material/core");
+const i10 = __webpack_require__(/*! ../../../../../node_modules/@angular/material/autocomplete/typings/index.ngfactory */ "./node_modules/@angular/material/autocomplete/typings/index.ngfactory.js");
+const i11 = __webpack_require__(/*! ./superpowers.component */ "./src/app/profile/view-profile/superpowers/superpowers.component.ts");
+const i12 = __webpack_require__(/*! ../../profile.service */ "./src/app/profile/profile.service.ts");
+const i13 = __webpack_require__(/*! ../../../services/superpower.service */ "./src/app/services/superpower.service.ts");
+var styles_SuperpowersComponent = [i0.styles];
+var RenderType_SuperpowersComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_SuperpowersComponent, data: {} });
+exports.RenderType_SuperpowersComponent = RenderType_SuperpowersComponent;
+function View_SuperpowersComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "border mr-2 my-1 d-flex align-items-center char-span"]], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "])), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-times ml-3"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.removeSuperpower(_v.context.$implicit) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
+function View_SuperpowersComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 7, "div", [["class", "input-group input-group-sm char-input-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 16777216, null, null, 6, "input", [["class", "form-control my-1"], ["matInput", ""], ["placeholder", "Superpowers"]], [[1, "autocomplete", 0], [1, "role", 0], [1, "aria-autocomplete", 0], [1, "aria-activedescendant", 0], [1, "aria-expanded", 0], [1, "aria-owns", 0], [1, "aria-haspopup", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "focusin"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 2)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 2).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 2)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 2)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("focusin" === en)) {
+        var pd_4 = (i1.ɵnov(_v, 3)._handleFocus() !== false);
+        ad = (pd_4 && ad);
+    } if (("blur" === en)) {
+        var pd_5 = (i1.ɵnov(_v, 3)._onTouched() !== false);
+        ad = (pd_5 && ad);
+    } if (("input" === en)) {
+        var pd_6 = (i1.ɵnov(_v, 3)._handleInput($event) !== false);
+        ad = (pd_6 && ad);
+    } if (("keydown" === en)) {
+        var pd_7 = (i1.ɵnov(_v, 3)._handleKeydown($event) !== false);
+        ad = (pd_7 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_8 = ((_co.superpowerQuery = $event) !== false);
+        ad = (pd_8 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_9 = (_co.searchSuperpowers($event) !== false);
+        ad = (pd_9 && ad);
+    } return ad; }, null, null)), i1.ɵdid(2, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵdid(3, 671744, null, 0, i3.MatAutocompleteTrigger, [i1.ElementRef, i4.Overlay, i1.ViewContainerRef, i1.NgZone, i1.ChangeDetectorRef, i3.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, [2, i5.Directionality], [8, null], [2, i6.DOCUMENT], i7.ViewportRuler], { autocomplete: [0, "autocomplete"] }, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0, p1_0) { return [p0_0, p1_0]; }, [i2.DefaultValueAccessor, i3.MatAutocompleteTrigger]), i1.ɵdid(5, 671744, null, 0, i2.NgModel, [[8, null], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(7, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_14 = i1.ɵnov(_v.parent, 9); _ck(_v, 3, 0, currVal_14); var currVal_15 = _co.superpowerQuery; _ck(_v, 5, 0, currVal_15); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 3).autocompleteAttribute; var currVal_1 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : "combobox"); var currVal_2 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : "list"); var currVal_3 = ((i1.ɵnov(_v, 3).panelOpen && i1.ɵnov(_v, 3).activeOption) ? i1.ɵnov(_v, 3).activeOption.id : null); var currVal_4 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : i1.ɵnov(_v, 3).panelOpen.toString()); var currVal_5 = ((i1.ɵnov(_v, 3).autocompleteDisabled || !i1.ɵnov(_v, 3).panelOpen) ? null : ((i1.ɵnov(_v, 3).autocomplete == null) ? null : i1.ɵnov(_v, 3).autocomplete.id)); var currVal_6 = !i1.ɵnov(_v, 3).autocompleteDisabled; var currVal_7 = i1.ɵnov(_v, 7).ngClassUntouched; var currVal_8 = i1.ɵnov(_v, 7).ngClassTouched; var currVal_9 = i1.ɵnov(_v, 7).ngClassPristine; var currVal_10 = i1.ɵnov(_v, 7).ngClassDirty; var currVal_11 = i1.ɵnov(_v, 7).ngClassValid; var currVal_12 = i1.ɵnov(_v, 7).ngClassInvalid; var currVal_13 = i1.ɵnov(_v, 7).ngClassPending; _ck(_v, 1, 1, [currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13]); }); }
+function View_SuperpowersComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 3, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onSuperpowerEnter($event, _v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i8.View_MatOption_0, i8.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[1, 4]], 0, i9.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i9.MAT_OPTION_PARENT_COMPONENT], [2, i9.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(3, null, ["", ""]))], null, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _v.context.$implicit.name; _ck(_v, 3, 0, currVal_8); }); }
+function View_SuperpowersComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onSuperpowerEnter($event) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i8.View_MatOption_0, i8.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[1, 4]], 0, i9.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i9.MAT_OPTION_PARENT_COMPONENT], [2, i9.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 1, "span", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Add "])), (_l()(), i1.ɵted(4, 0, [" \"", "\" "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _co.superpowerQuery; _ck(_v, 4, 0, currVal_8); }); }
+function View_SuperpowersComponent_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.toggleSuperpower() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "button", [["class", "btn border btn-sm my-1"], ["style", "color: #6c757d;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-plus"]], null, null, null, null, null))], null, null); }
+function View_SuperpowersComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "p", [["class", "font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Superpowers"])), (_l()(), i1.ɵeld(2, 0, null, null, 15, "div", [["class", "d-flex flex-wrap"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SuperpowersComponent_1)), i1.ɵdid(4, 278528, null, 0, i6.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SuperpowersComponent_2)), i1.ɵdid(6, 16384, null, 0, i6.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(7, 0, null, null, 8, "mat-autocomplete", [["class", "mat-autocomplete"]], null, null, null, i10.View_MatAutocomplete_0, i10.RenderType_MatAutocomplete)), i1.ɵprd(6144, null, i9.MAT_OPTION_PARENT_COMPONENT, null, [i3.MatAutocomplete]), i1.ɵdid(9, 1097728, [["auto", 4]], 2, i3.MatAutocomplete, [i1.ChangeDetectorRef, i1.ElementRef, i3.MAT_AUTOCOMPLETE_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 1, { options: 1 }), i1.ɵqud(603979776, 2, { optionGroups: 1 }), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_SuperpowersComponent_3)), i1.ɵdid(13, 278528, null, 0, i6.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_SuperpowersComponent_4)), i1.ɵdid(15, 16384, null, 0, i6.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SuperpowersComponent_5)), i1.ɵdid(17, 16384, null, 0, i6.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.superpowers; _ck(_v, 4, 0, currVal_0); var currVal_1 = _co.enterSuperpower; _ck(_v, 6, 0, currVal_1); var currVal_2 = _co.searchResult; _ck(_v, 13, 0, currVal_2); var currVal_3 = _co.superpowerQuery; _ck(_v, 15, 0, currVal_3); var currVal_4 = !_co.enterSuperpower; _ck(_v, 17, 0, currVal_4); }, null); }
+exports.View_SuperpowersComponent_0 = View_SuperpowersComponent_0;
+function View_SuperpowersComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-superpowers", [], null, null, null, View_SuperpowersComponent_0, RenderType_SuperpowersComponent)), i1.ɵdid(1, 114688, null, 0, i11.SuperpowersComponent, [i12.ProfileService, i13.SuperpowerService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+exports.View_SuperpowersComponent_Host_0 = View_SuperpowersComponent_Host_0;
+var SuperpowersComponentNgFactory = i1.ɵccf("app-superpowers", i11.SuperpowersComponent, View_SuperpowersComponent_Host_0, { superpowers: "superpowers", userId: "userId" }, {}, []);
+exports.SuperpowersComponentNgFactory = SuperpowersComponentNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/superpowers/superpowers.component.scss.shim.ngstyle.js":
+/*!*********************************************************************************************!*\
+  !*** ./src/app/profile/view-profile/superpowers/superpowers.component.scss.shim.ngstyle.js ***!
+  \*********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [".char-input-container[_ngcontent-%COMP%] {\n  width: 160px;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  border: transparent;\n  background-color: #f7f8f8;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  color: #6c757d;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:focus {\n  box-shadow: none;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled {\n  opacity: 1;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled   i[_ngcontent-%COMP%] {\n  opacity: 0.6;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS92aWV3LXByb2ZpbGUvc3VwZXJwb3dlcnMvRTpcXFVwd29ya1xcQ29sbGVjdGl2ZSBQZW9wbGVcXGZyb250LWVuZC9zcmNcXGFwcFxccHJvZmlsZVxcdmlldy1wcm9maWxlXFxzdXBlcnBvd2Vyc1xcc3VwZXJwb3dlcnMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvdmlldy1wcm9maWxlL3N1cGVycG93ZXJzL3N1cGVycG93ZXJzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBQTtBQ0NGO0FEQ0k7RUFDRSxtQkFBQTtFQUNBLHlCQUFBO0FDQ047QURBTTtFQUNFLGNBQUE7QUNFUjtBREFNO0VBQ0UsZ0JBQUE7QUNFUjtBREFNO0VBQ0UsVUFBQTtBQ0VSO0FERFE7RUFDRSxZQUFBO0FDR1YiLCJmaWxlIjoic3JjL2FwcC9wcm9maWxlL3ZpZXctcHJvZmlsZS9zdXBlcnBvd2Vycy9zdXBlcnBvd2Vycy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jaGFyLWlucHV0LWNvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDE2MHB4O1xyXG4gIC5pbnB1dC1ncm91cC1hcHBlbmQge1xyXG4gICAgYnV0dG9uIHtcclxuICAgICAgYm9yZGVyOiB0cmFuc3BhcmVudDtcclxuICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y3ZjhmODtcclxuICAgICAgJjpob3ZlciB7XHJcbiAgICAgICAgY29sb3I6ICM2Yzc1N2Q7XHJcbiAgICAgIH1cclxuICAgICAgJjpmb2N1cyB7XHJcbiAgICAgICAgYm94LXNoYWRvdzogbm9uZTtcclxuICAgICAgfVxyXG4gICAgICAmOmRpc2FibGVkIHtcclxuICAgICAgICBvcGFjaXR5OiAxO1xyXG4gICAgICAgIGkge1xyXG4gICAgICAgICAgb3BhY2l0eTogMC42O1xyXG4gICAgICAgIH1cclxuICAgICAgfVxyXG4gICAgfVxyXG4gIH1cclxufVxyXG4iLCIuY2hhci1pbnB1dC1jb250YWluZXIge1xuICB3aWR0aDogMTYwcHg7XG59XG4uY2hhci1pbnB1dC1jb250YWluZXIgLmlucHV0LWdyb3VwLWFwcGVuZCBidXR0b24ge1xuICBib3JkZXI6IHRyYW5zcGFyZW50O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGY4O1xufVxuLmNoYXItaW5wdXQtY29udGFpbmVyIC5pbnB1dC1ncm91cC1hcHBlbmQgYnV0dG9uOmhvdmVyIHtcbiAgY29sb3I6ICM2Yzc1N2Q7XG59XG4uY2hhci1pbnB1dC1jb250YWluZXIgLmlucHV0LWdyb3VwLWFwcGVuZCBidXR0b246Zm9jdXMge1xuICBib3gtc2hhZG93OiBub25lO1xufVxuLmNoYXItaW5wdXQtY29udGFpbmVyIC5pbnB1dC1ncm91cC1hcHBlbmQgYnV0dG9uOmRpc2FibGVkIHtcbiAgb3BhY2l0eTogMTtcbn1cbi5jaGFyLWlucHV0LWNvbnRhaW5lciAuaW5wdXQtZ3JvdXAtYXBwZW5kIGJ1dHRvbjpkaXNhYmxlZCBpIHtcbiAgb3BhY2l0eTogMC42O1xufSJdfQ== */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/superpowers/superpowers.component.ts":
+/*!***************************************************************************!*\
+  !*** ./src/app/profile/view-profile/superpowers/superpowers.component.ts ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+class SuperpowersComponent {
+    constructor(profileService, superpowerService) {
+        this.profileService = profileService;
+        this.superpowerService = superpowerService;
+        this.superpowers = [];
+        this.enterSuperpower = false;
+        this.superpowerQuery = "";
+        this.searchResult = [];
+    }
+    ngOnInit() { }
+    addSuperPower(superpower) {
+        let data = { _id: superpower._id };
+        this.profileService.addSuperpower(data, this.userId).subscribe(data => {
+            this.superpowerQuery = "";
+            this.superpowers.push(data);
+            this.toggleSuperpower();
+        });
+    }
+    toggleSuperpower() {
+        this.enterSuperpower = !this.enterSuperpower;
+    }
+    removeSuperpower(char) {
+        this.profileService
+            .removeSuperpower(this.userId, char._id)
+            .subscribe(data => {
+            if (data) {
+                this.superpowers = this.superpowers.filter(sp => sp._id != char._id);
+            }
+        });
+    }
+    searchSuperpowers(superpowerQuery) {
+        if (superpowerQuery) {
+            this.superpowerService.getSeachResult(superpowerQuery).subscribe(data => {
+                this.searchResult = data;
+            });
+        }
+        else {
+            this.searchResult = [];
+        }
+    }
+    saveSuperpower() {
+        let _newSuperpower = { name: this.superpowerQuery };
+        this.superpowerService
+            .addNewSuperpower(_newSuperpower)
+            .subscribe(data => {
+            let sp = data;
+            this.addSuperPower(sp);
+        });
+    }
+    onSuperpowerEnter(e, superpower = undefined) {
+        if (e.source.selected) {
+            if (superpower) {
+                this.addSuperPower(superpower);
+            }
+            else {
+                this.saveSuperpower();
+            }
+        }
+    }
+}
+exports.SuperpowersComponent = SuperpowersComponent;
 
 
 /***/ }),
@@ -2168,144 +4034,87 @@ const i0 = __webpack_require__(/*! ./view-profile.component.scss.shim.ngstyle */
 const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 const i2 = __webpack_require__(/*! ../../common/spinner/spinner.component.ngfactory */ "./src/app/common/spinner/spinner.component.ngfactory.js");
 const i3 = __webpack_require__(/*! ../../common/spinner/spinner.component */ "./src/app/common/spinner/spinner.component.ts");
-const i4 = __webpack_require__(/*! ../../../../node_modules/@angular/material/core/typings/index.ngfactory */ "./node_modules/@angular/material/core/typings/index.ngfactory.js");
-const i5 = __webpack_require__(/*! @angular/router */ "@angular/router");
-const i6 = __webpack_require__(/*! @angular/material/core */ "@angular/material/core");
-const i7 = __webpack_require__(/*! @angular/common */ "@angular/common");
-const i8 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
-const i9 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
-const i10 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
-const i11 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
-const i12 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
-const i13 = __webpack_require__(/*! @angular/material/menu */ "@angular/material/menu");
-const i14 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
-const i15 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
-const i16 = __webpack_require__(/*! ../../../../node_modules/@angular/material/menu/typings/index.ngfactory */ "./node_modules/@angular/material/menu/typings/index.ngfactory.js");
-const i17 = __webpack_require__(/*! @angular/material/autocomplete */ "@angular/material/autocomplete");
-const i18 = __webpack_require__(/*! @angular/cdk/scrolling */ "@angular/cdk/scrolling");
-const i19 = __webpack_require__(/*! ../../../../node_modules/@angular/material/autocomplete/typings/index.ngfactory */ "./node_modules/@angular/material/autocomplete/typings/index.ngfactory.js");
-const i20 = __webpack_require__(/*! ../../common/navbar/navbar.component.ngfactory */ "./src/app/common/navbar/navbar.component.ngfactory.js");
-const i21 = __webpack_require__(/*! ../../common/navbar/navbar.component */ "./src/app/common/navbar/navbar.component.ts");
-const i22 = __webpack_require__(/*! ./view-profile.component */ "./src/app/profile/view-profile/view-profile.component.ts");
-const i23 = __webpack_require__(/*! ../profile.service */ "./src/app/profile/profile.service.ts");
-const i24 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+const i4 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i5 = __webpack_require__(/*! ../../../../node_modules/@angular/material/button/typings/index.ngfactory */ "./node_modules/@angular/material/button/typings/index.ngfactory.js");
+const i6 = __webpack_require__(/*! @angular/material/button */ "@angular/material/button");
+const i7 = __webpack_require__(/*! @angular/cdk/a11y */ "@angular/cdk/a11y");
+const i8 = __webpack_require__(/*! @angular/platform-browser/animations */ "@angular/platform-browser/animations");
+const i9 = __webpack_require__(/*! @angular/material/menu */ "@angular/material/menu");
+const i10 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
+const i11 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
+const i12 = __webpack_require__(/*! ../../../../node_modules/@angular/material/menu/typings/index.ngfactory */ "./node_modules/@angular/material/menu/typings/index.ngfactory.js");
+const i13 = __webpack_require__(/*! ../profile-search/profile-search.component.ngfactory */ "./src/app/profile/profile-search/profile-search.component.ngfactory.js");
+const i14 = __webpack_require__(/*! ../profile-search/profile-search.component */ "./src/app/profile/profile-search/profile-search.component.ts");
+const i15 = __webpack_require__(/*! ../profile.service */ "./src/app/profile/profile.service.ts");
+const i16 = __webpack_require__(/*! @angular/router */ "@angular/router");
+const i17 = __webpack_require__(/*! ../company-search/company-search.component.ngfactory */ "./src/app/profile/company-search/company-search.component.ngfactory.js");
+const i18 = __webpack_require__(/*! ../company-search/company-search.component */ "./src/app/profile/company-search/company-search.component.ts");
+const i19 = __webpack_require__(/*! ../company.service */ "./src/app/profile/company.service.ts");
+const i20 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+const i21 = __webpack_require__(/*! ./superpowers/superpowers.component.ngfactory */ "./src/app/profile/view-profile/superpowers/superpowers.component.ngfactory.js");
+const i22 = __webpack_require__(/*! ./superpowers/superpowers.component */ "./src/app/profile/view-profile/superpowers/superpowers.component.ts");
+const i23 = __webpack_require__(/*! ../../services/superpower.service */ "./src/app/services/superpower.service.ts");
+const i24 = __webpack_require__(/*! ./weaknesses/weaknesses.component.ngfactory */ "./src/app/profile/view-profile/weaknesses/weaknesses.component.ngfactory.js");
+const i25 = __webpack_require__(/*! ./weaknesses/weaknesses.component */ "./src/app/profile/view-profile/weaknesses/weaknesses.component.ts");
+const i26 = __webpack_require__(/*! ../../services/weakness.service */ "./src/app/services/weakness.service.ts");
+const i27 = __webpack_require__(/*! ../../common/navbar/navbar.component.ngfactory */ "./src/app/common/navbar/navbar.component.ngfactory.js");
+const i28 = __webpack_require__(/*! ../../common/navbar/navbar.component */ "./src/app/common/navbar/navbar.component.ts");
+const i29 = __webpack_require__(/*! ./view-profile.component */ "./src/app/profile/view-profile/view-profile.component.ts");
 var styles_ViewProfileComponent = [i0.styles];
 var RenderType_ViewProfileComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_ViewProfileComponent, data: {} });
 exports.RenderType_ViewProfileComponent = RenderType_ViewProfileComponent;
 function View_ViewProfileComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "app-spinner", [], null, null, null, i2.View_SpinnerComponent_0, i2.RenderType_SpinnerComponent)), i1.ɵdid(2, 114688, null, 0, i3.SpinnerComponent, [], null, null)], function (_ck, _v) { _ck(_v, 2, 0); }, null); }
-function View_ViewProfileComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [","]))], null, null); }
-function View_ViewProfileComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 14, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 1).onClick() !== false);
-        ad = (pd_0 && ad);
-    } if (("click" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 3)._selectViaInteraction() !== false);
-        ad = (pd_1 && ad);
-    } if (("keydown" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 3)._handleKeydown($event) !== false);
-        ad = (pd_2 && ad);
-    } return ad; }, i4.View_MatOption_0, i4.RenderType_MatOption)), i1.ɵdid(1, 16384, null, 0, i5.RouterLink, [i5.Router, i5.ActivatedRoute, [8, null], i1.Renderer2, i1.ElementRef], { routerLink: [0, "routerLink"] }, null), i1.ɵpad(2, 2), i1.ɵdid(3, 8568832, [[1, 4]], 0, i6.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i6.MAT_OPTION_PARENT_COMPONENT], [2, i6.MatOptgroup]], null, null), (_l()(), i1.ɵeld(4, 0, null, 0, 10, "div", [["class", "d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 1, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 0, "img", [["aria-hidden", ""], ["class", "search-img mr-2"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 7, "div", [["class", "d-flex flex-column"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(9, null, ["", " ", ""])), (_l()(), i1.ɵeld(10, 0, null, null, 4, "small", [], null, null, null, null, null)), (_l()(), i1.ɵted(11, null, ["", ", ", ""])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_4)), i1.ɵdid(13, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(14, null, [" ", ""]))], function (_ck, _v) { var currVal_8 = _ck(_v, 2, 0, "/profile/view", _v.context.$implicit._id); _ck(_v, 1, 0, currVal_8); var currVal_14 = _v.context.$implicit.country; _ck(_v, 13, 0, currVal_14); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 3)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 3).selected; var currVal_2 = i1.ɵnov(_v, 3).multiple; var currVal_3 = i1.ɵnov(_v, 3).active; var currVal_4 = i1.ɵnov(_v, 3).id; var currVal_5 = i1.ɵnov(_v, 3)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 3).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 3).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_9 = (_v.context.$implicit.profileImg ? (_co.imgBaseUrl + _v.context.$implicit.profileImg) : "assets/images/img-placeholder.svg"); _ck(_v, 6, 0, currVal_9); var currVal_10 = _v.context.$implicit.firstName; var currVal_11 = _v.context.$implicit.lastName; _ck(_v, 9, 0, currVal_10, currVal_11); var currVal_12 = _v.context.$implicit.city; var currVal_13 = _v.context.$implicit.state; _ck(_v, 11, 0, currVal_12, currVal_13); var currVal_15 = _v.context.$implicit.country; _ck(_v, 14, 0, currVal_15); }); }
-function View_ViewProfileComponent_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [","]))], null, null); }
-function View_ViewProfileComponent_6(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "socialmedia-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+function View_ViewProfileComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primay "]))], null, null); }
+function View_ViewProfileComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 12, "div", [["class", "d-flex justify-content-between mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 6, "span", [["class", "font-weight-light"]], null, null, null, null, null)), i1.ɵprd(512, null, i4.ɵNgClassImpl, i4.ɵNgClassR2Impl, [i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer2]), i1.ɵdid(3, 278528, null, 0, i4.NgClass, [i4.ɵNgClassImpl], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), i1.ɵpod(4, { "text-muted": 0 }), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_4)), i1.ɵdid(6, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(-1, null, ["Email"])), (_l()(), i1.ɵeld(8, 0, null, null, 4, "span", [["class", "font-weight-bold"]], null, null, null, null, null)), i1.ɵprd(512, null, i4.ɵNgClassImpl, i4.ɵNgClassR2Impl, [i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer2]), i1.ɵdid(10, 278528, null, 0, i4.NgClass, [i4.ɵNgClassImpl], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), i1.ɵpod(11, { "text-muted": 0 }), (_l()(), i1.ɵted(12, null, [" ", " "]))], function (_ck, _v) { var currVal_0 = "font-weight-light"; var currVal_1 = _ck(_v, 4, 0, !_v.context.$implicit.isPrimary); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = _v.context.$implicit.isPrimary; _ck(_v, 6, 0, currVal_2); var currVal_3 = "font-weight-bold"; var currVal_4 = _ck(_v, 11, 0, !_v.context.$implicit.isPrimary); _ck(_v, 10, 0, currVal_3, currVal_4); }, function (_ck, _v) { var currVal_5 = _v.context.$implicit.value; _ck(_v, 12, 0, currVal_5); }); }
+function View_ViewProfileComponent_6(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primay "]))], null, null); }
+function View_ViewProfileComponent_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 12, "div", [["class", "d-flex justify-content-between mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 6, "span", [["class", "font-weight-light"]], null, null, null, null, null)), i1.ɵprd(512, null, i4.ɵNgClassImpl, i4.ɵNgClassR2Impl, [i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer2]), i1.ɵdid(3, 278528, null, 0, i4.NgClass, [i4.ɵNgClassImpl], { klass: [0, "klass"], ngClass: [1, "ngClass"] }, null), i1.ɵpod(4, { "text-muted": 0 }), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_6)), i1.ɵdid(6, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(-1, null, ["Phone"])), (_l()(), i1.ɵeld(8, 0, null, null, 4, "span", [], null, null, null, null, null)), i1.ɵprd(512, null, i4.ɵNgClassImpl, i4.ɵNgClassR2Impl, [i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer2]), i1.ɵdid(10, 278528, null, 0, i4.NgClass, [i4.ɵNgClassImpl], { ngClass: [0, "ngClass"] }, null), i1.ɵpod(11, { "text-muted": 0 }), (_l()(), i1.ɵted(12, null, [" ", " "]))], function (_ck, _v) { var currVal_0 = "font-weight-light"; var currVal_1 = _ck(_v, 4, 0, !_v.context.$implicit.isPrimary); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = _v.context.$implicit.isPrimary; _ck(_v, 6, 0, currVal_2); var currVal_3 = _ck(_v, 11, 0, !_v.context.$implicit.isPrimary); _ck(_v, 10, 0, currVal_3); }, function (_ck, _v) { var currVal_4 = _v.context.$implicit.value; _ck(_v, 12, 0, currVal_4); }); }
+function View_ViewProfileComponent_7(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "socialmedia-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.openDialog(0) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-facebook-f"]], null, null, null, null, null))], null, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
-function View_ViewProfileComponent_7(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "a", [["class", "socialmedia-btn"], ["mat-button", ""], ["target", "_black"]], [[8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-facebook-f"]], null, null, null, null, null))], null, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_ViewProfileComponent_8(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "a", [["class", "socialmedia-btn"], ["mat-button", ""], ["target", "_black"]], [[8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 1)._haltDisabledEvents($event) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatAnchor_0, i8.RenderType_MatAnchor)), i1.ɵdid(1, 180224, null, 0, i9.MatAnchor, [i10.FocusMonitor, i1.ElementRef, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-facebook-f active-sm"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, 0, 1, "span", [["class", "remove-socail-btn"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, i5.View_MatAnchor_0, i5.RenderType_MatAnchor)), i1.ɵdid(1, 180224, null, 0, i6.MatAnchor, [i7.FocusMonitor, i1.ElementRef, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-facebook-f active-sm"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, 0, 1, "span", [["class", "remove-socail-btn"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.stopClickDefaults($event, 0) !== false);
         ad = (pd_0 && ad);
     } return ad; }, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "i", [["class", "fas fa-times fa-sm"]], null, null, null, null, null))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵinlineInterpolate(1, "https://facebook.com/", _co.profile.facebook, ""); var currVal_1 = (i1.ɵnov(_v, 1).disabled ? (0 - 1) : (i1.ɵnov(_v, 1).tabIndex || 0)); var currVal_2 = (i1.ɵnov(_v, 1).disabled || null); var currVal_3 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_4 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4); }); }
-function View_ViewProfileComponent_8(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "socialmedia-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+function View_ViewProfileComponent_9(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "socialmedia-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.openDialog(1) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-linkedin-in"]], null, null, null, null, null))], null, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
-function View_ViewProfileComponent_10(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [["class", "remove-socail-btn"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-linkedin-in"]], null, null, null, null, null))], null, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_ViewProfileComponent_11(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [["class", "remove-socail-btn"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.stopClickDefaults($event, 1) !== false);
         ad = (pd_0 && ad);
     } return ad; }, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 0, "i", [["class", "fas fa-times fa-sm"]], null, null, null, null, null))], null, null); }
-function View_ViewProfileComponent_9(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "a", [["class", "socialmedia-btn"], ["mat-button", ""], ["target", "_black"]], [[8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+function View_ViewProfileComponent_10(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "a", [["class", "socialmedia-btn"], ["mat-button", ""], ["target", "_black"]], [[8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 1)._haltDisabledEvents($event) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatAnchor_0, i8.RenderType_MatAnchor)), i1.ɵdid(1, 180224, null, 0, i9.MatAnchor, [i10.FocusMonitor, i1.ElementRef, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-linkedin-in active-sm"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_ViewProfileComponent_10)), i1.ɵdid(4, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_5 = _co.profile.linkedIn; _ck(_v, 4, 0, currVal_5); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵinlineInterpolate(1, "https://linkedin.com/", _co.profile.linkedIn, ""); var currVal_1 = (i1.ɵnov(_v, 1).disabled ? (0 - 1) : (i1.ɵnov(_v, 1).tabIndex || 0)); var currVal_2 = (i1.ɵnov(_v, 1).disabled || null); var currVal_3 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_4 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4); }); }
-function View_ViewProfileComponent_11(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "socialmedia-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, i5.View_MatAnchor_0, i5.RenderType_MatAnchor)), i1.ɵdid(1, 180224, null, 0, i6.MatAnchor, [i7.FocusMonitor, i1.ElementRef, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-linkedin-in active-sm"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_ViewProfileComponent_11)), i1.ɵdid(4, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_5 = _co.profile.linkedIn; _ck(_v, 4, 0, currVal_5); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵinlineInterpolate(1, "https://linkedin.com/", _co.profile.linkedIn, ""); var currVal_1 = (i1.ɵnov(_v, 1).disabled ? (0 - 1) : (i1.ɵnov(_v, 1).tabIndex || 0)); var currVal_2 = (i1.ɵnov(_v, 1).disabled || null); var currVal_3 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_4 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4); }); }
+function View_ViewProfileComponent_12(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "socialmedia-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.openDialog(2) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-twitter"]], null, null, null, null, null))], null, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
-function View_ViewProfileComponent_12(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "a", [["class", "socialmedia-btn"], ["mat-button", ""], ["target", "_black"]], [[8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-twitter"]], null, null, null, null, null))], null, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_ViewProfileComponent_13(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "a", [["class", "socialmedia-btn"], ["mat-button", ""], ["target", "_black"]], [[8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 1)._haltDisabledEvents($event) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatAnchor_0, i8.RenderType_MatAnchor)), i1.ɵdid(1, 180224, null, 0, i9.MatAnchor, [i10.FocusMonitor, i1.ElementRef, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-twitter active-sm"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, 0, 1, "span", [["class", "remove-socail-btn"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, i5.View_MatAnchor_0, i5.RenderType_MatAnchor)), i1.ɵdid(1, 180224, null, 0, i6.MatAnchor, [i7.FocusMonitor, i1.ElementRef, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-twitter active-sm"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, 0, 1, "span", [["class", "remove-socail-btn"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.stopClickDefaults($event, 2) !== false);
         ad = (pd_0 && ad);
     } return ad; }, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "i", [["class", "fas fa-times fa-sm"]], null, null, null, null, null))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵinlineInterpolate(1, "https://twitter.com/", _co.profile.twitter, ""); var currVal_1 = (i1.ɵnov(_v, 1).disabled ? (0 - 1) : (i1.ɵnov(_v, 1).tabIndex || 0)); var currVal_2 = (i1.ɵnov(_v, 1).disabled || null); var currVal_3 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_4 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4); }); }
-function View_ViewProfileComponent_13(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "socialmedia-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+function View_ViewProfileComponent_14(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "button", [["class", "socialmedia-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.openDialog(3) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-instagram"]], null, null, null, null, null))], null, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
-function View_ViewProfileComponent_14(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "a", [["class", "socialmedia-btn"], ["mat-button", ""], ["target", "_black"]], [[8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(1, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-instagram"]], null, null, null, null, null))], null, function (_ck, _v) { var currVal_0 = (i1.ɵnov(_v, 1).disabled || null); var currVal_1 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1); }); }
+function View_ViewProfileComponent_15(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "a", [["class", "socialmedia-btn"], ["mat-button", ""], ["target", "_black"]], [[8, "href", 4], [1, "tabindex", 0], [1, "disabled", 0], [1, "aria-disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 1)._haltDisabledEvents($event) !== false);
         ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatAnchor_0, i8.RenderType_MatAnchor)), i1.ɵdid(1, 180224, null, 0, i9.MatAnchor, [i10.FocusMonitor, i1.ElementRef, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-instagram active-sm"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, 0, 1, "span", [["class", "remove-socail-btn"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, i5.View_MatAnchor_0, i5.RenderType_MatAnchor)), i1.ɵdid(1, 180224, null, 0, i6.MatAnchor, [i7.FocusMonitor, i1.ElementRef, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(2, 0, null, 0, 0, "i", [["class", "fab fa-lg fa-instagram active-sm"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, 0, 1, "span", [["class", "remove-socail-btn"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (_co.stopClickDefaults($event, 3) !== false);
         ad = (pd_0 && ad);
     } return ad; }, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 0, "i", [["class", "fas fa-times fa-sm"]], null, null, null, null, null))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵinlineInterpolate(1, "https://instagram.com/", _co.profile.instagram, ""); var currVal_1 = (i1.ɵnov(_v, 1).disabled ? (0 - 1) : (i1.ɵnov(_v, 1).tabIndex || 0)); var currVal_2 = (i1.ɵnov(_v, 1).disabled || null); var currVal_3 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_4 = (i1.ɵnov(_v, 1)._animationMode === "NoopAnimations"); _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4); }); }
-function View_ViewProfileComponent_15(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "border mr-3 mb-3 d-flex align-items-center char-span"]], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "])), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-times ml-3"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.removeSuperpower(_v.context.$implicit) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
-function View_ViewProfileComponent_16(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 9, "div", [["class", "input-group input-group-sm mb-3 char-input-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 5, "input", [["class", "form-control"], ["placeholder", "Type Superpower"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 2)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 2).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 2)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 2)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.superpowerInput = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(2, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(4, 671744, null, 0, i12.NgModel, [[8, null], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(6, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null), (_l()(), i1.ɵeld(7, 0, null, null, 2, "div", [["class", "input-group-append"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "button", [["class", "btn btn-outline-secondary"], ["type", "button"]], [[8, "disabled", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.addSuperPower() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 0, "i", [["class", "fas fa-plus"]], null, null, null, null, null))], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.superpowerInput; _ck(_v, 4, 0, currVal_7); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 6).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 6).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 6).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 6).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 6).ngClassValid; var currVal_5 = i1.ɵnov(_v, 6).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 6).ngClassPending; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_8 = !_co.superpowerInput; _ck(_v, 8, 0, currVal_8); }); }
-function View_ViewProfileComponent_17(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.toggleSuperpower() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "button", [["class", "btn border btn-sm"], ["style", "color: #6c757d;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-plus"]], null, null, null, null, null))], null, null); }
-function View_ViewProfileComponent_18(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "border mr-3 mb-3 d-flex align-items-center char-span "]], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "])), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-times ml-3"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.removeWeekness(_v.context.$implicit) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
-function View_ViewProfileComponent_19(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 9, "div", [["class", "input-group mb-3 input-group-sm char-input-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 5, "input", [["class", "form-control"], ["placeholder", "Type Weakness"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 2)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 2).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 2)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 2)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.weeknessInput = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(2, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(4, 671744, null, 0, i12.NgModel, [[8, null], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(6, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null), (_l()(), i1.ɵeld(7, 0, null, null, 2, "div", [["class", "input-group-append"]], null, null, null, null, null)), (_l()(), i1.ɵeld(8, 0, null, null, 1, "button", [["class", "btn btn-outline-secondary"], ["type", "button"]], [[8, "disabled", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.addWeekness() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 0, "i", [["class", "fas fa-plus"]], null, null, null, null, null))], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.weeknessInput; _ck(_v, 4, 0, currVal_7); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 6).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 6).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 6).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 6).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 6).ngClassValid; var currVal_5 = i1.ɵnov(_v, 6).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 6).ngClassPending; _ck(_v, 1, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); var currVal_8 = !_co.weeknessInput; _ck(_v, 8, 0, currVal_8); }); }
-function View_ViewProfileComponent_20(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.toggleWeekness() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "button", [["class", "btn border btn-sm"], ["style", "color: #6c757d;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-plus"]], null, null, null, null, null))], null, null); }
-function View_ViewProfileComponent_21(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" No Notes Avaliable for This Profile "]))], null, null); }
-function View_ViewProfileComponent_22(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 24, "div", [["class", "mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 17, "div", [["class", "d-flex justify-content-between"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "p", [["class", "font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(3, null, [" ", " "])), (_l()(), i1.ɵeld(4, 0, null, null, 14, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 16777216, null, null, 3, "button", [["aria-haspopup", "true"], ["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-expanded", 0]], [[null, "mousedown"], [null, "keydown"], [null, "click"]], function (_v, en, $event) { var ad = true; if (("mousedown" === en)) {
+function View_ViewProfileComponent_16(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "p", [["class", "mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" No Companies Avaliable for This Profile "]))], null, null); }
+function View_ViewProfileComponent_17(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 18, "div", [["class", "mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 17, "div", [["class", "d-flex justify-content-between"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), i1.ɵted(3, null, [" ", " "])), (_l()(), i1.ɵeld(4, 0, null, null, 14, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 16777216, null, null, 3, "button", [["aria-haspopup", "true"], ["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-expanded", 0]], [[null, "mousedown"], [null, "keydown"], [null, "click"]], function (_v, en, $event) { var ad = true; if (("mousedown" === en)) {
         var pd_0 = (i1.ɵnov(_v, 7)._handleMousedown($event) !== false);
         ad = (pd_0 && ad);
     } if (("keydown" === en)) {
@@ -2314,7 +4123,27 @@ function View_ViewProfileComponent_22(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵel
     } if (("click" === en)) {
         var pd_2 = (i1.ɵnov(_v, 7)._handleClick($event) !== false);
         ad = (pd_2 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(6, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), i1.ɵdid(7, 1196032, null, 0, i13.MatMenuTrigger, [i14.Overlay, i1.ElementRef, i1.ViewContainerRef, i13.MAT_MENU_SCROLL_STRATEGY, [2, i13.MatMenu], [8, null], [2, i15.Directionality], i10.FocusMonitor], { menu: [0, "menu"] }, null), (_l()(), i1.ɵeld(8, 0, null, 0, 0, "i", [["class", "fas fa-ellipsis-h"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 9, "mat-menu", [], null, null, null, i16.View__MatMenu_0, i16.RenderType__MatMenu)), i1.ɵdid(10, 1294336, [["menu", 4]], 3, i13._MatMenu, [i1.ElementRef, i1.NgZone, i13.MAT_MENU_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 6, { _allItems: 1 }), i1.ɵqud(603979776, 7, { items: 1 }), i1.ɵqud(603979776, 8, { lazyContent: 0 }), i1.ɵprd(2048, null, i13.MatMenu, null, [i13._MatMenu]), i1.ɵprd(2048, null, i13.MAT_MENU_PANEL, null, [i13.MatMenu]), (_l()(), i1.ɵeld(16, 0, null, 0, 2, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(6, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), i1.ɵdid(7, 1196032, null, 0, i9.MatMenuTrigger, [i10.Overlay, i1.ElementRef, i1.ViewContainerRef, i9.MAT_MENU_SCROLL_STRATEGY, [2, i9.MatMenu], [8, null], [2, i11.Directionality], i7.FocusMonitor], { menu: [0, "menu"] }, null), (_l()(), i1.ɵeld(8, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_control_blue.svg"], ["width", "20"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 9, "mat-menu", [], null, null, null, i12.View__MatMenu_0, i12.RenderType__MatMenu)), i1.ɵdid(10, 1294336, [["menu", 4]], 3, i9._MatMenu, [i1.ElementRef, i1.NgZone, i9.MAT_MENU_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 4, { _allItems: 1 }), i1.ɵqud(603979776, 5, { items: 1 }), i1.ɵqud(603979776, 6, { lazyContent: 0 }), i1.ɵprd(2048, null, i9.MatMenu, null, [i9._MatMenu]), i1.ɵprd(2048, null, i9.MAT_MENU_PANEL, null, [i9.MatMenu]), (_l()(), i1.ɵeld(16, 0, null, 0, 2, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 17)._checkDisabled($event) !== false);
+        ad = (pd_0 && ad);
+    } if (("mouseenter" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 17)._handleMouseEnter() !== false);
+        ad = (pd_1 && ad);
+    } if (("click" === en)) {
+        var pd_2 = (_co.deleteCompany(_v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i12.View_MatMenuItem_0, i12.RenderType_MatMenuItem)), i1.ɵdid(17, 180224, [[4, 4], [5, 4]], 0, i9.MatMenuItem, [i1.ElementRef, i4.DOCUMENT, i7.FocusMonitor, [2, i9.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵted(-1, 0, [" Delete Company "]))], function (_ck, _v) { var currVal_4 = i1.ɵnov(_v, 10); _ck(_v, 7, 0, currVal_4); _ck(_v, 10, 0); }, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 3, 0, currVal_0); var currVal_1 = (i1.ɵnov(_v, 6).disabled || null); var currVal_2 = (i1.ɵnov(_v, 6)._animationMode === "NoopAnimations"); var currVal_3 = (i1.ɵnov(_v, 7).menuOpen || null); _ck(_v, 5, 0, currVal_1, currVal_2, currVal_3); var currVal_5 = i1.ɵnov(_v, 17).role; var currVal_6 = i1.ɵnov(_v, 17)._highlighted; var currVal_7 = i1.ɵnov(_v, 17)._triggersSubmenu; var currVal_8 = i1.ɵnov(_v, 17)._getTabIndex(); var currVal_9 = i1.ɵnov(_v, 17).disabled.toString(); var currVal_10 = (i1.ɵnov(_v, 17).disabled || null); _ck(_v, 16, 0, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10); }); }
+function View_ViewProfileComponent_18(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" No Notes Avaliable for This Profile "]))], null, null); }
+function View_ViewProfileComponent_19(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 24, "div", [["class", "mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 17, "div", [["class", "d-flex justify-content-between"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "p", [["class", "font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(3, null, [" ", " "])), (_l()(), i1.ɵeld(4, 0, null, null, 14, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 16777216, null, null, 3, "button", [["aria-haspopup", "true"], ["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-expanded", 0]], [[null, "mousedown"], [null, "keydown"], [null, "click"]], function (_v, en, $event) { var ad = true; if (("mousedown" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 7)._handleMousedown($event) !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 7)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("click" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 7)._handleClick($event) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(6, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), i1.ɵdid(7, 1196032, null, 0, i9.MatMenuTrigger, [i10.Overlay, i1.ElementRef, i1.ViewContainerRef, i9.MAT_MENU_SCROLL_STRATEGY, [2, i9.MatMenu], [8, null], [2, i11.Directionality], i7.FocusMonitor], { menu: [0, "menu"] }, null), (_l()(), i1.ɵeld(8, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_control_blue.svg"], ["width", "20"]], null, null, null, null, null)), (_l()(), i1.ɵeld(9, 0, null, null, 9, "mat-menu", [], null, null, null, i12.View__MatMenu_0, i12.RenderType__MatMenu)), i1.ɵdid(10, 1294336, [["menu", 4]], 3, i9._MatMenu, [i1.ElementRef, i1.NgZone, i9.MAT_MENU_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 7, { _allItems: 1 }), i1.ɵqud(603979776, 8, { items: 1 }), i1.ɵqud(603979776, 9, { lazyContent: 0 }), i1.ɵprd(2048, null, i9.MatMenu, null, [i9._MatMenu]), i1.ɵprd(2048, null, i9.MAT_MENU_PANEL, null, [i9.MatMenu]), (_l()(), i1.ɵeld(16, 0, null, 0, 2, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
         var pd_0 = (i1.ɵnov(_v, 17)._checkDisabled($event) !== false);
         ad = (pd_0 && ad);
     } if (("mouseenter" === en)) {
@@ -2323,217 +4152,47 @@ function View_ViewProfileComponent_22(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵel
     } if (("click" === en)) {
         var pd_2 = (_co.deleteNote(_v.context.$implicit) !== false);
         ad = (pd_2 && ad);
-    } return ad; }, i16.View_MatMenuItem_0, i16.RenderType_MatMenuItem)), i1.ɵdid(17, 180224, [[6, 4], [7, 4]], 0, i13.MatMenuItem, [i1.ElementRef, i7.DOCUMENT, i10.FocusMonitor, [2, i13.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵted(-1, 0, [" Delete Note "])), (_l()(), i1.ɵeld(19, 0, null, null, 1, "p", [["class", "mb-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(20, null, [" ", " "])), (_l()(), i1.ɵeld(21, 0, null, null, 3, "p", [["class", "text-right mb-0"]], null, null, null, null, null)), (_l()(), i1.ɵeld(22, 0, null, null, 2, "small", [], null, null, null, null, null)), (_l()(), i1.ɵted(23, null, [" ", " "])), i1.ɵppd(24, 3)], function (_ck, _v) { var currVal_4 = i1.ɵnov(_v, 10); _ck(_v, 7, 0, currVal_4); _ck(_v, 10, 0); }, function (_ck, _v) { var currVal_0 = _v.context.$implicit.title; _ck(_v, 3, 0, currVal_0); var currVal_1 = (i1.ɵnov(_v, 6).disabled || null); var currVal_2 = (i1.ɵnov(_v, 6)._animationMode === "NoopAnimations"); var currVal_3 = (i1.ɵnov(_v, 7).menuOpen || null); _ck(_v, 5, 0, currVal_1, currVal_2, currVal_3); var currVal_5 = i1.ɵnov(_v, 17).role; var currVal_6 = i1.ɵnov(_v, 17)._highlighted; var currVal_7 = i1.ɵnov(_v, 17)._triggersSubmenu; var currVal_8 = i1.ɵnov(_v, 17)._getTabIndex(); var currVal_9 = i1.ɵnov(_v, 17).disabled.toString(); var currVal_10 = (i1.ɵnov(_v, 17).disabled || null); _ck(_v, 16, 0, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10); var currVal_11 = _v.context.$implicit.body; _ck(_v, 20, 0, currVal_11); var currVal_12 = i1.ɵunv(_v, 23, 0, _ck(_v, 24, 0, i1.ɵnov(_v.parent.parent, 0), _v.context.$implicit.date, "MMM, dd, yyyy", "UTC")); _ck(_v, 23, 0, currVal_12); }); }
-function View_ViewProfileComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 132, "div", [["class", "page-layout"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 131, "div", [["class", "container-fluid"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 130, "div", [["style", "background-color: #f7f8f8;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 129, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 16, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 15, "div", [["class", "searh-container p-4 border-bottom"], ["style", "background-color: #fff; margin-right: -15px;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 7, "div", [["class", "input-group"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 16777216, null, null, 6, "input", [["class", "form-control"], ["matInput", ""], ["placeholder", "Searh For Profile..."]], [[1, "autocomplete", 0], [1, "role", 0], [1, "aria-autocomplete", 0], [1, "aria-activedescendant", 0], [1, "aria-expanded", 0], [1, "aria-owns", 0], [1, "aria-haspopup", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "focusin"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 8)._handleInput($event.target.value) !== false);
+    } return ad; }, i12.View_MatMenuItem_0, i12.RenderType_MatMenuItem)), i1.ɵdid(17, 180224, [[7, 4], [8, 4]], 0, i9.MatMenuItem, [i1.ElementRef, i4.DOCUMENT, i7.FocusMonitor, [2, i9.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵted(-1, 0, [" Delete Note "])), (_l()(), i1.ɵeld(19, 0, null, null, 1, "p", [["class", "mb-0"]], null, null, null, null, null)), (_l()(), i1.ɵted(20, null, [" ", " "])), (_l()(), i1.ɵeld(21, 0, null, null, 3, "p", [["class", "text-right mb-0"]], null, null, null, null, null)), (_l()(), i1.ɵeld(22, 0, null, null, 2, "small", [], null, null, null, null, null)), (_l()(), i1.ɵted(23, null, [" ", " "])), i1.ɵppd(24, 3)], function (_ck, _v) { var currVal_4 = i1.ɵnov(_v, 10); _ck(_v, 7, 0, currVal_4); _ck(_v, 10, 0); }, function (_ck, _v) { var currVal_0 = _v.context.$implicit.title; _ck(_v, 3, 0, currVal_0); var currVal_1 = (i1.ɵnov(_v, 6).disabled || null); var currVal_2 = (i1.ɵnov(_v, 6)._animationMode === "NoopAnimations"); var currVal_3 = (i1.ɵnov(_v, 7).menuOpen || null); _ck(_v, 5, 0, currVal_1, currVal_2, currVal_3); var currVal_5 = i1.ɵnov(_v, 17).role; var currVal_6 = i1.ɵnov(_v, 17)._highlighted; var currVal_7 = i1.ɵnov(_v, 17)._triggersSubmenu; var currVal_8 = i1.ɵnov(_v, 17)._getTabIndex(); var currVal_9 = i1.ɵnov(_v, 17).disabled.toString(); var currVal_10 = (i1.ɵnov(_v, 17).disabled || null); _ck(_v, 16, 0, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10); var currVal_11 = _v.context.$implicit.body; _ck(_v, 20, 0, currVal_11); var currVal_12 = i1.ɵunv(_v, 23, 0, _ck(_v, 24, 0, i1.ɵnov(_v.parent.parent, 0), _v.context.$implicit.date, "MMM, dd, yyyy", "UTC")); _ck(_v, 23, 0, currVal_12); }); }
+function View_ViewProfileComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 107, "div", [["class", "page-layout"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 106, "div", [["class", "container-fluid"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 105, "div", [["style", "background-color: #f7f8f8;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 104, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(4, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(5, 0, null, null, 3, "div", [["class", "searh-container p-4 d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 2, "div", [["class", "w-100"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 1, "app-profile-search", [], null, null, null, i13.View_ProfileSearchComponent_0, i13.RenderType_ProfileSearchComponent)), i1.ɵdid(8, 114688, null, 0, i14.ProfileSearchComponent, [i15.ProfileService, i16.Router], null, null), (_l()(), i1.ɵeld(9, 0, null, null, 3, "div", [["class", "col-5"]], null, null, null, null, null)), (_l()(), i1.ɵeld(10, 0, null, null, 2, "div", [["class", "py-5 px-4 h-100 d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(11, 0, null, null, 1, "h5", [["class", "mb-0 font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Bio"])), (_l()(), i1.ɵeld(13, 0, null, null, 10, "div", [["class", "col-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(14, 0, null, null, 9, "div", [["class", "py-4 px-4 h-100 d-flex align-items-center"], ["style", "background-color: #343c4b;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(15, 0, null, null, 8, "div", [["class", "d-flex align-items-center justify-content-between notes-header w-100"]], null, null, null, null, null)), (_l()(), i1.ɵeld(16, 0, null, null, 1, "p", [["class", "m-0 font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Organizations & Affiliations "])), (_l()(), i1.ɵeld(18, 0, null, null, 2, "button", [["class", "add-note-btn"], ["id", "add-company"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.onCompanySearch($event) !== false);
         ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 8).onTouched() !== false);
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(19, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(20, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_add_without_border.svg"], ["width", "20"]], null, null, null, null, null)), (_l()(), i1.ɵeld(21, 0, null, null, 2, "div", [["style", "position: absolute;\n                left: 2.5rem;\n                right: 2.5rem;"]], [[8, "hidden", 0]], null, null, null, null)), (_l()(), i1.ɵeld(22, 0, null, null, 1, "app-company-search", [], null, [[null, "closeCompanyInput"], [null, "addedCompany"], ["document", "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("document:click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 23).clickout($event) !== false);
+        ad = (pd_0 && ad);
+    } if (("closeCompanyInput" === en)) {
+        var pd_1 = (_co.onCompanySearch($event) !== false);
         ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 8)._compositionStart() !== false);
+    } if (("addedCompany" === en)) {
+        var pd_2 = (_co.onAddCompany($event) !== false);
         ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 8)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("focusin" === en)) {
-        var pd_4 = (i1.ɵnov(_v, 9)._handleFocus() !== false);
-        ad = (pd_4 && ad);
-    } if (("blur" === en)) {
-        var pd_5 = (i1.ɵnov(_v, 9)._onTouched() !== false);
-        ad = (pd_5 && ad);
-    } if (("input" === en)) {
-        var pd_6 = (i1.ɵnov(_v, 9)._handleInput($event) !== false);
-        ad = (pd_6 && ad);
-    } if (("keydown" === en)) {
-        var pd_7 = (i1.ɵnov(_v, 9)._handleKeydown($event) !== false);
-        ad = (pd_7 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_8 = ((_co.query = $event) !== false);
-        ad = (pd_8 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_9 = (_co.getSearchUsers($event) !== false);
-        ad = (pd_9 && ad);
-    } return ad; }, null, null)), i1.ɵdid(8, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵdid(9, 671744, null, 0, i17.MatAutocompleteTrigger, [i1.ElementRef, i14.Overlay, i1.ViewContainerRef, i1.NgZone, i1.ChangeDetectorRef, i17.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, [2, i15.Directionality], [8, null], [2, i7.DOCUMENT], i18.ViewportRuler], { autocomplete: [0, "autocomplete"] }, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0, p1_0) { return [p0_0, p1_0]; }, [i12.DefaultValueAccessor, i17.MatAutocompleteTrigger]), i1.ɵdid(11, 671744, null, 0, i12.NgModel, [[8, null], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(13, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null), (_l()(), i1.ɵeld(14, 0, null, null, 6, "mat-autocomplete", [["class", "mat-autocomplete"]], null, null, null, i19.View_MatAutocomplete_0, i19.RenderType_MatAutocomplete)), i1.ɵprd(6144, null, i6.MAT_OPTION_PARENT_COMPONENT, null, [i17.MatAutocomplete]), i1.ɵdid(16, 1097728, [["auto", 4]], 2, i17.MatAutocomplete, [i1.ChangeDetectorRef, i1.ElementRef, i17.MAT_AUTOCOMPLETE_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 1, { options: 1 }), i1.ɵqud(603979776, 2, { optionGroups: 1 }), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_ViewProfileComponent_3)), i1.ɵdid(20, 278528, null, 0, i7.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(21, 0, null, null, 2, "div", [["class", "col-5 border-bottom d-flex align-items-center"]], null, null, null, null, null)), (_l()(), i1.ɵeld(22, 0, null, null, 1, "p", [["class", "mb-0 font-weight-bold d-flex"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Bio"])), (_l()(), i1.ɵeld(24, 0, null, null, 5, "div", [["class", "col-4 d-flex align-items-center justify-content-between notes-header border-bottom"]], null, null, null, null, null)), (_l()(), i1.ɵeld(25, 0, null, null, 1, "p", [["class", "m-0 font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Notes "])), (_l()(), i1.ɵeld(27, 0, null, null, 2, "button", [["class", "add-note-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.openAddNoteDialog() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(28, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(29, 0, null, 0, 0, "i", [["class", "fas fa-plus"]], null, null, null, null, null)), (_l()(), i1.ɵeld(30, 0, null, null, 72, "div", [["class", "col-3"], ["style", "padding-right: 0px; min-height: calc(100vh - 56px);"]], null, null, null, null, null)), (_l()(), i1.ɵeld(31, 0, null, null, 71, "div", [["class", "personal-info p-4 pt-0"]], null, null, null, null, null)), (_l()(), i1.ɵeld(32, 0, null, null, 16, "div", [["class", "d-flex justify-content-end"]], null, null, null, null, null)), (_l()(), i1.ɵeld(33, 16777216, null, null, 3, "button", [["aria-haspopup", "true"], ["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-expanded", 0]], [[null, "mousedown"], [null, "keydown"], [null, "click"]], function (_v, en, $event) { var ad = true; if (("mousedown" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 35)._handleMousedown($event) !== false);
+    } return ad; }, i17.View_CompanySearchComponent_0, i17.RenderType_CompanySearchComponent)), i1.ɵdid(23, 114688, null, 0, i18.CompanySearchComponent, [i19.CompanyService, i20.MatDialog, i1.ElementRef], { userId: [0, "userId"], searchForCompany: [1, "searchForCompany"] }, { addedCompany: "addedCompany", closeCompanyInput: "closeCompanyInput" }), (_l()(), i1.ɵeld(24, 0, null, null, 1, "div", [["class", "col-12"]], null, null, null, null, null)), (_l()(), i1.ɵeld(25, 0, null, null, 0, "div", [["class", "border-bottom"]], null, null, null, null, null)), (_l()(), i1.ɵeld(26, 0, null, null, 53, "div", [["class", "col-3"], ["style", "min-height: calc(100vh - 56px);"]], null, null, null, null, null)), (_l()(), i1.ɵeld(27, 0, null, null, 52, "div", [["class", "personal-info p-4 pt-0"]], null, null, null, null, null)), (_l()(), i1.ɵeld(28, 0, null, null, 16, "div", [["class", "d-flex justify-content-end"]], null, null, null, null, null)), (_l()(), i1.ɵeld(29, 16777216, null, null, 3, "button", [["aria-haspopup", "true"], ["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-expanded", 0]], [[null, "mousedown"], [null, "keydown"], [null, "click"]], function (_v, en, $event) { var ad = true; if (("mousedown" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 31)._handleMousedown($event) !== false);
         ad = (pd_0 && ad);
     } if (("keydown" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 35)._handleKeydown($event) !== false);
+        var pd_1 = (i1.ɵnov(_v, 31)._handleKeydown($event) !== false);
         ad = (pd_1 && ad);
     } if (("click" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 35)._handleClick($event) !== false);
+        var pd_2 = (i1.ɵnov(_v, 31)._handleClick($event) !== false);
         ad = (pd_2 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(34, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), i1.ɵdid(35, 1196032, null, 0, i13.MatMenuTrigger, [i14.Overlay, i1.ElementRef, i1.ViewContainerRef, i13.MAT_MENU_SCROLL_STRATEGY, [2, i13.MatMenu], [8, null], [2, i15.Directionality], i10.FocusMonitor], { menu: [0, "menu"] }, null), (_l()(), i1.ɵeld(36, 0, null, 0, 0, "i", [["class", "fas fa-ellipsis-h"]], null, null, null, null, null)), (_l()(), i1.ɵeld(37, 0, null, null, 11, "mat-menu", [], null, null, null, i16.View__MatMenu_0, i16.RenderType__MatMenu)), i1.ɵdid(38, 1294336, [["menu", 4]], 3, i13._MatMenu, [i1.ElementRef, i1.NgZone, i13.MAT_MENU_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 3, { _allItems: 1 }), i1.ɵqud(603979776, 4, { items: 1 }), i1.ɵqud(603979776, 5, { lazyContent: 0 }), i1.ɵprd(2048, null, i13.MatMenu, null, [i13._MatMenu]), i1.ɵprd(2048, null, i13.MAT_MENU_PANEL, null, [i13.MatMenu]), (_l()(), i1.ɵeld(44, 0, null, 0, 4, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 45).onClick() !== false);
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(30, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), i1.ɵdid(31, 1196032, null, 0, i9.MatMenuTrigger, [i10.Overlay, i1.ElementRef, i1.ViewContainerRef, i9.MAT_MENU_SCROLL_STRATEGY, [2, i9.MatMenu], [8, null], [2, i11.Directionality], i7.FocusMonitor], { menu: [0, "menu"] }, null), (_l()(), i1.ɵeld(32, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_control_gray.svg"], ["width", "20"]], null, null, null, null, null)), (_l()(), i1.ɵeld(33, 0, null, null, 11, "mat-menu", [], null, null, null, i12.View__MatMenu_0, i12.RenderType__MatMenu)), i1.ɵdid(34, 1294336, [["menu", 4]], 3, i9._MatMenu, [i1.ElementRef, i1.NgZone, i9.MAT_MENU_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 1, { _allItems: 1 }), i1.ɵqud(603979776, 2, { items: 1 }), i1.ɵqud(603979776, 3, { lazyContent: 0 }), i1.ɵprd(2048, null, i9.MatMenu, null, [i9._MatMenu]), i1.ɵprd(2048, null, i9.MAT_MENU_PANEL, null, [i9.MatMenu]), (_l()(), i1.ɵeld(40, 0, null, 0, 4, "button", [["class", "mat-menu-item"], ["mat-menu-item", ""]], [[1, "role", 0], [2, "mat-menu-item-highlighted", null], [2, "mat-menu-item-submenu-trigger", null], [1, "tabindex", 0], [1, "aria-disabled", 0], [1, "disabled", 0]], [[null, "click"], [null, "mouseenter"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 41).onClick() !== false);
         ad = (pd_0 && ad);
     } if (("click" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 47)._checkDisabled($event) !== false);
+        var pd_1 = (i1.ɵnov(_v, 43)._checkDisabled($event) !== false);
         ad = (pd_1 && ad);
     } if (("mouseenter" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 47)._handleMouseEnter() !== false);
+        var pd_2 = (i1.ɵnov(_v, 43)._handleMouseEnter() !== false);
         ad = (pd_2 && ad);
-    } return ad; }, i16.View_MatMenuItem_0, i16.RenderType_MatMenuItem)), i1.ɵdid(45, 16384, null, 0, i5.RouterLink, [i5.Router, i5.ActivatedRoute, [8, null], i1.Renderer2, i1.ElementRef], { routerLink: [0, "routerLink"] }, null), i1.ɵpad(46, 2), i1.ɵdid(47, 180224, [[3, 4], [4, 4]], 0, i13.MatMenuItem, [i1.ElementRef, i7.DOCUMENT, i10.FocusMonitor, [2, i13.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵted(-1, 0, [" Edit "])), (_l()(), i1.ɵeld(49, 0, null, null, 8, "div", [["class", "border-bottom mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(50, 0, null, null, 0, "img", [["alt", ""], ["class", "profile-img mb-3"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(51, 0, null, null, 1, "h3", [["class", "font-weight-light text-center"]], null, null, null, null, null)), (_l()(), i1.ɵted(52, null, [" ", " ", " "])), (_l()(), i1.ɵeld(53, 0, null, null, 4, "p", [["class", "text-center"]], null, null, null, null, null)), (_l()(), i1.ɵted(54, null, [" ", ", ", ""])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_5)), i1.ɵdid(56, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵted(57, null, [" ", " "])), (_l()(), i1.ɵeld(58, 0, null, null, 20, "div", [["class", "border-bottom mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(59, 0, null, null, 4, "div", [["class", "d-flex justify-content-between mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(60, 0, null, null, 1, "span", [["class", "font-weight-light"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primay Email"])), (_l()(), i1.ɵeld(62, 0, null, null, 1, "span", [["class", "font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(63, null, ["", ""])), (_l()(), i1.ɵeld(64, 0, null, null, 4, "div", [["class", "d-flex justify-content-between mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(65, 0, null, null, 1, "span", [["class", "font-weight-light text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Email"])), (_l()(), i1.ɵeld(67, 0, null, null, 1, "span", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(68, null, ["", ""])), (_l()(), i1.ɵeld(69, 0, null, null, 4, "div", [["class", "d-flex justify-content-between mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(70, 0, null, null, 1, "span", [["class", "font-weight-light"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Primary Phone"])), (_l()(), i1.ɵeld(72, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(73, null, ["", ""])), (_l()(), i1.ɵeld(74, 0, null, null, 4, "div", [["class", "d-flex justify-content-between mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(75, 0, null, null, 1, "span", [["class", "text-muted font-weight-light"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Phone"])), (_l()(), i1.ɵeld(77, 0, null, null, 1, "span", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(78, null, ["", ""])), (_l()(), i1.ɵeld(79, 0, null, null, 23, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(80, 0, null, null, 1, "h4", [["class", "mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Socail Media"])), (_l()(), i1.ɵeld(82, 0, null, null, 20, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(83, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_6)), i1.ɵdid(85, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_7)), i1.ɵdid(87, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(88, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_8)), i1.ɵdid(90, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_9)), i1.ɵdid(92, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(93, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_11)), i1.ɵdid(95, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_12)), i1.ɵdid(97, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(98, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_13)), i1.ɵdid(100, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_14)), i1.ɵdid(102, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(103, 0, null, null, 22, "div", [["class", "col-5 pt-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(104, 0, null, null, 1, "div", [["class", "middle-container p-3 mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵted(105, null, [" ", " "])), (_l()(), i1.ɵeld(106, 0, null, null, 9, "div", [["class", "middle-container p-3 mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(107, 0, null, null, 1, "p", [["class", "font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Superpowers"])), (_l()(), i1.ɵeld(109, 0, null, null, 6, "div", [["class", "d-flex flex-wrap"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_15)), i1.ɵdid(111, 278528, null, 0, i7.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_16)), i1.ɵdid(113, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_17)), i1.ɵdid(115, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(116, 0, null, null, 9, "div", [["class", "middle-container p-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(117, 0, null, null, 1, "p", [["class", "font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Weaknesses"])), (_l()(), i1.ɵeld(119, 0, null, null, 6, "div", [["class", "d-flex flex-wrap"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_18)), i1.ɵdid(121, 278528, null, 0, i7.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_19)), i1.ɵdid(123, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_20)), i1.ɵdid(125, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(126, 0, null, null, 6, "div", [["class", "col-4"], ["style", "padding-left: 0; min-height: calc(100vh - 56px);"]], null, null, null, null, null)), (_l()(), i1.ɵeld(127, 0, null, null, 5, "div", [["class", "companies-notes-container p-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(128, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_21)), i1.ɵdid(130, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_22)), i1.ɵdid(132, 278528, null, 0, i7.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_14 = i1.ɵnov(_v, 16); _ck(_v, 9, 0, currVal_14); var currVal_15 = _co.query; _ck(_v, 11, 0, currVal_15); var currVal_16 = _co.filteredProfiles; _ck(_v, 20, 0, currVal_16); var currVal_22 = i1.ɵnov(_v, 38); _ck(_v, 35, 0, currVal_22); _ck(_v, 38, 0); var currVal_29 = _ck(_v, 46, 0, "/profile/edit/", _co.profile._id); _ck(_v, 45, 0, currVal_29); var currVal_35 = _co.profile.country; _ck(_v, 56, 0, currVal_35); var currVal_41 = !_co.profile.facebook; _ck(_v, 85, 0, currVal_41); var currVal_42 = _co.profile.facebook; _ck(_v, 87, 0, currVal_42); var currVal_43 = !_co.profile.linkedIn; _ck(_v, 90, 0, currVal_43); var currVal_44 = _co.profile.linkedIn; _ck(_v, 92, 0, currVal_44); var currVal_45 = !_co.profile.twitter; _ck(_v, 95, 0, currVal_45); var currVal_46 = _co.profile.twitter; _ck(_v, 97, 0, currVal_46); var currVal_47 = !_co.profile.instagram; _ck(_v, 100, 0, currVal_47); var currVal_48 = _co.profile.instagram; _ck(_v, 102, 0, currVal_48); var currVal_50 = _co.profile.superpowers; _ck(_v, 111, 0, currVal_50); var currVal_51 = _co.enterSuperpower; _ck(_v, 113, 0, currVal_51); var currVal_52 = !_co.enterSuperpower; _ck(_v, 115, 0, currVal_52); var currVal_53 = _co.profile.weaknesses; _ck(_v, 121, 0, currVal_53); var currVal_54 = _co.enterWeekness; _ck(_v, 123, 0, currVal_54); var currVal_55 = !_co.enterWeekness; _ck(_v, 125, 0, currVal_55); var currVal_56 = (_co.profile.notes.length < 1); _ck(_v, 130, 0, currVal_56); var currVal_57 = _co.profile.notes; _ck(_v, 132, 0, currVal_57); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 9).autocompleteAttribute; var currVal_1 = (i1.ɵnov(_v, 9).autocompleteDisabled ? null : "combobox"); var currVal_2 = (i1.ɵnov(_v, 9).autocompleteDisabled ? null : "list"); var currVal_3 = ((i1.ɵnov(_v, 9).panelOpen && i1.ɵnov(_v, 9).activeOption) ? i1.ɵnov(_v, 9).activeOption.id : null); var currVal_4 = (i1.ɵnov(_v, 9).autocompleteDisabled ? null : i1.ɵnov(_v, 9).panelOpen.toString()); var currVal_5 = ((i1.ɵnov(_v, 9).autocompleteDisabled || !i1.ɵnov(_v, 9).panelOpen) ? null : ((i1.ɵnov(_v, 9).autocomplete == null) ? null : i1.ɵnov(_v, 9).autocomplete.id)); var currVal_6 = !i1.ɵnov(_v, 9).autocompleteDisabled; var currVal_7 = i1.ɵnov(_v, 13).ngClassUntouched; var currVal_8 = i1.ɵnov(_v, 13).ngClassTouched; var currVal_9 = i1.ɵnov(_v, 13).ngClassPristine; var currVal_10 = i1.ɵnov(_v, 13).ngClassDirty; var currVal_11 = i1.ɵnov(_v, 13).ngClassValid; var currVal_12 = i1.ɵnov(_v, 13).ngClassInvalid; var currVal_13 = i1.ɵnov(_v, 13).ngClassPending; _ck(_v, 7, 1, [currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13]); var currVal_17 = (i1.ɵnov(_v, 28).disabled || null); var currVal_18 = (i1.ɵnov(_v, 28)._animationMode === "NoopAnimations"); _ck(_v, 27, 0, currVal_17, currVal_18); var currVal_19 = (i1.ɵnov(_v, 34).disabled || null); var currVal_20 = (i1.ɵnov(_v, 34)._animationMode === "NoopAnimations"); var currVal_21 = (i1.ɵnov(_v, 35).menuOpen || null); _ck(_v, 33, 0, currVal_19, currVal_20, currVal_21); var currVal_23 = i1.ɵnov(_v, 47).role; var currVal_24 = i1.ɵnov(_v, 47)._highlighted; var currVal_25 = i1.ɵnov(_v, 47)._triggersSubmenu; var currVal_26 = i1.ɵnov(_v, 47)._getTabIndex(); var currVal_27 = i1.ɵnov(_v, 47).disabled.toString(); var currVal_28 = (i1.ɵnov(_v, 47).disabled || null); _ck(_v, 44, 0, currVal_23, currVal_24, currVal_25, currVal_26, currVal_27, currVal_28); var currVal_30 = (_co.profile.profileImg ? (_co.imgBaseUrl + _co.profile.profileImg) : "assets/images/img-placeholder.svg"); _ck(_v, 50, 0, currVal_30); var currVal_31 = _co.profile.firstName; var currVal_32 = _co.profile.lastName; _ck(_v, 52, 0, currVal_31, currVal_32); var currVal_33 = _co.profile.city; var currVal_34 = _co.profile.state; _ck(_v, 54, 0, currVal_33, currVal_34); var currVal_36 = _co.profile.country; _ck(_v, 57, 0, currVal_36); var currVal_37 = _co.profile.primaryEmail; _ck(_v, 63, 0, currVal_37); var currVal_38 = _co.profile.email; _ck(_v, 68, 0, currVal_38); var currVal_39 = _co.profile.primaryPhone; _ck(_v, 73, 0, currVal_39); var currVal_40 = _co.profile.phone; _ck(_v, 78, 0, currVal_40); var currVal_49 = _co.profile.bio; _ck(_v, 105, 0, currVal_49); }); }
-function View_ViewProfileComponent_0(_l) { return i1.ɵvid(0, [i1.ɵpid(0, i7.DatePipe, [i1.LOCALE_ID]), (_l()(), i1.ɵeld(1, 0, null, null, 1, "app-navbar", [], null, null, null, i20.View_NavbarComponent_0, i20.RenderType_NavbarComponent)), i1.ɵdid(2, 114688, null, 0, i21.NavbarComponent, [], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_1)), i1.ɵdid(4, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_2)), i1.ɵdid(6, 16384, null, 0, i7.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 2, 0); var currVal_0 = !_co.isLoaded; _ck(_v, 4, 0, currVal_0); var currVal_1 = _co.isLoaded; _ck(_v, 6, 0, currVal_1); }, null); }
+    } return ad; }, i12.View_MatMenuItem_0, i12.RenderType_MatMenuItem)), i1.ɵdid(41, 16384, null, 0, i16.RouterLink, [i16.Router, i16.ActivatedRoute, [8, null], i1.Renderer2, i1.ElementRef], { routerLink: [0, "routerLink"] }, null), i1.ɵpad(42, 2), i1.ɵdid(43, 180224, [[1, 4], [2, 4]], 0, i9.MatMenuItem, [i1.ElementRef, i4.DOCUMENT, i7.FocusMonitor, [2, i9.MAT_MENU_PANEL]], null, null), (_l()(), i1.ɵted(-1, 0, [" Edit "])), (_l()(), i1.ɵeld(45, 0, null, null, 5, "div", [["class", "border-bottom mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(46, 0, null, null, 0, "img", [["alt", ""], ["class", "profile-img mb-3"]], [[8, "src", 4]], null, null, null, null)), (_l()(), i1.ɵeld(47, 0, null, null, 1, "h3", [["class", "font-weight-light text-center"]], null, null, null, null, null)), (_l()(), i1.ɵted(48, null, [" ", " "])), (_l()(), i1.ɵeld(49, 0, null, null, 1, "p", [["class", "text-center"]], null, null, null, null, null)), (_l()(), i1.ɵted(50, null, [" ", " "])), (_l()(), i1.ɵeld(51, 0, null, null, 4, "div", [["class", "border-bottom mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_3)), i1.ɵdid(53, 278528, null, 0, i4.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_5)), i1.ɵdid(55, 278528, null, 0, i4.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(56, 0, null, null, 23, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(57, 0, null, null, 1, "h4", [["class", "mb-4"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Socail Media"])), (_l()(), i1.ɵeld(59, 0, null, null, 20, "div", [["class", "row"]], null, null, null, null, null)), (_l()(), i1.ɵeld(60, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_7)), i1.ɵdid(62, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_8)), i1.ɵdid(64, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(65, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_9)), i1.ɵdid(67, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_10)), i1.ɵdid(69, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(70, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_12)), i1.ɵdid(72, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_13)), i1.ɵdid(74, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(75, 0, null, null, 4, "div", [["class", "col-3"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_14)), i1.ɵdid(77, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_15)), i1.ɵdid(79, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(80, 0, null, null, 8, "div", [["class", "col-5 pt-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(81, 0, null, null, 1, "div", [["class", "middle-container p-3 mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵted(82, null, [" ", " "])), (_l()(), i1.ɵeld(83, 0, null, null, 2, "div", [["class", "middle-container p-3 mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(84, 0, null, null, 1, "app-superpowers", [], null, null, null, i21.View_SuperpowersComponent_0, i21.RenderType_SuperpowersComponent)), i1.ɵdid(85, 114688, null, 0, i22.SuperpowersComponent, [i15.ProfileService, i23.SuperpowerService], { superpowers: [0, "superpowers"], userId: [1, "userId"] }, null), (_l()(), i1.ɵeld(86, 0, null, null, 2, "div", [["class", "middle-container p-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(87, 0, null, null, 1, "app-weaknesses", [], null, null, null, i24.View_WeaknessesComponent_0, i24.RenderType_WeaknessesComponent)), i1.ɵdid(88, 114688, null, 0, i25.WeaknessesComponent, [i15.ProfileService, i26.WeaknessService], { weaknesses: [0, "weaknesses"], userId: [1, "userId"] }, null), (_l()(), i1.ɵeld(89, 0, null, null, 18, "div", [["class", "col-4"], ["style", " min-height: calc(100vh - 56px);"]], null, null, null, null, null)), (_l()(), i1.ɵeld(90, 0, null, null, 17, "div", [["class", "companies-notes-container p-4"]], null, null, null, null, null)), (_l()(), i1.ɵeld(91, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_16)), i1.ɵdid(93, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_17)), i1.ɵdid(95, 278528, null, 0, i4.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵeld(96, 0, null, null, 6, "div", [["class", " notes-header border-bottom border-top mb-4 py-4 px-4"], ["style", "margin-left: -1.5rem; margin-right: -1.5rem"]], null, null, null, null, null)), (_l()(), i1.ɵeld(97, 0, null, null, 5, "div", [["class", "w-100 d-flex align-items-center justify-content-between"]], null, null, null, null, null)), (_l()(), i1.ɵeld(98, 0, null, null, 1, "p", [["class", "m-0 font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Notes "])), (_l()(), i1.ɵeld(100, 0, null, null, 2, "button", [["class", "add-note-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.openAddNoteDialog() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, i5.View_MatButton_0, i5.RenderType_MatButton)), i1.ɵdid(101, 180224, null, 0, i6.MatButton, [i1.ElementRef, i7.FocusMonitor, [2, i8.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(102, 0, null, 0, 0, "img", [["alt", ""], ["src", "assets/images/ic_add_without_border.svg"], ["width", "20"]], null, null, null, null, null)), (_l()(), i1.ɵeld(103, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_18)), i1.ɵdid(105, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_19)), i1.ɵdid(107, 278528, null, 0, i4.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 8, 0); var currVal_3 = _co.userId; var currVal_4 = _co.searchForCompany; _ck(_v, 23, 0, currVal_3, currVal_4); var currVal_8 = i1.ɵnov(_v, 34); _ck(_v, 31, 0, currVal_8); _ck(_v, 34, 0); var currVal_15 = _ck(_v, 42, 0, "/profile/edit/", _co.profile._id); _ck(_v, 41, 0, currVal_15); var currVal_19 = _co.profile.emails; _ck(_v, 53, 0, currVal_19); var currVal_20 = _co.profile.phones; _ck(_v, 55, 0, currVal_20); var currVal_21 = !_co.profile.facebook; _ck(_v, 62, 0, currVal_21); var currVal_22 = _co.profile.facebook; _ck(_v, 64, 0, currVal_22); var currVal_23 = !_co.profile.linkedIn; _ck(_v, 67, 0, currVal_23); var currVal_24 = _co.profile.linkedIn; _ck(_v, 69, 0, currVal_24); var currVal_25 = !_co.profile.twitter; _ck(_v, 72, 0, currVal_25); var currVal_26 = _co.profile.twitter; _ck(_v, 74, 0, currVal_26); var currVal_27 = !_co.profile.instagram; _ck(_v, 77, 0, currVal_27); var currVal_28 = _co.profile.instagram; _ck(_v, 79, 0, currVal_28); var currVal_30 = _co.profile.superpowers; var currVal_31 = _co.profile._id; _ck(_v, 85, 0, currVal_30, currVal_31); var currVal_32 = _co.profile.weaknesses; var currVal_33 = _co.profile._id; _ck(_v, 88, 0, currVal_32, currVal_33); var currVal_34 = (((_co.profile.companies == null) ? null : _co.profile.companies.length) < 1); _ck(_v, 93, 0, currVal_34); var currVal_35 = _co.profile.companies; _ck(_v, 95, 0, currVal_35); var currVal_38 = (((_co.profile.notes == null) ? null : _co.profile.notes.length) < 1); _ck(_v, 105, 0, currVal_38); var currVal_39 = _co.profile.notes; _ck(_v, 107, 0, currVal_39); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = (i1.ɵnov(_v, 19).disabled || null); var currVal_1 = (i1.ɵnov(_v, 19)._animationMode === "NoopAnimations"); _ck(_v, 18, 0, currVal_0, currVal_1); var currVal_2 = !_co.searchForCompany; _ck(_v, 21, 0, currVal_2); var currVal_5 = (i1.ɵnov(_v, 30).disabled || null); var currVal_6 = (i1.ɵnov(_v, 30)._animationMode === "NoopAnimations"); var currVal_7 = (i1.ɵnov(_v, 31).menuOpen || null); _ck(_v, 29, 0, currVal_5, currVal_6, currVal_7); var currVal_9 = i1.ɵnov(_v, 43).role; var currVal_10 = i1.ɵnov(_v, 43)._highlighted; var currVal_11 = i1.ɵnov(_v, 43)._triggersSubmenu; var currVal_12 = i1.ɵnov(_v, 43)._getTabIndex(); var currVal_13 = i1.ɵnov(_v, 43).disabled.toString(); var currVal_14 = (i1.ɵnov(_v, 43).disabled || null); _ck(_v, 40, 0, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14); var currVal_16 = (_co.profile.profileImg ? (_co.imgBaseUrl + _co.profile.profileImg) : "assets/images/img-placeholder.svg"); _ck(_v, 46, 0, currVal_16); var currVal_17 = _co.profile.name; _ck(_v, 48, 0, currVal_17); var currVal_18 = _co.profile.location; _ck(_v, 50, 0, currVal_18); var currVal_29 = _co.profile.bio; _ck(_v, 82, 0, currVal_29); var currVal_36 = (i1.ɵnov(_v, 101).disabled || null); var currVal_37 = (i1.ɵnov(_v, 101)._animationMode === "NoopAnimations"); _ck(_v, 100, 0, currVal_36, currVal_37); }); }
+function View_ViewProfileComponent_0(_l) { return i1.ɵvid(0, [i1.ɵpid(0, i4.DatePipe, [i1.LOCALE_ID]), (_l()(), i1.ɵeld(1, 0, null, null, 1, "app-navbar", [], null, null, null, i27.View_NavbarComponent_0, i27.RenderType_NavbarComponent)), i1.ɵdid(2, 114688, null, 0, i28.NavbarComponent, [i16.Router], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_1)), i1.ɵdid(4, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_ViewProfileComponent_2)), i1.ɵdid(6, 16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; _ck(_v, 2, 0); var currVal_0 = !_co.isLoaded; _ck(_v, 4, 0, currVal_0); var currVal_1 = _co.isLoaded; _ck(_v, 6, 0, currVal_1); }, null); }
 exports.View_ViewProfileComponent_0 = View_ViewProfileComponent_0;
-function View_ViewProfileComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-view-profile", [], null, null, null, View_ViewProfileComponent_0, RenderType_ViewProfileComponent)), i1.ɵdid(1, 114688, null, 0, i22.ViewProfileComponent, [i23.ProfileService, i5.ActivatedRoute, i24.MatDialog], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_ViewProfileComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-view-profile", [], null, null, null, View_ViewProfileComponent_0, RenderType_ViewProfileComponent)), i1.ɵdid(1, 114688, null, 0, i29.ViewProfileComponent, [i15.ProfileService, i16.ActivatedRoute, i20.MatDialog], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 exports.View_ViewProfileComponent_Host_0 = View_ViewProfileComponent_Host_0;
-var ViewProfileComponentNgFactory = i1.ɵccf("app-view-profile", i22.ViewProfileComponent, View_ViewProfileComponent_Host_0, {}, {}, []);
+var ViewProfileComponentNgFactory = i1.ɵccf("app-view-profile", i29.ViewProfileComponent, View_ViewProfileComponent_Host_0, {}, {}, []);
 exports.ViewProfileComponentNgFactory = ViewProfileComponentNgFactory;
-var styles_SocailMediaDialog = [i0.styles];
-var RenderType_SocailMediaDialog = i1.ɵcrt({ encapsulation: 0, styles: styles_SocailMediaDialog, data: {} });
-exports.RenderType_SocailMediaDialog = RenderType_SocailMediaDialog;
-function View_SocailMediaDialog_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Facebook "]))], null, null); }
-function View_SocailMediaDialog_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" LinkedIn "]))], null, null); }
-function View_SocailMediaDialog_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Twitter "]))], null, null); }
-function View_SocailMediaDialog_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Instagram "]))], null, null); }
-function View_SocailMediaDialog_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["facebook.com/"])), (_l()(), i1.ɵeld(4, 0, null, null, 6, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 5)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 5).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 5)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 5)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.data.facebook = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(5, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(7, 671744, null, 0, i12.NgModel, [[2, i12.ControlContainer], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(8, { standalone: 0 }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(10, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.data.facebook; var currVal_8 = _ck(_v, 8, 0, true); _ck(_v, 7, 0, currVal_7, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 10).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 10).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 10).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 10).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 10).ngClassValid; var currVal_5 = i1.ɵnov(_v, 10).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 10).ngClassPending; _ck(_v, 4, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
-function View_SocailMediaDialog_6(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["linkedin.com/"])), (_l()(), i1.ɵeld(4, 0, null, null, 6, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 5)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 5).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 5)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 5)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.data.linkedIn = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(5, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(7, 671744, null, 0, i12.NgModel, [[2, i12.ControlContainer], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(8, { standalone: 0 }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(10, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.data.linkedIn; var currVal_8 = _ck(_v, 8, 0, true); _ck(_v, 7, 0, currVal_7, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 10).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 10).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 10).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 10).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 10).ngClassValid; var currVal_5 = i1.ɵnov(_v, 10).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 10).ngClassPending; _ck(_v, 4, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
-function View_SocailMediaDialog_7(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["twitter.com/"])), (_l()(), i1.ɵeld(4, 0, null, null, 6, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 5)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 5).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 5)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 5)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.data.twitter = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(5, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(7, 671744, null, 0, i12.NgModel, [[2, i12.ControlContainer], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(8, { standalone: 0 }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(10, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.data.twitter; var currVal_8 = _ck(_v, 8, 0, true); _ck(_v, 7, 0, currVal_7, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 10).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 10).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 10).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 10).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 10).ngClassValid; var currVal_5 = i1.ɵnov(_v, 10).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 10).ngClassPending; _ck(_v, 4, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
-function View_SocailMediaDialog_8(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 10, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 1, "span", [["class", "input-group-text"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["instagram.com/"])), (_l()(), i1.ɵeld(4, 0, null, null, 6, "input", [["cdkFocusInitial", ""], ["class", "form-control"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 5)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 5).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 5)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 5)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.data.instagram = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(5, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(7, 671744, null, 0, i12.NgModel, [[2, i12.ControlContainer], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"], options: [1, "options"] }, { update: "ngModelChange" }), i1.ɵpod(8, { standalone: 0 }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(10, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_7 = _co.data.instagram; var currVal_8 = _ck(_v, 8, 0, true); _ck(_v, 7, 0, currVal_7, currVal_8); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 10).ngClassUntouched; var currVal_1 = i1.ɵnov(_v, 10).ngClassTouched; var currVal_2 = i1.ɵnov(_v, 10).ngClassPristine; var currVal_3 = i1.ɵnov(_v, 10).ngClassDirty; var currVal_4 = i1.ɵnov(_v, 10).ngClassValid; var currVal_5 = i1.ɵnov(_v, 10).ngClassInvalid; var currVal_6 = i1.ɵnov(_v, 10).ngClassPending; _ck(_v, 4, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6); }); }
-function View_SocailMediaDialog_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 33, "div", [], null, null, null, null, null)), i1.ɵdid(1, 16384, null, 0, i7.NgSwitch, [], { ngSwitch: [0, "ngSwitch"] }, null), (_l()(), i1.ɵeld(2, 0, null, null, 13, "div", [["class", "d-flex justify-content-between border-bottom mb-3 pb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(3, 0, null, null, 9, "h3", [["class", "font-weight-light"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Edit "])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_1)), i1.ɵdid(6, 278528, null, 0, i7.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i7.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_2)), i1.ɵdid(8, 278528, null, 0, i7.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i7.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_3)), i1.ɵdid(10, 278528, null, 0, i7.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i7.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_4)), i1.ɵdid(12, 278528, null, 0, i7.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i7.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵeld(13, 0, null, null, 2, "button", [["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.onNoClick() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(14, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(15, 0, null, 0, 0, "i", [["class", "fas fa-times"]], null, null, null, null, null)), (_l()(), i1.ɵeld(16, 0, null, null, 17, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "keyup"], [null, "submit"], [null, "reset"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("submit" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 18).onSubmit($event) !== false);
-        ad = (pd_0 && ad);
-    } if (("reset" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 18).onReset() !== false);
-        ad = (pd_1 && ad);
-    } if (("keyup" === en)) {
-        var pd_2 = (_co.keyDownFunction($event) !== false);
-        ad = (pd_2 && ad);
-    } return ad; }, null, null)), i1.ɵdid(17, 16384, null, 0, i12.ɵangular_packages_forms_forms_z, [], null, null), i1.ɵdid(18, 4210688, null, 0, i12.NgForm, [[8, null], [8, null]], null, null), i1.ɵprd(2048, null, i12.ControlContainer, null, [i12.NgForm]), i1.ɵdid(20, 16384, null, 0, i12.NgControlStatusGroup, [[4, i12.ControlContainer]], null, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_5)), i1.ɵdid(22, 278528, null, 0, i7.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i7.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_6)), i1.ɵdid(24, 278528, null, 0, i7.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i7.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_7)), i1.ɵdid(26, 278528, null, 0, i7.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i7.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_SocailMediaDialog_8)), i1.ɵdid(28, 278528, null, 0, i7.NgSwitchCase, [i1.ViewContainerRef, i1.TemplateRef, i7.NgSwitch], { ngSwitchCase: [0, "ngSwitchCase"] }, null), (_l()(), i1.ɵeld(29, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(30, 0, null, null, 3, "button", [["class", "w-100 py-1"], ["color", "primary"], ["mat-raised-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 32).dialogRef.close(i1.ɵnov(_v, 32).dialogResult) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(31, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), i1.ɵdid(32, 606208, null, 0, i24.MatDialogClose, [[2, i24.MatDialogRef], i1.ElementRef, i24.MatDialog], { dialogResult: [0, "dialogResult"] }, null), (_l()(), i1.ɵted(-1, 0, [" Submit "]))], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.data.index; _ck(_v, 1, 0, currVal_0); var currVal_1 = 0; _ck(_v, 6, 0, currVal_1); var currVal_2 = 1; _ck(_v, 8, 0, currVal_2); var currVal_3 = 2; _ck(_v, 10, 0, currVal_3); var currVal_4 = 3; _ck(_v, 12, 0, currVal_4); var currVal_14 = 0; _ck(_v, 22, 0, currVal_14); var currVal_15 = 1; _ck(_v, 24, 0, currVal_15); var currVal_16 = 2; _ck(_v, 26, 0, currVal_16); var currVal_17 = 3; _ck(_v, 28, 0, currVal_17); var currVal_21 = "primary"; _ck(_v, 31, 0, currVal_21); var currVal_22 = _co.data; _ck(_v, 32, 0, currVal_22); }, function (_ck, _v) { var currVal_5 = (i1.ɵnov(_v, 14).disabled || null); var currVal_6 = (i1.ɵnov(_v, 14)._animationMode === "NoopAnimations"); _ck(_v, 13, 0, currVal_5, currVal_6); var currVal_7 = i1.ɵnov(_v, 20).ngClassUntouched; var currVal_8 = i1.ɵnov(_v, 20).ngClassTouched; var currVal_9 = i1.ɵnov(_v, 20).ngClassPristine; var currVal_10 = i1.ɵnov(_v, 20).ngClassDirty; var currVal_11 = i1.ɵnov(_v, 20).ngClassValid; var currVal_12 = i1.ɵnov(_v, 20).ngClassInvalid; var currVal_13 = i1.ɵnov(_v, 20).ngClassPending; _ck(_v, 16, 0, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13); var currVal_18 = (i1.ɵnov(_v, 31).disabled || null); var currVal_19 = (i1.ɵnov(_v, 31)._animationMode === "NoopAnimations"); var currVal_20 = (i1.ɵnov(_v, 32).ariaLabel || null); _ck(_v, 30, 0, currVal_18, currVal_19, currVal_20); }); }
-exports.View_SocailMediaDialog_0 = View_SocailMediaDialog_0;
-function View_SocailMediaDialog_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "socail-media-dialog", [], null, null, null, View_SocailMediaDialog_0, RenderType_SocailMediaDialog)), i1.ɵdid(1, 49152, null, 0, i22.SocailMediaDialog, [i24.MatDialogRef, i24.MAT_DIALOG_DATA], null, null)], null, null); }
-exports.View_SocailMediaDialog_Host_0 = View_SocailMediaDialog_Host_0;
-var SocailMediaDialogNgFactory = i1.ɵccf("socail-media-dialog", i22.SocailMediaDialog, View_SocailMediaDialog_Host_0, {}, {}, []);
-exports.SocailMediaDialogNgFactory = SocailMediaDialogNgFactory;
-var styles_AddNotesDialog = [i0.styles];
-var RenderType_AddNotesDialog = i1.ɵcrt({ encapsulation: 0, styles: styles_AddNotesDialog, data: {} });
-exports.RenderType_AddNotesDialog = RenderType_AddNotesDialog;
-function View_AddNotesDialog_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 5, "div", [["class", "d-flex justify-content-between border-bottom mb-3 pb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "h3", [["class", "font-weight-light"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Add Note "])), (_l()(), i1.ɵeld(3, 0, null, null, 2, "button", [["class", "side-menu-btn"], ["mat-button", ""]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null]], [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
-        var pd_0 = (_co.onNoClick() !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(4, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], null, null), (_l()(), i1.ɵeld(5, 0, null, 0, 0, "i", [["class", "fas fa-times"]], null, null, null, null, null)), (_l()(), i1.ɵeld(6, 0, null, null, 11, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(7, 0, null, null, 1, "label", [["for", "date"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Date"])), (_l()(), i1.ɵeld(9, 0, null, null, 2, "div", [["class", "input-group-prepend"]], null, null, null, null, null)), (_l()(), i1.ɵeld(10, 0, null, null, 1, "span", [["class", "input-group-text"], ["style", "background-color: #f7f8f8;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(11, 0, null, null, 0, "i", [["class", "far fa-calendar-alt"]], null, null, null, null, null)), (_l()(), i1.ɵeld(12, 0, null, null, 5, "input", [["class", "form-control pl-0"], ["id", "date"], ["type", "date"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 13)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 13).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 13)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 13)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.data.date = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(13, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(15, 671744, null, 0, i12.NgModel, [[8, null], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(17, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null), (_l()(), i1.ɵeld(18, 0, null, null, 8, "div", [["class", "input-group mb-3"]], null, null, null, null, null)), (_l()(), i1.ɵeld(19, 0, null, null, 1, "label", [["for", "title"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Title"])), (_l()(), i1.ɵeld(21, 0, null, null, 5, "input", [["class", "form-control"], ["id", "title"], ["placeholder", "Note Title"], ["type", "text"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 22)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 22).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 22)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 22)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.data.title = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(22, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(24, 671744, null, 0, i12.NgModel, [[8, null], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(26, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null), (_l()(), i1.ɵeld(27, 0, null, null, 8, "div", [["class", "input-group mb-1"]], null, null, null, null, null)), (_l()(), i1.ɵeld(28, 0, null, null, 1, "label", [["for", "note"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Note"])), (_l()(), i1.ɵeld(30, 0, null, null, 5, "textarea", [["class", "form-control"], ["id", "note"]], [[1, "maxlength", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 31)._handleInput($event.target.value) !== false);
-        ad = (pd_0 && ad);
-    } if (("blur" === en)) {
-        var pd_1 = (i1.ɵnov(_v, 31).onTouched() !== false);
-        ad = (pd_1 && ad);
-    } if (("compositionstart" === en)) {
-        var pd_2 = (i1.ɵnov(_v, 31)._compositionStart() !== false);
-        ad = (pd_2 && ad);
-    } if (("compositionend" === en)) {
-        var pd_3 = (i1.ɵnov(_v, 31)._compositionEnd($event.target.value) !== false);
-        ad = (pd_3 && ad);
-    } if (("ngModelChange" === en)) {
-        var pd_4 = ((_co.data.body = $event) !== false);
-        ad = (pd_4 && ad);
-    } return ad; }, null, null)), i1.ɵdid(31, 16384, null, 0, i12.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i12.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i12.NG_VALUE_ACCESSOR, function (p0_0) { return [p0_0]; }, [i12.DefaultValueAccessor]), i1.ɵdid(33, 671744, null, 0, i12.NgModel, [[8, null], [8, null], [8, null], [6, i12.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i12.NgControl, null, [i12.NgModel]), i1.ɵdid(35, 16384, null, 0, i12.NgControlStatus, [[4, i12.NgControl]], null, null), (_l()(), i1.ɵeld(36, 0, null, null, 2, "div", [["class", "mb-3 text-right"]], null, null, null, null, null)), (_l()(), i1.ɵeld(37, 0, null, null, 1, "small", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(38, null, [" Remaining Characters ", " "])), (_l()(), i1.ɵeld(39, 0, null, null, 4, "div", [], null, null, null, null, null)), (_l()(), i1.ɵeld(40, 0, null, null, 3, "button", [["class", "w-100 py-1"], ["color", "primary"], ["mat-raised-button", ""], ["type", "button"]], [[1, "disabled", 0], [2, "_mat-animation-noopable", null], [1, "aria-label", 0]], [[null, "click"]], function (_v, en, $event) { var ad = true; if (("click" === en)) {
-        var pd_0 = (i1.ɵnov(_v, 42).dialogRef.close(i1.ɵnov(_v, 42).dialogResult) !== false);
-        ad = (pd_0 && ad);
-    } return ad; }, i8.View_MatButton_0, i8.RenderType_MatButton)), i1.ɵdid(41, 180224, null, 0, i9.MatButton, [i1.ElementRef, i10.FocusMonitor, [2, i11.ANIMATION_MODULE_TYPE]], { color: [0, "color"] }, null), i1.ɵdid(42, 606208, null, 0, i24.MatDialogClose, [[2, i24.MatDialogRef], i1.ElementRef, i24.MatDialog], { dialogResult: [0, "dialogResult"] }, null), (_l()(), i1.ɵted(-1, 0, [" Submit "]))], function (_ck, _v) { var _co = _v.component; var currVal_9 = _co.data.date; _ck(_v, 15, 0, currVal_9); var currVal_17 = _co.data.title; _ck(_v, 24, 0, currVal_17); var currVal_26 = _co.data.body; _ck(_v, 33, 0, currVal_26); var currVal_31 = "primary"; _ck(_v, 41, 0, currVal_31); var currVal_32 = _co.data; _ck(_v, 42, 0, currVal_32); }, function (_ck, _v) { var _co = _v.component; var currVal_0 = (i1.ɵnov(_v, 4).disabled || null); var currVal_1 = (i1.ɵnov(_v, 4)._animationMode === "NoopAnimations"); _ck(_v, 3, 0, currVal_0, currVal_1); var currVal_2 = i1.ɵnov(_v, 17).ngClassUntouched; var currVal_3 = i1.ɵnov(_v, 17).ngClassTouched; var currVal_4 = i1.ɵnov(_v, 17).ngClassPristine; var currVal_5 = i1.ɵnov(_v, 17).ngClassDirty; var currVal_6 = i1.ɵnov(_v, 17).ngClassValid; var currVal_7 = i1.ɵnov(_v, 17).ngClassInvalid; var currVal_8 = i1.ɵnov(_v, 17).ngClassPending; _ck(_v, 12, 0, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8); var currVal_10 = i1.ɵnov(_v, 26).ngClassUntouched; var currVal_11 = i1.ɵnov(_v, 26).ngClassTouched; var currVal_12 = i1.ɵnov(_v, 26).ngClassPristine; var currVal_13 = i1.ɵnov(_v, 26).ngClassDirty; var currVal_14 = i1.ɵnov(_v, 26).ngClassValid; var currVal_15 = i1.ɵnov(_v, 26).ngClassInvalid; var currVal_16 = i1.ɵnov(_v, 26).ngClassPending; _ck(_v, 21, 0, currVal_10, currVal_11, currVal_12, currVal_13, currVal_14, currVal_15, currVal_16); var currVal_18 = 255; var currVal_19 = i1.ɵnov(_v, 35).ngClassUntouched; var currVal_20 = i1.ɵnov(_v, 35).ngClassTouched; var currVal_21 = i1.ɵnov(_v, 35).ngClassPristine; var currVal_22 = i1.ɵnov(_v, 35).ngClassDirty; var currVal_23 = i1.ɵnov(_v, 35).ngClassValid; var currVal_24 = i1.ɵnov(_v, 35).ngClassInvalid; var currVal_25 = i1.ɵnov(_v, 35).ngClassPending; _ck(_v, 30, 0, currVal_18, currVal_19, currVal_20, currVal_21, currVal_22, currVal_23, currVal_24, currVal_25); var currVal_27 = _co.remaningChars(); _ck(_v, 38, 0, currVal_27); var currVal_28 = (i1.ɵnov(_v, 41).disabled || null); var currVal_29 = (i1.ɵnov(_v, 41)._animationMode === "NoopAnimations"); var currVal_30 = (i1.ɵnov(_v, 42).ariaLabel || null); _ck(_v, 40, 0, currVal_28, currVal_29, currVal_30); }); }
-exports.View_AddNotesDialog_0 = View_AddNotesDialog_0;
-function View_AddNotesDialog_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "add-note-dialog", [], null, null, null, View_AddNotesDialog_0, RenderType_AddNotesDialog)), i1.ɵdid(1, 49152, null, 0, i22.AddNotesDialog, [i24.MatDialogRef, i24.MAT_DIALOG_DATA], null, null)], null, null); }
-exports.View_AddNotesDialog_Host_0 = View_AddNotesDialog_Host_0;
-var AddNotesDialogNgFactory = i1.ɵccf("add-note-dialog", i22.AddNotesDialog, View_AddNotesDialog_Host_0, {}, {}, []);
-exports.AddNotesDialogNgFactory = AddNotesDialogNgFactory;
 
 
 /***/ }),
@@ -2554,7 +4213,7 @@ exports.AddNotesDialogNgFactory = AddNotesDialogNgFactory;
  * tslint:disable
  */ 
 Object.defineProperty(exports, "__esModule", { value: true });
-var styles = [".page-layout[_ngcontent-%COMP%] {\n  background-color: #343c4b;\n  margin-top: -1rem;\n}\n\n.personal-info[_ngcontent-%COMP%] {\n  background-color: #fff;\n  height: 100%;\n}\n\n.personal-info[_ngcontent-%COMP%]   .profile-img[_ngcontent-%COMP%] {\n  width: 180px;\n  height: 180px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 8px;\n  margin: 0 auto;\n  display: block;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.search-img[_ngcontent-%COMP%] {\n  width: 30px;\n  height: 30px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 4px;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.mat-option[_ngcontent-%COMP%] {\n  height: 60px;\n  line-height: 1.3;\n}\n\n.companies-notes-container[_ngcontent-%COMP%] {\n  background-color: #343c4b;\n  height: 100%;\n  color: #fff;\n}\n\n.side-menu-btn[_ngcontent-%COMP%] {\n  min-width: 40px;\n  width: 40px;\n  color: #787e8c;\n  padding: 0;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%] {\n  border: 1px solid #dee2e6;\n  height: 50px;\n  min-width: 50px;\n  width: 50px;\n  margin: 0 auto;\n  display: block;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]:focus {\n  outline: none;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .remove-socail-btn[_ngcontent-%COMP%] {\n  position: absolute;\n  bottom: -13px;\n  right: -9px;\n  border: 1px solid #dee2e6;\n  line-height: 0.9;\n  padding: 5px;\n  border-radius: 17px;\n  width: 24px;\n  height: 24px;\n  background-color: #fff;\n  color: #dee2e6;\n  z-index: 999;\n  cursor: pointer;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-facebook-f[_ngcontent-%COMP%] {\n  color: #787e8c;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-facebook-f.active-sm[_ngcontent-%COMP%] {\n  color: #3b5999;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-linkedin-in[_ngcontent-%COMP%] {\n  color: #787e8c;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-linkedin-in.active-sm[_ngcontent-%COMP%] {\n  color: #0077b5;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-twitter[_ngcontent-%COMP%] {\n  color: #787e8c;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-twitter.active-sm[_ngcontent-%COMP%] {\n  color: #55acee;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-instagram[_ngcontent-%COMP%] {\n  color: #787e8c;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-instagram.active-sm[_ngcontent-%COMP%] {\n  color: #e4405f;\n}\n\na.socialmedia-btn[_ngcontent-%COMP%] {\n  line-height: 48px;\n}\n\n.middle-container[_ngcontent-%COMP%] {\n  background-color: #fff;\n}\n\n.char-input-container[_ngcontent-%COMP%] {\n  width: 160px;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  border: transparent;\n  background-color: #f7f8f8;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  color: #6c757d;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:focus {\n  box-shadow: none;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled {\n  opacity: 1;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled   i[_ngcontent-%COMP%] {\n  opacity: 0.6;\n}\n\n.char-span[_ngcontent-%COMP%] {\n  padding: 0.25rem 0.5rem;\n  font-size: 0.875rem;\n  line-height: 1.5;\n  border-radius: 0.2rem;\n  color: #6c757d;\n}\n\n.notes-header[_ngcontent-%COMP%] {\n  background-color: #343c4b;\n  color: #fff;\n}\n\n.notes-header.border-bottom[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #535e72 !important;\n}\n\n.add-note-btn[_ngcontent-%COMP%] {\n  width: 40px;\n  min-width: 40px;\n  padding: 0;\n}\n\n.input-group-text[_ngcontent-%COMP%] {\n  border-radius: 0;\n  border: none;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS92aWV3LXByb2ZpbGUvRTpcXFVwd29ya1xcQ29sbGVjdGl2ZSBQZW9wbGVcXGZyb250LWVuZC9zcmNcXGFwcFxccHJvZmlsZVxcdmlldy1wcm9maWxlXFx2aWV3LXByb2ZpbGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvdmlldy1wcm9maWxlL3ZpZXctcHJvZmlsZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHlCQUFBO0VBQ0EsaUJBQUE7QUNDRjs7QURFQTtFQUNFLHNCQUFBO0VBQ0EsWUFBQTtBQ0NGOztBREFFO0VBQ0UsWUFBQTtFQUNBLGFBQUE7RUFDQSxzQkFBQTtLQUFBLG1CQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0EsY0FBQTtFQUNBLG9CQUFBO0tBQUEsaUJBQUE7QUNFSjs7QURFQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0VBQ0Esc0JBQUE7S0FBQSxtQkFBQTtFQUNBLGtCQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ0NGOztBREVBO0VBQ0UsWUFBQTtFQUNBLGdCQUFBO0FDQ0Y7O0FERUE7RUFDRSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxXQUFBO0FDQ0Y7O0FERUE7RUFDRSxlQUFBO0VBQ0EsV0FBQTtFQUNBLGNBQUE7RUFDQSxVQUFBO0FDQ0Y7O0FERUE7RUFDRSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EsV0FBQTtFQUNBLGNBQUE7RUFDQSxjQUFBO0FDQ0Y7O0FEQUU7RUFDRSxhQUFBO0FDRUo7O0FEQUU7RUFDRSxrQkFBQTtFQUNBLGFBQUE7RUFDQSxXQUFBO0VBQ0EseUJBQUE7RUFDQSxnQkFBQTtFQUNBLFlBQUE7RUFDQSxtQkFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0Esc0JBQUE7RUFDQSxjQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7QUNFSjs7QURBRTtFQUNFLGNBQUE7QUNFSjs7QURESTtFQUNFLGNBQUE7QUNHTjs7QURBRTtFQUNFLGNBQUE7QUNFSjs7QURESTtFQUNFLGNBQUE7QUNHTjs7QURBRTtFQUNFLGNBQUE7QUNFSjs7QURESTtFQUNFLGNBQUE7QUNHTjs7QURBRTtFQUNFLGNBQUE7QUNFSjs7QURESTtFQUNFLGNBQUE7QUNHTjs7QURHRTtFQUNFLGlCQUFBO0FDQUo7O0FESUE7RUFDRSxzQkFBQTtBQ0RGOztBRElBO0VBQ0UsWUFBQTtBQ0RGOztBREdJO0VBQ0UsbUJBQUE7RUFDQSx5QkFBQTtBQ0ROOztBREVNO0VBQ0UsY0FBQTtBQ0FSOztBREVNO0VBQ0UsZ0JBQUE7QUNBUjs7QURFTTtFQUNFLFVBQUE7QUNBUjs7QURDUTtFQUNFLFlBQUE7QUNDVjs7QURNQTtFQUNFLHVCQUFBO0VBQ0EsbUJBQUE7RUFDQSxnQkFBQTtFQUNBLHFCQUFBO0VBQ0EsY0FBQTtBQ0hGOztBRE1BO0VBQ0UseUJBQUE7RUFDQSxXQUFBO0FDSEY7O0FESUU7RUFDRSwyQ0FBQTtBQ0ZKOztBRE1BO0VBQ0UsV0FBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDSEY7O0FETUE7RUFDRSxnQkFBQTtFQUNBLFlBQUE7QUNIRiIsImZpbGUiOiJzcmMvYXBwL3Byb2ZpbGUvdmlldy1wcm9maWxlL3ZpZXctcHJvZmlsZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wYWdlLWxheW91dCB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzM0M2M0YjtcclxuICBtYXJnaW4tdG9wOiAtMXJlbTtcclxufVxyXG5cclxuLnBlcnNvbmFsLWluZm8ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIC5wcm9maWxlLWltZyB7XHJcbiAgICB3aWR0aDogMTgwcHg7XHJcbiAgICBoZWlnaHQ6IDE4MHB4O1xyXG4gICAgb2JqZWN0LWZpdDogY29udGFpbjtcclxuICAgIGJvcmRlci1yYWRpdXM6IDhweDtcclxuICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBvYmplY3QtZml0OiBjb3ZlcjtcclxuICB9XHJcbn1cclxuXHJcbi5zZWFyY2gtaW1nIHtcclxuICB3aWR0aDogMzBweDtcclxuICBoZWlnaHQ6IDMwcHg7XHJcbiAgb2JqZWN0LWZpdDogY29udGFpbjtcclxuICBib3JkZXItcmFkaXVzOiA0cHg7XHJcbiAgb2JqZWN0LWZpdDogY292ZXI7XHJcbn1cclxuXHJcbi5tYXQtb3B0aW9uIHtcclxuICBoZWlnaHQ6IDYwcHg7XHJcbiAgbGluZS1oZWlnaHQ6IDEuMztcclxufVxyXG5cclxuLmNvbXBhbmllcy1ub3Rlcy1jb250YWluZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMzNDNjNGI7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGNvbG9yOiAjZmZmO1xyXG59XHJcblxyXG4uc2lkZS1tZW51LWJ0biB7XHJcbiAgbWluLXdpZHRoOiA0MHB4O1xyXG4gIHdpZHRoOiA0MHB4O1xyXG4gIGNvbG9yOiAjNzg3ZThjO1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5zb2NpYWxtZWRpYS1idG4ge1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICNkZWUyZTY7XHJcbiAgaGVpZ2h0OiA1MHB4O1xyXG4gIG1pbi13aWR0aDogNTBweDtcclxuICB3aWR0aDogNTBweDtcclxuICBtYXJnaW46IDAgYXV0bztcclxuICBkaXNwbGF5OiBibG9jaztcclxuICAmOmZvY3VzIHtcclxuICAgIG91dGxpbmU6IG5vbmU7XHJcbiAgfVxyXG4gIC5yZW1vdmUtc29jYWlsLWJ0biB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBib3R0b206IC0xM3B4O1xyXG4gICAgcmlnaHQ6IC05cHg7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZGVlMmU2O1xyXG4gICAgbGluZS1oZWlnaHQ6IDAuOTtcclxuICAgIHBhZGRpbmc6IDVweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDE3cHg7XHJcbiAgICB3aWR0aDogMjRweDtcclxuICAgIGhlaWdodDogMjRweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBjb2xvcjogI2RlZTJlNjtcclxuICAgIHotaW5kZXg6IDk5OTtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICB9XHJcbiAgLmZhLWZhY2Vib29rLWYge1xyXG4gICAgY29sb3I6ICM3ODdlOGM7XHJcbiAgICAmLmFjdGl2ZS1zbSB7XHJcbiAgICAgIGNvbG9yOiAjM2I1OTk5O1xyXG4gICAgfVxyXG4gIH1cclxuICAuZmEtbGlua2VkaW4taW4ge1xyXG4gICAgY29sb3I6ICM3ODdlOGM7XHJcbiAgICAmLmFjdGl2ZS1zbSB7XHJcbiAgICAgIGNvbG9yOiAjMDA3N2I1O1xyXG4gICAgfVxyXG4gIH1cclxuICAuZmEtdHdpdHRlciB7XHJcbiAgICBjb2xvcjogIzc4N2U4YztcclxuICAgICYuYWN0aXZlLXNtIHtcclxuICAgICAgY29sb3I6ICM1NWFjZWU7XHJcbiAgICB9XHJcbiAgfVxyXG4gIC5mYS1pbnN0YWdyYW0ge1xyXG4gICAgY29sb3I6ICM3ODdlOGM7XHJcbiAgICAmLmFjdGl2ZS1zbSB7XHJcbiAgICAgIGNvbG9yOiAjZTQ0MDVmO1xyXG4gICAgfVxyXG4gIH1cclxufVxyXG5cclxuYSB7XHJcbiAgJi5zb2NpYWxtZWRpYS1idG4ge1xyXG4gICAgbGluZS1oZWlnaHQ6IDQ4cHg7XHJcbiAgfVxyXG59XHJcblxyXG4ubWlkZGxlLWNvbnRhaW5lciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxufVxyXG5cclxuLmNoYXItaW5wdXQtY29udGFpbmVyIHtcclxuICB3aWR0aDogMTYwcHg7XHJcbiAgLmlucHV0LWdyb3VwLWFwcGVuZCB7XHJcbiAgICBidXR0b24ge1xyXG4gICAgICBib3JkZXI6IHRyYW5zcGFyZW50O1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGY4O1xyXG4gICAgICAmOmhvdmVyIHtcclxuICAgICAgICBjb2xvcjogIzZjNzU3ZDtcclxuICAgICAgfVxyXG4gICAgICAmOmZvY3VzIHtcclxuICAgICAgICBib3gtc2hhZG93OiBub25lO1xyXG4gICAgICB9XHJcbiAgICAgICY6ZGlzYWJsZWQge1xyXG4gICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICAgICAgaSB7XHJcbiAgICAgICAgICBvcGFjaXR5OiAwLjY7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcblxyXG4uY2hhci1zcGFuIHtcclxuICBwYWRkaW5nOiAwLjI1cmVtIDAuNXJlbTtcclxuICBmb250LXNpemU6IDAuODc1cmVtO1xyXG4gIGxpbmUtaGVpZ2h0OiAxLjU7XHJcbiAgYm9yZGVyLXJhZGl1czogMC4ycmVtO1xyXG4gIGNvbG9yOiAjNmM3NTdkO1xyXG59XHJcblxyXG4ubm90ZXMtaGVhZGVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYzRiO1xyXG4gIGNvbG9yOiAjZmZmO1xyXG4gICYuYm9yZGVyLWJvdHRvbSB7XHJcbiAgICBib3JkZXItYm90dG9tOiAxcHggc29saWQgcmdiKDgzLCA5NCwgMTE0KSAhaW1wb3J0YW50O1xyXG4gIH1cclxufVxyXG5cclxuLmFkZC1ub3RlLWJ0biB7XHJcbiAgd2lkdGg6IDQwcHg7XHJcbiAgbWluLXdpZHRoOiA0MHB4O1xyXG4gIHBhZGRpbmc6IDA7XHJcbn1cclxuXHJcbi5pbnB1dC1ncm91cC10ZXh0IHtcclxuICBib3JkZXItcmFkaXVzOiAwO1xyXG4gIGJvcmRlcjogbm9uZTtcclxufVxyXG4iLCIucGFnZS1sYXlvdXQge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYzRiO1xuICBtYXJnaW4tdG9wOiAtMXJlbTtcbn1cblxuLnBlcnNvbmFsLWluZm8ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBoZWlnaHQ6IDEwMCU7XG59XG4ucGVyc29uYWwtaW5mbyAucHJvZmlsZS1pbWcge1xuICB3aWR0aDogMTgwcHg7XG4gIGhlaWdodDogMTgwcHg7XG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XG4gIGJvcmRlci1yYWRpdXM6IDhweDtcbiAgbWFyZ2luOiAwIGF1dG87XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBvYmplY3QtZml0OiBjb3Zlcjtcbn1cblxuLnNlYXJjaC1pbWcge1xuICB3aWR0aDogMzBweDtcbiAgaGVpZ2h0OiAzMHB4O1xuICBvYmplY3QtZml0OiBjb250YWluO1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG4gIG9iamVjdC1maXQ6IGNvdmVyO1xufVxuXG4ubWF0LW9wdGlvbiB7XG4gIGhlaWdodDogNjBweDtcbiAgbGluZS1oZWlnaHQ6IDEuMztcbn1cblxuLmNvbXBhbmllcy1ub3Rlcy1jb250YWluZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYzRiO1xuICBoZWlnaHQ6IDEwMCU7XG4gIGNvbG9yOiAjZmZmO1xufVxuXG4uc2lkZS1tZW51LWJ0biB7XG4gIG1pbi13aWR0aDogNDBweDtcbiAgd2lkdGg6IDQwcHg7XG4gIGNvbG9yOiAjNzg3ZThjO1xuICBwYWRkaW5nOiAwO1xufVxuXG4uc29jaWFsbWVkaWEtYnRuIHtcbiAgYm9yZGVyOiAxcHggc29saWQgI2RlZTJlNjtcbiAgaGVpZ2h0OiA1MHB4O1xuICBtaW4td2lkdGg6IDUwcHg7XG4gIHdpZHRoOiA1MHB4O1xuICBtYXJnaW46IDAgYXV0bztcbiAgZGlzcGxheTogYmxvY2s7XG59XG4uc29jaWFsbWVkaWEtYnRuOmZvY3VzIHtcbiAgb3V0bGluZTogbm9uZTtcbn1cbi5zb2NpYWxtZWRpYS1idG4gLnJlbW92ZS1zb2NhaWwtYnRuIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBib3R0b206IC0xM3B4O1xuICByaWdodDogLTlweDtcbiAgYm9yZGVyOiAxcHggc29saWQgI2RlZTJlNjtcbiAgbGluZS1oZWlnaHQ6IDAuOTtcbiAgcGFkZGluZzogNXB4O1xuICBib3JkZXItcmFkaXVzOiAxN3B4O1xuICB3aWR0aDogMjRweDtcbiAgaGVpZ2h0OiAyNHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBjb2xvcjogI2RlZTJlNjtcbiAgei1pbmRleDogOTk5O1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG4uc29jaWFsbWVkaWEtYnRuIC5mYS1mYWNlYm9vay1mIHtcbiAgY29sb3I6ICM3ODdlOGM7XG59XG4uc29jaWFsbWVkaWEtYnRuIC5mYS1mYWNlYm9vay1mLmFjdGl2ZS1zbSB7XG4gIGNvbG9yOiAjM2I1OTk5O1xufVxuLnNvY2lhbG1lZGlhLWJ0biAuZmEtbGlua2VkaW4taW4ge1xuICBjb2xvcjogIzc4N2U4Yztcbn1cbi5zb2NpYWxtZWRpYS1idG4gLmZhLWxpbmtlZGluLWluLmFjdGl2ZS1zbSB7XG4gIGNvbG9yOiAjMDA3N2I1O1xufVxuLnNvY2lhbG1lZGlhLWJ0biAuZmEtdHdpdHRlciB7XG4gIGNvbG9yOiAjNzg3ZThjO1xufVxuLnNvY2lhbG1lZGlhLWJ0biAuZmEtdHdpdHRlci5hY3RpdmUtc20ge1xuICBjb2xvcjogIzU1YWNlZTtcbn1cbi5zb2NpYWxtZWRpYS1idG4gLmZhLWluc3RhZ3JhbSB7XG4gIGNvbG9yOiAjNzg3ZThjO1xufVxuLnNvY2lhbG1lZGlhLWJ0biAuZmEtaW5zdGFncmFtLmFjdGl2ZS1zbSB7XG4gIGNvbG9yOiAjZTQ0MDVmO1xufVxuXG5hLnNvY2lhbG1lZGlhLWJ0biB7XG4gIGxpbmUtaGVpZ2h0OiA0OHB4O1xufVxuXG4ubWlkZGxlLWNvbnRhaW5lciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG59XG5cbi5jaGFyLWlucHV0LWNvbnRhaW5lciB7XG4gIHdpZHRoOiAxNjBweDtcbn1cbi5jaGFyLWlucHV0LWNvbnRhaW5lciAuaW5wdXQtZ3JvdXAtYXBwZW5kIGJ1dHRvbiB7XG4gIGJvcmRlcjogdHJhbnNwYXJlbnQ7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmN2Y4Zjg7XG59XG4uY2hhci1pbnB1dC1jb250YWluZXIgLmlucHV0LWdyb3VwLWFwcGVuZCBidXR0b246aG92ZXIge1xuICBjb2xvcjogIzZjNzU3ZDtcbn1cbi5jaGFyLWlucHV0LWNvbnRhaW5lciAuaW5wdXQtZ3JvdXAtYXBwZW5kIGJ1dHRvbjpmb2N1cyB7XG4gIGJveC1zaGFkb3c6IG5vbmU7XG59XG4uY2hhci1pbnB1dC1jb250YWluZXIgLmlucHV0LWdyb3VwLWFwcGVuZCBidXR0b246ZGlzYWJsZWQge1xuICBvcGFjaXR5OiAxO1xufVxuLmNoYXItaW5wdXQtY29udGFpbmVyIC5pbnB1dC1ncm91cC1hcHBlbmQgYnV0dG9uOmRpc2FibGVkIGkge1xuICBvcGFjaXR5OiAwLjY7XG59XG5cbi5jaGFyLXNwYW4ge1xuICBwYWRkaW5nOiAwLjI1cmVtIDAuNXJlbTtcbiAgZm9udC1zaXplOiAwLjg3NXJlbTtcbiAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgYm9yZGVyLXJhZGl1czogMC4ycmVtO1xuICBjb2xvcjogIzZjNzU3ZDtcbn1cblxuLm5vdGVzLWhlYWRlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMzNDNjNGI7XG4gIGNvbG9yOiAjZmZmO1xufVxuLm5vdGVzLWhlYWRlci5ib3JkZXItYm90dG9tIHtcbiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICM1MzVlNzIgIWltcG9ydGFudDtcbn1cblxuLmFkZC1ub3RlLWJ0biB7XG4gIHdpZHRoOiA0MHB4O1xuICBtaW4td2lkdGg6IDQwcHg7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi5pbnB1dC1ncm91cC10ZXh0IHtcbiAgYm9yZGVyLXJhZGl1czogMDtcbiAgYm9yZGVyOiBub25lO1xufSJdfQ== */"];
+var styles = [".page-layout[_ngcontent-%COMP%] {\n  background-color: #343c4b;\n  margin-top: -105px;\n  padding-top: 105px;\n}\n\n.personal-info[_ngcontent-%COMP%] {\n  background-color: #fff;\n  height: 100%;\n}\n\n.personal-info[_ngcontent-%COMP%]   .profile-img[_ngcontent-%COMP%] {\n  width: 180px;\n  height: 180px;\n  -o-object-fit: contain;\n     object-fit: contain;\n  border-radius: 8px;\n  margin: 0 auto;\n  display: block;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n\n.companies-notes-container[_ngcontent-%COMP%] {\n  background-color: #343c4b;\n  height: 100%;\n  color: #fff;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%] {\n  border: 1px solid #dee2e6;\n  height: 50px;\n  min-width: 50px;\n  width: 50px;\n  margin: 0 auto;\n  display: block;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]:focus {\n  outline: none;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .remove-socail-btn[_ngcontent-%COMP%] {\n  position: absolute;\n  bottom: -13px;\n  right: -9px;\n  border: 1px solid #dee2e6;\n  line-height: 0.9;\n  padding: 5px;\n  border-radius: 17px;\n  width: 24px;\n  height: 24px;\n  background-color: #fff;\n  color: #dee2e6;\n  z-index: 999;\n  cursor: pointer;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-facebook-f[_ngcontent-%COMP%] {\n  color: #787e8c;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-facebook-f.active-sm[_ngcontent-%COMP%] {\n  color: #3b5999;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-linkedin-in[_ngcontent-%COMP%] {\n  color: #787e8c;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-linkedin-in.active-sm[_ngcontent-%COMP%] {\n  color: #0077b5;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-twitter[_ngcontent-%COMP%] {\n  color: #787e8c;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-twitter.active-sm[_ngcontent-%COMP%] {\n  color: #55acee;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-instagram[_ngcontent-%COMP%] {\n  color: #787e8c;\n}\n\n.socialmedia-btn[_ngcontent-%COMP%]   .fa-instagram.active-sm[_ngcontent-%COMP%] {\n  color: #e4405f;\n}\n\na.socialmedia-btn[_ngcontent-%COMP%] {\n  line-height: 48px;\n}\n\n.middle-container[_ngcontent-%COMP%] {\n  background-color: #fff;\n}\n\n.char-input-container[_ngcontent-%COMP%] {\n  width: 160px;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  border: transparent;\n  background-color: #f7f8f8;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  color: #6c757d;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:focus {\n  box-shadow: none;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled {\n  opacity: 1;\n}\n\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled   i[_ngcontent-%COMP%] {\n  opacity: 0.6;\n}\n\n.notes-header[_ngcontent-%COMP%] {\n  background-color: #343c4b;\n  color: #fff;\n}\n\n.notes-header.border-top[_ngcontent-%COMP%] {\n  border-top: 1px solid #535e72 !important;\n}\n\n.notes-header.border-bottom[_ngcontent-%COMP%] {\n  border-bottom: 1px solid #535e72 !important;\n}\n\n.add-note-btn[_ngcontent-%COMP%] {\n  width: 40px;\n  min-width: 40px;\n  padding: 0;\n}\n\n.input-group-text[_ngcontent-%COMP%] {\n  border-radius: 0;\n  border: none;\n}\n\n.searh-container[_ngcontent-%COMP%] {\n  background-color: #fff;\n  height: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS92aWV3LXByb2ZpbGUvRTpcXFVwd29ya1xcQ29sbGVjdGl2ZSBQZW9wbGVcXGZyb250LWVuZC9zcmNcXGFwcFxccHJvZmlsZVxcdmlldy1wcm9maWxlXFx2aWV3LXByb2ZpbGUuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvdmlldy1wcm9maWxlL3ZpZXctcHJvZmlsZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLHlCQUFBO0VBRUEsa0JBQUE7RUFDQSxrQkFBQTtBQ0FGOztBREdBO0VBQ0Usc0JBQUE7RUFDQSxZQUFBO0FDQUY7O0FEQ0U7RUFDRSxZQUFBO0VBQ0EsYUFBQTtFQUNBLHNCQUFBO0tBQUEsbUJBQUE7RUFDQSxrQkFBQTtFQUNBLGNBQUE7RUFDQSxjQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ0NKOztBREdBO0VBQ0UseUJBQUE7RUFDQSxZQUFBO0VBQ0EsV0FBQTtBQ0FGOztBREdBO0VBQ0UseUJBQUE7RUFDQSxZQUFBO0VBQ0EsZUFBQTtFQUNBLFdBQUE7RUFDQSxjQUFBO0VBQ0EsY0FBQTtBQ0FGOztBRENFO0VBQ0UsYUFBQTtBQ0NKOztBRENFO0VBQ0Usa0JBQUE7RUFDQSxhQUFBO0VBQ0EsV0FBQTtFQUNBLHlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxZQUFBO0VBQ0EsbUJBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLHNCQUFBO0VBQ0EsY0FBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0FDQ0o7O0FEQ0U7RUFDRSxjQUFBO0FDQ0o7O0FEQUk7RUFDRSxjQUFBO0FDRU47O0FEQ0U7RUFDRSxjQUFBO0FDQ0o7O0FEQUk7RUFDRSxjQUFBO0FDRU47O0FEQ0U7RUFDRSxjQUFBO0FDQ0o7O0FEQUk7RUFDRSxjQUFBO0FDRU47O0FEQ0U7RUFDRSxjQUFBO0FDQ0o7O0FEQUk7RUFDRSxjQUFBO0FDRU47O0FESUU7RUFDRSxpQkFBQTtBQ0RKOztBREtBO0VBQ0Usc0JBQUE7QUNGRjs7QURLQTtFQUNFLFlBQUE7QUNGRjs7QURJSTtFQUNFLG1CQUFBO0VBQ0EseUJBQUE7QUNGTjs7QURHTTtFQUNFLGNBQUE7QUNEUjs7QURHTTtFQUNFLGdCQUFBO0FDRFI7O0FER007RUFDRSxVQUFBO0FDRFI7O0FERVE7RUFDRSxZQUFBO0FDQVY7O0FET0E7RUFDRSx5QkFBQTtFQUNBLFdBQUE7QUNKRjs7QURNRTtFQUNFLHdDQUFBO0FDSko7O0FETUU7RUFDRSwyQ0FBQTtBQ0pKOztBRFFBO0VBQ0UsV0FBQTtFQUNBLGVBQUE7RUFDQSxVQUFBO0FDTEY7O0FEUUE7RUFDRSxnQkFBQTtFQUNBLFlBQUE7QUNMRjs7QURRQTtFQUNFLHNCQUFBO0VBQ0EsWUFBQTtBQ0xGIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS92aWV3LXByb2ZpbGUvdmlldy1wcm9maWxlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBhZ2UtbGF5b3V0IHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYzRiO1xyXG4gIC8vIG1hcmdpbi10b3A6IC0xcmVtO1xyXG4gIG1hcmdpbi10b3A6IC0xMDVweDtcclxuICBwYWRkaW5nLXRvcDogMTA1cHg7XHJcbn1cclxuXHJcbi5wZXJzb25hbC1pbmZvIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICAucHJvZmlsZS1pbWcge1xyXG4gICAgd2lkdGg6IDE4MHB4O1xyXG4gICAgaGVpZ2h0OiAxODBweDtcclxuICAgIG9iamVjdC1maXQ6IGNvbnRhaW47XHJcbiAgICBib3JkZXItcmFkaXVzOiA4cHg7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgb2JqZWN0LWZpdDogY292ZXI7XHJcbiAgfVxyXG59XHJcblxyXG4uY29tcGFuaWVzLW5vdGVzLWNvbnRhaW5lciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogIzM0M2M0YjtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgY29sb3I6ICNmZmY7XHJcbn1cclxuXHJcbi5zb2NpYWxtZWRpYS1idG4ge1xyXG4gIGJvcmRlcjogMXB4IHNvbGlkICNkZWUyZTY7XHJcbiAgaGVpZ2h0OiA1MHB4O1xyXG4gIG1pbi13aWR0aDogNTBweDtcclxuICB3aWR0aDogNTBweDtcclxuICBtYXJnaW46IDAgYXV0bztcclxuICBkaXNwbGF5OiBibG9jaztcclxuICAmOmZvY3VzIHtcclxuICAgIG91dGxpbmU6IG5vbmU7XHJcbiAgfVxyXG4gIC5yZW1vdmUtc29jYWlsLWJ0biB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICBib3R0b206IC0xM3B4O1xyXG4gICAgcmlnaHQ6IC05cHg7XHJcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjZGVlMmU2O1xyXG4gICAgbGluZS1oZWlnaHQ6IDAuOTtcclxuICAgIHBhZGRpbmc6IDVweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDE3cHg7XHJcbiAgICB3aWR0aDogMjRweDtcclxuICAgIGhlaWdodDogMjRweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XHJcbiAgICBjb2xvcjogI2RlZTJlNjtcclxuICAgIHotaW5kZXg6IDk5OTtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICB9XHJcbiAgLmZhLWZhY2Vib29rLWYge1xyXG4gICAgY29sb3I6ICM3ODdlOGM7XHJcbiAgICAmLmFjdGl2ZS1zbSB7XHJcbiAgICAgIGNvbG9yOiAjM2I1OTk5O1xyXG4gICAgfVxyXG4gIH1cclxuICAuZmEtbGlua2VkaW4taW4ge1xyXG4gICAgY29sb3I6ICM3ODdlOGM7XHJcbiAgICAmLmFjdGl2ZS1zbSB7XHJcbiAgICAgIGNvbG9yOiAjMDA3N2I1O1xyXG4gICAgfVxyXG4gIH1cclxuICAuZmEtdHdpdHRlciB7XHJcbiAgICBjb2xvcjogIzc4N2U4YztcclxuICAgICYuYWN0aXZlLXNtIHtcclxuICAgICAgY29sb3I6ICM1NWFjZWU7XHJcbiAgICB9XHJcbiAgfVxyXG4gIC5mYS1pbnN0YWdyYW0ge1xyXG4gICAgY29sb3I6ICM3ODdlOGM7XHJcbiAgICAmLmFjdGl2ZS1zbSB7XHJcbiAgICAgIGNvbG9yOiAjZTQ0MDVmO1xyXG4gICAgfVxyXG4gIH1cclxufVxyXG5cclxuYSB7XHJcbiAgJi5zb2NpYWxtZWRpYS1idG4ge1xyXG4gICAgbGluZS1oZWlnaHQ6IDQ4cHg7XHJcbiAgfVxyXG59XHJcblxyXG4ubWlkZGxlLWNvbnRhaW5lciB7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcclxufVxyXG5cclxuLmNoYXItaW5wdXQtY29udGFpbmVyIHtcclxuICB3aWR0aDogMTYwcHg7XHJcbiAgLmlucHV0LWdyb3VwLWFwcGVuZCB7XHJcbiAgICBidXR0b24ge1xyXG4gICAgICBib3JkZXI6IHRyYW5zcGFyZW50O1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGY4O1xyXG4gICAgICAmOmhvdmVyIHtcclxuICAgICAgICBjb2xvcjogIzZjNzU3ZDtcclxuICAgICAgfVxyXG4gICAgICAmOmZvY3VzIHtcclxuICAgICAgICBib3gtc2hhZG93OiBub25lO1xyXG4gICAgICB9XHJcbiAgICAgICY6ZGlzYWJsZWQge1xyXG4gICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICAgICAgaSB7XHJcbiAgICAgICAgICBvcGFjaXR5OiAwLjY7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcblxyXG4ubm90ZXMtaGVhZGVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYzRiO1xyXG4gIGNvbG9yOiAjZmZmO1xyXG5cclxuICAmLmJvcmRlci10b3Age1xyXG4gICAgYm9yZGVyLXRvcDogMXB4IHNvbGlkIHJnYig4MywgOTQsIDExNCkgIWltcG9ydGFudDtcclxuICB9XHJcbiAgJi5ib3JkZXItYm90dG9tIHtcclxuICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCByZ2IoODMsIDk0LCAxMTQpICFpbXBvcnRhbnQ7XHJcbiAgfVxyXG59XHJcblxyXG4uYWRkLW5vdGUtYnRuIHtcclxuICB3aWR0aDogNDBweDtcclxuICBtaW4td2lkdGg6IDQwcHg7XHJcbiAgcGFkZGluZzogMDtcclxufVxyXG5cclxuLmlucHV0LWdyb3VwLXRleHQge1xyXG4gIGJvcmRlci1yYWRpdXM6IDA7XHJcbiAgYm9yZGVyOiBub25lO1xyXG59XHJcblxyXG4uc2VhcmgtY29udGFpbmVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xyXG4gIGhlaWdodDogMTAwJTtcclxufVxyXG4iLCIucGFnZS1sYXlvdXQge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYzRiO1xuICBtYXJnaW4tdG9wOiAtMTA1cHg7XG4gIHBhZGRpbmctdG9wOiAxMDVweDtcbn1cblxuLnBlcnNvbmFsLWluZm8ge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBoZWlnaHQ6IDEwMCU7XG59XG4ucGVyc29uYWwtaW5mbyAucHJvZmlsZS1pbWcge1xuICB3aWR0aDogMTgwcHg7XG4gIGhlaWdodDogMTgwcHg7XG4gIG9iamVjdC1maXQ6IGNvbnRhaW47XG4gIGJvcmRlci1yYWRpdXM6IDhweDtcbiAgbWFyZ2luOiAwIGF1dG87XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBvYmplY3QtZml0OiBjb3Zlcjtcbn1cblxuLmNvbXBhbmllcy1ub3Rlcy1jb250YWluZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYzRiO1xuICBoZWlnaHQ6IDEwMCU7XG4gIGNvbG9yOiAjZmZmO1xufVxuXG4uc29jaWFsbWVkaWEtYnRuIHtcbiAgYm9yZGVyOiAxcHggc29saWQgI2RlZTJlNjtcbiAgaGVpZ2h0OiA1MHB4O1xuICBtaW4td2lkdGg6IDUwcHg7XG4gIHdpZHRoOiA1MHB4O1xuICBtYXJnaW46IDAgYXV0bztcbiAgZGlzcGxheTogYmxvY2s7XG59XG4uc29jaWFsbWVkaWEtYnRuOmZvY3VzIHtcbiAgb3V0bGluZTogbm9uZTtcbn1cbi5zb2NpYWxtZWRpYS1idG4gLnJlbW92ZS1zb2NhaWwtYnRuIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBib3R0b206IC0xM3B4O1xuICByaWdodDogLTlweDtcbiAgYm9yZGVyOiAxcHggc29saWQgI2RlZTJlNjtcbiAgbGluZS1oZWlnaHQ6IDAuOTtcbiAgcGFkZGluZzogNXB4O1xuICBib3JkZXItcmFkaXVzOiAxN3B4O1xuICB3aWR0aDogMjRweDtcbiAgaGVpZ2h0OiAyNHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBjb2xvcjogI2RlZTJlNjtcbiAgei1pbmRleDogOTk5O1xuICBjdXJzb3I6IHBvaW50ZXI7XG59XG4uc29jaWFsbWVkaWEtYnRuIC5mYS1mYWNlYm9vay1mIHtcbiAgY29sb3I6ICM3ODdlOGM7XG59XG4uc29jaWFsbWVkaWEtYnRuIC5mYS1mYWNlYm9vay1mLmFjdGl2ZS1zbSB7XG4gIGNvbG9yOiAjM2I1OTk5O1xufVxuLnNvY2lhbG1lZGlhLWJ0biAuZmEtbGlua2VkaW4taW4ge1xuICBjb2xvcjogIzc4N2U4Yztcbn1cbi5zb2NpYWxtZWRpYS1idG4gLmZhLWxpbmtlZGluLWluLmFjdGl2ZS1zbSB7XG4gIGNvbG9yOiAjMDA3N2I1O1xufVxuLnNvY2lhbG1lZGlhLWJ0biAuZmEtdHdpdHRlciB7XG4gIGNvbG9yOiAjNzg3ZThjO1xufVxuLnNvY2lhbG1lZGlhLWJ0biAuZmEtdHdpdHRlci5hY3RpdmUtc20ge1xuICBjb2xvcjogIzU1YWNlZTtcbn1cbi5zb2NpYWxtZWRpYS1idG4gLmZhLWluc3RhZ3JhbSB7XG4gIGNvbG9yOiAjNzg3ZThjO1xufVxuLnNvY2lhbG1lZGlhLWJ0biAuZmEtaW5zdGFncmFtLmFjdGl2ZS1zbSB7XG4gIGNvbG9yOiAjZTQ0MDVmO1xufVxuXG5hLnNvY2lhbG1lZGlhLWJ0biB7XG4gIGxpbmUtaGVpZ2h0OiA0OHB4O1xufVxuXG4ubWlkZGxlLWNvbnRhaW5lciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG59XG5cbi5jaGFyLWlucHV0LWNvbnRhaW5lciB7XG4gIHdpZHRoOiAxNjBweDtcbn1cbi5jaGFyLWlucHV0LWNvbnRhaW5lciAuaW5wdXQtZ3JvdXAtYXBwZW5kIGJ1dHRvbiB7XG4gIGJvcmRlcjogdHJhbnNwYXJlbnQ7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmN2Y4Zjg7XG59XG4uY2hhci1pbnB1dC1jb250YWluZXIgLmlucHV0LWdyb3VwLWFwcGVuZCBidXR0b246aG92ZXIge1xuICBjb2xvcjogIzZjNzU3ZDtcbn1cbi5jaGFyLWlucHV0LWNvbnRhaW5lciAuaW5wdXQtZ3JvdXAtYXBwZW5kIGJ1dHRvbjpmb2N1cyB7XG4gIGJveC1zaGFkb3c6IG5vbmU7XG59XG4uY2hhci1pbnB1dC1jb250YWluZXIgLmlucHV0LWdyb3VwLWFwcGVuZCBidXR0b246ZGlzYWJsZWQge1xuICBvcGFjaXR5OiAxO1xufVxuLmNoYXItaW5wdXQtY29udGFpbmVyIC5pbnB1dC1ncm91cC1hcHBlbmQgYnV0dG9uOmRpc2FibGVkIGkge1xuICBvcGFjaXR5OiAwLjY7XG59XG5cbi5ub3Rlcy1oZWFkZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzYzRiO1xuICBjb2xvcjogI2ZmZjtcbn1cbi5ub3Rlcy1oZWFkZXIuYm9yZGVyLXRvcCB7XG4gIGJvcmRlci10b3A6IDFweCBzb2xpZCAjNTM1ZTcyICFpbXBvcnRhbnQ7XG59XG4ubm90ZXMtaGVhZGVyLmJvcmRlci1ib3R0b20ge1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgIzUzNWU3MiAhaW1wb3J0YW50O1xufVxuXG4uYWRkLW5vdGUtYnRuIHtcbiAgd2lkdGg6IDQwcHg7XG4gIG1pbi13aWR0aDogNDBweDtcbiAgcGFkZGluZzogMDtcbn1cblxuLmlucHV0LWdyb3VwLXRleHQge1xuICBib3JkZXItcmFkaXVzOiAwO1xuICBib3JkZXI6IG5vbmU7XG59XG5cbi5zZWFyaC1jb250YWluZXIge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICBoZWlnaHQ6IDEwMCU7XG59Il19 */"];
 exports.styles = styles;
 
 
@@ -2573,7 +4232,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
 const router_1 = __webpack_require__(/*! @angular/router */ "@angular/router");
 const baseurl_1 = __webpack_require__(/*! src/app/shared/baseurl */ "./src/app/shared/baseurl.ts");
-const dialog_1 = __webpack_require__(/*! @angular/material/dialog */ "@angular/material/dialog");
+const AddNotesDialog_1 = __webpack_require__(/*! ./AddNotesDialog */ "./src/app/profile/view-profile/AddNotesDialog.ts");
+const SocailMediaDialog_1 = __webpack_require__(/*! ./SocailMediaDialog */ "./src/app/profile/view-profile/SocailMediaDialog.ts");
 class ViewProfileComponent {
     constructor(profileService, route, dialog) {
         this.profileService = profileService;
@@ -2586,9 +4246,8 @@ class ViewProfileComponent {
         this.enterSuperpower = false;
         this.weeknessInput = "";
         this.enterWeekness = false;
-        this.query = "";
+        this.searchForCompany = false;
         this.getRouteParams();
-        this.filteredProfiles = [];
     }
     ngOnInit() { }
     getRouteParams() {
@@ -2599,7 +4258,10 @@ class ViewProfileComponent {
     }
     getProfile(id) {
         this.profileService.getProfile(id).subscribe(data => {
+            console.log(data);
             this.profile = data;
+            this.sortPrimaryEl(this.profile.emails);
+            this.sortPrimaryEl(this.profile.phones);
             this.getNotes(this.userId);
         });
     }
@@ -2609,12 +4271,16 @@ class ViewProfileComponent {
             this.isLoaded = true;
         });
     }
-    addSuperPower() {
-        let data = { name: this.superpowerInput };
-        this.profileService.addSuperpower(data, this.userId).subscribe(data => {
-            this.profile.superpowers.push(data);
-            this.superpowerInput = "";
-            this.toggleSuperpower();
+    onCompanySearch(e) {
+        this.searchForCompany = !this.searchForCompany;
+    }
+    sortPrimaryEl(array) {
+        array.sort(function (a, b) {
+            return a.isPrimary.value === b.isPrimary.value
+                ? 0
+                : a.controls.isPrimary.value
+                    ? -1
+                    : 1;
         });
     }
     addWeekness() {
@@ -2631,14 +4297,6 @@ class ViewProfileComponent {
             .subscribe(data => {
             if (data)
                 this.profile.weaknesses = this.profile.weaknesses.filter(wn => wn._id != char._id);
-        });
-    }
-    removeSuperpower(char) {
-        this.profileService
-            .removeSuperpower(this.userId, char._id)
-            .subscribe(data => {
-            if (data)
-                this.profile.superpowers = this.profile.superpowers.filter(wn => wn._id != char._id);
         });
     }
     updateSocialMedia(data) {
@@ -2662,10 +4320,20 @@ class ViewProfileComponent {
             this.profile.notes.push(data);
         });
     }
+    onAddCompany(e) {
+        this.profile.companies.push(e);
+    }
     deleteNote(note) {
         this.profileService.deleteNote(note._id).subscribe(data => {
             if (data)
                 this.profile.notes = this.profile.notes.filter(nt => nt._id != note._id);
+        });
+    }
+    deleteCompany(company) {
+        this.profileService
+            .deleteCompany(this.profile._id, company._id)
+            .subscribe(data => {
+            this.profile.companies = this.profile.companies.filter(cm => cm._id != company._id);
         });
     }
     stopClickDefaults(e, socailIndex) {
@@ -2693,7 +4361,7 @@ class ViewProfileComponent {
     }
     openDialog(index) {
         let _index = index;
-        const dialogRef = this.dialog.open(SocailMediaDialog, {
+        const dialogRef = this.dialog.open(SocailMediaDialog_1.SocailMediaDialog, {
             data: {
                 facebook: this.profile.facebook,
                 linkedIn: this.profile.linkedIn,
@@ -2712,25 +4380,14 @@ class ViewProfileComponent {
             }
         });
     }
-    getSearchUsers(query) {
-        if (query) {
-            this.profileService
-                .getSeachResult(query)
-                .subscribe(data => (this.filteredProfiles = data));
-        }
-        else {
-            this.filteredProfiles = [];
-        }
-    }
     openAddNoteDialog() {
-        const dialogRef = this.dialog.open(AddNotesDialog, {
+        const dialogRef = this.dialog.open(AddNotesDialog_1.AddNotesDialog, {
             data: {
                 date: "",
                 title: "",
                 body: ""
             },
-            width: "390px",
-            autoFocus: false
+            width: "560px"
         });
         dialogRef.afterClosed().subscribe(result => {
             if (result) {
@@ -2742,35 +4399,272 @@ class ViewProfileComponent {
     }
 }
 exports.ViewProfileComponent = ViewProfileComponent;
-class SocailMediaDialog {
-    constructor(dialogRef, data) {
-        this.dialogRef = dialogRef;
-        this.data = data;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/weaknesses/weaknesses.component.ngfactory.js":
+/*!***********************************************************************************!*\
+  !*** ./src/app/profile/view-profile/weaknesses/weaknesses.component.ngfactory.js ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+const i0 = __webpack_require__(/*! ./weaknesses.component.scss.shim.ngstyle */ "./src/app/profile/view-profile/weaknesses/weaknesses.component.scss.shim.ngstyle.js");
+const i1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i2 = __webpack_require__(/*! @angular/forms */ "@angular/forms");
+const i3 = __webpack_require__(/*! @angular/material/autocomplete */ "@angular/material/autocomplete");
+const i4 = __webpack_require__(/*! @angular/cdk/overlay */ "@angular/cdk/overlay");
+const i5 = __webpack_require__(/*! @angular/cdk/bidi */ "@angular/cdk/bidi");
+const i6 = __webpack_require__(/*! @angular/common */ "@angular/common");
+const i7 = __webpack_require__(/*! @angular/cdk/scrolling */ "@angular/cdk/scrolling");
+const i8 = __webpack_require__(/*! ../../../../../node_modules/@angular/material/core/typings/index.ngfactory */ "./node_modules/@angular/material/core/typings/index.ngfactory.js");
+const i9 = __webpack_require__(/*! @angular/material/core */ "@angular/material/core");
+const i10 = __webpack_require__(/*! ../../../../../node_modules/@angular/material/autocomplete/typings/index.ngfactory */ "./node_modules/@angular/material/autocomplete/typings/index.ngfactory.js");
+const i11 = __webpack_require__(/*! ./weaknesses.component */ "./src/app/profile/view-profile/weaknesses/weaknesses.component.ts");
+const i12 = __webpack_require__(/*! ../../profile.service */ "./src/app/profile/profile.service.ts");
+const i13 = __webpack_require__(/*! ../../../services/weakness.service */ "./src/app/services/weakness.service.ts");
+var styles_WeaknessesComponent = [i0.styles];
+var RenderType_WeaknessesComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_WeaknessesComponent, data: {} });
+exports.RenderType_WeaknessesComponent = RenderType_WeaknessesComponent;
+function View_WeaknessesComponent_1(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [["class", "border mr-2 my-1 d-flex align-items-center char-span"]], null, null, null, null, null)), (_l()(), i1.ɵted(1, null, [" ", " "])), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-times ml-3"]], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.removeWeakness(_v.context.$implicit) !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null))], null, function (_ck, _v) { var currVal_0 = _v.context.$implicit.name; _ck(_v, 1, 0, currVal_0); }); }
+function View_WeaknessesComponent_2(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 7, "div", [["class", "input-group input-group-sm char-input-container"]], null, null, null, null, null)), (_l()(), i1.ɵeld(1, 16777216, null, null, 6, "input", [["class", "form-control my-1"], ["matInput", ""], ["placeholder", "Weaknesses"]], [[1, "autocomplete", 0], [1, "role", 0], [1, "aria-autocomplete", 0], [1, "aria-activedescendant", 0], [1, "aria-expanded", 0], [1, "aria-owns", 0], [1, "aria-haspopup", 0], [2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "input"], [null, "blur"], [null, "compositionstart"], [null, "compositionend"], [null, "focusin"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("input" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 2)._handleInput($event.target.value) !== false);
+        ad = (pd_0 && ad);
+    } if (("blur" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 2).onTouched() !== false);
+        ad = (pd_1 && ad);
+    } if (("compositionstart" === en)) {
+        var pd_2 = (i1.ɵnov(_v, 2)._compositionStart() !== false);
+        ad = (pd_2 && ad);
+    } if (("compositionend" === en)) {
+        var pd_3 = (i1.ɵnov(_v, 2)._compositionEnd($event.target.value) !== false);
+        ad = (pd_3 && ad);
+    } if (("focusin" === en)) {
+        var pd_4 = (i1.ɵnov(_v, 3)._handleFocus() !== false);
+        ad = (pd_4 && ad);
+    } if (("blur" === en)) {
+        var pd_5 = (i1.ɵnov(_v, 3)._onTouched() !== false);
+        ad = (pd_5 && ad);
+    } if (("input" === en)) {
+        var pd_6 = (i1.ɵnov(_v, 3)._handleInput($event) !== false);
+        ad = (pd_6 && ad);
+    } if (("keydown" === en)) {
+        var pd_7 = (i1.ɵnov(_v, 3)._handleKeydown($event) !== false);
+        ad = (pd_7 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_8 = ((_co.weaknessQuery = $event) !== false);
+        ad = (pd_8 && ad);
+    } if (("ngModelChange" === en)) {
+        var pd_9 = (_co.searchWeaknesses($event) !== false);
+        ad = (pd_9 && ad);
+    } return ad; }, null, null)), i1.ɵdid(2, 16384, null, 0, i2.DefaultValueAccessor, [i1.Renderer2, i1.ElementRef, [2, i2.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵdid(3, 671744, null, 0, i3.MatAutocompleteTrigger, [i1.ElementRef, i4.Overlay, i1.ViewContainerRef, i1.NgZone, i1.ChangeDetectorRef, i3.MAT_AUTOCOMPLETE_SCROLL_STRATEGY, [2, i5.Directionality], [8, null], [2, i6.DOCUMENT], i7.ViewportRuler], { autocomplete: [0, "autocomplete"] }, null), i1.ɵprd(1024, null, i2.NG_VALUE_ACCESSOR, function (p0_0, p1_0) { return [p0_0, p1_0]; }, [i2.DefaultValueAccessor, i3.MatAutocompleteTrigger]), i1.ɵdid(5, 671744, null, 0, i2.NgModel, [[8, null], [8, null], [8, null], [6, i2.NG_VALUE_ACCESSOR]], { model: [0, "model"] }, { update: "ngModelChange" }), i1.ɵprd(2048, null, i2.NgControl, null, [i2.NgModel]), i1.ɵdid(7, 16384, null, 0, i2.NgControlStatus, [[4, i2.NgControl]], null, null)], function (_ck, _v) { var _co = _v.component; var currVal_14 = i1.ɵnov(_v.parent, 9); _ck(_v, 3, 0, currVal_14); var currVal_15 = _co.weaknessQuery; _ck(_v, 5, 0, currVal_15); }, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 3).autocompleteAttribute; var currVal_1 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : "combobox"); var currVal_2 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : "list"); var currVal_3 = ((i1.ɵnov(_v, 3).panelOpen && i1.ɵnov(_v, 3).activeOption) ? i1.ɵnov(_v, 3).activeOption.id : null); var currVal_4 = (i1.ɵnov(_v, 3).autocompleteDisabled ? null : i1.ɵnov(_v, 3).panelOpen.toString()); var currVal_5 = ((i1.ɵnov(_v, 3).autocompleteDisabled || !i1.ɵnov(_v, 3).panelOpen) ? null : ((i1.ɵnov(_v, 3).autocomplete == null) ? null : i1.ɵnov(_v, 3).autocomplete.id)); var currVal_6 = !i1.ɵnov(_v, 3).autocompleteDisabled; var currVal_7 = i1.ɵnov(_v, 7).ngClassUntouched; var currVal_8 = i1.ɵnov(_v, 7).ngClassTouched; var currVal_9 = i1.ɵnov(_v, 7).ngClassPristine; var currVal_10 = i1.ɵnov(_v, 7).ngClassDirty; var currVal_11 = i1.ɵnov(_v, 7).ngClassValid; var currVal_12 = i1.ɵnov(_v, 7).ngClassInvalid; var currVal_13 = i1.ɵnov(_v, 7).ngClassPending; _ck(_v, 1, 1, [currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12, currVal_13]); }); }
+function View_WeaknessesComponent_3(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 3, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onWeaknessEnter($event, _v.context.$implicit) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i8.View_MatOption_0, i8.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[1, 4]], 0, i9.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i9.MAT_OPTION_PARENT_COMPONENT], [2, i9.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 1, "span", [], null, null, null, null, null)), (_l()(), i1.ɵted(3, null, ["", ""]))], null, function (_ck, _v) { var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _v.context.$implicit.name; _ck(_v, 3, 0, currVal_8); }); }
+function View_WeaknessesComponent_4(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 4, "mat-option", [["class", "mat-option"], ["role", "option"]], [[1, "tabindex", 0], [2, "mat-selected", null], [2, "mat-option-multiple", null], [2, "mat-active", null], [8, "id", 0], [1, "aria-selected", 0], [1, "aria-disabled", 0], [2, "mat-option-disabled", null]], [[null, "onSelectionChange"], [null, "click"], [null, "keydown"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (i1.ɵnov(_v, 1)._selectViaInteraction() !== false);
+        ad = (pd_0 && ad);
+    } if (("keydown" === en)) {
+        var pd_1 = (i1.ɵnov(_v, 1)._handleKeydown($event) !== false);
+        ad = (pd_1 && ad);
+    } if (("onSelectionChange" === en)) {
+        var pd_2 = (_co.onWeaknessEnter($event) !== false);
+        ad = (pd_2 && ad);
+    } return ad; }, i8.View_MatOption_0, i8.RenderType_MatOption)), i1.ɵdid(1, 8568832, [[1, 4]], 0, i9.MatOption, [i1.ElementRef, i1.ChangeDetectorRef, [2, i9.MAT_OPTION_PARENT_COMPONENT], [2, i9.MatOptgroup]], null, { onSelectionChange: "onSelectionChange" }), (_l()(), i1.ɵeld(2, 0, null, 0, 1, "span", [["class", "text-muted"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, [" Add "])), (_l()(), i1.ɵted(4, 0, [" \"", "\" "]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex(); var currVal_1 = i1.ɵnov(_v, 1).selected; var currVal_2 = i1.ɵnov(_v, 1).multiple; var currVal_3 = i1.ɵnov(_v, 1).active; var currVal_4 = i1.ɵnov(_v, 1).id; var currVal_5 = i1.ɵnov(_v, 1)._getAriaSelected(); var currVal_6 = i1.ɵnov(_v, 1).disabled.toString(); var currVal_7 = i1.ɵnov(_v, 1).disabled; _ck(_v, 0, 0, currVal_0, currVal_1, currVal_2, currVal_3, currVal_4, currVal_5, currVal_6, currVal_7); var currVal_8 = _co.weaknessQuery; _ck(_v, 4, 0, currVal_8); }); }
+function View_WeaknessesComponent_5(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 2, "div", [], null, [[null, "click"]], function (_v, en, $event) { var ad = true; var _co = _v.component; if (("click" === en)) {
+        var pd_0 = (_co.toggleWeakness() !== false);
+        ad = (pd_0 && ad);
+    } return ad; }, null, null)), (_l()(), i1.ɵeld(1, 0, null, null, 1, "button", [["class", "btn border btn-sm my-1"], ["style", "color: #6c757d;"]], null, null, null, null, null)), (_l()(), i1.ɵeld(2, 0, null, null, 0, "i", [["class", "fas fa-plus"]], null, null, null, null, null))], null, null); }
+function View_WeaknessesComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "p", [["class", "font-weight-bold"]], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["Weaknesses"])), (_l()(), i1.ɵeld(2, 0, null, null, 15, "div", [["class", "d-flex flex-wrap"]], null, null, null, null, null)), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_WeaknessesComponent_1)), i1.ɵdid(4, 278528, null, 0, i6.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_WeaknessesComponent_2)), i1.ɵdid(6, 16384, null, 0, i6.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵeld(7, 0, null, null, 8, "mat-autocomplete", [["class", "mat-autocomplete"]], null, null, null, i10.View_MatAutocomplete_0, i10.RenderType_MatAutocomplete)), i1.ɵprd(6144, null, i9.MAT_OPTION_PARENT_COMPONENT, null, [i3.MatAutocomplete]), i1.ɵdid(9, 1097728, [["auto", 4]], 2, i3.MatAutocomplete, [i1.ChangeDetectorRef, i1.ElementRef, i3.MAT_AUTOCOMPLETE_DEFAULT_OPTIONS], null, null), i1.ɵqud(603979776, 1, { options: 1 }), i1.ɵqud(603979776, 2, { optionGroups: 1 }), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_WeaknessesComponent_3)), i1.ɵdid(13, 278528, null, 0, i6.NgForOf, [i1.ViewContainerRef, i1.TemplateRef, i1.IterableDiffers], { ngForOf: [0, "ngForOf"] }, null), (_l()(), i1.ɵand(16777216, null, 0, 1, null, View_WeaknessesComponent_4)), i1.ɵdid(15, 16384, null, 0, i6.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_WeaknessesComponent_5)), i1.ɵdid(17, 16384, null, 0, i6.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, "ngIf"] }, null)], function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.weaknesses; _ck(_v, 4, 0, currVal_0); var currVal_1 = _co.enterWeakness; _ck(_v, 6, 0, currVal_1); var currVal_2 = _co.searchResult; _ck(_v, 13, 0, currVal_2); var currVal_3 = _co.weaknessQuery; _ck(_v, 15, 0, currVal_3); var currVal_4 = !_co.enterWeakness; _ck(_v, 17, 0, currVal_4); }, null); }
+exports.View_WeaknessesComponent_0 = View_WeaknessesComponent_0;
+function View_WeaknessesComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "app-weaknesses", [], null, null, null, View_WeaknessesComponent_0, RenderType_WeaknessesComponent)), i1.ɵdid(1, 114688, null, 0, i11.WeaknessesComponent, [i12.ProfileService, i13.WeaknessService], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+exports.View_WeaknessesComponent_Host_0 = View_WeaknessesComponent_Host_0;
+var WeaknessesComponentNgFactory = i1.ɵccf("app-weaknesses", i11.WeaknessesComponent, View_WeaknessesComponent_Host_0, { weaknesses: "weaknesses", userId: "userId" }, {}, []);
+exports.WeaknessesComponentNgFactory = WeaknessesComponentNgFactory;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/weaknesses/weaknesses.component.scss.shim.ngstyle.js":
+/*!*******************************************************************************************!*\
+  !*** ./src/app/profile/view-profile/weaknesses/weaknesses.component.scss.shim.ngstyle.js ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+/**
+ * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+ *
+ * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes}
+ * tslint:disable
+ */ 
+Object.defineProperty(exports, "__esModule", { value: true });
+var styles = [".char-input-container[_ngcontent-%COMP%] {\n  width: 160px;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\n  border: transparent;\n  background-color: #f7f8f8;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:hover {\n  color: #6c757d;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:focus {\n  box-shadow: none;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled {\n  opacity: 1;\n}\n.char-input-container[_ngcontent-%COMP%]   .input-group-append[_ngcontent-%COMP%]   button[_ngcontent-%COMP%]:disabled   i[_ngcontent-%COMP%] {\n  opacity: 0.6;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvZmlsZS92aWV3LXByb2ZpbGUvd2Vha25lc3Nlcy9FOlxcVXB3b3JrXFxDb2xsZWN0aXZlIFBlb3BsZVxcZnJvbnQtZW5kL3NyY1xcYXBwXFxwcm9maWxlXFx2aWV3LXByb2ZpbGVcXHdlYWtuZXNzZXNcXHdlYWtuZXNzZXMuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3Byb2ZpbGUvdmlldy1wcm9maWxlL3dlYWtuZXNzZXMvd2Vha25lc3Nlcy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFlBQUE7QUNDRjtBRENJO0VBQ0UsbUJBQUE7RUFDQSx5QkFBQTtBQ0NOO0FEQU07RUFDRSxjQUFBO0FDRVI7QURBTTtFQUNFLGdCQUFBO0FDRVI7QURBTTtFQUNFLFVBQUE7QUNFUjtBRERRO0VBQ0UsWUFBQTtBQ0dWIiwiZmlsZSI6InNyYy9hcHAvcHJvZmlsZS92aWV3LXByb2ZpbGUvd2Vha25lc3Nlcy93ZWFrbmVzc2VzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNoYXItaW5wdXQtY29udGFpbmVyIHtcclxuICB3aWR0aDogMTYwcHg7XHJcbiAgLmlucHV0LWdyb3VwLWFwcGVuZCB7XHJcbiAgICBidXR0b24ge1xyXG4gICAgICBib3JkZXI6IHRyYW5zcGFyZW50O1xyXG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOGY4O1xyXG4gICAgICAmOmhvdmVyIHtcclxuICAgICAgICBjb2xvcjogIzZjNzU3ZDtcclxuICAgICAgfVxyXG4gICAgICAmOmZvY3VzIHtcclxuICAgICAgICBib3gtc2hhZG93OiBub25lO1xyXG4gICAgICB9XHJcbiAgICAgICY6ZGlzYWJsZWQge1xyXG4gICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICAgICAgaSB7XHJcbiAgICAgICAgICBvcGFjaXR5OiAwLjY7XHJcbiAgICAgICAgfVxyXG4gICAgICB9XHJcbiAgICB9XHJcbiAgfVxyXG59XHJcbiIsIi5jaGFyLWlucHV0LWNvbnRhaW5lciB7XG4gIHdpZHRoOiAxNjBweDtcbn1cbi5jaGFyLWlucHV0LWNvbnRhaW5lciAuaW5wdXQtZ3JvdXAtYXBwZW5kIGJ1dHRvbiB7XG4gIGJvcmRlcjogdHJhbnNwYXJlbnQ7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmN2Y4Zjg7XG59XG4uY2hhci1pbnB1dC1jb250YWluZXIgLmlucHV0LWdyb3VwLWFwcGVuZCBidXR0b246aG92ZXIge1xuICBjb2xvcjogIzZjNzU3ZDtcbn1cbi5jaGFyLWlucHV0LWNvbnRhaW5lciAuaW5wdXQtZ3JvdXAtYXBwZW5kIGJ1dHRvbjpmb2N1cyB7XG4gIGJveC1zaGFkb3c6IG5vbmU7XG59XG4uY2hhci1pbnB1dC1jb250YWluZXIgLmlucHV0LWdyb3VwLWFwcGVuZCBidXR0b246ZGlzYWJsZWQge1xuICBvcGFjaXR5OiAxO1xufVxuLmNoYXItaW5wdXQtY29udGFpbmVyIC5pbnB1dC1ncm91cC1hcHBlbmQgYnV0dG9uOmRpc2FibGVkIGkge1xuICBvcGFjaXR5OiAwLjY7XG59Il19 */"];
+exports.styles = styles;
+
+
+/***/ }),
+
+/***/ "./src/app/profile/view-profile/weaknesses/weaknesses.component.ts":
+/*!*************************************************************************!*\
+  !*** ./src/app/profile/view-profile/weaknesses/weaknesses.component.ts ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const core_1 = __webpack_require__(/*! @angular/core */ "@angular/core");
+class WeaknessesComponent {
+    constructor(profileService, weaknessService) {
+        this.profileService = profileService;
+        this.weaknessService = weaknessService;
+        this.weaknesses = [];
+        this.enterWeakness = false;
+        this.weaknessQuery = "";
+        this.searchResult = [];
     }
-    onNoClick() {
-        this.dialogRef.close();
+    ngOnInit() { }
+    addWeakness(weakness) {
+        let data = { _id: weakness._id };
+        this.profileService.addWeekness(data, this.userId).subscribe(data => {
+            this.weaknessQuery = "";
+            this.weaknesses.push(data);
+            this.toggleWeakness();
+        });
     }
-    keyDownFunction(e) {
-        if (e.keyCode == 13) {
-            this.dialogRef.close(this.data);
+    toggleWeakness() {
+        this.enterWeakness = !this.enterWeakness;
+    }
+    removeWeakness(char) {
+        this.profileService
+            .removeWeekness(this.userId, char._id)
+            .subscribe(data => {
+            if (data) {
+                this.weaknesses = this.weaknesses.filter(wn => wn._id != char._id);
+            }
+        });
+    }
+    searchWeaknesses(weaknessQuery) {
+        if (weaknessQuery) {
+            this.weaknessService.getSeachResult(weaknessQuery).subscribe(data => {
+                this.searchResult = data;
+            });
+        }
+        else {
+            this.searchResult = [];
+        }
+    }
+    saveWeakness() {
+        let _newWeakness = { name: this.weaknessQuery };
+        this.weaknessService
+            .addNewWeakness(_newWeakness)
+            .subscribe(data => {
+            let wn = data;
+            this.addWeakness(wn);
+        });
+    }
+    onWeaknessEnter(e, weakness = undefined) {
+        if (e.source.selected) {
+            if (weakness) {
+                this.addWeakness(weakness);
+            }
+            else {
+                this.saveWeakness();
+            }
         }
     }
 }
-exports.SocailMediaDialog = SocailMediaDialog;
-class AddNotesDialog {
-    constructor(dialogRef, data) {
-        this.dialogRef = dialogRef;
-        this.data = data;
+exports.WeaknessesComponent = WeaknessesComponent;
+
+
+/***/ }),
+
+/***/ "./src/app/services/superpower.service.ts":
+/*!************************************************!*\
+  !*** ./src/app/services/superpower.service.ts ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const baseurl_1 = __webpack_require__(/*! ../shared/baseurl */ "./src/app/shared/baseurl.ts");
+const operators_1 = __webpack_require__(/*! rxjs/operators */ "rxjs/operators");
+const i0 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i1 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
+const URL = baseurl_1.baseURL + "superpower/";
+class SuperpowerService {
+    constructor(http) {
+        this.http = http;
     }
-    remaningChars() {
-        return 255 - this.data.body.length;
+    getSeachResult(query) {
+        let _URL = URL + "search/" + query;
+        return this.http.get(_URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
     }
-    // emaining
-    onNoClick() {
-        this.dialogRef.close();
+    addNewSuperpower(superpower) {
+        return this.http.post(URL, superpower).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
     }
 }
-exports.AddNotesDialog = AddNotesDialog;
+SuperpowerService.ngInjectableDef = i0.ɵɵdefineInjectable({ factory: function SuperpowerService_Factory() { return new SuperpowerService(i0.ɵɵinject(i1.HttpClient)); }, token: SuperpowerService, providedIn: "root" });
+exports.SuperpowerService = SuperpowerService;
+
+
+/***/ }),
+
+/***/ "./src/app/services/weakness.service.ts":
+/*!**********************************************!*\
+  !*** ./src/app/services/weakness.service.ts ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const baseurl_1 = __webpack_require__(/*! ../shared/baseurl */ "./src/app/shared/baseurl.ts");
+const operators_1 = __webpack_require__(/*! rxjs/operators */ "rxjs/operators");
+const i0 = __webpack_require__(/*! @angular/core */ "@angular/core");
+const i1 = __webpack_require__(/*! @angular/common/http */ "@angular/common/http");
+const URL = baseurl_1.baseURL + "weakness/";
+class WeaknessService {
+    constructor(http) {
+        this.http = http;
+    }
+    getSeachResult(query) {
+        let _URL = URL + "search/" + query;
+        return this.http.get(_URL).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
+    addNewWeakness(weakness) {
+        return this.http.post(URL, weakness).pipe(operators_1.map(data => data), operators_1.tap(data => data, error => error));
+    }
+}
+WeaknessService.ngInjectableDef = i0.ɵɵdefineInjectable({ factory: function WeaknessService_Factory() { return new WeaknessService(i0.ɵɵinject(i1.HttpClient)); }, token: WeaknessService, providedIn: "root" });
+exports.WeaknessService = WeaknessService;
 
 
 /***/ }),
@@ -2785,7 +4679,7 @@ exports.AddNotesDialog = AddNotesDialog;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.baseURL = "http://collective-people.com:3001/api/";
+exports.baseURL = "http://localhost:3001/api/";
 
 
 /***/ }),
@@ -3001,6 +4895,17 @@ module.exports = require("@angular/forms");
 
 /***/ }),
 
+/***/ "@angular/material":
+/*!************************************!*\
+  !*** external "@angular/material" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@angular/material");
+
+/***/ }),
+
 /***/ "@angular/material/autocomplete":
 /*!*************************************************!*\
   !*** external "@angular/material/autocomplete" ***!
@@ -3163,6 +5068,28 @@ module.exports = require("@nguniversal/module-map-ngfactory-loader");
 /***/ (function(module, exports) {
 
 module.exports = require("jwt-decode");
+
+/***/ }),
+
+/***/ "lodash":
+/*!*************************!*\
+  !*** external "lodash" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("lodash");
+
+/***/ }),
+
+/***/ "ng2-file-upload/file-upload/file-drop.directive":
+/*!******************************************************************!*\
+  !*** external "ng2-file-upload/file-upload/file-drop.directive" ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("ng2-file-upload/file-upload/file-drop.directive");
 
 /***/ }),
 

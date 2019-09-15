@@ -10,6 +10,30 @@ import { FileUploader } from "ng2-file-upload/ng2-file-upload";
 import { ImageService } from "./image.service";
 import { baseURL } from "src/app/shared/baseurl";
 
+function readBase64(file): Promise<any> {
+  var reader = new FileReader();
+  var future = new Promise((resolve, reject) => {
+    reader.addEventListener(
+      "load",
+      function() {
+        resolve(reader.result);
+      },
+      false
+    );
+
+    reader.addEventListener(
+      "error",
+      function(event) {
+        reject(event);
+      },
+      false
+    );
+
+    reader.readAsDataURL(file);
+  });
+  return future;
+}
+
 const URL = baseURL + "upload";
 
 @Component({
@@ -20,11 +44,17 @@ const URL = baseURL + "upload";
 export class ImageUploaderComponent implements OnInit {
   @Input() imgUrl;
   @Output() imgChange = new EventEmitter();
+  public hasBaseDropZoneOver: boolean = false;
 
   public uploader: FileUploader = new FileUploader({
     url: URL,
     itemAlias: "photo"
   });
+
+  // public uploader:FileUploader = new FileUploader({
+  //   url: URL,
+  //   disableMultipart:true
+  //   });
 
   constructor(private imageService: ImageService, private el: ElementRef) {}
 
@@ -65,5 +95,9 @@ export class ImageUploaderComponent implements OnInit {
 
   clickHandler() {
     document.getElementById("file-upload").click();
+  }
+
+  public fileOverBase(e: any): void {
+    this.hasBaseDropZoneOver = e;
   }
 }

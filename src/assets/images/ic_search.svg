@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic_search</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Collective-People" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g transform="translate(-222.000000, -46.000000)" id="1" stroke="#696969">
+            <g>
+                <g id="Name-Drop-Down" transform="translate(20.000000, 36.000000)">
+                    <g id="ic_search" transform="translate(203.000000, 11.000000)">
+                        <path d="M18,18 L13.2,13.2" id="Stroke-3"></path>
+                        <path d="M13.1691086,2.259462 C16.1817257,5.27207829 16.1817257,10.1564914 13.1691086,13.1691086 C10.1564914,16.1817257 5.27207829,16.1817257 2.259462,13.1691086 C-0.753154029,10.1564914 -0.753154029,5.27207829 2.259462,2.259462 C5.27207829,-0.753154029 10.1564914,-0.753154029 13.1691086,2.259462" id="Stroke-5"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

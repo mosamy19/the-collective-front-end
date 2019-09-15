@@ -1,0 +1,45 @@
+<p class="font-weight-bold">Weaknesses</p>
+<div class="d-flex flex-wrap">
+  <div
+    class="border mr-2 my-1 d-flex align-items-center char-span"
+    *ngFor="let weakness of weaknesses; let i = index"
+  >
+    {{ weakness.name }}
+    <i (click)="removeWeakness(weakness)" class="fas fa-times ml-3"></i>
+  </div>
+  <div
+    class="input-group input-group-sm char-input-container"
+    *ngIf="enterWeakness"
+  >
+    <input
+      matInput
+      class="form-control my-1"
+      placeholder="Weaknesses"
+      [matAutocomplete]="auto"
+      [(ngModel)]="weaknessQuery"
+      (ngModelChange)="searchWeaknesses($event)"
+    />
+  </div>
+  <mat-autocomplete #auto="matAutocomplete">
+    <mat-option
+      *ngFor="let weakness of searchResult"
+      (onSelectionChange)="onWeaknessEnter($event, weakness)"
+    >
+      <span>{{ weakness.name }}</span>
+    </mat-option>
+    <mat-option
+      *ngIf="weaknessQuery"
+      (onSelectionChange)="onWeaknessEnter($event)"
+    >
+      <span class="text-muted">
+        Add
+      </span>
+      "{{ weaknessQuery }}"
+    </mat-option>
+  </mat-autocomplete>
+  <div *ngIf="!enterWeakness" (click)="toggleWeakness()">
+    <button style="color: #6c757d;" class="btn border btn-sm my-1">
+      <i class="fas fa-plus"></i>
+    </button>
+  </div>
+</div>
