@@ -4679,7 +4679,7 @@ exports.WeaknessService = WeaknessService;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.baseURL = "http://localhost:3001/api/";
+exports.baseURL = "http://collective-people.com:3001/api/";
 
 
 /***/ }),
