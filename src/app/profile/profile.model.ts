@@ -9,6 +9,7 @@ export class EmailModel {
 export class PhoneModel {
   _id: string;
   value: string;
+  prefix: string;
   isPrimary: boolean;
 }
 export class NoteModel {

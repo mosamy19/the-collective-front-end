@@ -13,8 +13,8 @@
   position: relative;
 }
 img {
-  width: 180px;
-  height: 180px;
+  width: 90px;
+  height: 90px;
   object-fit: contain;
   border-radius: 10px;
   object-fit: cover;
@@ -24,4 +24,23 @@ img {
   position: absolute;
   right: -10px;
   bottom: -10px;
+}
+
+#file-upload {
+  display: none;
+}
+.circle {
+  width: 100%;
+}
+
+.my-drop-zone {
+  border: 1px dashed #ced4da;
+}
+.nv-file-over {
+  border: 1px dashed #4a90e2;
+}
+
+.browse {
+  color: #4a90e2;
+  cursor: pointer;
 }

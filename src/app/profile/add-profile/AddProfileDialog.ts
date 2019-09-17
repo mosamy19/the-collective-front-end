@@ -28,14 +28,14 @@ export class AddProfileDialog {
     private weaknessService: WeaknessService,
     private phoneService: PhoneService
   ) {
-    // this.getPhoneCodes();
+    this.getPhoneCodes();
   }
   // private fb: FormBuilder
 
   getPhoneCodes() {
-    this.phoneService
-      .getPhoneCodes()
-      .subscribe(data => (this.phoneCodes = data));
+    this.phoneService.getPhoneCodes().subscribe(data => {
+      this.phoneCodes = data;
+    });
   }
 
   // remaningChars() {

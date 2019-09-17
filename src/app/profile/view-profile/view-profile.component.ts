@@ -47,6 +47,7 @@ export class ViewProfileComponent implements OnInit {
       this.profile = data;
       this.sortPrimaryEl(this.profile.emails);
       this.sortPrimaryEl(this.profile.phones);
+      console.log(this.profile.emails);
       this.getNotes(this.userId);
     });
   }
@@ -63,13 +64,11 @@ export class ViewProfileComponent implements OnInit {
   }
 
   sortPrimaryEl(array) {
-    array.sort(function(a, b) {
-      return a.isPrimary.value === b.isPrimary.value
-        ? 0
-        : a.controls.isPrimary.value
-        ? -1
-        : 1;
-    });
+    if (array) {
+      array.sort(function(a, b) {
+        return a.isPrimary === b.isPrimary ? 0 : a.isPrimary ? -1 : 1;
+      });
+    }
   }
 
   addWeekness() {

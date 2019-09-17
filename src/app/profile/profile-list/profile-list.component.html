@@ -105,20 +105,18 @@
                   </span>
                 </div>
               </div>
-              <div
-                class="col-4 d-flex align-items-center"
-                *ngFor="let e of profile.email"
-              >
-                <span *ngIf="e.isPrimary">
-                  {{ e.value }}
-                </span>
-              </div>
-              <div
-                class="col-3 d-flex align-items-center"
-                *ngFor="let p of profile.phone"
-              >
-                <span *ngIf="p.isPrimary">{{ p.value }}</span>
-              </div>
+              <ng-container *ngFor="let e of profile.emails; let i = index">
+                <div class="col-4 d-flex align-items-center" *ngIf="i == 0">
+                  <span *ngIf="e.isPrimary">
+                    {{ e.value }}
+                  </span>
+                </div>
+              </ng-container>
+              <ng-container *ngFor="let p of profile.phones; let i = index">
+                <div *ngIf="i == 0" class="col-3 d-flex align-items-center">
+                  <span *ngIf="p.isPrimary">{{ p.prefix }} {{ p.value }}</span>
+                </div>
+              </ng-container>
             </div>
           </div>
           <div class="col-5 d-flex align-items-center">

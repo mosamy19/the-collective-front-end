@@ -108,14 +108,20 @@ export class ProfileListComponent implements OnInit {
       }
     });
   }
+
+  formatPhoneNumber(number) {
+    return number.toString().replace(/(\d{3})(\d{3})(\d{2,4})/, "($1) $2-$3");
+  }
   onAddExpret(): void {
     const dialogRef = this.dialog.open(AddProfileDialog, {
       data: {
         name: "",
-        phone: { value: "", isPrimary: true },
+        location: "",
+        phone: { prefix: "+1", value: "", isPrimary: true },
         email: { value: "", isPrimary: true },
         superpowers: [],
         weaknesses: [],
+        bio: "",
         profileImg: ""
       },
       width: "560px",
@@ -124,20 +130,31 @@ export class ProfileListComponent implements OnInit {
 
     dialogRef.afterClosed().subscribe(result => {
       if (result) {
-        const {
+        let {
           name,
+          location,
           phone,
           email,
           superpowers,
           weaknesses,
+          bio,
           profileImg
         } = result;
+        debugger;
+        let { value } = phone;
+        value = value
+          .toString()
+          .replace(/[\W_]+/g, "")
+          .replace(/(\d{3})(\d{3})(\d{2,4})/, "($1) $2-$3");
+        phone.value = value;
         let _data = {
           name,
+          location,
           phones: [phone],
           emails: [email],
           superpowers,
           weaknesses,
+          bio,
           profileImg
         };
         this.profileService.PostProfile(_data).subscribe(data => {
