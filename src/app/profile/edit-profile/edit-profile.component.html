@@ -3,7 +3,7 @@
   <app-spinner></app-spinner>
 </div>
 <div class="container-fluid" *ngIf="isLoaded">
-  <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  <form [formGroup]="profileForm">
     <div class="row">
       <div class="col-3">
         <div class="py-5 px-4" style="background-color: #fff">
@@ -107,6 +107,7 @@
               type="text"
               class="form-control"
               placeholder="One more email"
+              (keyup.enter)="addEmail()"
             />
             <div class="input-group-append">
               <button
@@ -142,25 +143,61 @@
                 </button>
               </div>
               <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span style="border: none;" class="input-group-text p-0">
+                    <input
+                      style="
+                      padding-right: 0;
+                      border-right: none;
+                      width: 50px;"
+                      type="text"
+                      class="form-control"
+                      formControlName="prefix"
+                      placeholder="+1"
+                      matInput
+                    />
+                  </span>
+                </div>
                 <input
                   formControlName="value"
                   id="phone-{{ i }}"
                   type="text"
                   class="form-control"
                   placeholder="Phone"
+                  style="border-left: none;
+                "
                 />
               </div>
             </div>
           </div>
           <label for="phone-model">Phone</label>
           <div class="input-group mb-5">
+            <div class="input-group-prepend">
+              <span style="border: none;" class="input-group-text p-0">
+                <input
+                  [(ngModel)]="phonePrefix"
+                  [ngModelOptions]="{ standalone: true }"
+                  style="
+                      padding-right: 0;
+                      border-right: none;
+                      width: 50px;"
+                  type="text"
+                  class="form-control"
+                  placeholder="+1"
+                  id="phone-prefix"
+                />
+              </span>
+              <!-- formControlName="prefix" -->
+            </div>
             <input
               [(ngModel)]="phoneModel"
               [ngModelOptions]="{ standalone: true }"
               id="phone-model"
               type="text"
+              style="border-left: none;"
               class="form-control"
               placeholder="One more phone"
+              (keyup.enter)="addPhone()"
             />
             <div class="input-group-append">
               <button
@@ -174,7 +211,13 @@
               </button>
             </div>
           </div>
-          <button mat-raised-button color="primary" class="py-1 w-100 ">
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="onSubmit()"
+            type="button"
+            class="py-1 w-100 "
+          >
             Save
           </button>
         </div>

@@ -10,7 +10,7 @@ export class PhoneService {
   constructor(private http: HttpClient) {}
 
   getPhoneCodes(): Observable<any> {
-    let URL = "./codes.json";
+    let URL = "assets/codes.json";
     return this.http.get(URL).pipe(
       map(data => data as any),
       tap(data => data, error => error)

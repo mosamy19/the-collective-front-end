@@ -25,6 +25,7 @@ export class EditProfileComponent implements OnInit {
   userId: string = "";
   emailModel: string = "";
   phoneModel: string = "";
+  phonePrefix: string = "+1";
   isLoaded: boolean = false;
   constructor(
     private fb: FormBuilder,
@@ -56,21 +57,27 @@ export class EditProfileComponent implements OnInit {
   bindProfileData(profile: ProfileModel) {
     const { name, location, profileImg, emails, phones, bio } = profile;
 
-    emails.map(em => {
-      let emailFG: FormGroup = this.fb.group({
-        isPrimary: new FormControl(em.isPrimary),
-        value: new FormControl(em.value)
+    if (emails) {
+      emails.map(em => {
+        let emailFG: FormGroup = this.fb.group({
+          isPrimary: new FormControl(em.isPrimary),
+          value: new FormControl(em.value)
+        });
+        (this.form.emails as FormArray).push(emailFG);
       });
-      (this.form.emails as FormArray).push(emailFG);
-    });
-
-    phones.map(pn => {
-      let phoneFG: FormGroup = this.fb.group({
-        isPrimary: new FormControl(pn.isPrimary),
-        value: new FormControl(pn.value)
+    }
+    if (phones) {
+      phones.map(pn => {
+        let phoneFG: FormGroup = this.fb.group({
+          isPrimary: new FormControl(pn.isPrimary),
+          value: new FormControl(pn.value)
+        });
+        if (pn.prefix) {
+          phoneFG.addControl("prefix", new FormControl(pn.prefix));
+        }
+        (this.form.phones as FormArray).push(phoneFG);
       });
-      (this.form.phones as FormArray).push(phoneFG);
-    });
+    }
 
     this.profileForm.patchValue({
       name,
@@ -102,6 +109,16 @@ export class EditProfileComponent implements OnInit {
   }
 
   onSubmit() {
+    for (const [index, control] of (this.profileForm.controls
+      .phones as FormArray).controls.entries()) {
+      console.log(index, control);
+      if (control instanceof FormGroup) {
+        let val = control.controls.value.value;
+        val;
+
+        control.controls.value.setValue(val);
+      }
+    }
     if (this.profileForm.valid) {
       this.profileService
         .EditProfile(this.profileForm.value, this.userId)
@@ -118,25 +135,6 @@ export class EditProfileComponent implements OnInit {
     this.form.profileImg.setValue("");
   }
 
-  replacePhoneVal(event, ctrlName) {
-    if (event.keyCode != 8) {
-      let Val = this.profileForm.controls[ctrlName].value
-        .replace(/\D/g, "")
-        .replace(/(\d{1,3})(\d{1,3})?(\d{1,10})?/g, function(txt, f, s, t) {
-          if (t) {
-            return `(${f}) ${s}-${t}`;
-          } else if (s) {
-            return `(${f}) ${s}`;
-          } else if (f) {
-            return `(${f})`;
-          }
-        });
-      this.profileForm.controls[ctrlName].setValue(Val);
-    } else {
-      return;
-    }
-  }
-
   addEmail() {
     let emailFG: FormGroup = this.fb.group({
       isPrimary: new FormControl(false),
@@ -147,12 +145,18 @@ export class EditProfileComponent implements OnInit {
   }
 
   addPhone() {
+    this.phoneModel = this.phoneModel
+      .toString()
+      .replace(/[\W_]+/g, "")
+      .replace(/(\d{3})(\d{3})(\d{2,4})/, "($1) $2-$3");
     let phoneFG: FormGroup = this.fb.group({
       isPrimary: new FormControl(false),
-      value: new FormControl(this.phoneModel)
+      value: new FormControl(this.phoneModel),
+      prefix: new FormControl(this.phonePrefix)
     });
     (this.form.phones as FormArray).push(phoneFG);
     this.phoneModel = "";
+    this.phonePrefix = "+1";
   }
 
   makeEmailPrimary(ctrlIndex) {

@@ -94,3 +94,7 @@ img {
 button:focus {
   outline: none !important;
 }
+
+::ng-deep .mat-menu-panel {
+  min-height: 46px !important;
+}

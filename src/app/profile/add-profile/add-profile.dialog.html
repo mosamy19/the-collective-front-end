@@ -26,6 +26,21 @@
 <div class="input-group input-with-img mb-3">
   <div class="input-group-prepend">
     <span class="input-group-text"
+      ><img src="assets/images/ic_location.svg" alt=""
+    /></span>
+  </div>
+  <input
+    cdkFocusInitial
+    id="location"
+    type="text"
+    class="form-control"
+    [(ngModel)]="data.location"
+    placeholder="Location"
+  />
+</div>
+<div class="input-group input-with-img mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text"
       ><img src="assets/images/ic_email.svg" alt=""
     /></span>
   </div>
@@ -42,19 +57,25 @@
     <span class="input-group-text"
       ><img src="assets/images/ic_phone.svg" alt=""
     /></span>
-    <!-- <span class="input-group-text p-0" style="border-left: none">
+    <span class="input-group-text p-0" style="border-left: none">
       <input
-        style="padding: 0 0.75rem;
+        style="
         border: none;
         height: 48px;
-        width: 60px;"
-        id="phone"
+        width: 35px;"
+        id="phone-prefix"
         type="text"
         class="form-control"
-        [(ngModel)]="data.phonePrefix.value"
+        [(ngModel)]="data.phone.prefix"
         placeholder="Phone"
       />
-    </span> -->
+      <!-- [matAutocomplete]="codes" -->
+      <!-- <mat-autocomplete #codes="matAutocomplete">
+        <mat-option *ngFor="let code of phoneCodes">
+          <span>{{ code.dial_code }}</span>
+        </mat-option>
+      </mat-autocomplete> -->
+    </span>
   </div>
   <input
     id="phone"

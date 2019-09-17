@@ -133,13 +133,13 @@
                   [ngClass]="{ 'text-muted': !phone.isPrimary }"
                   [ngClass]="{ 'text-muted': !phone.isPrimary }"
                 >
-                  {{ phone.value }}
+                  {{ phone.prefix }} {{ phone.value }}
                 </span>
               </div>
             </div>
 
             <div>
-              <h4 class="mb-4">Socail Media</h4>
+              <h4 class="mb-4">Social Media</h4>
               <div class="row">
                 <div class="col-3">
                   <button
@@ -176,7 +176,7 @@
                     <i class="fab fa-lg fa-linkedin-in"></i>
                   </button>
                   <a
-                    href="https://linkedin.com/{{ profile.linkedIn }}"
+                    href="https://linkedin.com/in/{{ profile.linkedIn }}/"
                     mat-button
                     target="_black"
                     class="socialmedia-btn"
@@ -203,7 +203,7 @@
                   </button>
                   <a
                     mat-button
-                    href="https://twitter.com/{{ profile.twitter }}"
+                    href="https://twitter.com/{{ profile.twitter }}/"
                     target="_black"
                     class="socialmedia-btn"
                     *ngIf="profile.twitter"
@@ -228,7 +228,7 @@
                   </button>
                   <a
                     mat-button
-                    href="https://instagram.com/{{ profile.instagram }}"
+                    href="https://instagram.com/{{ profile.instagram }}/"
                     target="_black"
                     class="socialmedia-btn"
                     *ngIf="profile.instagram"

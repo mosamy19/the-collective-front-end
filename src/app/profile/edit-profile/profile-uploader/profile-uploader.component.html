@@ -1,4 +1,4 @@
-<div class="circle mx-auto">
+<!-- <div class="circle mx-auto">
   <img
     class="profile-pic"
     [src]="imgUrl ? imgUrl : 'assets/images/img-placeholder.svg'"
@@ -18,5 +18,40 @@
       (change)="uploader.uploadAll()"
       id="file-upload"
     />
+  </div>
+</div> -->
+
+<div class="circle">
+  <div
+    ng2FileDrop
+    (onFileDrop)="uploader.uploadAll()"
+    (fileOver)="fileOverBase($event)"
+    [ngClass]="{ 'nv-file-over': hasBaseDropZoneOver }"
+    [uploader]="uploader"
+    class="well my-drop-zone"
+  >
+    <input
+      type="file"
+      name="photo"
+      ng2FileSelect
+      [uploader]="uploader"
+      accept="image/*"
+      (change)="uploader.uploadAll()"
+      id="file-upload"
+    />
+
+    <p class="text-center m-0 p-2">
+      <span class="mb-3 d-block">
+        <img
+          [src]="imgUrl ? imgUrl : 'assets/images/img-placeholder.svg'"
+          alt=""
+        />
+      </span>
+
+      <span class="mb-2 d-block">
+        Drag and drop photo here or
+      </span>
+      <span class="browse" (click)="clickHandler()">browse</span>
+    </p>
   </div>
 </div>
